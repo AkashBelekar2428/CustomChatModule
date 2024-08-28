@@ -1,0 +1,15 @@
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "5A5-g1-3Jb"; */
+"5A5-g1-3Jb.title" = "Item";
+
+/* Class = "UILabel"; text = "Messages"; ObjectID = "LmQ-zq-74w"; */
+"LmQ-zq-74w.text" = "Messages";
+
+/* Class = "UIButton"; normalTitle = "Conversations"; ObjectID = "e2V-ku-9zv"; */
+"e2V-ku-9zv.normalTitle" = "Conversations";
+
+/* Class = "UIButton"; normalTitle = "Groups"; ObjectID = "mOd-P2-s46"; */
+"mOd-P2-s46.normalTitle" = "Groups";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "owi-QW-ri4"; */
+"owi-QW-ri4.normalTitle" = "";

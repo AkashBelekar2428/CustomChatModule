@@ -1,0 +1,2154 @@
+/* 
+  Localizable.strings
+  ChatModule
+
+  Created by Akash Belekar on 23/07/24.
+  
+*/
+
+"ok" = "Ok";
+"yes" = "はい";
+"no" = "いいえ";
+"view" = "表示";
+"dismiss" = "閉じる";
+"continue" = "続行";
+"hide" = "非表示";
+"cancel" = "キャンセル";
+"confirm" = "Confirm";
+"signing_in" = "サインイン中";
+"login_invalid_credentails" = "認証情報が無効です";
+"login_error" = "エラーが発生しました。後程再試行してください";
+"stream_live_count" = "ライブ";
+"createStream18PlusDisclaimer" = "Peeks Social はアダルトコンテンツのパブリックストリーミングを禁止しています。Peeks Social のサービス規約をご覧ください。";
+"stream_info_share_button" = "シェア";
+"share_this_stream" = "このストリームを共有する";
+"stream_info_report_button" = "ストリームを報告";
+"report_stream_alert_title" = "不適切なコンテンツの報告";
+"report_stream_alert_message" = "このストリームを不適切と報告しますか？";
+"share_actionsheet_title" = "ストリームを次の相手とシェア:";
+"share_all_followers" = "フォロワー全員";
+"select_followers" = "フォロワーを選択";
+"stat_views" = "視聴";
+"stat_viewers" = "視聴";
+"stat_likes" = "いいね";
+"stat_live_views" = "ライブビデオ";
+"stat_replays" = "リプレイ";
+"people_title" = "人々";
+"profile_title" = "マイプロフィール";
+"profile_share" = "シェア";
+"profile_share_message" = "このすばらしい keek のプロフィールをチェックしてください。 ";
+"stream_share_message" = "この素晴らしい keek ストリームをチェックしてください: ";
+"video_share_message" = "この素晴らしいキークのビデオをチェックしてください: ";
+"profile_description_placeholder" = "説明を追加するにはここをタップしてください";
+"profile_logout_actionsheet_title" = "ログアウトしてよろしいですか？";
+"bank_account_delete_actionsheet_title" = "このアカウントを削除してよろしいですか？";
+"profile_terms" = "サービス規約";
+"profile_privacy" = "プライバシーポリシー";
+"profile_logout" = "ログアウト";
+"feedback_title" = "フィードバック";
+"wallet_support_title" = "ウォレットサポート";
+"wallet_support_photoId_validation_failed_title" = "ウォレットサポート: 写真付き身分証明書の確認に失敗";
+"mail_unavailable_error_alert_title" = "メールを送信できません";
+"mail_unavailable_error_alert_message" = "メールを送信するにはメールの設定を確認してください";
+"confirmation_phone_number" = "この電話番号に SMS を受信しますか？";
+"invite_friends_message" = "Peeks Social でライブストリームをご覧ください！ ";
+"profile_loading" = "プロフィールを読み込み中";
+"sign_out" = "サインアウト";
+
+// Stream leave messages
+"stream_terminated_leave_title" = "ストリームの中止";
+"stream_terminated_leave_message" = "このストリームのコンテンツはコミュニティガイドラインに基づき不適切と判断されました。\nご確認いただき、ご質問がございましたらお問い合わせください。このストリームに対する支払いは発生しません。";
+
+"stream_blocked_leave_title" = "ストリームのブロック";
+"stream_blocked_alert_message" = "ストリームの作成者からブロックされました。";
+
+"stream_disconnected_leave_title" = "ストリームへの接続切断";
+"stream_disconnected_leave_message" = "ライブストリームが終了しました";
+
+
+"settings_title" = "設定";
+"settings_profile" = "プロフィール設定";
+"settings_account" = "アカウント設定";
+"settings_notifications_dailyStats_text" = "いいねやフォロワーの数の増加、チップ等に関する、ブロードキャストのステータスの通知が受けられます。";
+"settings_notifications_newFollower_text" = "新しいフォロワーができるたびにプッシュ通知が受けられます。";
+"settings_notifications_streamStart_text" = "フォローしているユーザーがライブブロードキャストを開始した際にプッシュ通知が受けられます。";
+"settings_notifications_streamShare_text" = "フォローしているユーザーがストリームをシェアした際にプッシュ通知が受けられます。";
+"tip_animation_message" = "チップを送りました";
+
+// Tip Enforcement
+"tip_enforce_broadcaster_title" = "有料ブロードキャスト";
+"tip_enforce_broadcaster_description" = "視聴者には、\"有料ブロードキャスト\" モード\”に切り替わることが通知されます。詳細はヘルプをご覧ください。有料ブロードキャストの初めの 60 秒間は無料プレビューになります。この 60 秒間はサービス規約とコミュニティガイドラインに従ってください。\n\n有料ブロードキャストをオンにしてから最低 15 分間ブロードキャストする必要があります。視聴者に偽の宣伝や守れない約束をしないでください。有料ブロードキャストのルールに従わなかった場合、支払い金額が差し引かれる可能性があります。\n\n詳細はサービス規約をご覧ください。";
+
+"tip_enforce_viewer_title" = "ブロードキャスターは次の最低額をリクエストしています: ";
+"tip_enforce_viewer_loading" = "チップを送っています";
+"tip_leave_button_title" = "ブロードキャストから退出";
+"tip_confirm_button_title" = "確認";
+"tip_stream_live_label" = "このストリームはライブです...";
+"tip_stream_duration_label" = "ストリームの時間:";
+"tip_stream_balance_label" = "利用可能な残高:";
+
+"error" = "エラー";
+
+"register_error_long" = "次の項目を修正して続行してください";
+"register_phonenumber_invalid" = "国に対して無効な電話番号";
+"register_email_invalid" = "無効なメールアドレス。確認してください";
+
+"register_email_exists" = "メールアドレスが既に記録に存在します";
+"register_passwords_match_error" = "パスワードが一致していません";
+"register_password_length_error" = "パスワードは 6 文字以上で、文字と数字が 1 つずつ含まれている必要があります。";
+"register_username_invalid_error" = "ユーザー名は英数字のみで、4 文字以上必要です。";
+"register_username_exists_error" = "ユーザー名が既に存在します。別のユーザー名を選択してください";
+"register_username_error" = "ユーザー名が入力されていません。4 文字以上で、文字で始まる必要があります。";
+"register_birthday_error" = "生年月日が入力されていません";
+"register_birthday_invalid_error" = "生年月日が無効です";
+"register_agree_terms" = "サインアップを続けるには諸条件に同意する必要があります";
+
+"register_facebook_no_email" = "Facebook のプロフィールとメールアドレスへのアクセス許可が必要です。再試行してください。";
+"register_facebook_email_exists" = "この Facebook アカウントのメールアドレスは既に Peeks Social アカウントに登録されています。";
+
+"register_wrong_country_index" = "国の読み込みに失敗しました。再試行してください。";
+
+"birthday_error_future_date" = "無効な生年月日が入力されたか、あなたは未来からのタイムトラベラーです！";
+
+"account_validation_code_sent_sms" = "SMS でコードが送信されます。";
+"account_validation_code_sent_ivr" = "電話でコードが伝えられます。";
+"account_validation_code_sent_email" = "メールでコードが送信されます。";
+"account_validation_not_successful" = "アカウントの確認が完了していません";
+
+"payment_method_billing_missing_title" = "請求先住所が未完全です";
+"payment_method_billing_missing" = "すべての必須欄に入力してください";
+"stream_creation_error" = "ストリームの作成中にエラーが発生しました";
+"stream_not_playable_title" = "ビデオをプロセス中";
+"stream_not_playable_message" = "現在ストリームをプロセス中です。間もなく再生可能になります。";
+
+"stream_user_id_missing" = "このストリームにはユーザーがいません";
+"stream_user_not_live" = "このユーザーはライブストリーミングしていないようです";
+
+"stream_unfollow_alert" = "このユーザーのフォローを解除してよろしいですか？";
+
+"stream_purchase_price_not_set" = "購入価格を確認していません";
+
+"stream_block_alert" = "このユーザーをブロックしてよろしいですか？";
+
+"withdraw_account_title" = "ID 確認保留中";
+"withdraw_account_title_fail" = "ID 確認失敗";
+"photo_identification_title" = "写真付きの身分証明書";
+"photo_identification_message" = "セキュリティの目的でアイデンティティを確認するため、有効な写真付き身分証明書の提示が必要です。続けるには有効な身分証明書の写真を撮ってください。";
+"withdraw_proceed_fields" = "続行するにはすべての欄に入力してください";
+"withdraw_account_transit_error" = "銀行番号は 5 桁です";
+"withdraw_account_institution_error" = "機関番号は 3 桁です";
+"withdraw_account_Account_error" = "口座番号は 5 桁以上です";
+"withdraw_account_routingnumber_error" = "ルーティング番号は 9 桁です";
+
+"withdraw_account_failed_validation" = "当座預金口座の確認に失敗しました。別の口座を追加しますか？それとも再試行しますか？";
+"wallet_failed_photoId_validation" = "ID の確認に問題がありました。右側のマイウォレット ➔ から身分証を再送信するか、support@peeks.com に詳細をお問い合わせください。";
+"wallet_manage_login_validation" = "セキュリティ上の理由により、ウォレットを管理するためにログインしなおす必要があるかもしれません";
+"wallet_pending_photoId_validation" = "まだ ID の確認プロセス中です。明日また確認してください。";
+"withdraw_account_validate" = "当座預金口座の確認が必要です。今すぐ確認しますか？";
+"withdraw_account_add" = "収入を出金するための出金オプションが追加されていません。今すぐこのプロセスを開始しますか？";
+"deposit_account_add" = "新しいクレジットカードを追加しますか？";
+"withdraw_account_add_new" = "新しい出金オプションを追加しますか？";
+"withdraw_not_enought_earnings" = "現在出金するのに十分な収入がありません";
+
+"create_purchase_value_error" = "商品の価格を入力してください";
+
+"camera_source_error_title" = "カメラソースエラー";
+"camera_source_error_message" = "Keek Social にカメラへのアクセス許可が与えられていません。今すぐ設定に移動してアクセスを許可しますか？";
+
+"location_enabled_error_title" = "位置情報が許可されていません";
+"location_enabled_error_message" = "Keek Social に位置情報へのアクセス許可が与えられていません。今すぐ設定に移動してアクセスを許可しますか？";
+
+"user_stats_no_followers_error" = "誰にもフォローされていません";
+"user_stats_search_error" = "検索結果がありません";
+
+"rating_title_warning_high" = "自己責任でご覧ください";
+"rating_title_warning_low" = "すべての視聴者向け";
+
+"rating_message_high" = "次のブロードキャストは 18 歳以上向けです。人によっては不快に感じるコンテンツが含まれている可能性があります。18 歳未満の方や、下品な言葉や成人向けのテーマ、部分的なヌードを不快に感じる方は、ストリームを閉じてください。";
+"rating_message_medium" = "このブロードキャストは 14 歳以上向けです。下品な言葉や成人向けのテーマが含まれている可能性があります。このブロードキャストの対象年齢が誤って設定されていると思われる場合は、次のボタンをタップして Peeks Social にご報告ください ";
+"rating_message_low" = "このブロードキャストは G レーティングで、すべての年齢の視聴者向けです。このブロードキャストにすべての年齢の視聴者向けではないコンテンツが含まれている場合は、次の方法で Peeks Social にご報告ください: ";
+
+"rating_message_initial" = "このタブのストリームは 18 歳以上向けです。人によっては不快に感じるコンテンツが含まれている可能性があります。18 歳以上向けのコンテンツを表示する場合は [続行] をクリックしてください。18 歳以上向けのコンテンツを非表示にする場合は [非表示] をクリックしてください。";
+"rating_message_content" = "コンテンツ設定はメインメニューの設定でいつでも変更できます。";
+
+"rating_footer_high" = "18 歳未満の方はストリームを閉じてください。";
+"rating_footer_medium" = "17 歳未満の方はストリームを閉じてください。";
+"rating_footer_low" = "ライブストリームをお楽しみください";
+"stream_end_alert_message" = "ストリームを終了してよろしいですか？";
+"stream_share_confirmation_message" = "このストリームはフォロワーとシェアされています";
+// Localized Missing Strings
+
+"next" = "次";
+"resend" = "再送信";
+"please_wait" = "お待ちください...";
+"almost_done" = "あと少しです";
+"resend" = "再送信";
+"success" = "成功！";
+"skip" = "スキップ";
+
+"sign_in" = "サインイン";
+"register_button_title" = "アカウントを作成";
+"forgot_password" = "パスワードを忘れた場合";
+"continue_with_apple" = "Appleで続行";
+"continue_with_google" = "Googleで続行";
+// Reset Password
+//"reset_password_title" = "パスワードのリセット";
+//"reset_password_description" = "下にユーザー名を入力してください";
+"reset_password_options" = "次のオプションから選択してください:";
+"reset_password_option_sms" = "SMS で次の宛先に送信: ";
+"reset_password_option_email" = "メールで次の宛先に送信: ";
+"reset_password_enter_password" = "下にパスワードを入力してください。";
+"reset_password_mismatch" = "入力したパスワードが一致しません。";
+"reset_password_updated" = "パスワードが更新されました。";
+"reset_password_sending_passcode" = "パスコードを送信中";
+
+// Registration
+"registration_birth_year_title" = "始めましょう！";
+"registration_birth_year_description" = "下に誕生年を入力してください";
+"registration_birth_year_placeholder" = "誕生年 (Optional)";
+
+//"registration_account_info_title" = "口座情報";
+//"registration_account_info_description" = "下に必要な情報を入力してください";
+//"registration_email_placeholder" = "メールアドレス";
+//"registration_username_placeholder" = "ユーザー名";
+"registration_password_placeholder" = "パスワード";
+"registration_confirm_password_placeholder" = "パスワード再入力";
+//"registration_agreement" = "これらの諸条件に同意します";
+
+"registration_phone_title" = "最終ステップです！";
+"registration_phone_description" = "下に電話番号を入力して完了させてください。";
+"registration_phone_placeholder" = "電話番号";
+
+"registration_confirmation_title" = "アカウント確認";
+"registration_confirmation_description" = "送信されたコードを入力してください。";
+"registration_confirmation_placeholder" = "コード";
+"registration_confirmation_ivr" = "SMS が届きませんか？電話でコードを受け取れます！";
+
+"registration_share_title" = "成功！アカウントが確認されました。";
+"registration_share_description" = "Peeks Social プロフィールを友達とシェアすると、あなたのライブストリーミングが見られるようになります！";
+"registration_share" = "シェア";
+
+"intro_claim_gift" = "ギフトを獲得";
+"intro_gift_title" = "ギフトを獲得するにはクレジットカードを登録してください！";
+"intro_gift_description" = "登録は無料で、登録時にクレジットカードには請求されません。";
+
+"intro_skip_gift_title" = "申し訳ございませんが、クレジットカードが登録されていません。";
+"intro_skip_gift_description" = "でも 50 セント無料でご提供いたします。";
+"intro_skip_gift_thanks" = "Peeks Social チームより感謝を込めて。Peeks Social をお楽しみください！";
+
+"watch_video" = "ビデオを見る";
+"intro_done" = "完了";
+
+"intro_page_one_title" = "ライブブロードキャスト中！";
+"intro_page_one_description" = "Peeks Social はライブビデオです。その瞬間何をしていようと、視聴者は見ています。視聴者は現金のチップを送ったりいいねを押したりでき、あなたもお気に入りのブロードキャスターにチップを送ることができます。";
+
+"intro_page_two_title" = "本物のお金！";
+"intro_page_two_description" = "Peeks Social には簡単にチップを銀行口座に出金したり、口座をセットアップしてブロードキャスターにチップを送ったりできる、完全なモバイルウォレット機能があります。";
+
+"intro_page_three_title" = "シェア";
+"intro_page_three_description" = "Peeks Social でファンを集めましょう。友達やソーシャルメディアのフォロワーを Peeks Social に招待すると、より早くライブオーディエンスが集まります。";
+
+// Menu Buttons
+"menu_home" = "ホーム";
+"menu_upload_video" = "ビデオをアップロード";
+"menu_crowdfunding" = "クラウドファンディング";
+"menu_profile" = "プロフィール";
+"menu_invite_friends" = "友達を招待";
+"menu_following" = "フォロー中";
+"menu_people" = "人々";
+"menu_wallet" = "ウォレット";
+"menu_settings" = "設定";
+"menu_help" = "Support";
+"menu_logout" = "ログアウト";
+"menu_offerbox" = "オファーボックス";
+"menu_impressions" = "Manage Impressions";
+
+// Broadcasts Page
+"broadcasts" = "ブロードキャスト";
+"popular" = "人気";
+"live" = "ライブ";
+"uploads" = "アップロード";
+"explore" = "閲覧";
+"plus" = "プラス";
+"featured" = "注目";
+"live" = "ライブ";
+"go_live" = "ライブを開始";
+"record_video" = "ビデオを録画";
+"upload_video" = "ビデオをアップロード";
+"map" = "マップ";
+"broadcasts_search_placeholder" = "タイトルまたはユーザー名で検索";
+"channels" = "チャンネル";
+"following" = "フォロー中";
+
+"streaming_permissions_denied_alert_title" = "アクセスが拒否されました";
+"streaming_permissions_denied_alert_message" = "ストリーミング機能が無効になっています。support@peeks.com でカスタマーサービスにお問い合わせください。";
+
+//DiscoverPeopleTileViewController
+"discover_more_people" = "Discover More";
+"please_browse_people_list" = "人気ユーザーのリストをご覧ください";
+
+//RatingsViewController
+"rating_title_label" = "ブロードキャスターレーティング";
+"watch_button_title_label" = "ストリームを見る";
+"close_button_title_label" = "閉じる";
+
+//RateStreamViewController
+"thank_you_lable" = "ご視聴ありがとうございます！";
+"review_content_label" = "このコンテンツのレビューにお時間をください。これにより皆様にもっと楽しくご利用いただけるようになります。";
+"how_was_it_lable" = "いかがでしたか？";
+"finish_button_title_label" = "完了";
+
+// Creation stream
+"no_selection" = "選択されていません";
+"crowdfund_label" = "クラウドファンディング";
+"offer_label" = "オファー";
+"rating_label" = "レーティング";
+"title_label" = "タイトル";
+"private_label" = "全員";
+"data_saver_help_text" = "データ節約オプションを\"高\"に設定するとモバイルデータを最大限に節約できますが、ビデオクオリティが最も低くなります。Wi-Fi をご使用の場合、\"低\"を、携帯データをご使用の場合は\"中\"か\"高\"をお奨めします。";
+
+// Upload Video
+"required_placeholder" = "必須";
+"upload_title" = "アップロード";
+"upload_select_video_button" = "別のビデオを選択してください";
+"upload_header_stream" = "ストリームのタイトル";
+"upload_header_video" = "ビデオ設定";
+"upload_video_button" = "アップロード";
+"upload_title_label" = "タイトル";
+"upload_rating_label" = "レーティング";
+"upload_private_label" = "プライバシー";
+"upload_private_all_followers" = "マイフォロワー";
+"upload_private_one_follower" = "視聴者";
+"upload_private_many_follower" = "視聴者";
+"upload_success" = "ビデオがアップロードされました。";
+"upload_KeekBack_success" =  "あなたのビデオコメントは正常にアップロードされました。";
+"upload_18_error" = "続行する前に、18 歳以上向けのビデオを視聴できるユーザーを選択する必要があります。";
+
+// Private Broadcast
+"private_broadcast_title" = "プライベートブロードキャスト";
+"private_broadcast_search_followers" = "フォロワーを検索";
+"private_broadcast_select_followers" = "フォロワーを選択";
+"private_broadcast_select_all" = "すべて選択";
+"private_broadcast_deselect_all" = "すべて選択解除";
+"private_broadcast_public" = "全員";
+
+// Streaming
+"stream_share_option_title" = "ストリームをシェア";
+"stream_share_option_message" = "このストリームをどのようにシェアしますか？";
+"stream_share_internal" = "Peeks Social のフォロワーとシェア";
+"stream_share_external" = "外部にシェア";
+
+// Profile
+"profile_title" = "プロフィール";
+"profile_bar_button_back" = "戻る";
+"profile_bar_button_done" = "完了";
+"user_options_title" = "ユーザーオプション";
+"user_options_unfollow" = "フォロー解除";
+"user_options_follow" = "フォロー";
+"user_options_block" = "ブロック";
+"user_options_unblock" = "ブロック解除";
+"user_options_report" = "報告";
+"user_options_share" = "シェア";
+
+// Following
+"follower_users" = "フォロワー";
+"following_users" = "フォロー中";
+"blocked_users" = "ブロック";
+"private_broadcast" = "プライベートブロードキャスト";
+
+// People
+"search_placeholder" = "検索";
+
+// Reporting
+"reporting_details" = "より多くの詳細を追加してください...";
+"reporting_user" = "ユーザーを報告";
+"reporting_user_thank" = "ありがとうございます";
+"reporting_confirmation" = "報告完了。確認コード:";
+"reporting_reason" = "報告理由を入力してください";
+"reporting_sorry" = "申し訳ございません";
+
+// Wallet
+"wallet_title" = "マイウォレット";
+"wallet_deposit" = "入金";
+"wallet_withdrawal" = "出金";
+"wallet_available_balance" = "利用可能残高";
+"wallet_transaction_type" = "取引タイプ";
+"wallet_amount" = "金額";
+"wallet_no_payment_method" = "支払方法が追加されていません";
+
+"wallet_transaction_deposit_credit" = "入金 (クレジットカード)";
+"wallet_transaction_deposit_chequing" = "入金 (小切手)";
+"wallet_transaction_deposit_iap" = "コイン入金";
+"wallet_transaction_withdrawal" = "出金";
+"wallet_transaction_tip_sent" = "送ったチップ";
+"wallet_transaction_tip_received" = "受け取ったチップ";
+"wallet_transaction_refund" = "チップの返金";
+"wallet_transaction_refund_fee" = "プラットフォームクレジット";
+"wallet_transaction_reversal" = "取消";
+"wallet_transaction_correction" = "訂正";
+"wallet_transaction_transfer" = "送金";
+"wallet_transaction_purchase" = "購入";
+"wallet_transaction_platform_fee" = "プラットフォーム利用料";
+"wallet_transaction_bonus" = "ボーナス";
+"wallet_transaction_none" = "今月は\nトランザクションの記録がありません";
+
+"wallet_options_support" = "サポート";
+"wallet_options_withdraw" = "出金オプション";
+"wallet_options_deposit" = "入金オプション";
+"wallet_options_add" = "追加";
+"wallet_options_delete" = "削除";
+"wallet_options_default" = "デフォルト";
+"wallet_options_tip_amount" = "チップ金額";
+
+"wallet_options_title" = "タイトル";
+"wallet_options_submit_photo" = "写真付き身分証明書の再送信";
+"wallet_options_switch_account" = "アカウントを選択してください";
+"wallet_options_none" = "なし";
+"wallet_options_tip_note" = "* 設定されたチップ金額はすべてのチップのベース金額になります。クレジットカードへの合計請求額ではありません。";
+
+"wallet_withdrawal_title" = "出金ですか？";
+"wallet_withdrawal_description" = "この手続きには送金先が必要です。銀行口座を設定してください。\n\nこの手続きには最長 5営業日かかります。";
+"wallet_withdrawal_available" = "出金可能";
+"wallet_withdrawal_select_country" = "国を選択してください";
+"wallet_withdrawal_proceed" = "続行";
+
+"wallet_withdrawal_address_title" = "始めましょう！";
+"wallet_withdrawal_address_subtitle" = "下に必要な情報を入力してください:";
+"wallet_withdrawal_first_name_placeholder" = "名";
+"wallet_withdrawal_last_name_placeholder" = "姓";
+"wallet_withdrawal_email_placeholder" = "メールアドレス";
+"wallet_withdrawal_phone_placeholder" = "電話番号";
+"wallet_withdrawal_address_placeholder" = "住所";
+"wallet_withdrawal_address_two_placeholder" = "住所 2 (任意)";
+"wallet_withdrawal_city_placeholder" = "市町村";
+"wallet_withdrawal_state_placeholder" = "州 / 県";
+"wallet_withdrawal_postal_code_placeholder" = "郵便番号";
+"wallet_withdrawal_country_placeholder" = "国";
+
+"wallet_withdrawal_id_take_photo" = "写真を撮影";
+"wallet_withdrawal_id_license" = "運転免許証";
+"wallet_withdrawal_id_passport" = "パスポート";
+"wallet_withdrawal_id_citizenship" = "国籍";
+"wallet_withdrawal_id_identity" = "アイデンティティ";
+"wallet_withdrawal_id_other" = "その他";
+
+"wallet_withdrawal_method_title" = "出金方法を選択してください";
+"wallet_withdrawal_method_wire" = "銀行送金";
+"wallet_withdrawal_method_cheque" = "小切手の郵送";
+"wallet_withdrawal_method_wire_description" = "下に銀行送金の情報を入力してください:";
+"wallet_withdrawal_method_cheque_description" = "下の住所に小切手の郵送を希望:";
+"wallet_withdrawal_method_edit_address" = "住所を変更しますか？";
+"wallet_withdrawal_method_wire" = "銀行送金";
+
+"wallet_withdrawal_validation_deposit_placeholder" = "例: 0.36";
+
+"wallet_deposit_title" = "入金";
+"wallet_deposit_amount" = "金額はいくらですか？";
+"wallet_deposit_amount_minimum" = "最低";
+"wallet_deposit_amount_maximum" = "最高";
+"wallet_deposit_from" = "入金元:";
+
+"wallet_deposit_processing_title" = "支払いをプロセス中";
+"wallet_deposit_processing_subtitle" = "入金をプロセス中です。資金はウォレットに入金されます。";
+"wallet_deposit_processing_subtitle_two" = "入金には最大 5 営業日かかります。";
+
+"wallet_manage_label" = "peeks.com でウォレットを管理できます。";
+
+// Settings
+"settings_account" = "アカウント";
+"settings_app_settings" = "アプリ設定";
+"settings_notifications" = "通知";
+"settings_about" = "情報";
+"settings_privacy_policy" = "プライバシーポリシー";
+"settings_account_salutation" = "あいさつ";
+"settings_account_salutation_placeholder" = "あいさつを設定";
+"settings_account_username" = "ユーザー名";
+"settings_account_full_name" = "フルネーム";
+"settings_account_full_name_edit" = "フルネームを変更";
+"settings_account_city" = "市町村";
+"settings_account_city_add" = "市町村を追加";
+"settings_account_email" = "メールアドレス";
+"settings_account_email_add" = "メールアドレスを追加";
+"settings_account_description" = "説明";
+"settings_account_description_placeholder" = "説明を編集";
+"settings_account_phone" = "電話番号";
+"settings_account_phone_add" = "電話番号を追加";
+"settings_account_birth_year" = "誕生年";
+"settings_account_birth_date" = "生年月日";
+"settings_account_birth_date_add" = "生年月日を追加";
+"settings_app_show_18+_content_title" = "18歳以上向けのコンテンツを表示";
+"settings_app_show_18+_content_description" = "これをオフにすると、フィードから 18 歳以上向けのストリームがすべて削除されます。";
+"settings_notifications_daily_stats_title" = "毎日の統計";
+"settings_notifications_new_follower_title" = "新しいフォロワー";
+"settings_notifications_stream_start_title" = "ストリーム開始";
+"settings_notifications_stream_share_title" = "ストリームのシェア";
+"settings_about_terms" = "サービス規約";
+"settings_about_privacy" = "プライバシーポリシー";
+"settings_about_title" = "情報";
+"settings_notifications_stream_email_title" = "メールコミュニケーション";
+"settings_notifications_stream_text_title" = "テキストコミュニケーション";
+"settings_notifications_stream_phone_title" = "電話コミュニケーション";
+"settings_notifications_chat_title" = "チャット";
+"settings_notifications_email_text" = "メールでコミュニケーションを受け取る。";
+"settings_notifications_text_text" = "テキストでコミュニケーションを受け取る。";
+"settings_notifications_phone_text" = "電話でコミュニケーションを受け取る。";
+"settings_notifications_chat_text" = "チャットメッセージを受信するたびにプッシュ通知を受ける。";
+
+// In App Purchases
+"iap_buy" = "購入";
+"iap_purchase_coins" = "コインを購入";
+"iap_manage_my_wallet" = "ウォレットの管理";
+
+//Crowdfunding
+"crowdfunding" = "クラウドファンディング";
+"crowdfunding_stream_title" = "チップ";
+"crowdfunding_stream_message" = "チップの金額を入力してください";
+"crowdfunding_stream_invalid" = "無効な金額";
+"crowdfunding_stream_correct_amount" = "$0.05～$300.00 の有効な金額を入力してください";
+"crowdfunding_stream_confirm" = "確認";
+"crowdfunding_stream_confirm_tip" = "チップを確認";
+"crowdfunding_stream_confirm_tip_msg" = "$%1$@ のチップを送ろうとしています。続行しますか？";
+"crowdfunding_stream_credit_card" = "クレジットカードが登録されていません";
+"crowdfunding_stream_credit_card_register" = "peeks.com でクレジットカードを登録してください。";
+
+//Coins
+"coins_stream_insufficient_message" = "チップに必要なコインがありません。今すぐコインを追加しますか？";
+"coins_stream_insufficient_title" = "残高不足";
+"coins_stream_tip_continue" = "チップを送ろうとしています。続行しますか？";
+"coins_stream_tip_message" = "コイン %1$@ 枚のチップを送ろうとしています。続行しますか？";
+"coins_current_balance" = "現在の残高";
+"coins_coins_label" = "コイン";
+
+//Sort
+"sort_most_recent" = "最も最近のものから並べ替え";
+"sort_most_likes" = "最もいいねの多いものから並べ替え";
+"sort_most_rated" = "レーティングの最も高いものから並べ替え";
+
+//Tabbar
+"tabbar_home" = "ホーム";
+"tabbar_profile" = "プロフィール";
+"tabbar_wallet" = "ウォレット";
+"tabbar_more" = "他";
+"tabbar_more_option" = "他のオプション";
+
+//Unused right now
+
+"table_no_data" = "何も見つかりませんでした。";
+"login_with_twitter_button" = "Twitter でログイン";
+"login_twitter_error" = "Twitter アカウントで認証できません";
+"recent_streams" = "最近 / 過去のイベント";
+"live_streams" = "ライブ";
+"stream_name_placeholder" = "どうしましたか？";
+"go_live_button" = "ライブにしましょう！";
+"connecting_stream_label" = "接続中...";
+"global_title" = "グローバル";
+"followed_title" = "フォローされています";
+"cant_join_stream_alert_title" = "ストリームに参加できません";
+"cant_join_stream_alert_message" = "現在ストリームに参加できないようです。後程再試行してください";
+"create_stream_post_message" = "%1$@ をライブで見る: %2$@";
+"select_followers_title" = "ストリームをシェア";
+"search_followers_placeholder" = "フォロワーを検索";
+"stream_close_alert_title" = "ストリーム終了";
+"stream_close_alert_message" = "ストリームが終了しました。ビューを閉じてメイン画面に戻るには [閉じる] ボタンをタップしてください";
+"w_share_notification" = "%1$@ が次のものを見てもらいたいと希望しています: %2$@";
+"w_live_notification" = "%1$@ がライブです！";
+"user_card_followers" = "フォロワー";
+"user_card_following" = "フォロー中";
+"user_card_recent" = "最近";
+"user_card_follow" = "フォロー";
+"user_card_unfollow" = "フォロー解除";
+"user_card_block" = "ブロック";
+"user_card_unblock" = "ブロック解除";
+
+"people_top" = "トップ";
+"people_featured" = "注目";
+
+"profile_userpic_actionsheet_title" = "ユーザー写真を変更";
+"profile_userpic_camera" = "カメラ";
+"profile_userpic_gallery" = "ギャラリー";
+"profile_following" = "フォロー中";
+"profile_followers" = "フォロワー";
+"profile_blocked" = "ブロック";
+"profile_streams" = "ストリーム";
+"profile_feedback" = "フィードバック";
+
+"stream_rating_no_agree_leave_title" = "ストリームを退出しました";
+"stream_rating_no_agree_leave_message" = "ストリームのレーティング条件に同意していません";
+"settings_tips" = "チップ設定";
+"set_tip_warning" = "チップ設定";
+"set_tip_warning_message" = "ストリームに対してチップを送るには、チップの設定が必要です。今すぐ設定しますか？それとも後で設定しますか？";
+
+"register_name_missing_error" = "登録にはフルネームが必要です";
+"register_name_error" = "フルネームに数字や特殊文字は使えません";
+"register_error_short" = "誤った情報を訂正してください";
+"register_error_email_warning" = "メールアドレスが正しくありません。有名なメールアドレスを入力して続行しますか？";
+"register_error_email_missing" = "メールアドレスが入力されていません。今すぐ入力しますか？それとも後で入力しますか？";
+"register_email_missing" = "メールアドレスが入力されていません";
+"register_prefix_error" = "敬称が入力されていません";
+"register_phone_error" = "電話番号が入力されていません";
+"register_phone_invalid" = "電話番号が無効です";
+"register_phone_exist" = "電話番号が既に弊社の記録に存在します";
+"register_country_error" = "国が入力されていません";
+"register_password_error" = "パスワードが入力されていません。6 文字以上で入力してください。";
+"register_confirm_error" = "パスワードの確認が入力されていません";
+
+"confirmation_code_error" = "確認コードが無効です。";
+"tip_settings_success" = "チップ設定が保存されました！";
+"stream_ban_alert" = "このユーザーのストリームの利用を禁止してよろしいですか？";
+"stream_close_error" = "ストリームを閉じる際にエラーが発生しました";
+"stream_follow_success" = "このユーザーをフォローしたいます";
+"stream_unfollow_success" = "このユーザーのフォローを解除しました";
+"report_success" = "レポートが受け付けられました。調査いたします";
+"block_success" = "ユーザーがブロックされました";
+"unblock_success" = "ユーザーのブロックが解除されました";
+
+"withdraw_account_pending_validation" = "現在確認待ちの当座預金口座があります";
+"user_stats_no_following_error" = "誰もフォローしていません";
+
+"user_stats_no_blocked_error" = "誰もブロックしていません";
+"default_tip_pref_error" = "現在デフォルトのチップ設定を設定できませんでした。";
+
+"stream_share_alert_message" = "このストリームをフォロワーとシェアしますか？";
+"failed_to_load_category" = "カテゴリーを取得できません。後程再試行してください";
+
+"wallet_holds" = "ホールド";
+"wallet_current_balance" = "現金残高合計";
+"wallet_options_tip_description" = "これはすべてのチップのベース金額になります。クレジットカードへの合計請求額ではありません。";
+"settings_account_username_placeholder" = "ユーザー名を設定";
+"settings_account_salutation_mr" = "Mr.";
+"settings_account_salutation_mrs" = "Mrs.";
+"settings_account_salutation_miss" = "Miss";
+"settings_account_salutation_ms" = "Ms.";
+
+// New
+"loading" = "Loading...";
+"my_crowdfunding_goals" = "My Crowdfunding Goals";
+"goal_status_enabled" = "enabled";
+"goal_status_funded" = "funded";
+"goal_status_approved" = "approved";
+"goal_status_pending" = "pending";
+"goal_status_completed" = "completed";
+"goal_status_disabled" = "disabled";
+"goal_status_rejected" = "rejected";
+"goal_create_button" = "Create A New Goal";
+"streaming_going_live" = "Going Live!";
+"streaming_going_live_comment" = "You're about to begin broadcasting live... let's get started";
+"streaming_title_placeholder" = "Enter Broadcast Title";
+"streaming_start_broadcast" = "Start Broadcasting";
+"clear" = "Clear";
+"data_saver_label" = "Data Saver";
+"data_saver_low" = "Low";
+"data_saver_medium" = "Medium";
+"data_saver_high" = "High";
+"private_broadcast_label" = "Private Broadcast";
+"create_stream_myfollowers" = "My Followers";
+"stat_viewer" = "VIEWER";
+"tipped_you" = "Tipped you";
+"on_air" = "ON AIR";
+"go_paid" = "Go Paid";
+"mini_tip_text" = "Minimum tip:";
+"total_text" = "Total";
+"uploadvideo_select_rating" = "A rating has to be selected for the video.";
+"select" = "Select";
+"tip_amount_title" = "Tip Amount";
+"report_stream_content" = "Inappropriate Content";
+"report_stream_crime" = "Crime in progress";
+"report_stream_troll" = "Troll";
+"report_stream_other" = "Other";
+"report_stream_delete" = "Delete stream";
+"report_stream_move" = "Move to 18";
+"report_stream_update_paid" = "Set Stream to Paid";
+"report_stream_delete_disable" = "Delete and disable stream/upload";
+"goal_raised_why" = "Why?";
+"goal_raised_for" = "What I’m raising funds for…";
+"goal_label" = "GOAL";
+"goal_raised_label" = "RAISED";
+"goal_donate_button_title" = "Fund";
+"tipped_the_streamer" = "Tipped the streamer";
+"my_messages" = "My Messages";
+"change_username" = "Change your username (You will only be able to change your username once every 6 months)";
+"change_email" = "Change your email";
+"name" = "Name";
+"change_name" = "Change your name";
+"change_phone_number" = "Change your Phone Number";
+"change_city" = "Change your City";
+"choose_picture" = "以下からオプションを選択してください";
+"uploading_photo" = "Uploading Photo";
+"create_goal_text" = "Create Goal";
+"add_description" = "Add description...";
+"goal_title_description" = "Goal Title & Description";
+"goal_amount_text" = "Goal Amount";
+"goal_amount_description" = "The goal amount can range from $50 to $10,000.";
+"target_date_text" = "Target Date";
+"target_date_description" = "Please select the target date to reach your crowdfunding goal. Please note that your goal will expire on this date.";
+
+"Make Featured" = "Make Featured";
+"Do you wish to make this video featured?" = "Do you wish to make this video featured?";
+"Unfeature" = "Unfeature";
+"Do you wish to make this video unfeatured?" = "Do you wish to make this video unfeatured?";
+"Featured video" = "Featured video";
+
+// New Offer Box
+"SelectOfferType" = "Select Offer Type";
+"DigitalContentOffer" = "Digital Content Offer";
+"Cancel" = "Cancel";
+"SelectCategory" = "Select Category";
+"SaveAndProceed" = "Save & Proceed";
+
+// Impressions
+"confirm_impression_purchase_alert_title" = "Confirm Purchase";
+"confirm_impression_purchase_alert_message" = "You are about to purchase %d impressions.";
+"confirm_subscribe_impression_purchase_alert_message" = "You are about to purchase subscription of %d impressions.";
+"impression_purchase_success_message" = "Your purchase was successful.";
+
+// Ad Share Network
+"AdShareNetworkScreenTitle" = "Get Sponsored!";
+"AdShareNetworkBalanceTitle" = "Advertising Balances";
+"AdShareNetworkCoinsBalanceTitle" = "COINS EARNED*";
+"AdShareNetworkBalanceDescription" = "*earned by promoting ads";
+"AdShareNetworkImpressionsBalanceTitle" = "IMPRESSIONS BALANCE*";
+"AdShareNetworkImpressionsBalanceDescription" = "*remaining ads balance";
+"AdShareNetworkGetDiscoveredTitle" = "GET DISCOVERED!";
+"AdShareNetworkGetDiscoveredDescription" = "Use your impressions balance to expand your reach and promote your broadcasts or your business.";
+"AdShareNetworkPurchaseImpressionsButtonTitle" = "BUY IMPRESSIONS";
+"AdShareNetworkPurchaseCoinsButtonTitle" = "BUY COINS";
+"Get Popular!" = "Get Popular!";
+"AdShareNetworkCreateOfferCellLabel" = "Create an Offer";
+"ON" = "ON";
+"OFF" = "OFF";
+"Set your videos to display at the top of the list. Get popular!" = "Set your videos to display at the top of the list. Get popular!";
+"Manage Impressions";
+"sales" = "Sales";
+"impressions" = "Impressions";
+"coins" = "Coins";
+
+//Video Upload Tip Enforcement
+"tip_enforce_video_title" = "Paid Video Upload";
+"tip_enforce_video_description" = "Your upload will be a \”Paid Video Upload\”. See Help for details. The first 60 seconds of your Paid Video Upload will be a free preview. Please ensure that you follow the terms of service and community guidelines with your upload. Please do not make false claims or promises to viewers. Failure to follow rules may result in your payment being withheld.\n\nSee terms of service for further details.";
+"tip_enforce_no_crowdfund" = "Cannot attach a Crowdfund campaign to a Paid Video";
+
+"upload_18_rating_crowdfund_error" = "Cannot attach a Crowdfund campaign to a video with 18+ rating";
+
+"retake" = "Retake";
+
+// IAP new
+"you_are_not_authorized" = "You are not authorized to purchase coins at this time. Please contact support@peeks.com for more information.";
+"deposit_coin_time_out" = "There was an error connecting with the server. Please try closing and reopening your Peeks Social App!";
+"Not enough space" = "Not enough space";
+"There is not enough space in the phone." = "There is not enough space in the phone.";
+"stream_share_message" = "Check out this awesome Peeks Social stream: ";
+
+// Report Stream New
+"report_stream_replace_thumbnail" = "Replace thumbnail";
+
+//miiTV new strings
+"sign_in_title" = "ログイン";
+"sign_in_subtitle" = "アカウントにサインインする";
+"sign_in_no_account" = "アカウントをお持ちではありませんか？";
+"reset_password_title" = "パスワードの復元";
+"reset_password_description" = "以下に情報を入力してください。手順が記載された復旧リンクが表示されます。";
+"reset_password_header" = "アカウントとセキュリティ";
+"reset_password_next" = "リカバリを開始します";
+"registration_account_info_title" = "サインアップ";
+"registration_account_info_description" = "アカウントを作成";
+"registration_email_placeholder" = "電子メールアドレス";
+"registration_username_placeholder" = "ユーザーネームを入力してください";
+"registration_agreement" = "サインアップすることにより、利用規約を読み、同意したことを示します";
+"registration_already_have_an_account" = "すでにアカウントをお持ちですか？";
+"registration_enter_email_placeholder" = "メールアドレスを入力して";
+"profile_create_my_account" = "アカウントを作る";
+"recovery_method_title" = "回復\ n方法";
+"recovery_method_subtitle" = "以下のオプションのいずれかを選択してください。";
+"recovery_method_button" = "リカバリコードを送信する";
+"send_code_success_header" = "リカバリコードが\ n送信されました。";
+"send_code_success_btn" = "コードを入力する";
+"enter_code_title" = "アカウント\ n確認";
+"enter_code_subtitle" = "メールで受け取ったコードを以下に入力してください。";
+"enter_code_placeholder" = "コードを入力する";
+"enter_code_submit" = "送信";
+"enter_code_resend" = "コードを再送する";
+"new_password_title" = "ほぼ\n完了";
+"new_password_subtitle" = "以下にパスワードを入力してください";
+"new_password_placeholder" = "パスワード";
+"confirm_password_placeholder" = "パスワードを認証する";
+"new_password_submit" = "送信";
+"reset_password_success_header" = "成功！";
+"reset_password_success_subtitle" = "パスワードが更新されました。";
+"reset_password_success_done" = "終わり";
+"registration_success_header" = "素晴らしい！";
+"registration_success_subtitle" = "あなたのアカウントが作成されました。";
+//offer boks
+"Offers" = "その他";
+"SavedOffers" = "保存されたオファー";
+"MyAds" = "マイ広告";
+"OfferDescription" = "オファーの説明";
+"ClickHereToRedeem" = "使用するにはここをクリックしてください";
+"PleaseReviewYourURLOffer" = "URL オファーを審査中です。完了させるには広告または写真をアップロードしてください。";
+"Delete" = "削除";
+"Save" = "保存";
+"ImageMissingError" = "オファーの画像をアップロードしてください";
+"ImageMissing" = "画像がありません";
+"Ok" = "Ok";
+"DeleteOffer" = "オファーを削除";
+"AreYouSureYouWantToDeleteThisOffer?" = "このオファーを削除してよろしいですか？";
+"No" = "いいえ";
+"Yes" = "はい";
+"Error" = "エラー";
+"OfferDeleted" = "オファーが削除されました";
+"TheOfferHasBeenDeleted" = "オファーが削除されました";
+"TheOfferHasBeenCreated" = "オファーが作成されました";
+"ThankYou!" = "ありがとうございます！";
+"ThereWasAProblemDeletingTheOffer" = "オファーの削除中にエラーが発生しました";
+"ThereWasAProblemCreatingTheOffer" = "オファーの作成中にエラーが発生しました";
+"CreateOffer" = "オファーを作成";
+"OfferTitle" = "オファータイトル";
+"CreateURLHeader" = "URL オファーを設定するには下の情報を入力してください。";
+"Description" = "説明";
+"URLOffer" = "URL オファー";
+"InvalidInformation" = "無効な情報";
+"ReviewFields" = "次の欄の確認が必要です:\n";
+"SelectOfferImage" = "Please select main offer image.";
+"SelectThumbnailImage" = "Please select offer thumbnail image.";
+
+// New Offer Box
+"SelectOfferType" = "オファーの種類を選択";
+"DigitalContentOffer" = "デジタルコンテンツ・オファー";
+"Cancel" = "キャンセル";
+"SelectCategory" = "カテゴリーを選択";
+"SaveAndProceed" = "保存して進む";
+"NoCategorySelected." = "カテゴリは選択されていません";
+"LearnMoreAboutThisOffer" = "VIEW THIS OFFER NOW";
+
+//MiiTv Offer Box
+"YourOffers" = "あなたのオファー";
+"AdsReceived" = "受信した広告";
+"AdsCreated" = "作成された広告";
+"AdsReceivedNote" = "受信した広告は自動的に「オファーボックス」に保存され、いつでも表示または削除できます。";
+"NoAdsTitle" = "現在、広告はありません。";
+"NoAdsSubtitle" = "広告を作成しますか？";
+"CreateAnOffer" = "オファーを作成する";
+"MainOfferHeadline" = "メインオファーの見出し";
+"HeadlinePlaceholder" = "ここにオファーの見出しを入力してください...";
+"OfferDescription" = "オファーの説明";
+"DescriptionPlaceholder" = "ここにオファーの説明を入力してください...";
+"WebsiteURL" = "ウェブサイトのURL";
+"URLPlaceholder" = "詳細については、オファーURLを入力してください...";
+"SelectImage" = "画像を選択";
+"OfferPreview" = "プレビューを提供";
+"VisitWebsite" = "ウェブサイトを訪問";
+"Complete" = "完了";
+"PreviewMyOffer" = "オファーをプレビュー";
+"PublishOffer" = "オファーを公開";
+"Preview My Offer" = "オファーをプレビュー";
+"MainOffer" = "メインオファー";
+"OfferThumbnail" = "オファーのサムネイル";
+
+//MiiTv Side Menu
+"ManageAccount" = "アカウントの管理";
+"EditBioAvatar" = "私のバイオとアバターを編集する";
+"PrivacySettings" = "プライバシー設定";
+"LoginSecurity" = "ログインとセキュリティ";
+"MyWallet" = "私の財布";
+"ContentAccess" = "コンテンツアクセスなど";
+"CreatePost" = "投稿を作成する";
+"createKeekBackPost" = "私のビデオコメントを投稿";
+"ImpBalance" = "印象のバランス";
+"OfferBox" = "オファーボックス";
+"Subscription" = "サブスクリプション";
+"MyFollowers" = "私のフォロワー達";
+"Support" = "サポート";
+"ContactCustSupport" = "カスタマーサポートに連絡する";
+"ViewFAQ" = "FAQを見る";
+"SignOut" = "アカウントからサインアウト";
+"DeletePostActionSheetTitle" = "この投稿を削除してもよろしいですか？";
+
+"ManageGroups" = "マイグループ";
+"NotificationSettings" = "通知設定";
+
+//MiiTv Groups
+"group_name" = "グループ名";
+"my_group_name" = "マイグループ名";
+"add_members" = "メンバーを追加";
+"members" = "メンバー";
+"finish_n_save" = "完了＆保存";
+"myGroups" = "マイグループ";
+"newLineMyGroups" = "私の\nグループ";
+"createUnlimitedGroup" = "無制限のグループを作成";
+"groupSubtitle2" = "Keekグループでは、好きなだけグループを作成できます。";
+"groupSubtitle3" = "それらのグループに特定の投稿を作成および投稿します。";
+"createGroup" = "グループを作成";
+"pleaseEnterGroupName" = "グループ名を入力してください";
+"addGroupMembers" = "グループにメンバーを追加してください";
+"alert" = "警告！";
+"creatingGroup" = "グループを作成中...";
+"updatingGroup" = "グループを更新中...";
+"groupIsBeingDeleted" = "グループを削除しています...";
+"editGroup" = "グループを編集";
+"groupList" = "グループリスト";
+"memberList" = "メンバーリスト";
+
+
+//Ad Credits
+"adCredits" = "広告クレジット";
+"fireCreator" = "スーパースター";
+"creatorPro" = "クリエイタープロ";
+"basic" = "ベーシック";
+"fireCreatorPackage" = "Keek スーパースター パッケージ";
+"creatorProPackage" = "Keek Creator Pro パッケージ";
+"basicPackage" = "Keek Basic パッケージ";
+"disclaimerText" = "※「インプレッション」とは、通常は広告、デジタル投稿、または Web ページのデジタルビューまたはエンゲージメント数を量化するために使用されるメトリックです。";
+"disclaimerPaymanetText" = "購入確認時に支払いはiTunesアカウントから請求されます。現在の期間終了の24時間前までに自動更新をオフにしない限り、購読は毎月自動的に更新されます。現在の期間終了の24時間前に更新の費用がアカウントに請求されます。購読はユーザーによって管理でき、購入後はユーザーアカウント設定に移動して自動更新をオフにすることができます。アクティブな購読期間中には、現在の購読をキャンセルすることはできません。";
+"%discount" = "毎月支払い時に最大%@節約できます。";
+"40%discount" = "毎月支払い時に最大40%節約できます。";
+"25%discount" = "毎月支払い時に最大25%節約できます。";
+"10%discount" = "毎月支払い時に最大10%節約できます。";
+"subscribefor$" = "$で購読";
+"payAsYouGo" = "$で支払う";
+"purchased" = "購入済み";
+"alreadySubscribed" = "このパッケージにすでに購読しています";
+"subscribed" = "購読済み";
+"subscribeFor" = "購読";
+"payAsYouGo" = "支払い：";
+"error" = "エラー";
+"impressionNotAvailable" = "購入インプレッションは現在利用できません。";
+"transactionProcessingText" = "取引を処理しています... \n バックボタンを押したり、このウィンドウを閉じないでください。";
+"oops" = "おっと！";
+"lowCoinsMsg" = "このパッケージを購入するための十分なコインがありません。コインを購入しますか？";
+"buyCoins" = "コインを購入する";
+
+//Refer to Earn
+"referYour" = "あなたの";
+"friends" = "友達";
+"earnFreeImpressions" = "無料のインプレッションを獲得するには";
+"useReferralCode" = "あなたの紹介コードをソーシャルメディアの投稿に使用してください。あなたの紹介によってKeekに登録したユーザーごとに1000インプレッションを獲得できます。";
+"successfulReferral" = "成功した紹介";
+"impressionEarned" = "獲得したインプレッション";
+"personaReferralLink" = "あなたのKeek紹介リンク";
+"shareLinkReferral" = "このリンクを共有して、紹介のためのソーシャルメディア投稿を作成してください。";
+
+//Miitv Search
+"searchKeek" = "Keekを検索";
+"searchUsers" = "ユーザー";
+"posts" = "投稿";
+"searchResults" = "検索結果";
+"searchUserOrTitle" = "ユーザーまたはタイトルを検索";
+
+//Miitv Notification Settings
+"notificationSettings" = "通知設定";
+"newPosts" = "新しい投稿";
+"newPostsText" = "フォローしているユーザーからの新しい投稿";
+"newPrivatePosts" = "新しい非公開投稿";
+"newPrivatePostsText" = "ユーザーからの新しい非公開投稿";
+"newFollower" = "新しいフォロワー";
+"newFollowerText" = "新しいフォロワーがいるとき";
+"newLike" = "新しいいいね！";
+"newLikeText" = "あなたの投稿にいいね！があったとき";
+"newComment" = "新しいコメント";
+"newCommentText" = "あなたの投稿にコメントがあったとき";
+"messaging" = "メッセージ";
+"messagingText" = "新しいメッセージが届いたとき";
+"followRequest" = "新しいフォローリクエスト";
+"followRequestText" = "新しいフォローリクエストを受け取ったとき";
+
+//Edit Bio & Avatar
+"EditBioAvatar" = "バイオとアバターを編集する";
+"updateProfile" = "プロフィールを更新する";
+//"salutation" = "敬称";
+//"enterSalutation" = "敬称を入力してください...";
+"username" = "ユーザー名";
+"enterUsername" = "ユーザー名を入力してください...";
+"name" = "名前";
+"enterName" = "名前を入力してください...";
+"city" = "市町村";
+"enterCity" = "市町村を入力してください...";
+"email" = "メールアドレス";
+"enterEmail" = "メールアドレスを入力してください...";
+"description" = "プロフィール説明";
+"enterDescription" = "プロフィール説明を入力してください...";
+"phone" = "電話番号";
+"enterPhone" = "電話番号を入力してください...";
+"YOB" = "誕生年";
+"enterYOB" = "誕生年を入力してください...";
+"Profileupdatedsuccessfully" = "プロフィールが正常に更新されました";
+//Privacy Settings
+"privacySettings" = "プライバシー設定";
+"privateAccount" = "非公開アカウント";
+
+
+//Upload Video
+"selectWhoCanView" = "投稿を閲覧できる人を選択してください...";
+"selectWhoCanViewStream" = "ストリームを閲覧できる人を選択してください";
+"selectWhoCanViewStory" =  "誰がストーリーを見ることができるか選択してください...";
+"selectStoryDuration" = "ストーリーの期間を選択してください...";
+"uploadVideo" = "ビデオをアップロード";
+"uploadStory" = "ストーリーを\n投稿する";
+"enterTitle" = "タイトルを入力してください";
+"VideoDescription" = "ビデオの説明";
+"EnterDescription" = "説明を入力してください";
+"enterTitlePlaceholder" = "ここにタイトルを入力してください...";
+"enterDescription" = "説明を入力してください";
+"enterDescriptionPlaceholder" = "ここに説明を入力してください...";
+"whoCanView" = "このコンテンツを誰が見ることができますか？";
+"selectTagMsg" = "タグ付けするユーザーを選択...";
+"makeItFire" = "Make it Fire!";
+"howItWorks" = "使い方";
+"impressionRemaining" = "残り印象数";
+"presentOffer" = "オファーを提示しますか？";
+"selectOffer" = "オファーを選択";
+"createPost" = "投稿を作成";
+"postStory" =  "ストーリーを投稿";
+"noVideoSelected" = "投稿するビデオが選択されていません！";
+"enterTitleAlert" =  "動画のタイトルを入力してください！";
+"selectViewerAlert" = "投稿の閲覧者を選択してください！";
+"selectViewerAlert_Stream" = "ストリームの視聴者を選択してください！";
+"selectViewerAlertStory" = "ストーリーの視聴者を選択してください！";
+"selectStoryDurationAlert" = "ストーリーの期間を選択してください！";
+"Public" = "公開";
+"Followers" = "フォロワー";
+"createPostError" = "投稿を作成する際にエラーが発生しました。";
+"low" = "低い";
+"EditYourPost" = "投稿を\n編集する";
+"EditYourStory" = "ストーリーを\n編集する";
+"EditYourStream" = "ストリームを\n編集";
+
+//Low Impressions
+"lowImpressionTitle1" = "広告クレジットが不足しています";
+"lowImpressionTitle2" = "現在、印象残高が少なくなっています。";
+"lowImpressionTitle3" = "アカウントにクレジットを追加してください。";
+"buyAdCredits" = "広告クレジットを購入する";
+"getFreeCredits" = "無料の広告クレジットを手に入れる";
+"Close" = "閉じる";
+
+//How It Works
+"howItWorks1" = "あなたの";
+"howItWorks2" = "投稿を火にする";
+"howItWorks3" = "より多くの閲覧数、フォロワーを得たいですか？";
+"howItWorks4" = "あなたのコンテンツをリストの上部に表示する必要があります。";
+"howItWorks5" = "当社のアルゴリズムにより、より多くのユーザーにコンテンツを提示し、より興味を持っているユーザーにターゲットを絞ります。";
+"More Likes" = "いいね！を増やす";
+"More Views" = "閲覧数を増やす";
+"More Followers" = "フォロワーを増やす";
+"Buy Ad Impressions" = "広告インプレッションを購入する";
+"Earn Free Impressions" = "無料の広告インプレッションを獲得する";
+"or" = "または";
+
+//Comments Sheet
+"loadingComments" = "コメントを読み込んでいます...";
+"1comment" = "1件のコメント";
+"nocomments" = "コメントがありません";
+
+//Report Sheet
+"selectComplaint" = "苦情を選択してください：";
+"inappropriate" = "不適切なコンテンツ";
+"crime" = "犯罪";
+"troll" = "トロール";
+"other" = "他の";
+"moreDetailsText" = "詳細を追加してください：";
+
+//Post More Menu Sheet
+"sharePost" = "この投稿を共有する";
+"shareStory" =  "このストーリーを共有";
+"audienceSettings" = "対象設定";
+"EditPost" = "投稿を編集する";
+"UpdatePost" = "投稿を更新する";
+"UpdateStream" = "ストリームを更新する";
+"EditStory" = "ストーリーを編集";
+"UpdateStory" = "ストーリーを更新";
+"deletePost" = "投稿を削除する";
+"deleteStream" =  "ストリームを削除";
+"deleteStory" = "ストーリーを削除";
+"reportPost" = "報告";
+"deleteConfirmationText" = "この投稿を削除しますか？";
+"deleteConfirmationTitle" = "削除確認";
+"deleteConfirmationTextStory" =  "このストーリーを削除してもよろしいですか？";
+"deleteConfirmationTextStream" = "このストリームを削除してもよろしいですか？";
+"yesDeleteStory" = "はい、このストーリーを削除します";
+"yesDelete" = "はい、この投稿を削除する";
+"yesDeleteStream" = "はい、このストリームを削除します";
+"closeStreamWarrning" = "このウィンドウを閉じるとストリームが終了します。続行しますか？";
+
+//Audience Setting Sheet
+"audienceSettingsTitle" = "この投稿の対象設定を表示または変更します。";
+"audienceSettingsQuestion" = "このコンテンツを誰が見ることができますか？";
+"enableComments" = "コメントを有効にする";
+
+//Group Menu Sheet
+"editGroup" = "このグループを編集する";
+"deleteGroup" = "グループを削除する";
+
+//Choose Audience Sheet
+"chooseAudienceTitle" = "対象を選択";
+"chooseAudienceSubtitle" = "このコンテンツを見ることができる人を選択してください。";
+"viewAllGroups" = "すべてのグループを表示する";
+"createAGroup" = "グループを作成する";
+
+//Add to favorite sheet
+"addToFavorite" = "お気に入りに追加する";
+"Add" = "追加";
+"addInstruction" = "お気に入りに追加して、あなたのお気に入りのユーザーの投稿がフィードのトップに表示されるようにして、何かお気に入りのものを見逃さないようにしてください。";
+
+//Remove from favorite sheet
+"removeFromFavorite" = "お気に入りから削除する";
+"removeInstruction1" = "お気に入りから";
+"removeInstruction2" = "を削除しますか？\n\n以下を確認してください。";
+
+//Profile Menu Sheet
+"Remove" = "削除";
+
+//Remove User Sheet
+"removeUserTitle" = "削除されました";
+"removeUserDescription" = "このユーザーはあなたの投稿をフィードで見ることができなくなります。";
+
+//Block User Sheet
+"blockUserTitle" = "ブロックされました";
+"blockUserDescription" = "ブロックしたユーザーのリストを表示するか、このユーザーをブロック解除するには、以下をタップしてください。";
+
+//Viewers List Sheet
+"latestViewers" = "最新の視聴者";
+"latestViewersTitle" = "これはこの投稿の最新の100人の視聴者のリストです。";
+"latestViewersTitleStory" = "これはこのストーリーの最新の100人の閲覧者のリストです。";
+
+
+// Tagged Users sheet
+"tagged" = "タグ付け済み";
+"usersTaggedInPost" = "これらのユーザーがこの投稿にタグ付けされました。";
+
+//Notification Menu Sheet
+"deleteAll" = "すべて削除";
+
+//Delete Animation Controller
+"deleteAnimationTitle" = "投稿が削除されています...";
+"deleteAnimationTitleStream" = "ストリームが削除されています...";
+
+//Keek Video Post Type selection
+"TagSomeone" = "誰かをタグ";
+"Story" = "ストーリー";
+"Post" =  "投稿";
+"VoucherRedeemedSuccess"=  "クーポンは正常に利用されました。";
+"keekPostType" = "投稿タイプを選択してください";
+"storyDuration" = "ストーリーの期間";
+"KeekSelectionSuggestion" = "以下から投稿タイプを選択してください。ストーリー、Keek 投稿、そしてすべての Keekers にライブ配信しましょう!";
+"selectCoverPhoto" = "カバー写真を追加する";
+"DurationSelectionSuggestion" = "下記からストーリーの期間を選択し、選んだ時間にストーリーが消えます。";
+"KeekStory" = "Keekストーリー";
+"OneDay" = "1日";
+"FiveDays" = "5日";
+"ThreeDays" = "3日";
+"1-3-5Days" = "1-3-5日";
+"StandardKeek" = "標準Keek";
+"Nolimit" = "制限なし";
+
+//Notification Center
+"Notifications" = "通知";
+"Latest" = "最新";
+"followRequests" = "フォローリクエスト";
+"requestTitle" = "以下のユーザーがあなたのアカウントをフォローするリクエストを送信しました。";
+"declineAll" = "全て拒否";
+"acceptAll" = "全て承認";
+"requestDeclined" = "リクエストは拒否されました。";
+"isFollowingYou" = "があなたをフォローしました。";
+"yourPost" = "あなたの投稿 ";
+"yourStory" = " あなたのストーリー";
+"TaggedYouInPost" = "あなたは投稿にタグ付けされました";
+"TaggedYouInStory" = "あなたはストーリーにタグ付けされました";
+"hasBeenUploaded" = "がアップロードされました。";
+"liked" = "いいね！されました";
+"yourpost" = " あなたの投稿";
+"ago" = "前";
+"started" = "フォローを開始しました";
+"followingYou" = "があなたをフォローしています";
+"commented" = "コメントしました";
+"onYourPost" = " あなたの投稿に対して";
+"onYourStory" =   " あなたのストーリーで";
+"replied" = "返信しました";
+"toYourComment" = " 投稿 ";
+"toYourCommentStory" = " あなたのストーリーへのコメントに ";
+"user" = "ユーザー";
+"users" = "ユーザー";
+"Likes" = "いいね！";
+"noLikes" = "いいね！なし";
+"likesTitle" = "最新の100件のいいね！を表示しています。";
+"latestViewers" = "最新の閲覧者";
+"noViews" = "閲覧者なし";
+"viewsTitle" = "最新の100件の閲覧者を表示しています。";
+"likesTitleStory" = "これはこのストーリーの最新の100いいね！のリストです。";
+"viewsTitleStory" =  "これはこのストーリーの最新の100人の閲覧者のリストです。";
+
+//misc
+"CouldNotFound" = "おっと！お探しのユーザーが見つかりませんでした。";
+"NoRecordsFound" = "レコードが見つかりませんでした";
+"NoNewNotification" = "新しい通知はありません";
+"viewedNotifications" = "閲覧済み通知";
+"adCredits" = "広告クレジット";
+"getAdCredits" = "広告クレジットを取得";
+"Message" = "メッセージ";
+"loadingFollowing" = "フォローを読み込んでいます...";
+"loadingFollowers" = "フォロワーを読み込んでいます...";
+"loading" = "読み込み中...";
+"noUserFound" = "ユーザーが見つかりません";
+"searchFollower" = "フォロワーを検索";
+"searchFollowing" = "フォローを検索";
+"searchBlocked" = "ブロック済みを検索";
+"folowingLoader" = "フォロー中...";
+"cancelRequestLoader" = "リクエストをキャンセルしています...";
+"blockingLoader" = "ブロック中...";
+"unblockingLoader" = "ブロック解除中...";
+"blockedLoader" = "ブロック済みを読み込んでいます...";
+"ChooseAction" = "アクションを選択してください";
+"CancelRequest" = "リクエストをキャンセルする";
+"Follower" = "フォロワー";
+"editBio" = "略歴を編集";
+"videoUploadRetryMsg" = "動画のアップロードがうまくいかなかったようです。もう一度試してみませんか？";
+"cancelVideoUploadConfirmation" = "動画のアップロードをキャンセルすると、動画が失われますのでご注意ください。あなたがキャンセルしてもよろしいです？";
+"BackFromVideoUpload_Confirmation" = "この画面を閉じると、ビデオが失われます。閉じますか？";
+"uploadingInProcessALert" = "以前の動画のアップロードはまだ完了していません。別のアップロードを試みる前に、もう少しお待ちください。";
+
+/// Banuba
+/*
+1) Copy and paste this file in the host application
+2) Remove unused
+3) Override values
+*/
+
+// MARK: - Camera Screen
+
+/* Music selection screen title */
+"Music" = "音楽";
+
+/* Audio track delete action */
+"Delete" = "削除";
+
+/* Title on the screen of the voice recorder */
+"Voice" = "音声";
+
+/* Used when the question is answered yes */
+"Yes" = "はい";
+
+/* Used when answering a negative question */
+"No" = "いいえ";
+
+/* Title of the message if an error occurs */
+"Error" = "エラー";
+
+/* Move to next screen */
+"Next" = "次へ";
+
+/* Return to the previous screen */
+"Back" = "戻る";
+
+/* Ability to cancel */
+"Cancel" = "キャンセル";
+
+/* Ability to close */
+"Close" = "閉じる";
+
+/* Ability to close */
+"CLOSE" = "閉じる";
+
+"alert.reset.all.title" = "すべてをリセットしますか？";
+"alert.reset.all.message" = "";
+
+/* Alert action button title */
+"BanubaVideoEditor.Settings.Later" = "あとで";
+
+/* Alert action button title */
+"BanubaVideoEditor.Settings.Discard" = "破棄する";
+
+/* Used in alert with Yes and No options when resetting filters. */
+"alert.stop.capturing.video.title" = "ビデオのキャプチャと編集を停止しますか？";
+"alert.stop.capturing.video.message" = "";
+
+/* Used in alert with Yes and No options when resetting filters. */
+"record.screen.reset.all.title" = "変更をリセットしますか？";
+"editor.screen.reset.all.title" = "すべてをリセットしますか？";
+"record.screen.reset.all.message" = "";
+"editor.screen.reset.all.message" = "";
+
+/* Used in alert with Yes and No options */
+"alert.delete.last.clip.title" = "最後のビデオを削除しますか？";
+"alert.delete.last.clip.message" = "";
+
+/* Used for alert message to continure editing video*/
+"alert.camera.continue.editing.video.question.title" = "未完成のビデオがあります。続行しますか？";
+"alert.camera.continue.editing.video.question.message" = "";
+
+/* Error message that appears when clicking the Next button in the camera when the first part of split mode is not recorded */
+"First part not recorded" = "最初の部分が録音されていません";
+
+/* Error message received when trying to load a mask */
+"Mask not loaded" = "マスクを読み込めませんでした";
+
+/* An error message that appears when you click the Next button in the camera, when the second part of the video in split mode is not equal in length to the first part */
+"Second part is too short" = "2つ目のパートが短すぎます";
+
+/* In-camera beautification (facial correction) enabled */
+"Beautifier on" = "美肌機能オン";
+"Beautifier off" = "美肌機能オフ";
+
+/* The light (flashlight) in the camera is on */
+"Flash" = "ライト";
+
+/* An error message that appears in the camera when the length of the recorded video is less than the minimum allowed duration */
+"Too short. Please capture at least %d seconds" = "短すぎます。最低でも%d秒撮影してください";
+
+/* An error message that appears in the trimmer when user tried to use too long video */
+"com.banuba.TooLongVideoMessageFormat" = "ビデオの長さは%dから%d秒の間にしてください";
+
+/* An error message that appears in the camera if the recorded video is longer than the maximum allowed length */
+"Maximum %d seconds." = "最大%d秒です。";
+
+/* Turning off the cameras auto timer */
+"Timer is off" = "タイマーオフ";
+
+/*Seconds for maximum */
+"Max length %d sec" = "最大%d秒";
+
+/* Seconds for short */
+"%d sec" = "%d秒";
+
+/* Name of the button in multi-select mode, which confirms the selection of user files and continues the process further */
+"Choose" = "選択";
+
+/* Built-in track volume description */
+"Sound" = "音声";
+
+/* Add extra audio track action */
+"Add" = "追加";
+
+/* Enabling the countdown timer to automatically start shooting in the camera */
+"%i seconds timer is on" = "%i秒タイマーオン";
+
+/* Step one of two to edit your avatar: take a photo */
+"Make cover photo" = "カバー写真を撮る";
+
+/* Step two of two when taking a profile photo using the camera */
+"Step 2 / 2" = "2 / 2";
+
+/* Description of the zone selection screen for the user avatar when taking pictures on the profile screen */
+"Crop your profile photo for feed and comments" = "プロフィール写真をフィードやコメント用にトリミングしてください";
+
+/* Hint on how to apply visual filters or time filter to video */
+"Press and hold" = "押し続ける";
+
+/* Screen title with video from phone gallery */
+"Gallery" = "ギャラリー";
+
+/* Activity signature */
+"LOADING" = "読み込み中";
+
+/* Text under the trobber when exporting a video */
+"EXPORTING" = "エクスポート中";
+
+/* Message about downloading videos from iCloud in the window for selecting videos saved on the mobile device */
+"Video is uploading from iCloud" = "iCloud からビデオをダウンロード中";
+
+/* Speed screen name */
+"Speed" = "スピード";
+
+/* Speed screen info */
+"Recording speed %@" = "録画スピード %@";
+
+/* Network Unavailable info */
+"Network Unavailable" = "ネットワークに接続できません";
+
+/* Screen name which will be visible if enable in configuration */
+"Single Trim Video Screen Name" = "ビデオトリミング";
+
+/* Screen name which will be visible if enable in configuration */
+"Multi Trim Video Screen Name" = "複数トリミング";
+
+/* Recorder mask effect screen name */
+"Mask Effect Screen Name" = "マスク効果";
+
+/* Recorder color effect screen name */
+"Color Effect Screen Name" = "カラーエフェクト";
+
+/* Screen name which will be visible if enable in configuration */
+"Text editor color" = "テキストエディターの色";
+
+/* Screen name which will be visible if enable in configuration */
+"Choose Cover Screen Name" = "カバーの選択";
+
+/* Screen name which will be visible if enable in configuration at color filters screen */
+"Screen colors" = "画面の色";
+
+"Reach maximum video duration" = "最大ビデオ時間に達しました";
+
+/* Disable timer option titiel */
+"Off" = "オフ";
+
+// MARK: - Gifphy Screen
+
+/* Hint, which is shown in the GIF objects search input field, if it is empty */
+"com.banuba.searchGif.placeholder" = "GIPHY で検索";
+
+/* Ability to cancel the search for GIF objects */
+"Cancel" = "キャンセル";
+
+/* Pictures not found by custom keyword */
+"No stickers found" = "スタンプが見つかりませんでした";
+
+/* Stickers search can not be performed due to missing API key */
+"Giphy API key missing" = "Giphy キーが設定されていません";
+
+/* A heading showing that there are problems with the Internet connection */
+"Problems with internet" = "インターネットに接続できません";
+
+/* Advice to the user on further actions to solve this problem */
+"Check your connection and try again" = "接続を確認して、もう一度試してください";
+
+/* Ability to load GIF objects again */
+"Again" = "再度";
+
+// MARK: - ERROR MESSAGES
+/* Message when request failed with statusCode code */
+"HTTP Error %d" = "HTTPエラー%d";
+
+/* Message displayed when there is no internet connection */
+"You don't seem to be connected to the internet. \nPlease try again" = "インターネットに接続されていないようです。 \nもう一度試してください";
+
+/* Message displayed when media file cannot be downloaded */
+"Cannot download media file from your iCloud" = "iCloudからメディアファイルをダウンロードできません";
+
+/* Error if the format of the response from the server does not match the expected */
+"Unknown data format" = "未知のデータ形式";
+
+/* Used in alert re-asking permissions to Photos with Cancel and Settings options. */
+"banuba.camera.alert.missed.gallery.persmission.title" = "設定で写真と動画を許可してください。";
+"banuba.camera.alert.missed.gallery.persmission.message" = "";
+
+/* Used in alert re-asking Camera & Microphone permissions with Settings option. */
+"Banuba.Camera.MissedCameraAndMicrophonePersmissions" = "録音するにはカメラとマイクにアクセスを許可してください。";
+
+/* Used in a message to the user when access to the camera is denied through special options in the phone settings (such as 'Parental Control') */
+"banuba.alert.camera.access.restricted.title" = "カメラへのアクセスが許可されていません";
+"banuba.alert.camera.access.restricted.message" = "";
+
+/* Used in alert with options Cancel and In settings */
+"alert.microphone.unavailable.title" = "マイクが利用できません。設定でアクセスを許可してください。";
+"alert.microphone.unavailable.message" = "";
+
+// MARK: - Settings
+
+/* The name of the button, by clicking on which you can go to the Settings application. */
+"Settings" = "設定";
+
+/* The name of the button, by clicking on which you can refuse missed permission alert message */
+"Settings.Close" = "閉じる";
+
+/* Used in an alert with Yes and No when resetting effects. */
+"alert.reset.effects.title" = "変更を破棄しますか？";
+"alert.reset.effects.message" = "";
+
+/* Undo filters applied to video in the add filters screen */
+"Undo" = "元に戻す";
+
+/* Finish button title */
+"Done" = "完了";
+
+/* OK button title in alert */
+"OK" = "OK";
+
+/* Show the user when the disk space has run out during video recording and when he clicks the Record video button */
+"Not enough storage" = "ストレージ容量が不足しています";
+
+// MARK: - Effects names
+
+/* Soul effect name */
+"com.banuba.editor.effect.name.soul" = "ソウル";
+
+/* TV Foam effect name */
+"com.banuba.editor.effect.name.tv-foam" = "テレビフォーム";
+
+/* VHS video effect name */
+"com.banuba.editor.effect.name.vhs" = "VHS";
+
+/* Flash video effect name */
+"com.banuba.editor.effect.name.flash" = "フラッシュ";
+
+/* Rave effect name */
+"com.banuba.editor.effect.name.rave" = "レイブ";
+
+/* Glitch effect name */
+"com.banuba.editor.effect.name.glitch" = "グリッチ";
+
+/* Acid whip effect name */
+"com.banuba.editor.effect.name.acid-whip" = "アシッドウィップ";
+
+/* Zoom effect name */
+"com.banuba.editor.effect.name.zoom" = "ズーム";
+
+/* Zoom 2 effect name */
+"com.banuba.editor.effect.name.zoom2" = "ズーム2";
+
+/* Cathode effect name */
+"com.banuba.editor.effect.name.cathode" = "カソード";
+
+/* Polaroid effect name */
+"com.banuba.editor.effect.name.polaroid" = "ポラロイド";
+
+/* Slow motion effect name */
+"com.banuba.editor.effect.name.slow-motion" = "スローモーション";
+
+/* Rapid effect name */
+"com.banuba.editor.effect.name.rapid" = "ラピッド";
+
+/* Mirror 2 effect name*/
+"com.banuba.editor.effect.name.mirror2" = "ミラー2";
+
+/* DV Cam effect name */
+"com.banuba.editor.effect.name.dvcam" = "DVカム";
+
+/* Glitch 2 effect name */
+"com.banuba.editor.effect.name.glitch2" = "グリッチ2";
+
+//Glitch 3 effect name/
+"com.banuba.editor.effect.name.glitch3" = "グリッチ3";
+
+/* Heat map effect name */
+"com.banuba.editor.effect.name.heatmap" = "ヒートマップ";
+
+/* Mirror effect name */
+"com.banuba.editor.effect.name.mirror" = "ミラー";
+
+/* Lumiere */
+"com.banuba.editor.effect.name.lumiere" = "リュミエール";
+
+/* Pixel dynamic effect name */
+"com.banuba.editor.effect.name.pixelationdynamic" = "ピクセルダイナミック";
+
+/* Pixel static effect name */
+"com.banuba.editor.effect.name.pixelationstatic" = "ピクセルスタティック";
+
+/* Blur effect name */
+"com.banuba.editor.effect.name.blur" = "ブラー";
+
+/* Stars effect name */
+"com.banuba.editor.effect.name.stars" = "星";
+
+/* Transition effect name */
+"com.banuba.editor.effect.name.transition" = "トランジション";
+
+/* Transition 2 effect name */
+"com.banuba.editor.effect.name.transition2" = "トランジション2";
+
+/* Transition 3 effect name */
+"com.banuba.editor.effect.name.transition3" = "トランジション3";
+
+/* Transition 4 */
+"com.banuba.editor.effect.name.transition4" = "トランジション4";
+
+/* VHS 2 effect name */
+"com.banuba.editor.effect.name.vhs2" = "VHS2";
+
+/* Twitch effect name */
+"com.banuba.editor.effect.name.twitch" = "トゥイッチ";
+
+/* Open trimmer button name (for dradt) */
+"com.banuba.editor.openTrimButtonTitle" ="クリップを調整する";
+
+// MARK: - Filter names
+
+/* glitch filter name */
+"com.banuba.filter.name.lux" = "ラックス";
+
+/* remy filter name */
+"com.banuba.filter.name.remy" = "レミー";
+
+/* hyla filter name */
+"com.banuba.filter.name.hyla" = "ハイラ";
+
+/* neon filter name */
+"com.banuba.filter.name.neon" = "ネオン";
+
+/* retro filter name */
+"com.banuba.filter.name.retro" = "レトロ";
+
+/* sunny filter name */
+"com.banuba.filter.name.sunny" = "サニー";
+
+/* egypt filter name */
+"com.banuba.filter.name.egypt" = "エジプト";
+
+/* spark filter name */
+"com.banuba.filter.name.spark" = "スパーク";
+
+/* byers filter name */
+"com.banuba.filter.name.byers" = "バイヤーズ";
+
+/* lilac filter name */
+"com.banuba.filter.name.lilac" = "ライラック";
+
+/* vinyl filter name */
+"com.banuba.filter.name.vinyl" = "ヴァイナル";
+
+/* japan filter name */
+"com.banuba.filter.name.japan" = "ジャパン";
+
+/* chile filter name */
+"com.banuba.filter.name.chile" = "チリ";
+
+/* glitch filter name */
+"com.banuba.filter.name.glitch" = "グリッチ";
+
+/* grunge filter name */
+"com.banuba.filter.name.grunge" = "グランジ";
+
+/* canada filter name */
+"com.banuba.filter.name.canada" = "カナダ";
+
+/* chroma filter name */
+"com.banuba.filter.name.chroma" = "クロマ";
+
+/* norway filter name */
+"com.banuba.filter.name.norway" = "ノルウェー";
+
+/* korben filter name */
+"com.banuba.filter.name.korben" = "コルベン";
+
+/* sunset filter name */
+"com.banuba.filter.name.sunset" = "サンセット";
+
+/* instant filter name */
+"com.banuba.filter.name.instant" = "インスタント";
+
+/* england filter name */
+"com.banuba.filter.name.england" = "イングランド";
+
+/* pinkvine filter name */
+"com.banuba.filter.name.pinkvine" = "ピンクヴァイン";
+
+/* vivid filter name */
+"com.banuba.filter.name.vivid" = "ビビッド";
+
+/* bright filter name */
+"com.banuba.filter.name.bright" = "ブライト";
+
+
+// MARK: - GALLERY SCREEN / SLIDE SHOW
+
+/* No photo in gallery */
+"No matching photos found in gallery" = "ギャラリーに写真が見つかりません";
+
+/* No video in gallery */
+"No matching video found in gallery" = "ギャラリーに動画が見つかりません";
+
+/* User selected too many files in the gallery */
+"You can select only %d files" = "ファイルは%d個まで選択できます";
+
+/* Failed to export a video */
+"Failed to create video" = "ビデオの作成に失敗しました";
+
+// MARK: - Music Editor
+
+/* Delete track button title */
+"MusicEditor.Delete" = "削除";
+
+/* Voice effect button title */
+"MusicEditor.VoiceEffect" = "エフェクト";
+
+/* Edit track button title */
+"MusicEditor.Edit" = "編集";
+
+/* Add track button title */
+"MusicEditor.Tracks" = "トラック";
+
+/* Add effects button title */
+"MusicEditor.Effects" = "エフェクト";
+
+/* Add voice record button title */
+"MusicEditor.Record" = "録音";
+
+/* Video volume title */
+"MusicEditor.VideoVolume" = "音量";
+
+/* Audio duration title */
+"MusicEditor.Duration" = "再生時間";
+
+/* Audio Sound title */
+"MusicEditor.OriginalSound" = "音量";
+
+/* Confirmation message for discarding changes */
+"com.banuba.musicEditor.mainScreen.resetAll.title" = "変更を破棄しますか？";
+"com.banuba.musicEditor.mainScreen.resetAll.message" = "";
+
+/* Error message when a user tries to add tracks with reached limit */
+"MusicEditor.Max available tracks - %i" = "利用可能な最大トラック数 - %i";
+
+/* Elf filter title /
+"com.banuba.musicEditor.elf" = "エルフ";
+/ Baritone filter title /
+"com.banuba.musicEditor.baritone" = "バリトン";
+/ Echo filter title /
+"com.banuba.musicEditor.echo" = "エコー";
+/ Giant filter title /
+"com.banuba.musicEditor.giant" = "ジャイアント";
+/ Robot filter title /
+"com.banuba.musicEditor.robot" = "ロボット";
+/ Squirrel filter title */
+"com.banuba.musicEditor.squirrel" = "リス";
+
+// MARK: - Overlay Editor
+
+/* Delete overlay item button title */
+"OverlayEditor.Delete" = "削除";
+
+/* Edit overlay item button title */
+"OverlayEditor.Edit" = "編集";
+
+/* Add text button title */
+"OverlayEditor.Text" = "テキスト";
+
+/* Add sticker button title */
+"OverlayEditor.Sticker" = "ステッカー";
+
+/* Add square blur button title */
+"OverlayEditor.Square.Blur" = "四角";
+
+/* Add circle Blur button title */
+"OverlayEditor.Circle.Blur" = "円形";
+
+/* Cancel button title */
+"OverlayEditor.Cancel" = "キャンセル";
+
+/* Done button title */
+"OverlayEditor.Done" = "完了";
+
+/* Confirmation button title */
+"OverlayEditor.Yes" = "はい";
+
+/* Discarding button title */
+"OverlayEditor.No" = "いいえ";
+
+/* Changes in the confirmation message */
+"com.banuba.overlayEditor.mainScreen.resetAll.title" = "変更を破棄しますか？";
+"com.banuba.overlayEditor.mainScreen.resetAll.message" = "";
+"com.banuba.overlayEditor.mainScreen.resetAll.agree" = "破棄";
+"com.banuba.overlayEditor.mainScreen.resetAll.disagree" = "キャンセル";
+
+// MARK: - AudioBrowser
+
+/* No internet connection title in alert */
+"AudioBrowser.noInternetConnection" = "インターネット接続がありません";
+
+/* Message for user if No internet connection */
+"AudioBrowser.checkConnectionMessage" = "接続を確認して再試行してください";
+
+/* Retry button title */
+"AudioBrowser.retry" = "再試行";
+
+/* Allow access message */
+"AudioBrowser.allowAccessMessage" = "独自の音楽を使用するには、Apple Musicライブラリへのアクセスを許可してください。";
+
+/* Allow button title */
+"AudioBrowser.allowAccess" = "アクセスを許可する";
+
+/* My files button title */
+"AudioBrowser.myFiles" = "マイファイル";
+
+"audioBrowser.search.by.categories" = "カテゴリで検索";
+"audioBrowser.search.by.groups" = "グループで検索";
+"audioBrowser.search.by.tracks" = "トラックで検索";
+"audioBrowser.use" = "使用";
+"audioBrowser.show.more" = "さらに表示";
+"audioBrowser.stop.using" = "使用を停止";
+"audioBrowser.my.library" = "マイライブラリ";
+"audioBrowser.no.matches" = "一致するものがありません";
+"audioBrowser.no.tracks" = "トラックがありません";
+/* Track format for displaying mubert track title*/
+"audioBrowser.mubertTrackFormat" = "トラック %d";
+
+/* Wrong Mubert key error text */
+"audioBrowser.wrongPatError" = "Mubertキーがありません。Banubaの担当者にお問い合わせください。";
+
+"feature.disabled.audiobrowser" = "デフォルトの音楽ブラウザはパッケージに含まれていません。独自の音楽をプラグインできます。";
+
+// MARK: - Hands-free
+"hands.free.video.drag.title" = "ビデオの期間を設定するにはドラッグしてください：";
+"hands.free.btn.title" = "カウントダウンを開始";
+"hands.free.seconds" = "%@秒";
+
+// MARK: - Video Editor
+
+/* Gallery image tab title */
+"BanubaVideoEditor.Gallery.ImageTabTitle" = "画像";
+
+/* Gallery video tab title */
+"BanubaVideoEditor.Gallery.VideoTabTitle" = "ビデオ";
+
+/* Gallery custom All Photos title */
+"BanubaVideoEditor.Gallery.AllPhotosTitle" = "すべての写真";
+
+/* Gallery previe select button name*/
+"BanubaVideoEditor.Gallery.SelectItemName" = "選択";
+
+/* Gallery previe deselect button name*/
+"BanubaVideoEditor.Gallery.DeselectItemName" = "選択解除";
+
+/* Gallery header info title */
+"BanubaVideoEditor.Gallery.HeaderInfoTitle" = "他の写真を選択するにはファイルをアップデートしてください%@";
+"BanubaVideoEditor.Gallery.HeaderInfoColoredTitle" = "設定";
+
+/* Gallery Recent Photos title */
+"BanubaVideoEditor.Gallery.RecentPhotosTitle" = "最近の写真";
+
+/* Damaged file from gallery */
+"BanubaVideoEditor.Gallery.DamagedFile" = "破損したファイル";
+
+/* Export video from gallery failed */
+"BanubaVideoEditor.Gallery.ExportVideoFailed" = "コンテンツのアップロードに失敗しました";
+
+/* Gallery selection hint */
+"BanubaVideoEditor.Gallery.SelectItems" = "アイテムを選択してください";
+
+/* Import single video template */
+"BanubaVideoEditor.Gallery.ImportSingleVideo" = "1つの動画をインポートする";
+
+/* Import multiple videos template */
+"BanubaVideoEditor.Gallery.ImportMultipleVideos" = "%d個の動画をインポートする";
+
+/* Import multiple videos template */
+"BanubaVideoEditor.Gallery.ImportMultipleVideosAndPhotos" = "%d個の動画と写真をインポートする";
+
+/* Import single image template */
+"BanubaVideoEditor.Gallery.ImportSingleImage" = "1つの画像をインポートする";
+
+/* Import multiple images template */
+"BanubaVideoEditor.Gallery.ImportMultipleImages" = "%d枚の画像をインポートする";
+
+/* Gallery empty selection message */
+"BanubaVideoEditor.Gallery.EmptySelectionMessage" = "少なくとも1つのファイルを選択してください";
+
+// MARK: - Effect additional media picker text resource
+
+/* No media files found in gallery for adding to the effect */
+"com.banuba.videoEditor.recorder.additionalEffects.NoMediaFound" = "メディアが見つかりませんでした";
+
+/* No media files found in gallery for adding to the effect */
+"com.banuba.videoEditor.recorder.additionalEffects.AllowAccess" = "アクセスを許可する";
+
+/* Helpers info message for changing video background */
+"com.banuba.videoEditor.recorder.additionalEffects.selectMediaToChangeBackgroundMessage" = "背景を変更するメディアを選択してください:";
+
+/* Helpers info message for providing access to a user gallery */
+"com.banuba.videoEditor.recorder.additionalEffects.allowAccesToChangeBackgroundMessage" = "背景を変更するためにギャラリーへのアクセスを許可してください";
+
+// MARK: - Cover
+"cover.thumbnail.title" = "ビデオからフレームまたはギャラリーから画像を選択してください";
+"cover.gallery.button.title" = "ギャラリーから選択";
+"cover.delete.button.title" = "削除";
+
+// MARK: - PIP
+
+"pip.switch.camera.title" = "スイッチ";
+"pip.square.camera.title" = "正方形";
+"pip.round.camera.title" = "丸い";
+"pip.floating.camera.title" = "浮動";
+"pip.react.camera.title" = "リアクション";
+"pip.original.camera.title" = "元の";
+"pip.centered.camera.title" = "中央";
+"pip.left.right.camera.title" = "縦向き";
+"pip.top.bottom.camera.title" = "横向き";
+"pip.layout.settings.title" = "レイアウト設定";
+
+"feature.disabled.pip" = "Picture in pictureはあなたのパッケージに含まれていません。アカウントマネージャーに連絡してください。";
+
+// MARK: - Drafts
+/* Drafts button title /
+"BanubaVideoEditor.Gallery.DraftsTitle" = "下書き";
+/ Draft actions subtitle /
+"BanubaVideoEditor.Gallery.DraftTitle" = "下書き";
+/ Draft edit action name /
+"BanubaVideoEditor.Gallery.DraftEditActionName" = "編集";
+/ Draft remove action name */
+"BanubaVideoEditor.Gallery.DraftRemoveActionName" = "削除";
+
+/* Used in alert with Yes and No options when resetting current sequence */
+"com.banuba.BanubaVideoEditor.draft.question.title" = "下書きを保存しますか？";
+"com.banuba.BanubaVideoEditor.draft.question.message" = "";
+"com.banuba.BanubaVideoEditor.draft.question.agree" = "保存";
+"com.banuba.BanubaVideoEditor.draft.question.disagree" = "キャンセル";
+
+/* Displayed when current sequence saved to drafts /
+"BanubaVideoEditor.Draft.DraftSavedMessage" = "下書きを保存しました";
+/ Displays message about no saved drafts /
+"BanubaVideoEditor.Draft.EmptyDraftsMessage" = "下書きがありません";
+/ Ask a user about completion removing a draft */
+"com.banuba.BanubaVideoEditor.draft.remove.title" = "下書きを削除しますか？";
+"com.banuba.BanubaVideoEditor.draft.remove.message" = "";
+"com.banuba.BanubaVideoEditor.draft.remove.agree" = "削除";
+"com.banuba.BanubaVideoEditor.draft.remove.disagree" = "キャンセル";
+
+/* Ask a user about completion updating a draft */
+"com.banuba.BanubaVideoEditor.draft.update.title" = "下書きを更新しますか？";
+"com.banuba.BanubaVideoEditor.draft.update.message" = "";
+"com.banuba.BanubaVideoEditor.draft.update.agree" = "更新";
+"com.banuba.BanubaVideoEditor.draft.update.disagree" = "キャンセル";
+"com.banuba.BanubaVideoEditor.draft.lose.message" = "注意：現在の編集設定が失われます。続行しますか？";
+"com.banuba.BanubaVideoEditor.draft.lose.agree" ="クリップの調整";
+
+/* Editor, back button menu. Edit draft mode */
+"com.banuba.BanubaVideoEditor.draft.discardChangesAction" = "変更を破棄";
+"com.banuba.BanubaVideoEditor.draft.updateAction" = "下書きを更新";
+
+//MARK: - Additional buttons
+"com.banuba.recorder.link.title" = "リンク";
+"com.banuba.recorder.color.title" = "フィルター";
+"com.banuba.recorder.sticker.title" = "GIF";
+"com.banuba.recorder.blur.title" = "ぼかし";
+"com.banuba.recorder.text.title" = "テキスト";
+"com.banuba.recorder.time.title" = "時間";
+"com.banuba.recorder.sound.title" = "音楽";
+"com.banuba.recorder.effects.title" = "エフェクト";
+"com.banuba.recorder.toggle.title" = "トグル";
+"com.banuba.recorder.flashlight.title" = "フラッシュライト";
+"com.banuba.recorder.timer.title" = "タイマー";
+"com.banuba.recorder.speed.title" = "スピード";
+"com.banuba.recorder.beauty.title" = "美しさ";
+"com.banuba.recorder.masks.title" = "マスク";
+"com.banuba.recorder.muteSound.title" = "サウンド";
+"com.banuba.recorder.pip.title" = "PIP";
+
+/* Gallery button title */
+"com.banuba.recorder.gallery.title" = "ギャラリー";
+
+/* Recorder video duration */
+"com.banuba.recorder.secondsFormat" = "%d 秒";
+"com.banuba.recorder.minutesFormat" = "%d 分";
+
+/* Aspect title for cells*/
+"com.banuba.videoEditor.aspect.original" = "元のサイズ";
+"com.banuba.videoEditor.aspect.16:9" = "16:9";
+"com.banuba.videoEditor.aspect.9:16" = "9:16";
+"com.banuba.videoEditor.aspect.4:3" = "4:3";
+"com.banuba.videoEditor.aspect.4:5" = "4:5";
+
+/* Transitions title for cells*/
+"com.banuba.videoEditor.transition.none" = "なし";
+"com.banuba.videoEditor.transition.whipDown" = "下から上へスライド";
+"com.banuba.videoEditor.transition.whipUp" = "上から下へスライド";
+"com.banuba.videoEditor.transition.whipRight" = "右から左へスライド";
+"com.banuba.videoEditor.transition.whipLeft" = "左から右へスライド";
+"com.banuba.videoEditor.transition.scrollDown" = "下から上へスクロール";
+"com.banuba.videoEditor.transition.scrollUp" = "上から下へスクロール";
+"com.banuba.videoEditor.transition.scrollRight" = "右から左へスクロール";
+"com.banuba.videoEditor.transition.scrollLeft" = "左から右へスクロール";
+"com.banuba.videoEditor.transition.spinRight" = "回転";
+"com.banuba.videoEditor.transition.fade" = "フェード";
+
+/* Transition disabled alert message */
+"com.banuba.videoEditor.transition.disabledToastMessage" = "0.5秒以上の動画に適用できます。";
+
+/* Text editor font names */
+"com.banuba.textEditor.fontName.regular" = "通常";
+"com.banuba.textEditor.fontName.italic" = "斜体";
+"com.banuba.textEditor.fontName.bold" = "太字";
+"com.banuba.textEditor.fontName.baskerville" = "バスキア";
+"com.banuba.textEditor.fontName.courier" = "クーリエ";
+"com.banuba.textEditor.fontName.palatino" = "パラティーノ";
+"com.banuba.textEditor.fontName.noteworthy" = "ノートワーシー";
+"com.banuba.textEditor.fontName.papyrus" = "パピルス";
+"com.banuba.textEditor.fontName.sinhala" = "シンハラ";
+"com.banuba.textEditor.fontName.menlo" = "メンロ";
+"com.banuba.textEditor.fontName.emoji" = "絵文字";
+
+// MARK: - Alert
+
+/* Titles for alert buttons */
+
+/* discard all alert type for record screen /
+"com.banuba.alert.discardAllRecord.additionalButtonTitle" = "最初からやり直す";
+"com.banuba.alert.discardAllRecord.agreeButtonTitle" = "リセット";
+"com.banuba.alert.discardAllRecord.disagreeButtonTitle" = "キャンセル";
+/ discard all alert type for editor screen /
+"com.banuba.alert.discardAllEditor.agreeButtonTitle" = "リセット";
+"com.banuba.alert.discardAllEditor.disagreeButtonTitle" = "キャンセル";
+/ not finished video alert type /
+"com.banuba.alert.notFinishedVideo.agreeButtonTitle" = "続行";
+"com.banuba.alert.notFinishedVideo.disagreeButtonTitle" = "キャンセル";
+/ discard changes alert type /
+"com.banuba.alert.discardChanges.agreeButtonTitle" = "リセット";
+"com.banuba.alert.discardChanges.disagreeButtonTitle" = "キャンセル";
+/ delete segment alert type /
+"com.banuba.alert.deleteSegment.agreeButtonTitle" = "削除";
+"com.banuba.alert.deleteSegment.disagreeButtonTitle" = "キャンセル";
+/ discard effects alert type /
+"com.banuba.alert.discardEffects.agreeButtonTitle" = "破棄";
+"com.banuba.alert.discardEffects.disagreeButtonTitle" = "キャンセル";
+/ discard music alert type /
+"com.banuba.alert.discardMusic.agreeButtonTitle" = "破棄";
+"com.banuba.alert.discardMusic.disagreeButtonTitle" = "キャンセル";
+/ progress view alert type */
+"com.banuba.alert.progressView.agreeButtonTitle" = "再試行";
+"com.banuba.alert.progressView.disagreeButtonTitle" = "キャンセル";
+"com.banuba.alert.progressView.importingMedia" = "メディアをインポートしています";
+"com.banuba.alert.progressView.exportingVideo" = "ビデオをエクスポートしています";
+"com.banuba.alert.progressView.tooltipMessage" = "画面をロックしたり、他のアプリに切り替えたりしないでください";
+"com.banuba.alert.progressView.exportVideoInterrupted" = "エクスポートが中断されました";
+
+/* need to update iOS alert */
+"com.banuba.alert.needToUpdateIos.title" = "申し訳ありません、最小サポートバージョンはiOS 12です。";
+"com.banuba.alert.needToUpdateIos.message" = "このアプリを使用するには、iOS 12.0 にアップデートする必要があります。";
+
+/* remove and start over record video */
+"com.banuba.trim.startOverRecordVideoTitle" = "新しいビデオを録画しますか？";
+"com.banuba.trim.startOverRecordVideoMessage" = "";
+"com.banuba.trim.startOverRecordVideoAgreeButtonTitle" = "最初からやり直す";
+"com.banuba.trim.startOverRecordVideoDisagreeButtonTitle" = "破棄する";
+
+// MARK: - Trim
+/* Edit video rotate button title */
+"com.banuba.trim.rotateEditButtonTitle" = "Rotate";
+/* Edit video split button title */
+"com.banuba.trim.splitEditButtonTitle" = "Split";
+/* Edit video crop button title */
+"com.banuba.trim.cropEditButtonTitle" = "Crop";
+/* Edit video delete button title */
+"com.banuba.trim.deleteEditButtonTitle" = "Delete";
+/* Edit video trim button title */
+"com.banuba.trim.trimEditButtonTitle" = "Trim";
+/* Reordering video tool tip label message */
+"com.banuba.trim.reorderingToolTip" = "Drag to swap";
+/* Delete single video error message */
+"com.banuba.trim.deleteLastClipErrorMessage" = "The last clip can't  be deleted";
+/* Split video part error message */
+"com.banuba.trim.splitErrorMessage" = "The selected position is invalid";
+
+// MARK: - Capture button modes
+"com.banuba.record.captureButtonVideoMode" = "ビデオ";
+"com.banuba.record.captureButtonPhotoMode" = "写真";
+
+/* Sharing other button */
+"sharing.other.title" = "その他";
+
+/* Sharing video main title */
+"sharing.video.title" = "ビデオを共有する";
+
+/* Error if sharing application is not installed */
+"sharing.app.not.installed" = "申し訳ありませんが、アプリがインストールされていません";
+
+// MARK: - Expired license screen
+"com.banuba.expiredLicense.infoLabel" = "ビデオコンテンツの作成は一時的に利用できません";
+"com.banuba.expiredLicense.cancelButtonTitle" = "閉じる";
+
+//Staic String "No record found" replacing for multilingual
+
+"Searchkeek_NotRFound" = "お探しの情報は見つかりませんでした。別の検索語句をお試しください。";
+"OtherUser_NoPosts" = "現在表示する投稿がありません。後でまたチェックしてください。";
+"Self_NoPosts" = "まだ投稿がありませんか？問題ありません！最初の投稿を作成してみてください。";
+"Follow_Requesttab_Notifications" = "全てのリクエストを処理しました！現在新しいリクエストはありません。";
+"All_coughtUp" = "すべての通知をチェックしました。後で新しい通知があるかもしれませんので、チェックしてください。";
+"No_comments" = "まだコメントがありません。あなたが最初の会話を始めましょう！";
+"Self_No_comments" = "あなたの投稿にはまだコメントがありません。";
+"Self_No_Story_comments" =  "あなたのストーリーにはまだコメントがありません。";
+"No_followers" = "まだフォロワーがいませんか？素晴らしいコンテンツを作成して共有し続けることで、フォロワーが増えていきます。";
+"No_following" = "フォローすることは新しいコンテンツを発見する素晴らしい方法です。自分の興味に合ったアカウントをフォローすることから始めましょう。";
+"No_blocked" = "ブロックリストには誰もいませんか？それは良い兆候です。ポジティブに続けてください！";
+"No_Chat_Messages" = "まだ会話はありません。今日は誰か新しい人とチャットを始めてつながってみましょう！";
+"No_chat_contacts" = "チャットの連絡先リストは空です。友達を検索して追加してみませんか？";
+"NoSavedPosts" = "表示するブックマーク済みの投稿はありません。お気に入りの投稿をブックマークして、後で簡単にアクセスできるようにします。";
+"No_followers_OtherUser" = "現在表示するフォロワーはありません。後でもう一度チェックしてください！";
+"No_followingUser_OtherUser" = "現在表示するフォロー中のユーザーはありません。後でもう一度チェックしてください！";
+//post uploading
+"Your post is being uploaded..." = "投稿がアップロードされています...";
+"Your story is being uploaded..." = "あなたのストーリーがアップロードされています...";
+
+
+//Fetching feeds/posts
+"Fetching Feeds..." = "フィードを取得中...";
+"GetPostError" = "投稿の詳細の取得中にエラーが発生しました";
+"noUserPermission" = "このアクションを実行するための十分な権限がありません。サポートにお問い合わせください。";
+"salutation" = "性別";
+"enterSalutation" = "性別を選択してください...";
+"enableComments" = "コメントを有効にする";
+"ReferYourFriends" = "友達を紹介する";
+"DeleteThisOffer" = "このオファーを削除";
+"MainOffer" = "メインオファー";
+"offerImageTitle1" = "オファーのメイン画像";
+"offerImageTitle2" = "主な広告画像・商品図など";
+"offerImageTitle3" = "縦表示レイアウト 375x812 px 推奨される最小サイズ。";
+"CreateAGroup" = "新しいグループを作成する";
+"members" = "メンバー";
+"internetIssue" = "現在、インターネットにアクセスできません。インターネット接続を確認して、もう一度お試しください";
+"poorInternetConnectivity" = "接続上の問題が発生しています。インターネット接続を確認して、もう一度試してください。";
+"noResultFound" = "探しているものが見つかりませんでした。\n 別の検索語を試してください。";
+"noFollowingToShare" = "連絡先リストに誰も載っていませんか?お気に入りのソーシャル プラットフォームで共有してください。";
+"searchContacts" = "連絡先の検索";
+"contacts" = "連絡先";
+"send" = "送信";
+"sent" = "送信済";
+
+"deactivateConfirmPassword" = "以下でアカウントの一時的な無効化を\n確認してください。";
+"deleteConfirmPassword" = "アカウントを\n永久に削除するかどうかを以下で確認してください。";
+"confirmation" = "確認";
+"deactivateConfirmation" = "\nKeek アカウントを\n一時的に無効にしてもよろしいですか?";
+"cancelDeactivation" = "いいえ、無効化をキャンセルします";
+"accountDeletion" = "アカウントの削除";
+"deleteConfirmation" = "Keek アカウントを\n永久に削除してもよろしいですか?";
+"cancelDeletion" = "いいえ、永久削除をキャンセルします";
+"yes" = "はい";
+"temporarilyDeactivate" = "一時的に無効化する";
+"permanentlyDelete" = "完全に削除";
+"accountDeactivateSuccess" = "あなたのアカウントが無効になっています。戻ることにした場合は、再度ログインしてアカウントを再アクティブ化してください。";
+"accountDeleteSuccess" = "アカウントは正常に削除されました。 Keek コミュニティにご参加いただきありがとうございます。";
+"violationTitle1" = "申し訳ありませんが、\nこれを投稿できません。";
+"violationTitle2" = "あなたの投稿は利用規約に違反しています。";
+"violationTitle3" = "この投稿に不当なフラグが付けられていると思われる場合は、\nさらなる審査を求めるためにこの決定に対して異議を申し立てることができます。";
+"appealLbl" = "さらなる見直しを求めて上訴する。";
+"submitForAppeal" = "異議申し立てを提出する";
+"violationText1" = "残念ながら、最近の投稿には\nフラグが立てられています ";
+"violationText2" = " この投稿で。";
+"appealTitle1" = "\n再審査請求を受け取りました。";
+"appealTitle2" = "Keek カスタマー サービス チームは\nこの投稿に対するあなたの申し立てを検討し、\n24 時間以内に最新情報をお知らせします。 ";
+"appealTitle3" = "\nKeek メッセージでメッセージを受け取ります。";
+"backHome" = "ホームに戻る";
+"downloadingTitle" = "お待ちください";
+"downloadingSubTitle" = "このビデオをダウンロードしています。もうすぐ終わります。";
+"Retry" = "再試行";
+"downloadingFailedTitle" = "ダウンロードに失敗しました";
+"downloadingFailedSubTitle" = "このビデオのダウンロード中に問題が発生しています。";
+"downloadCancelMsg" = "このプロセスをキャンセルしてもよろしいですか？";
+"cancelDownload" = "ダウンロードをキャンセル";
+"Completed" = "完了";
+
+"no_chat_conversation" = "友達と連絡を取り、会話を始めてここでメッセージを見てください！";
+"no_group_chat" = "友達とグループチャットを開始し、一緒に思い出に残る瞬間を作成しましょう！";
+"user_not_available" = "このユーザーは現在チャットできません。";
+"groups" = "グループ";
+"conversations" = "会話";
+"unable_delete_message" = "現在、メッセージを削除できません。";
+"messages" = "メッセージ";
+"youAdded" = "追加しました";
+"youRemoved" = "削除しました";
+"youCreatedGroup" = "グループを作成しました";
+"createdGroup" = "がグループを作成しました";
+"addedYou" = "があなたを追加しました";
+"removedYou" = "があなたを削除しました";
+"added" = "が追加しました";
+"removed" = "が削除しました";
+"chatInactive" = "参加者ではなくなったため、このグループにメッセージを送信できません。";
+"My Contacts" = "マイコンタクト";
+"Contacts" = "コンタクト";
+"Search Contacts" = "コンタクトを検索";
+"NoContactsResult" = "お探しの内容が見つかりませんでした。別の検索語句をお試しください。";
+"Admin" = "管理者";
+"Online" = "オンライン";
+"Offline" = "オフライン";
+"typing" = "入力中";
+"Yesterday" = "昨日";
+"Today" = "今日";
+"Unread Messages" = "未読メッセージ";
+"Monday" = "月曜日";
+"Tuesday" = "火曜日";
+"Wednesday" = "水曜日";
+"Thursday" = "木曜日";
+"Friday" = "金曜日";
+"Saturday" = "土曜日";
+"Sunday" = "日曜日";
+"enterGrpName" = "グループ名を入力してください";
+"startLiveStream" = "ライブストリームを開始";
+"goLive" = "ライブに行く";
+"noLiveStream" = "現在、ライブストリームは行われていないようです。";
+"deleteThreadConfirmation" = "この会話を削除してもよろしいですか？";
+"deleteThreadError" = "申し訳ありません！何か問題が発生しました。後でもう一度お試しください。";
+

@@ -1,0 +1,2152 @@
+/* 
+  Localizable.strings
+  ChatModule
+
+  Created by Akash Belekar on 23/07/24.
+  
+*/
+
+"ok" = "ठीक है";
+"yes" = "हाँ";
+"no" = "नहीं";
+"view" = "देखें";
+"dismiss" = "खारिज करें";
+"continue" = "जारी रखें";
+"hide" = "छिपाएँ";
+"cancel" = "रद्द करें";
+"confirm" = "Confirm";
+"signing_in" = "साइन इन कर रहे हैं";
+"login_invalid_credentails" = "आपके क्रेडेंशियल्स अमान्य हैं";
+"login_error" = "एक त्रुटि हुई, कृपया बाद में दोबारा कोशिश करें";
+"stream_live_count" = "सीधा प्रसारण";
+"createStream18PlusDisclaimer" = "Peeks Social सार्वजनिक स्ट्रीम में अश्लील सामग्री को स्ट्रीम करने की अनुमति नहीं देता। कृपया Peeks Social की सेवा की शर्तें देखें।";
+"stream_info_share_button" = "साझा करें";
+"share_this_stream" = "इस स्ट्रीम को साझा करें";
+"stream_info_report_button" = "स्ट्रीम को रिपोर्ट करें";
+"report_stream_alert_title" = "रिपोर्ट करें कि अनुचित है";
+"report_stream_alert_message" = "क्या आप इस स्ट्रीम को अनुपयुक्त होने के लिए रिपोर्ट करना चाहते हैं?";
+"share_actionsheet_title" = "स्ट्रीम को इसके साथ साझा करें";
+"share_all_followers" = "सभी फॉलोअर";
+"select_followers" = "फॉलोअर चुनें";
+"stat_views" = "व्यूज";
+"stat_viewers" = "दर्शक";
+"stat_likes" = "लाइक";
+"stat_live_views" = "लाइव व्यूज";
+"stat_replays" = "रिप्ले";
+"people_title" = "लोग";
+"profile_title" = "मेरी प्रोफाइल";
+"profile_share" = "साझा करें";
+"profile_share_message" = "इस शानदार कीक प्रोफाइल को देखें: ";
+"stream_share_message" = "इस भयानक कीक स्ट्रीम को देखें: ";
+"video_share_message" = "देखिए यह शानदार कीक वीडियो: ";
+"profile_description_placeholder" = "विवरण जोड़ने के लिए यहां टैप करें";
+"profile_logout_actionsheet_title" = "क्या आप वाकई लॉग आउट करना चाहते हैं?";
+"bank_account_delete_actionsheet_title" = "क्या आप वाकई इस खाते को हटाना चाहते हैं?";
+"profile_terms" = "सेवा की शर्तें";
+"profile_privacy" = "गोपनीयता नीति";
+"profile_logout" = "लॉगआउट करें";
+"feedback_title" = "प्रतिक्रिया";
+"wallet_support_title" = "वॉलेट सपोर्ट";
+"wallet_support_photoId_validation_failed_title" = "वॉलेट सपोर्ट: फोटो ID सत्यापन विफल हो गया";
+"mail_unavailable_error_alert_title" = "ईमेल नहीं भेज सकते";
+"mail_unavailable_error_alert_message" = "ईमेल भेजने के लिए कृपया अपनी ईमेल सेटिंग जांचें";
+"confirmation_phone_number" = "क्या आप फोन नंबर पर SMS प्राप्त करना चाहते हैं?";
+"invite_friends_message" = "मुझे Peeks Social पर लाइव स्ट्रीम होते हुए देखें! ";
+"profile_loading" = "प्रोफ़ाइल लोड हो रहा है";
+"sign_out" = "साइन आउट करें";
+
+// Stream leave messages
+"stream_terminated_leave_title" = "स्ट्रीम समाप्त कर दिया गया है";
+"stream_terminated_leave_message" = "स्ट्रीम की सामग्री को हमारे सामुदायिक दिशानिर्देशों के अनुसार अनुपयुक्त पाया गया है। \nकृपया उनको देखें और किसी भी प्रश्न के बारे में हमसे संपर्क करें। आपको इस स्ट्रीम के लिए भुगतान नहीं दिया जाएगा।";
+
+"stream_blocked_leave_title" = "स्ट्रीम ब्लाक कर दी गई है";
+"stream_blocked_alert_message" = "आपको स्ट्रीम लेखक द्वारा ब्लाक कर दिया गया है।";
+
+"stream_disconnected_leave_title" = "स्ट्रीम डिस्कनेक्ट हो गई";
+"stream_disconnected_leave_message" = "लाइव स्ट्रीम समाप्त हो गई";
+
+
+"settings_title" = "सेटिंग्स";
+"settings_profile" = "प्रोफाइल सेटिंग्स";
+"settings_account" = "अकाउंट सेटिंग्स";
+"settings_notifications_dailyStats_text" = "अपने ब्रॉडकास्ट द्वारा आपके लाइक, फॉलोअर्स, और टिप की बढ़ोतरी के बारे में अधिसूचना प्राप्त करें।";
+"settings_notifications_newFollower_text" = "हर बार जब कोई आपको फॉलो करता है तो पुश नोटिफिकेशन प्राप्त करें";
+"settings_notifications_streamStart_text" = "जब आपके द्वारा फॉलो किये जाने वाले किसी व्यक्ति का कोई लाइव प्रसारण शुरू होता है तो एक पुश अधिसूचना प्राप्त करें।";
+"settings_notifications_streamShare_text" = "जब आपके द्वारा फॉलो किये जाने वाला व्यक्ति कोई स्ट्रीम साझा करता है तो एक पुश अधिसूचना प्राप्त करें।";
+"tip_animation_message" = "टिप दी गई";
+
+// Tip Enforcement
+"tip_enforce_broadcaster_title" = "सशुल्क प्रसारण";
+"tip_enforce_broadcaster_description" = "दर्शकों को सूचित किया जाएगा कि आप \“Paid Broadcast\” मोड पर स्विच कर रहे हैं। विवरण के लिए Help देखें। आपके सशुल्क प्रसारण के पहले 60 सेकंड का एक निःशुल्क पूर्वावलोकन होगा। कृपया यह सुनिश्चित करें कि आप इस 60 सेकंड समय सीमा के भीतर सेवा की शर्तों और सामुदायिक दिशानिर्देशों का पालन करें। \n\nआपको सशुल्क प्रसारण मोड चालू करने के बाद कम से कम 15 मिनट के लिए प्रसारण करना होगा। कृपया दर्शकों को झूठे दावे या वादे न करें। सशुल्क प्रसारण नियमों का पालन करने में विफलता के परिणामस्वरूप आपका भुगतान रोक दिया जा सकता है। \n\nअधिक जानकारी के लिए सेवा की शर्तें देखें।";
+
+"tip_enforce_viewer_title" = "प्रसारक ने इसके न्यूनतम का अनुरोध किया है ";
+"tip_enforce_viewer_loading" = "टिप भेज रहे हैं";
+"tip_leave_button_title" = "प्रसारण छोड़ें";
+"tip_confirm_button_title" = "पुष्टि करें";
+"tip_stream_live_label" = "स्ट्रीम लाइव है ...";
+"tip_stream_duration_label" = "स्ट्रीम अवधि:";
+"tip_stream_balance_label" = "उपलब्ध शेष राशि:";
+
+"error" = "त्रुटि";
+
+"register_error_long" = "आगे बढ़ने के लिए कृपया निम्न को ठीक करें";
+"register_phonenumber_invalid" = "देश के लिए अमान्य फ़ोन नंबर";
+"register_email_invalid" = "अमान्य ईमेल, कृपया इसकी पुष्टि करें";
+
+"register_email_exists" = "हमारे रिकॉर्ड पर ईमेल पहले से मौजूद है";
+"register_passwords_match_error" = "पासवर्ड मेल नहीं खाते";
+"register_password_length_error" = "पासवर्ड कम से कम 6 अक्षर का होना चाहिए और इसमें कम से कम एक अक्षर और एक नंबर होना चाहिए";
+"register_username_invalid_error" = "उपयोगकर्ता नाम में केवल अक्षर और संख्याएं हो सकती हैं और यह कम से कम 3 वर्ण लंबा होना चाहिए।";
+"register_username_exists_error" = "उपयोगकर्ता नाम मौजूद है। कृपया कोई दूसरा नाम चुनें।";
+"register_username_error" = "उपयोगकर्ता नाम अनुपलब्ध है, अक्षर से शुरू होने वाले न्यूनतम 4 वर्ण।";
+"register_birthday_error" = "जन्मदिन अनुपलब्ध है";
+"register_birthday_invalid_error" = "जन्मदिन अमान्य है";
+"register_agree_terms" = "साइन अप जारी रखने के लिए आपको नियम और शर्तों से सहमति व्यक्त करनी होगी";
+
+"register_facebook_no_email" = "आपको Facebook पर प्रोफ़ाइल और ई-मेल के लिए एक्सेस प्रदान करने की आवश्यकता है, पुनः प्रयास करें।";
+"register_facebook_email_exists" = "इस Facebook खाते से जुड़ी हुई ईमेल पहले से ही Peeks Social पर एक खाते के साथ जुड़ी हुई है";
+
+"register_wrong_country_index" = "आपका देश लोड करने में विफल। कृपया इसे फिर से देखें।";
+
+"birthday_error_future_date" = "अमान्य जन्मदिन, या आप भविष्य से आए हैं!";
+
+"account_validation_code_sent_sms" = "एक कोड आपको SMS द्वारा भेजा जाएगा।";
+"account_validation_code_sent_ivr" = "एक कोड आपको फोन कॉल के माध्यम से भेजा जाएगा।";
+"account_validation_code_sent_email" = "एक कोड आपको ईमेल द्वारा भेजा जाएगा।";
+"account_validation_not_successful" = "आपका खाते की पुष्टि नहीं हुई है";
+
+"payment_method_billing_missing_title" = "बिलिंग पता पूरा नहीं है";
+"payment_method_billing_missing" = "कृपया सभी आवश्यक फ़ील्ड दर्ज करें";
+"stream_creation_error" = "स्ट्रीम बनाने में समस्या";
+"stream_not_playable_title" = "वीडियो प्रोसेस हो रहा है";
+"stream_not_playable_message" = "यह स्ट्रीम वर्तमान में प्रोसेस हो रही है। यह शीघ्र ही चलाने योग्य हो जाएगी।";
+
+"stream_user_id_missing" = "प्रतीत होता है कि इस स्ट्रीम के साथ कोई उपयोगकर्ता नहीं जुड़ा हुआ है";
+"stream_user_not_live" = "प्रतीत होता है कि उपयोगकर्ता की स्ट्रीम का सीधा प्रसारण नहीं हो रहा है";
+
+"stream_unfollow_alert" = "क्या आप वाकई इस उपयोगकर्ता को अनफॉलो करना चाहते हैं?";
+
+"stream_purchase_price_not_set" = "आपने खरीद मूल्य की पुष्टि नहीं की है";
+
+"stream_block_alert" = "क्या वाकई आपको इस प्रयोगकर्ता को ब्लॉक करना है?";
+
+"withdraw_account_title" = "ID सत्यापन अपूर्ण है";
+"withdraw_account_title_fail" = "ID सत्यापन विफल हुआ";
+"photo_identification_title" = "फोटो पहचान पत्र";
+"photo_identification_message" = "अपनी पहचान को सत्यापित करने और सुरक्षा उद्देश्यों के लिए आपको मान्य फोटो पहचान पत्र प्रस्तुत करने की आवश्यकता है। कृपया आगे बढ़ने के लिए मान्य पहचान पत्र की एक तस्वीर लें।";
+"withdraw_proceed_fields" = "आगे बढ़ने से पहले कृपया सभी क्षेत्रों को पूरा करें";
+"withdraw_account_transit_error" = "ट्रांज़िट संख्या 5 अंकों की होनी चाहिए";
+"withdraw_account_institution_error" = "संस्था संख्या 3 अंक की होनी चाहिए";
+"withdraw_account_Account_error" = "खाता संख्या कम से कम 5 अंक की होनी चाहिए";
+"withdraw_account_routingnumber_error" = "रूटिंग संख्या 9 अंक की होनी चाहिए";
+
+"withdraw_account_failed_validation" = "आपके चेकिंग खाते का सत्यापन विफल हुआ। क्या आप दूसरा खाता जोड़ना या पुनः प्रयास करना चाहते हैं?";
+"wallet_failed_photoId_validation" = "आपके ID सत्यापन के साथ एक समस्या हुई। कृपया अपनी ID को मेनू में दाईं ओर स्थित My Wallet ➔ में फिर से सबमिट करें या अधिक जानकारी के लिए support\@peeks.com से संपर्क करें।";
+"wallet_manage_login_validation" = "सुरक्षा उद्देश्यों के लिए आपको अपने वॉलेट का प्रबंधन करने के लिए फिर से लॉग इन करना पड़ सकता है";
+"wallet_pending_photoId_validation" = "हम अभी भी आपकी ID की पुष्टि करने की प्रक्रिया में कार्यरत हैं। कृपया कल वापस देखें।";
+"withdraw_account_validate" = "आपके चेकिंग खाते की पुष्टि किये जाने की जरुरत है। क्या आप इसे अभी कराना चाहते हैं?";
+"withdraw_account_add" = "आपने अपनी कमाई की निकासी के लिए कोई विकल्प नहीं जोड़ा है। क्या आप इस प्रक्रिया को अभी शुरू करना चाहते हैं?";
+"deposit_account_add" = "क्या आप एक नया क्रेडिट कार्ड जोड़ना चाहेंगे?";
+"withdraw_account_add_new" = "क्या आप एक नया निकासी का विकल्प जोड़ना चाहते हैं?";
+"withdraw_not_enought_earnings" = "इस पल में आपके पास निकासी के लिए पर्याप्त आय नहीं है";
+
+"create_purchase_value_error" = "कृपया अपने उत्पाद की कीमत टाइप करें";
+
+"camera_source_error_title" = "कैमरा स्रोत में त्रुटि";
+"camera_source_error_message" = "आपने अपने कैमरे को एक्सेस करने के लिए Keek Social को अधिकृत नहीं किया है। क्या आप अभी सेटिंग्स पर जाकर इसे एक्सेस प्रदान करना चाहेंगे?";
+
+"location_enabled_error_title" = "स्थान अनुमति को सक्षम नहीं किया गया है";
+"location_enabled_error_message" = "आपने अपने स्थान तक पहुंचने के लिए Keek Social को अधिकृत नहीं किया है। क्या आप अभी सेटिंग्स पर जाकर इसे एक्सेस प्रदान करना चाहेंगे?";
+
+"user_stats_no_followers_error" = "आपको कोई भी फॉलो नहीं कर रहा है";
+"user_stats_search_error" = "खोजने पर कोई परिणाम नहीं मिला";
+
+"rating_title_warning_high" = "दर्शक की विवेकपूर्ण निर्णय लेने की सलाह दी जाती है";
+"rating_title_warning_low" = "सभी दर्शकों के देखने के लिए उपयुक्त";
+
+"rating_message_high" = "निम्न प्रसारण को 18+ रेट किया गया है। इसमें ऐसी सामग्री हो सकती है जो कुछ व्यक्तियों के लिए अपमानजनक हो सकती है। यदि आप 18 वर्ष से कम हैं या यदि आप ठेठ भाषा, परिपक्व विषयों या आंशिक नग्नता को पसंद नहीं करते हैं तो कृपया स्ट्रीम को बंद कर दें। आपका धन्यवाद।";
+"rating_message_medium" = "इस प्रसारण को 14+ रेट किया गया है। इसमें ठेठ भाषा और परिपक्व विषय हो सकते हैं। अगर आपको लगता है कि इस प्रसारण को ग़लत ढंग से रेट किया गया है, तो कृपया इसे टैप करके Peeks Social को रिपोर्ट करें ";
+"rating_message_low" = "इस प्रसारण को जी G रेट किया गया है और यह सभी सभी आयु समूहों के लिए उपयुक्त है। यदि आप इस प्रसारण में कोई भी ऐसी सामग्री देखते हैं जो सभी आयु समूहों के लिए उपयुक्त नहीं है तो कृपया इसे टैप करके Peeks Social को रिपोर्ट करें ";
+
+"rating_message_initial" = "इस टैब में मौजूद स्ट्रीम्स को 18+ रेट किया गया है। इसमें ऐसी सामग्री हो सकती है जो कुछ व्यक्तियों के लिए अपमानजनक होती है। यदि आप 18+ सामग्री रखना चाहते हैं, तो continue चुनें। यदि आप 18+ सामग्री छिपाना चाहते हैं, तो hide चुनें।";
+"rating_message_content" = "Main menu में सेटिंग्स पर जाकर Content सेटिंग्स को किसी भी समय बदला जा सकता है।";
+
+"rating_footer_high" = "यदि आप 18 वर्ष से कम हैं तो स्ट्रीम को बंद कर दें।";
+"rating_footer_medium" = "यदि आप 17 वर्ष से कम हैं तो स्ट्रीम को बंद कर दें।";
+"rating_footer_low" = "अपनी लाइव स्ट्रीम का आनंद लें";
+"stream_end_alert_message" = "क्या आप वाकई स्ट्रीम समाप्त करना चाहते हैं?";
+"stream_share_confirmation_message" = "यह स्ट्रीम आपके फॉलोअर्स के साथ साझा की गई है";
+// Localized Missing Strings
+
+"next" = "अगला";
+"resend" = "पुन: भेजें";
+"please_wait" = "कृपया प्रतीक्षा करें...";
+"almost_done" = "लगभग हो गया";
+"resend" = "पुन: भेजें";
+"success" = "सफलता!";
+"skip" = "छोड़ें";
+
+"sign_in" = "साइन इन करें";
+"register_button_title" = "एक खाता बनाएं";
+"forgot_password" = "क्या आप अपना पासवर्ड भूल गए?";
+"continue_with_apple" = "एप्पल के साथ जारी रखें";
+"continue_with_google" = "गूगल के साथ जारी रखें";
+// Reset Password
+//"reset_password_title" = "पासवर्ड रीसेट करें";
+//"reset_password_description" = "अपना उपयोगकर्ता नाम नीचे लिखें";
+"reset_password_options" = "कृपया कोई एक विकल्प चुनें:";
+"reset_password_option_sms" = "SMS के माध्यम से इसको भेजें ";
+"reset_password_option_email" = "ईमेल के माध्यम से इसको भेजें ";
+"reset_password_enter_password" = "कृपया अपना पासवर्ड नीचे दर्ज करें।";
+"reset_password_mismatch" = "पासवर्ड मेल नहीं खाते।";
+"reset_password_updated" = "आपका पासवर्ड अपडेट किया जा चुका है।";
+"reset_password_sending_passcode" = "पास कोड भेज रहे हैं";
+
+// Registration
+"registration_birth_year_title" = "आइये शुरू करें!";
+"registration_birth_year_description" = "कृपया अपना जन्म वर्ष नीचे दर्ज करें";
+"registration_birth_year_placeholder" = "जन्म वर्ष (Optional)";
+
+//"registration_account_info_title" = "खाते की जानकारी";
+//"registration_account_info_description" = "नीचे आवश्यक जानकारी दर्ज करें";
+//"registration_email_placeholder" = "ईमेल";
+//"registration_username_placeholder" = "उपयोगकर्ता नाम";
+"registration_password_placeholder" = "पासवर्ड";
+"registration_confirm_password_placeholder" = "पासवर्ड फिर से दर्ज करें";
+//"registration_agreement" = "मैं इन नियमों और शर्तों से सहमत हूं";
+
+"registration_phone_title" = "अंतिम चरण!";
+"registration_phone_description" = "पूरा करने के लिए नीचे अपना फ़ोन नंबर दर्ज करें।";
+"registration_phone_placeholder" = "फ़ोन नंबर";
+
+"registration_confirmation_title" = "खाता पुष्टिकरण";
+"registration_confirmation_description" = "कृपया आपको भेजे गए कोड को दर्ज करें।";
+"registration_confirmation_placeholder" = "कोड";
+"registration_confirmation_ivr" = "SMS प्राप्त नहीं किया जा सकता? फ़ोन कॉल के माध्यम से कोड प्राप्त करें!";
+
+"registration_share_title" = "सफलता! आपके खाते की पुष्टि हो गई है।";
+"registration_share_description" = "अपने दोस्तों के साथ अपनी Peeks Social प्रोफ़ाइल को साझा करें ताकि वे आपकी स्ट्रीम का सीधा प्रसारण देख सकें!";
+"registration_share" = "शेयर करें";
+
+"intro_claim_gift" = "उपहार पाएँ";
+"intro_gift_title" = "अपना मुफ्त उपहार पाने के लिए अपने क्रेडिट कार्ड को पंजीकृत करें!";
+"intro_gift_description" = "पंजीकरण नि: शुल्क है और पंजीकरण के लिए आपके क्रेडिट कार्ड को बिल नहीं किया जाएगा।";
+
+"intro_skip_gift_title" = "क्षमा करें आपने अपने क्रेडिट कार्ड को पंजीकृत नहीं किया।";
+"intro_skip_gift_description" = "हम अभी भी आपको मुफ्त में 50 सेंट दे रहे हैं।";
+"intro_skip_gift_thanks" = "Peeks Social टीम की तरफ से आपको धन्यवाद। Peeks Social के उपयोग का आनंद लें!";
+
+"watch_video" = "वीडियो देखें";
+"intro_done" = "हो गया";
+
+"intro_page_one_title" = "आप लाइव हैं!";
+"intro_page_one_description" = "Peeks Social लाइव वीडियो है। जो कुछ भी आप किसी समय कर रहे होंगे वह सब आपके दर्शक देखेंगे। दर्शक आपको नकद टिप्स या लाइक भेज सकते हैं और आप भी अपने पसंदीदा ब्रॉडकास्टर को टिप भेज सकते हैं।";
+
+"intro_page_two_title" = "असली पैसे!";
+"intro_page_two_description" = "पीक्स के पास एक पूर्ण मोबाइल वॉलेट है जो आपको अपने बैंक खाते से आसानी से टिप के लिए अपने पैसे निकालने देता है, और आप लाइव ब्रॉडकास्टर को टिप करने के लिए भी अपना खाता सेट कर सकते हैं।";
+
+"intro_page_three_title" = "साझा कर रहे हैं";
+"intro_page_three_description" = "Peeks Social पर अपने फॉलोअर्स की संख्या बढ़ाएं! अपने मित्रों और सामाजिक मीडिया फॉलोअर्स को Peeks Social पर आमंत्रित करें जिससे आपको शीघ्रता से लाइव ऑडियंस बनाने में मदद मिलेगी।";
+
+// Menu Buttons
+"menu_home" = "होम";
+"menu_upload_video" = "वीडियो अपलोड करें";
+"menu_crowdfunding" = "क्राउडफंडिंग";
+"menu_profile" = "प्रोफाइल";
+"menu_invite_friends" = "मित्रों को आमंत्रित करें";
+"menu_following" = "फॉलो कर रहे हैं";
+"menu_people" = "लोग";
+"menu_wallet" = "वॉलेट";
+"menu_settings" = "सेटिंग्स";
+"menu_help" = "Support";
+"menu_logout" = "लोग आउट";
+"menu_offerbox" = "ऑफ़र बॉक्स";
+"menu_impressions" = "Manage Impressions";
+
+// Broadcasts Page
+"broadcasts" = "प्रसारण";
+"popular" = "लोकप्रिय";
+"live" = "सीधा प्रसारण";
+"uploads" = "अपलोड";
+"explore" = "अन्वेषण ";
+"plus" = "प्लस";
+"featured" = "विशेष रुप से प्रदर्शित";
+"live" = "सीधा प्रसारण";
+"go_live" = "सीधा प्रसारण शुरू करें";
+"record_video" = "वीडियो रिकॉर्ड करें";
+"upload_video" = "वीडियो अपलोड करें";
+"map" = "नक्शा";
+"broadcasts_search_placeholder" = "शीर्षक या यूजरनेम द्वारा खोजें";
+"channels" = "चैनल";
+"following" = "फॉलो कर रहे हैं";
+
+"streaming_permissions_denied_alert_title" = "एक्सेस नामंजूर कर दिया गया";
+"streaming_permissions_denied_alert_message" = "आपके स्ट्रीमिंग फ़ंक्शंस अक्षम किए गए हैं। कृपया support@peeks.com पर ग्राहक सेवा से संपर्क करें।";
+
+//DiscoverPeopleTileViewController
+"discover_more_people" = "Discover More";
+"please_browse_people_list" = "कृपया हमारे लोकप्रिय उपयोगकर्ताओं की सूची ब्राउज़ करें";
+
+//RatingsViewController
+"rating_title_label" = "ब्रॉडकास्टर रेटिंग";
+"watch_button_title_label" = "स्ट्रीम देखें";
+"close_button_title_label" = "बंद करें";
+
+//RateStreamViewController
+"thank_you_lable" = "देखने के लिए धन्यवाद!";
+"review_content_label" = "कृपया इस सामग्री की समीक्षा करने के लिए समय निकालें। यह देखने के अनुभव को और अधिक मनोरंजक बना देगा।";
+"how_was_it_lable" = "यह कैसा था?";
+"finish_button_title_label" = "ख़त्म हो गया";
+
+// Creation stream
+"no_selection" = "कोई चयन नहीं";
+"crowdfund_label" = "क्राउडफंडिंग";
+"offer_label" = "ऑफ़र";
+"rating_label" = "रेटिंग";
+"title_label" = "शीर्षक";
+"private_label" = "सभी";
+"data_saver_help_text" = "डेटा सेवर विकल्प को \"High\"पर सेट करना मोबाइल डेटा की अधिकतम राशि को बचाएगा लेकिन सबसे कम वीडियो गुणवत्ता वाला होगा। यदि आप Wi-Fi का उपयोग कर रहे हैं तो \"Low\" विकल्प का, और सेलुलर डेटा के लिए \"Medium\" या \"High\" का सुझाव दिया जाता है।";
+// Upload Video
+"required_placeholder" = "अपेक्षित";
+"upload_title" = "अपलोड करें";
+"upload_select_video_button" = "एक और वीडियो का चयन करें";
+"upload_header_stream" = "स्ट्रीम शीर्षक";
+"upload_header_video" = "वीडियो सेटिंग्स";
+"upload_video_button" = "अपलोड करें";
+"upload_title_label" = "शीर्षक";
+"upload_rating_label" = "रेटिंग";
+"upload_private_label" = "गोपनीयता";
+"upload_private_all_followers" = "मेरे फॉलोअर";
+"upload_private_one_follower" = "दर्शक";
+"upload_private_many_follower" = "दर्शक";
+"upload_success" = "आपका वीडियो सफलतापूर्वक अपलोड कर दिया गया था।";
+"upload_KeekBack_success" =  "आपका वीडियो टिप्पणी सफलतापूर्वक अपलोड हुई।";
+"upload_18_error" = "आगे बढ़ने से पहले आपको अपने 18+ वीडियो देखने के लिए उपयोगकर्ताओं को चुनना होगा";
+
+// Private Broadcast
+"private_broadcast_title" = "निजी प्रसारण";
+"private_broadcast_search_followers" = "फॉलोअर खोजें";
+"private_broadcast_select_followers" = "फॉलोअर्स का चयन करें";
+"private_broadcast_select_all" = "सभी का चयन करे";
+"private_broadcast_deselect_all" = "सभी को अचिन्हिंत करें";
+"private_broadcast_public" = "सभी";
+
+// Streaming
+"stream_share_option_title" = "स्ट्रीम साझा करें";
+"stream_share_option_message" = "आप इस स्ट्रीम को कैसे साझा करना चाहते हैं?";
+"stream_share_internal" = "मेरे Peeks Social फॉलोअर्स के साथ साझा करें";
+"stream_share_external" = "बाह्य रूप से साझा करें";
+
+// Profile
+"profile_title" = "प्रोफाइल";
+"profile_bar_button_back" = "वापस";
+"profile_bar_button_done" = "हो गया";
+"user_options_title" = "उपयोगकर्ता के विकल्प";
+"user_options_unfollow" = "अनफॉलो करें";
+"user_options_follow" = "फॉलो करें";
+"user_options_block" = "ब्लाक करें";
+"user_options_unblock" = "अनब्लॉक करें";
+"user_options_report" = "रिपोर्ट करें";
+"user_options_share" = "शेयर करें";
+
+// Following
+"follower_users" = "फॉलो कर रहे हैं";
+"following_users" = "फॉलो कर रहे हैं";
+"blocked_users" = "अवरोधित";
+"private_broadcast" = "निजी प्रसारण";
+
+// People
+"search_placeholder" = "खोज";
+
+// Reporting
+"reporting_details" = "कृपया अधिक विवरण जोड़ें ...";
+"reporting_user" = "उपयोगकर्ता को रिपोर्ट करें";
+"reporting_user_thank" = "धन्यवाद";
+"reporting_confirmation" = "रिपोर्ट की सफलता का पुष्टि कोड:";
+"reporting_reason" = "कृपया अपनी रिपोर्ट का कारण लिखें";
+"reporting_sorry" = "माफ़ कीजिये";
+
+// Wallet
+"wallet_title" = "मेरा वॉलेट";
+"wallet_deposit" = "जमा करें";
+"wallet_withdrawal" = "निकासी";
+"wallet_available_balance" = "उपलब्ध शेष राशि";
+"wallet_transaction_type" = "सौदे का प्रकार";
+"wallet_amount" = "रकम";
+"wallet_no_payment_method" = "कोई भुगतान विधि नहीं जोड़ी गई है";
+
+"wallet_transaction_deposit_credit" = "जमा (क्रेडिट)";
+"wallet_transaction_deposit_chequing" = "जमा (चेकिंग)";
+"wallet_transaction_deposit_iap" = "कॉइन डिपाजिट";
+"wallet_transaction_withdrawal" = "निकासी";
+"wallet_transaction_tip_sent" = "प्रेषित टिप";
+"wallet_transaction_tip_received" = "टिप प्राप्त हुईं";
+"wallet_transaction_refund" = "टिप रिफंड";
+"wallet_transaction_refund_fee" = "प्लेटफ़ॉर्म क्रेडिट";
+"wallet_transaction_reversal" = "उलट";
+"wallet_transaction_correction" = "सुधार";
+"wallet_transaction_transfer" = "स्थानांतरण";
+"wallet_transaction_purchase" = "खरीद फरोख्त";
+"wallet_transaction_platform_fee" = "प्लेटफ़ॉर्म फीस";
+"wallet_transaction_bonus" = "बोनस";
+"wallet_transaction_none" = "इस महीने के लिए आपके पास कोई लेनदेन रिकॉर्ड\n नहीं है";
+
+"wallet_options_support" = "सपोर्ट";
+"wallet_options_withdraw" = "निकासी के विकल्प";
+"wallet_options_deposit" = "जमा करने के विकल्प";
+"wallet_options_add" = "जोड़ें";
+"wallet_options_delete" = "डिलीट करें";
+"wallet_options_default" = "डिफ़ॉल्ट";
+"wallet_options_tip_amount" = "टिप राशि";
+
+"wallet_options_title" = "शीर्षक";
+"wallet_options_submit_photo" = "फोटो ID फिर से जमा करें";
+"wallet_options_switch_account" = "खाता बदलिये";
+"wallet_options_none" = "कोई नहीं";
+"wallet_options_tip_note" = "* टिप सेट हर भेजे गए 'टिप' लेनदेन के लिए आधार राशि है, न कि आपके क्रेडिट कार्ड को बिल की गई कुल राशि।";
+
+"wallet_withdrawal_title" = "क्या आपको निकासी करनी है?";
+"wallet_withdrawal_description" = "आगे बढ़ने के लिए, हमें आपके पैसे भेजने के लिए किसी विकल्प की ज़रूरत है। आइए अब हमारे बैंकिंग संबंध स्थापित करें। \n\n इस प्रक्रिया के लिए 5 कार्यदिवस तक लगेंगे।";
+"wallet_withdrawal_available" = "निकासी के लिए उपलब्ध है";
+"wallet_withdrawal_select_country" = "अपने देश का चयन करें";
+"wallet_withdrawal_proceed" = "आगे बढें";
+
+"wallet_withdrawal_address_title" = "आइये शुरू करें!";
+"wallet_withdrawal_address_subtitle" = "कृपया नीचे आवश्यक जानकारी दर्ज करें:";
+"wallet_withdrawal_first_name_placeholder" = "पहला नाम";
+"wallet_withdrawal_last_name_placeholder" = "अंतिम नाम";
+"wallet_withdrawal_email_placeholder" = "ईमेल";
+"wallet_withdrawal_phone_placeholder" = "फ़ोन नंबर";
+"wallet_withdrawal_address_placeholder" = "पता";
+"wallet_withdrawal_address_two_placeholder" = "पता 2 (वैकल्पिक)";
+"wallet_withdrawal_city_placeholder" = "शहर";
+"wallet_withdrawal_state_placeholder" = "राज्य/ प्रांत";
+"wallet_withdrawal_postal_code_placeholder" = "ज़िप/ पोस्टल कोड";
+"wallet_withdrawal_country_placeholder" = "देश";
+
+"wallet_withdrawal_id_take_photo" = "तस्वीर लें";
+"wallet_withdrawal_id_license" = "ड्राइवर का लाइसेंस";
+"wallet_withdrawal_id_passport" = "पासपोर्ट";
+"wallet_withdrawal_id_citizenship" = "नागरिकता";
+"wallet_withdrawal_id_identity" = "पहचान";
+"wallet_withdrawal_id_other" = "अन्य";
+
+"wallet_withdrawal_method_title" = "निकासी विधि का चयन करें";
+"wallet_withdrawal_method_wire" = "बैंक वायर";
+"wallet_withdrawal_method_cheque" = "मेल के माध्यम से चेक भेजें";
+"wallet_withdrawal_method_wire_description" = "नीचे अपने बैंक वायर विवरण को दर्ज करें:";
+"wallet_withdrawal_method_cheque_description" = "नीचे दिए गए पते पर मुझे एक चेक भेजें:";
+"wallet_withdrawal_method_edit_address" = "क्या आपको पता संपादित करना है?";
+"wallet_withdrawal_method_wire" = "बैंक वायर";
+
+"wallet_withdrawal_validation_deposit_placeholder" = "जैसे 0.36";
+
+"wallet_deposit_title" = "धनराशि जमा करें";
+"wallet_deposit_amount" = "कितना?";
+"wallet_deposit_amount_minimum" = "न्यूनतम";
+"wallet_deposit_amount_maximum" = "अधिकतम";
+"wallet_deposit_from" = "यहाँ से राशि जमा करें:";
+
+"wallet_deposit_processing_title" = "भुगतान की कार्रवाई जारी है";
+"wallet_deposit_processing_subtitle" = "आपकी जमा राशि पर कार्रवाई की जा रही है। आपका धन आपके वॉलेट में जमा किया जाएगा।";
+"wallet_deposit_processing_subtitle_two" = "कृपया अपनी राशि के जमा होने के लिए 5 कार्यदिवस तक का समय दें।";
+
+"wallet_manage_label" = "कृपया अपने वॉलेट का प्रबंधन करने के लिए peeks.com पर जाएं।";
+
+// Settings
+"settings_account" = "खाता";
+"settings_app_settings" = "एप्लिकेशन सेटिंग";
+"settings_notifications" = "सूचनाएं";
+"settings_about" = "के बारे में";
+"settings_privacy_policy" = "गोपनीयता नीति";
+"settings_account_salutation" = "अभिवादन";
+"settings_account_salutation_placeholder" = "अभिवादन सेट करें";
+"settings_account_username" = "उपयोगकर्ता नाम";
+"settings_account_full_name" = "पूरा नाम";
+"settings_account_full_name_edit" = "अपना पूरा नाम संपादित करें";
+"settings_account_city" = "शहर";
+"settings_account_city_add" = "शहर जोड़ें";
+"settings_account_email" = "ईमेल";
+"settings_account_email_add" = "ईमेल जोड़ें";
+"settings_account_description" = "विवरण";
+"settings_account_description_placeholder" = "विवरण संपादित करें";
+"settings_account_phone" = "फ़ोन नंबर";
+"settings_account_phone_add" = "फोन नंबर डालें";
+"settings_account_birth_year" = "जन्म वर्ष";
+"settings_account_birth_date" = "जन्मदिन";
+"settings_account_birth_date_add" = "जन्मदिन जोड़ें";
+"settings_app_show_18+_content_title" = "18+ सामग्री दिखाएं";
+"settings_app_show_18+_content_description" = "इसे बंद करने पर 18+ रेटिंग की सभी स्ट्रीम्स को आपके फ़ीड से हटा दिया जाएगा।";
+"settings_notifications_daily_stats_title" = "दैनिक आंकड़े";
+"settings_notifications_new_follower_title" = "नए फॉलोअर";
+"settings_notifications_stream_start_title" = "स्ट्रीम प्रारंभ करें";
+"settings_notifications_stream_share_title" = "स्ट्रीम साझा करें";
+"settings_about_terms" = "सेवा की शर्तें";
+"settings_about_privacy" = "गोपनीयता नीति";
+"settings_about_title" = "के बारे में";
+"settings_notifications_stream_email_title" = "ईमेल संचार";
+"settings_notifications_stream_text_title" = "टेक्स्ट संचार";
+"settings_notifications_stream_phone_title" = "फ़ोन संचार";
+"settings_notifications_chat_title" = "चैट";
+"settings_notifications_email_text" = "ईमेल के माध्यम से संचार प्राप्त करें।";
+"settings_notifications_text_text" = "टेक्स्ट के माध्यम से संचार प्राप्त करें।";
+"settings_notifications_phone_text" = "फ़ोन के माध्यम से संचार प्राप्त करें।";
+"settings_notifications_chat_text" = "जब भी कोई आपको चैट संदेश भेजता है, तो पुश नोटिफिकेशन प्राप्त करें।";
+
+// In App Purchases
+"iap_buy" = "खरीदें";
+"iap_purchase_coins" = "कॉइन खरीदें";
+"iap_manage_my_wallet" = "मेरा वॉलेट प्रबंधित करें";
+
+//Crowdfunding
+"crowdfunding" = "क्राउडफंडिंग";
+"crowdfunding_stream_title" = "टिपिंग";
+"crowdfunding_stream_message" = "उस राशि को दर्ज करें जिसे आप टिप करना चाहते हैं";
+"crowdfunding_stream_invalid" = "अवैध राशि";
+"crowdfunding_stream_correct_amount" = "कृपया $0.05 और $300.00 के बीच की एक वैध राशि प्रदान करें";
+"crowdfunding_stream_confirm" = "पुष्टि करें";
+"crowdfunding_stream_confirm_tip" = "टिप की पुष्टि करें";
+"crowdfunding_stream_confirm_tip_msg" = "आप $%1$@ टिप करने जा रहे हैं। क्या आप जारी रखना चाहते हैं?";
+"crowdfunding_stream_credit_card" = "कोई क्रेडिट कार्ड पंजीकृत नहीं है";
+"crowdfunding_stream_credit_card_register" = "कृपया क्रेडिट कार्ड रजिस्टर करने के लिए peeks.com पर जाएं।";
+
+//Coins
+"coins_stream_insufficient_message" = "आपके पास टिप करने में सक्षम होने के लिए पर्याप्त कॉइन नहीं हैं। क्या आप अभी कॉइन जोड़ना चाहते हैं?";
+"coins_stream_insufficient_title" = "अपर्याप्त शेष राशि";
+"coins_stream_tip_continue" = "आप टिप करने वाले हैं। क्या आप जारी रखना चाहते हैं?";
+"coins_stream_tip_message" = "आप %1$@कॉइन टिप करने वाले हैं। क्या आप जारी रखना चाहते हैं?";
+"coins_current_balance" = "वर्तमान शेष राशि";
+"coins_coins_label" = "कॉइन";
+
+//Sort
+"sort_most_recent" = "Most Recent के अनुसार क्रमबद्ध करें";
+"sort_most_likes" = "Most Likes के आधार पर छाँटें";
+"sort_most_rated" = "Highest Rated द्वारा क्रमबद्ध करें";
+
+//Tabbar
+"tabbar_home" = "होम";
+"tabbar_profile" = "प्रोफाइल";
+"tabbar_wallet" = "वॉलेट";
+"tabbar_more" = "अधिक";
+"tabbar_more_option" = "अधिक विकल्प";
+
+//Unused right now
+
+"table_no_data" = "कुछ नहीं मिला।";
+"login_with_twitter_button" = "Twitter के साथ लॉग इन करें";
+"login_twitter_error" = "आप अपने Twitter खाते के साथ अधिकृत नहीं कर सकते";
+"recent_streams" = "हाल ही में / पिछली घटनाएं";
+"live_streams" = "सीधा प्रसारण";
+"stream_name_placeholder" = "क्या हो रहा है?";
+"go_live_button" = "सीधा प्रसारण शुरू कीजिये!";
+"connecting_stream_label" = "कनेक्ट...";
+"global_title" = "वैश्विक";
+"followed_title" = "फॉलो किया";
+"cant_join_stream_alert_title" = "स्ट्रीम में शामिल नहीं हो सकते";
+"cant_join_stream_alert_message" = "ऐसा लगता है कि अब आप स्ट्रीम में शामिल नहीं हो सकते। कृपया बाद में पुन: प्रयास करें";
+"create_stream_post_message" = "%1$@लाइव %2$@ देखें: ";
+"select_followers_title" = "स्ट्रीम साझा करें";
+"search_followers_placeholder" = "फॉलोअर खोजें";
+"stream_close_alert_title" = "स्ट्रीम समाप्त हो गई";
+"stream_close_alert_message" = "स्ट्रीम समाप्त हो गई। दृश्य को बंद करने के लिए और मुख्य स्क्रीन पर वापस आने के लिए Close बटन पर टैप करें";
+"w_share_notification" = "%1$@ चाहता है कि आप इसे देखें %2$@";
+"w_live_notification" = "%1$@ लाइव है!";
+"user_card_followers" = "फ़ॉलोअर्स";
+"user_card_following" = "फॉलो कर रहे हैं";
+"user_card_recent" = "हाल ही का";
+"user_card_follow" = "फॉलो करें";
+"user_card_unfollow" = "फॉलो करना बंद करें";
+"user_card_block" = "ब्लाक करें";
+"user_card_unblock" = "अनब्लॉक करें";
+
+"people_top" = "टॉप";
+"people_featured" = "प्रदर्शित";
+
+"profile_userpic_actionsheet_title" = "उपयोगकर्ता चित्र बदलें";
+"profile_userpic_camera" = "कैमरा";
+"profile_userpic_gallery" = "गैलरी";
+"profile_following" = "फॉलो कर रहे हैं";
+"profile_followers" = "फॉलोअर";
+"profile_blocked" = "ब्लाक कर दिया गया है";
+"profile_streams" = "स्ट्रीम";
+"profile_feedback" = "प्रतिक्रिया";
+
+"stream_rating_no_agree_leave_title" = "स्ट्रीम छोड़ दी";
+"stream_rating_no_agree_leave_message" = "आप स्ट्रीम की रेटिंग शर्तों से सहमत नहीं थे";
+"settings_tips" = "टिप सेटिंग्स";
+"set_tip_warning" = "टिप प्राथमिकता सेट करें";
+"set_tip_warning_message" = "किसी स्ट्रीम पर टिप देने के लिए, आपको अपनी टिप प्राथमिकताएं व्यवस्थित करनी होंगी। क्या आप इसे अभी या बाद में सेटअप करना चाहेंगे?";
+
+"register_name_missing_error" = "रजिस्टर करने के लिए पूर्णनाम की आवश्यकता है";
+"register_name_error" = "पूर्णनाम में कोई संख्यात्मक या विशेष वर्ण नहीं हो सकते";
+"register_error_short" = "कृपया अपनी गलती को ठीक करें";
+"register_error_email_warning" = "ईमेल गलत है। क्या आप एक मान्य ईमेल दर्ज करना चाहते हैं या जारी रखना चाहते हैं?";
+"register_error_email_missing" = "ईमेल मौजूद नहीं है। क्या आप इसे अभी या बाद में दर्ज करना चाहेंगे?";
+"register_email_missing" = "अप्राप्त ईमेल";
+"register_prefix_error" = "उपसर्ग मौजूद नहीं है";
+"register_phone_error" = "फोन नंबर मौजूद नहीं है";
+"register_phone_invalid" = "फोन नंबर अमान्य है";
+"register_phone_exist" = "फोन नंबर पहले से ही हमारे रिकॉर्ड पर मौजूद है";
+"register_country_error" = "देश अप्राप्त है";
+"register_password_error" = "पासवर्ड अप्राप्त है। न्यूनतम 6 अक्षर।";
+"register_confirm_error" = "पासवर्ड की पुष्टि नहीं हुई है";
+
+"confirmation_code_error" = "पुष्टिकरण कोड अमान्य है।";
+"tip_settings_success" = "टिप सेटिंग्स सेव कर दी गई हैं!";
+"stream_ban_alert" = "क्या आप वाकई इस उपयोगकर्ता को अपनी स्ट्रीम से प्रतिबंधित करना चाहते हैं?";
+"stream_close_error" = "स्ट्रीम बंद करने में समस्या ";
+"stream_follow_success" = "अब आप इस उपयोगकर्ता को फॉलो कर रहे हैं";
+"stream_unfollow_success" = "आपने इस उपयोगकर्ता को अनफॉलो कर दिया है";
+"report_success" = "रिपोर्ट प्राप्त हुई, हम इसे देखेंगे";
+"block_success" = "उपयोगकर्ता को सफलतापूर्वक ब्लाक किया गया";
+"unblock_success" = "उपयोगकर्ता को सफलतापूर्वक अनब्लॉक किया गया";
+
+"withdraw_account_pending_validation" = "आपके पास एक चेकिंग खाता है जिसका सत्यापन अभी बाकी है";
+"user_stats_no_following_error" = "आप किसी को फॉलो नहीं कर रहे";
+
+"user_stats_no_blocked_error" = "आपने किसी को भी ब्लॉक नहीं किया है";
+"default_tip_pref_error" = "इस समय डिफ़ॉल्ट टिप सेटिंग सेट नहीं कर सके";
+
+"stream_share_alert_message" = "क्या आप इस स्ट्रीम को अपने फॉलोअर्स के साथ साझा करना चाहते हैं?";
+"failed_to_load_category" = "श्रेणियां पुनर्प्राप्त नहीं की जा सकतीं, कृपया इसे फिर से प्रयास करें";
+
+"wallet_holds" = "रखता है";
+"wallet_current_balance" = "कुल नकद शेष";
+"wallet_options_tip_description" = "यह प्रत्येक भेजे गए 'टिप' लेनदेन के लिए आधार राशि है। यह आपके क्रेडिट कार्ड पर लगाई जाने वाली कुल राशि नहीं है।";
+"settings_account_username_placeholder" = "उपयोगकर्ता नाम सेट करें";
+"settings_account_salutation_mr" = "श्री";
+"settings_account_salutation_mrs" = "श्रीमती";
+"settings_account_salutation_miss" = "कुमारी";
+"settings_account_salutation_ms" = "सुश्री";
+
+// New
+"loading" = "Loading...";
+"my_crowdfunding_goals" = "My Crowdfunding Goals";
+"goal_status_enabled" = "enabled";
+"goal_status_funded" = "funded";
+"goal_status_approved" = "approved";
+"goal_status_pending" = "pending";
+"goal_status_completed" = "completed";
+"goal_status_disabled" = "disabled";
+"goal_status_rejected" = "rejected";
+"goal_create_button" = "Create A New Goal";
+"streaming_going_live" = "Going Live!";
+"streaming_going_live_comment" = "You're about to begin broadcasting live... let's get started";
+"streaming_title_placeholder" = "Enter Broadcast Title";
+"streaming_start_broadcast" = "Start Broadcasting";
+"clear" = "Clear";
+"data_saver_label" = "Data Saver";
+"data_saver_low" = "Low";
+"data_saver_medium" = "Medium";
+"data_saver_high" = "High";
+"private_broadcast_label" = "Private Broadcast";
+"create_stream_myfollowers" = "My Followers";
+"stat_viewer" = "VIEWER";
+"tipped_you" = "Tipped you";
+"on_air" = "ON AIR";
+"go_paid" = "Go Paid";
+"mini_tip_text" = "Minimum tip:";
+"total_text" = "Total";
+"uploadvideo_select_rating" = "A rating has to be selected for the video.";
+"select" = "Select";
+"tip_amount_title" = "Tip Amount";
+"report_stream_content" = "Inappropriate Content";
+"report_stream_crime" = "Crime in progress";
+"report_stream_troll" = "Troll";
+"report_stream_other" = "Other";
+"report_stream_delete" = "Delete stream";
+"report_stream_move" = "Move to 18";
+"report_stream_update_paid" = "Set Stream to Paid";
+"report_stream_delete_disable" = "Delete and disable stream/upload";
+"goal_raised_why" = "Why?";
+"goal_raised_for" = "What I’m raising funds for…";
+"goal_label" = "GOAL";
+"goal_raised_label" = "RAISED";
+"goal_donate_button_title" = "Fund";
+"tipped_the_streamer" = "Tipped the streamer";
+"my_messages" = "My Messages";
+"change_username" = "Change your username (You will only be able to change your username once every 6 months)";
+"change_email" = "Change your email";
+"name" = "Name";
+"change_name" = "Change your name";
+"change_phone_number" = "Change your Phone Number";
+"change_city" = "Change your City";
+"choose_picture" = "नीचे से विकल्प चुनें";
+"uploading_photo" = "Uploading Photo";
+"create_goal_text" = "Create Goal";
+"add_description" = "Add description...";
+"goal_title_description" = "Goal Title & Description";
+"goal_amount_text" = "Goal Amount";
+"goal_amount_description" = "The goal amount can range from $50 to $10,000.";
+"target_date_text" = "Target Date";
+"target_date_description" = "Please select the target date to reach your crowdfunding goal. Please note that your goal will expire on this date.";
+
+"Make Featured" = "Make Featured";
+"Do you wish to make this video featured?" = "Do you wish to make this video featured?";
+"Unfeature" = "Unfeature";
+"Do you wish to make this video unfeatured?" = "Do you wish to make this video unfeatured?";
+"Featured video" = "Featured video";
+
+// New Offer Box
+"SelectOfferType" = "Select Offer Type";
+"DigitalContentOffer" = "Digital Content Offer";
+"Cancel" = "Cancel";
+"SelectCategory" = "Select Category";
+"SaveAndProceed" = "Save & Proceed";
+
+// Impressions
+"confirm_impression_purchase_alert_title" = "Confirm Purchase";
+"confirm_impression_purchase_alert_message" = "You are about to purchase %d impressions.";
+"confirm_subscribe_impression_purchase_alert_message" = "You are about to purchase subscription of %d impressions.";
+"impression_purchase_success_message" = "Your purchase was successful.";
+
+// Ad Share Network
+"AdShareNetworkScreenTitle" = "Get Sponsored!";
+"AdShareNetworkBalanceTitle" = "Advertising Balances";
+"AdShareNetworkCoinsBalanceTitle" = "COINS EARNED*";
+"AdShareNetworkBalanceDescription" = "*earned by promoting ads";
+"AdShareNetworkImpressionsBalanceTitle" = "IMPRESSIONS BALANCE*";
+"AdShareNetworkImpressionsBalanceDescription" = "*remaining ads balance";
+"AdShareNetworkGetDiscoveredTitle" = "GET DISCOVERED!";
+"AdShareNetworkGetDiscoveredDescription" = "Use your impressions balance to expand your reach and promote your broadcasts or your business.";
+"AdShareNetworkPurchaseImpressionsButtonTitle" = "BUY IMPRESSIONS";
+"AdShareNetworkPurchaseCoinsButtonTitle" = "BUY COINS";
+"Get Popular!" = "Get Popular!";
+"AdShareNetworkCreateOfferCellLabel" = "Create an Offer";
+"ON" = "ON";
+"OFF" = "OFF";
+"Set your videos to display at the top of the list. Get popular!" = "Set your videos to display at the top of the list. Get popular!";
+"Manage Impressions";
+"sales" = "Sales";
+"impressions" = "Impressions";
+"coins" = "Coins";
+
+//Video Upload Tip Enforcement
+"tip_enforce_video_title" = "Paid Video Upload";
+"tip_enforce_video_description" = "Your upload will be a \”Paid Video Upload\”. See Help for details. The first 60 seconds of your Paid Video Upload will be a free preview. Please ensure that you follow the terms of service and community guidelines with your upload. Please do not make false claims or promises to viewers. Failure to follow rules may result in your payment being withheld.\n\nSee terms of service for further details.";
+"tip_enforce_no_crowdfund" = "Cannot attach a Crowdfund campaign to a Paid Video";
+
+"upload_18_rating_crowdfund_error" = "Cannot attach a Crowdfund campaign to a video with 18+ rating";
+
+"retake" = "Retake";
+
+// IAP new
+"you_are_not_authorized" = "You are not authorized to purchase coins at this time. Please contact support@peeks.com for more information.";
+"deposit_coin_time_out" = "There was an error connecting with the server. Please try closing and reopening your Peeks Social App!";
+"Not enough space" = "Not enough space";
+"There is not enough space in the phone." = "There is not enough space in the phone.";
+"stream_share_message" = "Check out this awesome Peeks Social stream: ";
+
+// Report Stream New
+"report_stream_replace_thumbnail" = "Replace thumbnail";
+
+//miiTV new strings
+"sign_in_title" = "दाखिल करना";
+"sign_in_subtitle" = "अपने अकाउंट में साइन इन करें";
+"sign_in_no_account" = "खाता नहीं है?";
+"reset_password_title" = "पासवर्ड की दोबारा प्राप्ति";
+"reset_password_description" = "कृपया नीचे अपनी जानकारी दर्ज करें और आपको निर्देशों के साथ पुनर्प्राप्ति लिंक प्राप्त होगा।";
+"reset_password_header" = "खाते और सुरक्षा";
+"reset_password_next" = "वसूली शुरू";
+"registration_account_info_title" = "साइन अप करें";
+"registration_account_info_description" = "बनाएं\nअपना खाता";
+"registration_email_placeholder" = "मेल पता";
+"registration_username_placeholder" = "उपयोगकर्ता नाम दर्ज करें";
+"registration_agreement" = "साइन अप करके आप इंगित करते हैं कि आपने सेवा की शर्तों को पढ़ लिया है और उनसे सहमत हैं";
+"registration_already_have_an_account" = "क्या आपके पास पहले से एक खाता मौजूद है?";
+"registration_enter_email_placeholder" = "ईमेल दर्ज करें";
+"profile_create_my_account" = "मेरा खाता बनाओ";
+"recovery_method_title" = "पुनर्प्राप्ति\nविधि";
+"recovery_method_subtitle" = "नीचे दिए गए विकल्पों में से एक का चयन करें।";
+"recovery_method_button" = "रिकवरी कोड भेजें";
+"send_code_success_header" = "आपका पुनर्प्राप्ति कोड\nभेज दिया गया है!";
+"send_code_success_btn" = "कोड दर्ज करें";
+"enter_code_title" = "खाता\nपुष्टि";
+"enter_code_subtitle" = "कृपया नीचे अपने ईमेल में प्राप्त कोड दर्ज करें।";
+"enter_code_placeholder" = "कोड दर्ज करें";
+"enter_code_submit" = "प्रस्तुत करना";
+"enter_code_resend" = "पुन: कोड भेजे";
+"new_password_title" = "लगभग\nहो गया";
+"new_password_subtitle" = "कृपया अपना पासवर्ड नीचे दर्ज करें";
+"new_password_placeholder" = "कुंजिका";
+"confirm_password_placeholder" = "पासवर्ड की पुष्टि कीजिये";
+"new_password_submit" = "प्रस्तुत करना";
+"reset_password_success_header" = "सफलता!";
+"reset_password_success_subtitle" = "आपका पासवर्ड बदला जा चुका है।";
+"reset_password_success_done" = "किया हुआ";
+"registration_success_header" = "विस्मयकारी!";
+"registration_success_subtitle" = "आपका खाता बना दिया गया है।";
+
+//offerbox
+"Offers" = "ऑफर";
+"SavedOffers" = "सेव किये गए ऑफ़र";
+"MyAds" = "मेरे विज्ञापन";
+"OfferDescription" = "ऑफ़र विवरण";
+"ClickHereToRedeem" = "रिडीम करने के लिए यहां क्लिक करें";
+"PleaseReviewYourURLOffer" = "आपके URL ऑफर की समीक्षा कर रहे हैं। कृपया पूरा करने के लिए अपना विज्ञापन या फोटो अपलोड करें।";
+"Delete" = "डिलीट करें";
+"Save" = "सेव करें";
+"ImageMissingError" = "कृपया ऑफर के लिए एक छवि प्रदान करें";
+"ImageMissing" = "छवि मौजूद नहीं है";
+"Ok" = "ठीक है";
+"DeleteOffer" = "ऑफ़र हटाएं";
+"AreYouSureYouWantToDeleteThisOffer?" = "क्या आप वाकई इस ऑफ़र को हटाना चाहते हैं?";
+"No" = "नहीं";
+"Yes" = "हाँ";
+"Error" = "त्रुटि";
+"OfferDeleted" = "ऑफ़र हटाए गए";
+"TheOfferHasBeenDeleted" = "प्रस्ताव हटा दिया गया है";
+"TheOfferHasBeenCreated" = "प्रस्ताव बनाया गया है";
+"ThankYou!" = "धन्यवाद!";
+"ThereWasAProblemDeletingTheOffer" = "ऑफ़र हटाना एक समस्या थी";
+"ThereWasAProblemCreatingTheOffer" = "ऑफ़र बनाने में एक समस्या थी";
+"CreateOffer" = "एक ऑफ़र बनाएं";
+"OfferTitle" = "ऑफर शीर्षक";
+"CreateURLHeader" = "अपना URL ऑफ़र सेट अप करने के लिए कृपया नीचे दी गई जानकारी भरें।";
+"Description" = "विवरण";
+"URLOffer" = "URL ऑफ़र";
+"InvalidInformation" = "अमान्य जानकारी";
+"ReviewFields" = "निम्नलिखित क्षेत्रों की समीक्षा की जानी चाहिए:\n";
+"SelectOfferImage" = "Please select main offer image.";
+"SelectThumbnailImage" = "Please select offer thumbnail image.";
+
+// New Offer Box
+"SelectOfferType" = "ऑफ़र का प्रकार चुनें";
+"DigitalContentOffer" = "डिजिटल कंटेंट ऑफ़र";
+"Cancel" = "रद्द करें";
+"SelectCategory" = "श्रेणी का चयन करें";
+"SaveAndProceed" = "सेव करें और आगे बढ़ें";
+"NoCategorySelected." = "कोई श्रेणी चयनित नहीं।";
+"LearnMoreAboutThisOffer" = "VIEW THIS OFFER NOW";
+
+//MiiTv Offer Box
+"YourOffers" = "आपका प्रस्ताव";
+"AdsReceived" = "विज्ञापन प्राप्त";
+"AdsCreated" = "विज्ञापन बनाए गए";
+"AdsReceivedNote" = "प्राप्त विज्ञापन स्वचालित रूप से आपके 'ऑफ़र बॉक्स' में संग्रहीत हो जाते हैं जिन्हें आप किसी भी समय देख या हटा सकते हैं।";
+"NoAdsTitle" = "आपके पास वर्तमान में कोई विज्ञापन नहीं है।";
+"NoAdsSubtitle" = "क्या आप एक विज्ञापन बनाना चाहेंगे?";
+"CreateAnOffer" = "एक प्रस्ताव बनाएं";
+"MainOfferHeadline" = "मुख्य प्रस्ताव शीर्षक";
+"HeadlinePlaceholder" = "ऑफ़र का शीर्षक यहां टाइप करें...";
+"OfferDescription" = "प्रस्ताव विवरण";
+"DescriptionPlaceholder" = "यहां ऑफ़र विवरण दर्ज करें...";
+"WebsiteURL" = "वेबसाइट यूआरएल";
+"URLPlaceholder" = "अधिक जानकारी के लिए ऑफ़र URL दर्ज करें...";
+"SelectImage" = "छवि चुने";
+"OfferPreview" = "प्रस्ताव पूर्वावलोकन";
+"VisitWebsite" = "बेवसाइट देखना";
+"Complete" = "पूर्ण";
+"PreviewMyOffer" = "मेरे प्रस्ताव का पूर्वावलोकन करें";
+"PublishOffer" = "प्रस्ताव प्रकाशित करें";
+"Preview My Offer" = "मेरे प्रस्ताव का पूर्वावलोकन करें";
+"MainOffer" = "मुख्य प्रस्ताव";
+"OfferThumbnail" = "प्रस्ताव थंबनेल";
+
+//MiiTv Side Menu
+"ManageAccount" = "खाते का प्रबंधन करें";
+"EditBioAvatar" = "मेरा जैव और अवतार संपादित करें" ;
+"PrivacySettings" = "गोपनीय सेटिंग";
+"LoginSecurity" = "लॉगिन और सुरक्षा";
+"MyWallet" = "मेरा बटुआ";
+"ContentAccess" = "सामग्री पहुंच और अधिक";
+"CreatePost" = "एक पोस्ट बनाएं";
+"createKeekBackPost" = "मेरा वीडियो टिप्पणी पोस्ट करें";
+"ImpBalance" = "विज्ञापन क्रेडिट";
+"OfferBox" = "ऑफर बॉक्स";
+"Subscription" = "सदस्यता";
+"MyFollowers" = "मेरे अनुयायि";
+"Support" = "सहायता";
+"ContactCustSupport" = "ग्राहक समर्थन से संपर्क";
+"ViewFAQ" = "अक्सर पूछे जाने वाले प्रश्न देखें";
+"SignOut" = "खाते से प्रस्थान करें";
+"DeletePostActionSheetTitle" = "क्या आप पोस्ट को हटाना चाहते हैं?";
+"video_share_message" = "इस शानदार Keek वीडियो की जाँच करें: ";
+"ManageGroups" = "मेरे समूह";
+"NotificationSettings" = "सूचना सेटिंग्स";
+
+//MiiTv Groups
+"group_name" = "समूह का नाम";
+"my_group_name" = "मेरा समूह का नाम";
+"add_members" = "सदस्य जोड़ें";
+"members" = "सदस्य";
+"finish_n_save" = "समाप्त और सहेजें";
+"myGroups" = "मेरे समूह";
+"newLineMyGroups" = "मेरे\nसमूह";
+"createUnlimitedGroup" = "असीमित समूह बनाएँ";
+"groupSubtitle2" = "Keek समूह के साथ आप जितने चाहें समूह बना सकते हैं।";
+"groupSubtitle3" = "उन समूहों में विशेष रूप से पोस्ट करें।";
+"createGroup" = "समूह बनाएं";
+"pleaseEnterGroupName" = "कृपया समूह का नाम दर्ज करें";
+"addGroupMembers" = "कृपया समूह में सदस्य जोड़ें";
+"alert" = "चेतावनी!";
+"creatingGroup" = "समूह बनाया जा रहा है...";
+"updatingGroup" = "समूह अपडेट किया जा रहा है...";
+"groupIsBeingDeleted" = "आपका समूह हटाया जा रहा है...";
+"editGroup" = "समूह संपादित करें";
+"groupList" = "समूह सूची";
+"memberList" = "सदस्य सूची";
+
+
+//Ad Credits
+"adCredits" = "विज्ञापन क्रेडिट";
+"fireCreator" = "फायर क्रिएटर";
+"creatorPro" = "क्रिएटर प्रो";
+"basic" = "मूल";
+"fireCreatorPackage" = "Keek फायर क्रिएटर पैकेज";
+"creatorProPackage" = "Keek क्रिएटर प्रो पैकेज";
+"basicPackage" = "Keek मूल पैकेज";
+"disclaimerText" = "* एक इम्प्रेशन एक माप है जो एक डिजिटल कंटेंट, आमतौर पर एक विज्ञापन, डिजिटल पोस्ट या एक वेब पृष्ठ के दिखाए जाने या भाग लेने की संख्या को मापने के लिए उपयोग किया जाता है।";
+"disclaimerPaymanetText" = "खरीद की पुष्टि पर भुगतान iTunes खाते में किया जाएगा। सदस्यता को मासिक आधार पर स्वतः नवीनीकृत किया जाएगा, जब तक कि मौजूदा अवधि के 24 घंटे पहले स्वतः नवीनीकरण बंद नहीं किया जाता है। खाते को वर्तमान अवधि से 24 घंटे पहले नवीनीकरण के लिए चार्ज किया जाएगा, और नवीनीकरण की लागत की पहचान की जाएगी। सदस्यताएँ उपयोगकर्ता द्वारा प्रबंधित की जा सकती हैं और खरीद के बाद उपयोगकर्ता के खाता सेटिंग में जाकर स्वचालित नवीनीकरण को बंद किया जा सकता है। सक्रिय सदस्यता अवधि के दौरान वर्तमान सदस्यता का रद्द करने की कोई अनुमति नहीं है।";
+"%discount" = "मासिक भुगतान करते समय %@ तक बचाएँ।";
+"40%discount" = "मासिक भुगतान करते समय 40% तक बचाएँ।";
+"25%discount" = "मासिक भुगतान करते समय 25% तक बचाएँ।";
+"10%discount" = "मासिक भुगतान करते समय 10% तक बचाएँ।";
+"subscribefor$" = "$ के लिए सदस्यता लें";
+"payAsYouGo" = "$ के लिए भुगतान करें";
+"purchased" = "खरीद लिया है";
+"alreadySubscribed" = "आप पहले से ही इस पैकेज की सदस्यता ले चुके हैं";
+"subscribed" = "सदस्यता ले ली";
+"subscribeFor" = "इसके लिए सदस्यता लें";
+"payAsYouGo" = "इसके लिए $ भुगतान करें";
+"error" = "त्रुटि";
+"impressionNotAvailable" = "इस समय खरीदे गए इम्प्रेशन उपलब्ध नहीं हैं।";
+"transactionProcessingText" = "आपका लेन-देन प्रसंस्करण हो रहा है... \n कृपया वापस बटन नहीं दबाएँ और इस विंडो को बंद नहीं करें।";
+"oops" = "उफ़!";
+"lowCoinsMsg" = "आपके पास इस पैकेज को खरीदने के लिए पर्याप्त सिक्के नहीं हैं। क्या आप सिक्के खरीदना चाहेंगे?";
+"buyCoins" = "सिक्के खरीदें";
+
+//Refer to Earn
+"referYour" = "अपने दोस्तों को रेफर करें";
+"friends" = "दोस्त";
+"earnFreeImpressions" = "मुफ्त इम्प्रेशन कमाने के लिए";
+"useReferralCode" = "अपना रेफरल कोड अपने सोशल मीडिया पोस्ट के लिए उपयोग करें। जब आपके रेफरल लोग Keek में साइन अप करते हैं तो आप प्रत्येक साइन अप के लिए 1000 इम्प्रेशन प्राप्त करेंगे।";
+"successfulReferral" = "सफल रेफरल";
+"impressionEarned" = "कमाई गई इम्प्रेशन";
+"personaReferralLink" = "आपका व्यक्तिगत Keek रेफरल लिंक";
+"shareLinkReferral" = "रेफरल के लिए अपने सोशल मीडिया पर पोस्ट करने के लिए इस लिंक को शेयर करें।";
+
+//Miitv Search
+"searchKeek" = "Keek खोजें";
+"searchUsers" = "उपयोगकर्ता";
+"posts" = "पोस्ट";
+"searchResults" = "खोज परिणाम";
+"searchUserOrTitle" = "उपयोगकर्ता या शीर्षक खोजें";
+
+//Miitv Notification Settings
+"notificationSettings" = "अधिसूचना सेटिंग्स";
+"newPosts" = "नए पोस्ट";
+"newPostsText" = "आपके फॉलोवर्स की नई पोस्ट";
+"newPrivatePosts" = "नई निजी पोस्ट";
+"newPrivatePostsText" = "यूजर्स से नई निजी पोस्ट";
+"newFollower" = "नए फॉलोवर";
+"newFollowerText" = "जब आपके पोस्ट को कोई नया फॉलो करें";
+"newLike" = "नया लाइक";
+"newLikeText" = "जब कोई आपके पोस्ट पर लाइक करें";
+"newComment" = "नया टिप्पणी";
+"newCommentText" = "जब कोई आपके पोस्ट पर टिप्पणी करें";
+"messaging" = "मैसेजिंग";
+"messagingText" = "जब आपको एक नया संदेश मिलता है";
+"followRequest" = "न्यू फॉलो रिक्वेस्ट";
+"followRequestText" = "जब आप एक नया अनुसरण अनुरोध प्राप्त करते हैं";
+
+//Edit Bio & Avatar
+"EditBioAvatar" = "बायो और अवतार संपादित करें";
+"updateProfile" = "अपडेट करें";
+//"salutation" = "अभिवादन";
+//"enterSalutation" = "अभिवादन दर्ज करें...";
+"username" = "उपयोगकर्ता नाम";
+"enterUsername" = "उपयोगकर्ता नाम दर्ज करें...";
+"name" = "नाम";
+"enterName" = "नाम दर्ज करें...";
+"city" = "शहर";
+"enterCity" = "शहर दर्ज करें...";
+"email" = "ईमेल";
+"enterEmail" = "ईमेल दर्ज करें...";
+"description" = "विवरण";
+"enterDescription" = "विवरण दर्ज करें...";
+"phone" = "फ़ोन";
+"enterPhone" = "फ़ोन नंबर दर्ज करें...";
+"YOB" = "जन्म वर्ष";
+"enterYOB" = "जन्म वर्ष दर्ज करें...";
+"Profileupdatedsuccessfully" = "प्रोफ़ाइल सफलतापूर्वक अपडेट हो गई है";
+//Privacy Settings
+"privacySettings" = "गोपनीयता सेटिंग";
+"privateAccount" = "गोपनीय अकाउंट";
+
+//Upload Video
+"selectWhoCanView" = "पोस्ट कौन देख सकता है वह चुनें...";
+"selectWhoCanViewStream" = "चुनें कि स्ट्रीम कौन देख सकता है";
+"selectWhoCanViewStory" =  "कहानी को कौन देख सकता है का चयन करें...";
+"selectStoryDuration" = "कहानी की अवधि चुनें...";
+"uploadVideo" = "वीडियो अपलोड करें";
+"uploadStory" = "अपनी कहानी\nपोस्ट करें";
+"enterTitle" = "शीर्षक दर्ज करें";
+"VideoDescription" = "वीडियो विवरण";
+"EnterDescription" = "विवरण दर्ज करें";
+"enterTitlePlaceholder" = "यहाँ अपना शीर्षक लिखें...";
+"enterDescription" = "विवरण दर्ज करें";
+"enterDescriptionPlaceholder" = "यहाँ अपना विवरण लिखें...";
+"whoCanView" = "कौन इस सामग्री को देख सकता है?";
+"selectTagMsg" = "टैग करने के लिए उपयोगकर्ता चुनें...";
+"makeItFire" = "इसे फायर बनाएं!";
+"howItWorks" = "यह कैसे काम करता है";
+"impressionRemaining" = "इम्प्रेशन शेष";
+"presentOffer" = "पेश करें ऑफर?";
+"selectOffer" = "ऑफर का चयन करें";
+"createPost" = "पोस्ट बनाएं";
+"postStory" =  "कहानी पोस्ट करें";
+"noVideoSelected" = "पोस्ट करने के लिए कोई वीडियो नहीं चयनित हुआ है!";
+"enterTitleAlert" =   "कृपया वीडियो का शीर्षक दर्ज करें!";
+"selectViewerAlert" = "कृपया पोस्ट के लिए दर्शक चुनें!";
+"selectViewerAlert_Stream" = "कृपया स्ट्रीम के लिए दर्शकों का चयन करें!";
+"selectViewerAlertStory" =  "कृपया कहानी के लिए दर्शक चयन करें!";
+"selectStoryDurationAlert" = "कृपया कहानी की अवधि चुनें!";
+"Public" = "सार्वजनिक";
+"Followers" = "फॉलोअर्स";
+"createPostError" = "पोस्ट बनाने में एक त्रुटि हुई थी।";
+"low" = "कम";
+"EditYourPost" = "अपनी पोस्ट को\nसंपादित करें";
+"EditYourStory" = "अपनी कहानी को\nसंपादित करें";
+"EditYourStream" = "संपादित\nआपकी स्ट्रीम";
+
+//Low Impressions
+"lowImpressionTitle1" = "कम विज्ञापन क्रेडिट";
+"lowImpressionTitle2" = "लगता है कि आपके पास वर्तमान में आपके इम्प्रेशन बैलेंस में कमी है।";
+"lowImpressionTitle3" = "अपने खाते में अधिक क्रेडिट जोड़ें।";
+"buyAdCredits" = "विज्ञापन क्रेडिट खरीदें";
+"getFreeCredits" = "मुफ्त विज्ञापन क्रेडिट प्राप्त करें";
+"Close" = "बंद करें";
+
+//How It Works
+"howItWorks1" = "अपने पोस्ट को";
+"howItWorks2" = "लोकप्रिय बनाएँ";
+"howItWorks3" = "और अधिक दृश्य पाने के लिए? अधिक फॉलोअर्स पाने के लिए?";
+"howItWorks4" = "आपको अपनी सामग्री को सूची के शीर्ष पर होना चाहिए।";
+"howItWorks5" = "हमारी एल्गोरिथ्म आपकी सामग्री को अधिक उपयोगकर्ताओं के सामने रखेगा और अनोखे ढंग से आपके कंटेंट से अधिक रुचि रखने वाले उपयोगकर्ताओं के लिए निर्देशित होगा।";
+"More Likes" = "अधिक लाइक्स";
+"More Views" = "अधिक दृश्य";
+"More Followers" = "अधिक फॉलोअर्स";
+"Buy Ad Impressions" = "विज्ञापन इम्प्रेशन खरीदें";
+"Earn Free Impressions" = "मुफ्त इम्प्रेशन कमाएं";
+"or" = "या";
+
+//Comments Sheet
+"loadingComments" = "टिप्पणियां लोड हो रही हैं...";
+"1comment" = "1 टिप्पणी";
+"nocomments" = "कोई टिप्पणी नहीं";
+
+//Report Sheet
+"selectComplaint" = "अपनी शिकायत का चयन करें:";
+"inappropriate" = "अनुचित";
+"crime" = "अपराध";
+"troll" = "ट्रोल";
+"other" = "अन्य";
+"moreDetailsText" = "कृपया अधिक विवरण जोड़ें:";
+
+//Post More Menu Sheet
+"sharePost" = "इस पोस्ट को शेयर करें";
+"shareStory" =  "इस कहानी को साझा करें";
+"audienceSettings" = "दर्शक सेटिंग";
+"EditPost" = "पोस्ट संपादित करें";
+"UpdatePost" = "पोस्ट अपडेट करें";
+"UpdateStream" = "स्ट्रीम को अपडेट करें";
+"EditStory" = "कहानी संपादित करें";
+"UpdateStory" = "कहानी को अपडेट करें";
+"deletePost" = "पोस्ट हटाएं";
+"deleteStream" =  "स्ट्रीम हटाएं";
+"deleteStory" =  "कहानी को हटाएं";
+"reportPost" = "रिपोर्ट करें";
+"deleteConfirmationText" = "क्या आप इस पोस्ट को हटाना चाहते हैं?";
+"deleteConfirmationTitle" = "हटाने की पुष्टि";
+"deleteConfirmationTextStory" =  "क्या आप इस कहानी को हटाना चाहते हैं?";
+"deleteConfirmationTextStream" = "क्या आप इस स्ट्रीम को हटाना चाहते हैं?";
+"yesDeleteStory" = "हां, इस कहानी को हटाएं";
+"yesDelete" = "हाँ, इस पोस्ट को हटाएं";
+"yesDeleteStream" = "हां, इस स्ट्रीम को हटाएं";
+"closeStreamWarrning" = "इस विंडो को बंद करने से स्ट्रीम समाप्त हो जाएगी। क्या आप आगे बढ़ना चाहते हैं?";
+
+//Audience Setting Sheet
+"audienceSettingsTitle" = "इस पोस्ट के लिए अपनी दर्शक सेटिंग देखें या संशोधित करें।";
+"audienceSettingsQuestion" = "कौन इस सामग्री को देख सकता है?";
+"enableComments" = "टिप्पणियाँ सक्षम करें";
+
+//Group Menu Sheet
+"editGroup" = "इस समूह को संपादित करें";
+"deleteGroup" = "समूह हटाएँ";
+
+//Choose Audience Sheet
+"chooseAudienceTitle" = "अपने दर्शकों को चुनें";
+"chooseAudienceSubtitle" = "कृपया चयन करें कि इस सामग्री को कौन देख सकता है।";
+"viewAllGroups" = "सभी समूह देखें";
+"createAGroup" = "एक समूह बनाएं";
+
+//Add to favorite sheet
+"addToFavorite" = "पसंदीदा में जोड़ें";
+"Add" = "जोड़ें";
+"addInstruction" = "अपने पसंदीदा से जोड़ें ताकि आप अपनी फ़ीड के शीर्ष पर उनकी सामग्री देख सकें और अपने पसंदीदा से कुछ न छूटे।";
+
+//Remove from favorite sheet
+"removeFromFavorite" = "पसंदीदा से हटाएँ";
+"removeInstruction1" = "क्या आप";
+"removeInstruction2" = " को अपनी पसंदीदा सूची से हटाना चाहते हैं?\n\nकृपया नीचे पुष्टि करें।";
+
+//Profile Menu Sheet
+"Remove" = "हटाएँ";
+
+//Remove User Sheet
+"removeUserTitle" = "हटा दिया गया है";
+"removeUserDescription" = "इस उपयोगकर्ता द्वारा अब आपकी पोस्ट को उनकी फ़ीड में नहीं देखा जाएगा।";
+
+//Block User Sheet
+"blockUserTitle" = "अब ब्लॉक है";
+"blockUserDescription" = "आपकी ब्लॉक किए गए उपयोगकर्ताओं की सूची देखने या इस उपयोगकर्ता को अनब्लॉक करने के लिए नीचे टैप करें।";
+
+//Viewers List Sheet
+"latestViewers" = "नवीनतम दर्शक";
+"latestViewersTitle" = "यह इस पोस्ट के नवीनतम 100 दर्शकों की सूची है।";
+"latestViewersTitleStory" = "यह इस कहानी के नवीनतम 100 दर्शकों की सूची है।";
+
+// Tagged Users sheet
+"tagged" = "टैग किया गया";
+"usersTaggedInPost" = "इन उपयोगकर्ताओं को इस पोस्ट में टैग किया गया था।";
+
+//Notification Menu Sheet
+"deleteAll" = "सभी हटाएं";
+
+//Delete Animation Controller
+"deleteAnimationTitle" = "आपकी पोस्ट हटाई जा रही है...";
+"deleteAnimationTitleStream" = "आपकी स्ट्रीम हटा रही है...";
+
+//Keek Video Post Type selection
+"TagSomeone" = "किसी को टैग करें";
+"Story" = "कहानी";
+"Post" =  "पोस्ट";
+"VoucherRedeemedSuccess"=  "आपका वाउचर सफलतापूर्वक रिडीम हो गया है।";
+"keekPostType" = "अपने पोस्ट का प्रकार चुनें";
+"storyDuration" = "कहानी की अवधि";
+"KeekSelectionSuggestion" = "नीचे अपना पोस्ट प्रकार चुनें. कहानियाँ, कीक पोस्ट और अपने सभी कीकर्स के लिए लाइव हो जाएँ!";
+"selectCoverPhoto" = "कवर फ़ोटो जोड़ें";
+"DurationSelectionSuggestion" = "नीचे अपनी कहानी की अवधि चुनें, आपकी कहानी चुने गए समय पर गायब हो जाएगी।";
+"KeekStory" = "कीक स्टोरी";
+"OneDay" = "1 दिन";
+"FiveDays" = "5 दिन";
+"ThreeDays" = "3 दिन";
+"1-3-5Days" = "1-3-5 दिन";
+"StandardKeek" = "स्टैंडर्ड कीक";
+"Nolimit" = "कोई सीमा नहीं";
+
+//Notification Center
+"Notifications" = "सूचनाएं";
+"Latest" = "नवीनतम";
+"followRequests" = "फ़ॉलो अनुरोध";
+"requestTitle" = "निम्नलिखित उपयोगकर्ता आपके खाते का फॉलोअर बनने के लिए अनुरोध कर रहे हैं।";
+"declineAll" = "सभी अस्वीकार करें";
+"acceptAll" = "सभी अनुरोध स्वीकार करें";
+"requestDeclined" = "अनुरोध अस्वीकार किया गया।";
+"isFollowingYou" = "अब आपका फॉलोअर है।";
+"yourPost" = "आपका पोस्ट ";
+"yourStory" = " आपकी कहानी";
+"TaggedYouInPost" = "आपको एक पोस्ट में टैग किया गया";
+"TaggedYouInStory" = "आपको एक कहानी में टैग किया गया";
+"hasBeenUploaded" = "अपलोड किया गया है।";
+"liked" = "पसंद किया";
+"yourpost" = " आपका पोस्ट";
+"ago" = "पहले";
+"started" = "शुरू किया";
+"followingYou" = " आपका फॉलोअर है";
+"commented" = "टिप्पणी की";
+"onYourPost" = "आपके पोस्ट पर";
+"onYourStory" =   " आपकी कहानी पर";
+"replied" = "जवाब दिया";
+"toYourComment" = "आपकी टिप्पणी पर पोस्ट ";
+"toYourCommentStory" = " कहानी पर आपके टिप्पणी को ";
+"user" = "उपयोगकर्ता";
+"users" = "उपयोगकर्ताओं";
+"Likes" = "पसंद";
+"noLikes" = "कोई पसंद नहीं";
+"likesTitle" = "यह इस पोस्ट पर नवीनतम 100 पसंदों की सूची है।";
+"latestViewers" = "नवीनतम दर्शक";
+"noViews" = "कोई दृश्य नहीं";
+"viewsTitle" = "यह इस पोस्ट पर नवीनतम 100 दर्शकों की सूची है।";
+"likesTitleStory" = "यह इस कहानी पर नवीनतम 100 लाइक की सूची है।";
+"viewsTitleStory" =  "यह इस कहानी के नवीनतम 100 दर्शकों की सूची है।";
+
+//misc
+"CouldNotFound" = "ऊप्स! हम उस उपयोगकर्ता को नहीं ढूंढ पा रहे हैं जिसे आप खोज रहे हैं।";
+"NoRecordsFound" = "कोई रिकॉर्ड नहीं मिला";
+"NoNewNotification" = "आपके पास कोई नई सूचनाएं नहीं हैं";
+"viewedNotifications" = "देखी गई सूचनाएं";
+"adCredits" = "विज्ञापन क्रेडिट";
+"getAdCredits" = "विज्ञापन क्रेडिट प्राप्त करें";
+"Message" = "संदेश";
+"loadingFollowing" = "फॉलोविंग लोड हो रही है...";
+"loadingFollowers" = "फॉलोवर्स लोड हो रहे हैं...";
+"loading" = "लोड हो रहा है...";
+"noUserFound" = "कोई उपयोगकर्ता नहीं मिला";
+"searchFollower" = "फॉलोवर्स खोजें";
+"searchFollowing" = "फॉलोविंग खोजें";
+"searchBlocked" = "खोज अवरुद्ध";
+"folowingLoader" = "फॉलोविंग...";
+"cancelRequestLoader" = "अनुरोध रद्द किया जा रहा है...";
+"blockingLoader" = "अवरोधित किया जा रहा है...";
+"unblockingLoader" = "अवरोध हटाया जा रहा है...";
+"blockedLoader" = "अवरुद्ध लोड हो रहा है...";
+"ChooseAction" = "कृपया कार्य चुनें";
+"CancelRequest" = "अनुरोध रद्द करें";
+"Follower" = "फॉलोवर";
+"editBio" = "बायो संपादित करें";
+"videoUploadRetryMsg" = "ऐसा लगता है कि आपका वीडियो अपलोड पूरा नहीं हुआ। क्या आप इसे एक और कोशिश देना चाहेंगे?";
+"cancelVideoUploadConfirmation" = "कृपया ध्यान दें कि अगर आप वीडियो अपलोड रद्द करते हैं, तो वीडियो खो जाएगा। आप आप रद्द करना चाहते हैं?";
+"BackFromVideoUpload_Confirmation" =  "कृपया ध्यान दें कि यदि आप इस स्क्रीन को बंद करते हैं, तो वीडियो खो जाएगा। क्या आप वाकई बंद करना चाहते हैं?";
+"uploadingInProcessALert" = "आपका पिछला वीडियो अपलोड अभी पूरा नहीं हुआ है। दूसरा अपलोड करने का प्रयास करने से पहले कृपया थोड़ी देर प्रतीक्षा करें।";
+
+/// Banuba
+/*
+1) Copy and paste this file in the host application
+2) Remove unused
+3) Override values
+*/
+
+// MARK: - Camera Screen
+
+/* Music selection screen title */
+"Music" = "संगीत";
+
+/* Audio track delete action */
+"Delete" = "हटाएं";
+
+/* Title on the screen of the voice recorder */
+"Voice" = "आवाज";
+
+/* Used when the question is answered yes */
+"Yes" = "हाँ";
+
+/* Used when answering a negative question */
+"No" = "नहीं";
+
+/* Title of the message if an error occurs */
+"Error" = "त्रुटि";
+
+/* Move to next screen */
+"Next" = "आगे";
+
+/* Return to the previous screen */
+"Back" = "पीछे";
+
+/* Ability to cancel */
+"Cancel" = "रद्द करें";
+
+/* Ability to close */
+"Close" = "बंद करें";
+
+/* Ability to close */
+"CLOSE" = "बंद करें";
+
+"alert.reset.all.title" = "सभी रीसेट करें?";
+"alert.reset.all.message" = "";
+
+/* Alert action button title */
+"BanubaVideoEditor.Settings.Later" = "बाद में";
+
+/* Alert action button title */
+"BanubaVideoEditor.Settings.Discard" = "हटाएं";
+
+/* Used in alert with Yes and No options when resetting filters. */
+"alert.stop.capturing.video.title" = "क्या आप वीडियो रिकॉर्डिंग और संपादन रोकना चाहते हैं?";
+"alert.stop.capturing.video.message" = "";
+
+/* Used in alert with Yes and No options when resetting filters. */
+"record.screen.reset.all.title" = "बदलाव रीसेट करना चाहते हैं?";
+"editor.screen.reset.all.title" = "सभी रीसेट करें?";
+"record.screen.reset.all.message" = "";
+"editor.screen.reset.all.message" = "";
+
+/* Used in alert with Yes and No options */
+"alert.delete.last.clip.title" = "क्या आप अंतिम वीडियो हटाना चाहते हैं?";
+"alert.delete.last.clip.message" = "";
+
+/* Used for alert message to continure editing video*/
+"alert.camera.continue.editing.video.question.title" = "आपके पास एक अधूरा वीडियो है। क्या आप जारी रखना चाहते हैं?";
+"alert.camera.continue.editing.video.question.message" = "";
+
+/* Error message that appears when clicking the Next button in the camera when the first part of split mode is not recorded */
+"First part not recorded" = "पहला हिस्सा रिकॉर्ड नहीं हुआ है";
+
+/* Error message received when trying to load a mask */
+"Mask not loaded" = "मास्क लोड नहीं हुआ है";
+
+/* An error message that appears when you click the Next button in the camera, when the second part of the video in split mode is not equal in length to the first part */
+"Second part is too short" = "दूसरा हिस्सा बहुत छोटा है";
+
+/* In-camera beautification (facial correction) enabled */
+"Beautifier on" = "सौंदर्य सक्षम";
+"Beautifier off" = "सौंदर्य अक्षम";
+
+/* The light (flashlight) in the camera is on */
+"Flash" = "रोशनी";
+
+/* An error message that appears in the camera when the length of the recorded video is less than the minimum allowed duration */
+"Too short. Please capture at least %d seconds" = "बहुत छोटा। कम से कम %d सेकंड कैप्चर करें";
+
+/* An error message that appears in the trimmer when user tryed to use too long video */
+"com.banuba.TooLongVideoMessageFormat" = "वीडियो अवधि %d से %d सेकंड के बीच होनी चाहिए";
+
+/* An error message that appears in the camera if the recorded video is longer than the maximum allowed length */
+"Maximum %d seconds." = "अधिकतम %d सेकंड।";
+
+/* Turning off the cameras auto timer */
+"Timer is off" = "टाइमर बंद है";
+
+/*Seconds for maximum */
+"Max length %d sec" = "अधिकतम अवधि %d सेकंड";
+
+/* Seconds for short */
+"%d sec" = "%d सेकंड";
+
+/* Name of the button in multi-select mode, which confirms the selection of user files and continues the process further */
+"Choose" = "चुनें";
+
+/* Built-in track volume description */
+"Sound" = "ध्वनि";
+
+/* Add extra audio track action */
+"Add" = "जोड़ें";
+
+/* Enabling the countdown timer to automatically start shooting in the camera */
+"%i seconds timer is on" = "%i सेकंड टाइमर चालू है";
+
+/* Step one of two to edit your avatar: take a photo */
+"Make cover photo" = "कवर फोटो बनाएं";
+
+/* Step two of two when taking a profile photo using the camera */
+"Step 2 / 2" = "चरण 2 / 2";
+
+/* Description of the zone selection screen for the user avatar when taking pictures on the profile screen */
+"Crop your profile photo for feed and comments" = "अपनी प्रोफ़ाइल फ़ोटो को फ़ीड और टिप्पणियों के लिए क्रॉप करें";
+
+/* Hint on how to apply visual filters or time filter to video */
+"Press and hold" = "दबाएँ रखें";
+
+/* Screen title with video from phone gallery */
+"Gallery" = "गैलरी";
+
+/* Activity signature */
+"LOADING" = "लोड हो रहा है";
+
+/* Text under the trobber when exporting a video */
+"EXPORTING" = "निर्यात किया जा रहा है";
+
+/* Message about downloading videos from iCloud in the window for selecting videos saved on the mobile device */
+"Video is uploading from iCloud" = "वीडियो iCloud से अपलोड हो रहा है";
+
+/* Speed screen name */
+"Speed" = "गति";
+
+/* Speed screen info */
+"Recording speed %@" = "रिकॉर्डिंग गति %@";
+
+/* Network Unavailable info */
+"Network Unavailable" = "नेटवर्क अनुपलब्ध";
+
+/* Screen name which will be visible if enable in configuration */
+"Single Trim Video Screen Name" = "वीडियो ट्रिम करें";
+
+/* Screen name which will be visible if enable in configuration */
+"Multi Trim Video Screen Name" = "मल्टीट्रिमर";
+
+/* Recorder mask effect screen name */
+"Mask Effect Screen Name" = "मास्क";
+
+/* Recorder color effect screen name */
+"Color Effect Screen Name" = "प्रभाव";
+
+/* Screen name which will be visible if enable in configuration */
+"Text editor color" = "रंग";
+
+/* Screen name which will be visible if enable in configuration */
+"Choose Cover Screen Name" = "कवर चुनें";
+
+/* Screen name which will be visible if enable in configuration at color filters screen */
+"Screen colors" = "स्क्रीन रंग";
+
+"Reach maximum video duration" = "अधिकतम वीडियो अवधि तक पहुँचा";
+
+/* Disable timer option titiel */
+"Off" = "बंद";
+
+// MARK: - Gifphy Screen
+
+/* Hint, which is shown in the GIF objects search input field, if it is empty */
+"com.banuba.searchGif.placeholder" = "GIPHY खोजें";
+
+/* Ability to cancel the search for GIF objects */
+"Cancel" = "रद्द करें";
+
+/* Pictures not found by custom keyword */
+"No stickers found" = "कोई स्टीकर नहीं मिला";
+
+/* Stickers search can not be performed due to missing API key */
+"Giphy API key missing" = "Giphy कुंजी निर्धारित नहीं हुई है, स्टीकर अभी नहीं दिखेंगे";
+
+/* A heading showing that there are problems with the Internet connection */
+"Problems with internet" = "इंटरनेट कनेक्शन में समस्याएं";
+
+/* Advice to the user on further actions to solve this problem */
+"Check your connection and try again" = "अपनी कनेक्शन की जाँच करें और फिर से कोशिश करें";
+
+/* Ability to load GIF objects again */
+"Again" = "फिर से";
+
+// MARK: - ERROR MESSAGES
+/* Message when request failed with statusCode code */
+"HTTP Error %d" = "HTTP त्रुटि %d";
+
+/* Message displayed when there is no internet connection */
+"You don't seem to be connected to the internet. \nPlease try again" = "आप इंटरनेट से कनेक्ट नहीं हैं। \nकृपया पुनः प्रयास करें";
+
+/* Message displayed when media file cannot be downloaded */
+"Cannot download media file from your iCloud" = "आपके iCloud से मीडिया फ़ाइल डाउनलोड नहीं की जा सकती";
+
+/* Error if the format of the response from the server does not match the expected */
+"Unknown data format" = "अज्ञात डेटा प्रारूप";
+
+/* Used in alert re-asking permissions to Photos with Cancel and Settings options. */
+"banuba.camera.alert.missed.gallery.persmission.title" = "कृपया सेटिंग में फोटो और वीडियो की अनुमति दें ताकि क्लिप बनाया जा सके।";
+"banuba.camera.alert.missed.gallery.persmission.message" = "";
+
+/* Used in alert re-asking Camera & Microphone permissions with Settings option. */
+"Banuba.Camera.MissedCameraAndMicrophonePersmissions" = "कृपया अपनी कैमरा और माइक्रोफोन की अनुमति दें ताकि रिकॉर्डिंग बनाई जा सके।";
+
+/* Used in a message to the user when access to the camera is denied through special options in the phone settings (such as 'Parental Control') */
+"banuba.alert.camera.access.restricted.title" = "कैमरा अनुमतियाँ नहीं मिलीं हैं";
+"banuba.alert.camera.access.restricted.message" = "";
+
+/* Used in alert with options Cancel and In settings */
+"alert.microphone.unavailable.title" = "माइक्रोफ़ोन अनुपलब्ध है। कृपया उपकरण सेटिंग्स में एक्सेस अनुमति दें";
+"alert.microphone.unavailable.message" = "";
+
+// MARK: - Settings
+
+/* The name of the button, by clicking on which you can go to the Settings application. */
+"Settings" = "सेटिंग्स";
+
+/* The name of the button, by clicking on which you can refuse missed permission alert message */
+"Settings.Close" = "बंद करें";
+
+/* Used in an alert with Yes and No when resetting effects. */
+"alert.reset.effects.title" = "बदलाव को छोड़ दें?";
+"alert.reset.effects.message" = "";
+
+/* Undo filters applied to video in the add filters screen */
+"Undo" = "पूर्ववत करें";
+
+/* Finish button title */
+"Done" = "किया";
+
+/* OK button title in alert */
+"OK" = "ठीक";
+
+/* Show the user when the disk space has run out during video recording and when he clicks the Record video button */
+"Not enough storage" = "पर्याप्त रूप से स्टोरेज नहीं है";
+
+// MARK: - Effects names
+
+/* Soul effect name */
+"com.banuba.editor.effect.name.soul" = "आत्मा";
+
+/* TV Foam effect name */
+"com.banuba.editor.effect.name.tv-foam" = "टीवी फोम";
+
+/* VHS video effect name */
+"com.banuba.editor.effect.name.vhs" = "वीएचएस";
+
+/* Flash video effect name */
+"com.banuba.editor.effect.name.flash" = "फ़्लैश";
+
+/* Rave effect name */
+"com.banuba.editor.effect.name.rave" = "रेव";
+
+/* Glitch effect name */
+"com.banuba.editor.effect.name.glitch" = "ग्लिच";
+
+/* Acid whip effect name */
+"com.banuba.editor.effect.name.acid-whip" = "ऐसिड व्हिप";
+
+/* Zoom effect name */
+"com.banuba.editor.effect.name.zoom" = "ज़ूम";
+
+/* Zoom 2 effect name */
+"com.banuba.editor.effect.name.zoom2" = "ज़ूम 2";
+
+/* Cathode effect name */
+"com.banuba.editor.effect.name.cathode" = "कैथोड";
+
+/* Polaroid effect name */
+"com.banuba.editor.effect.name.polaroid" = "पोलारॉइड";
+
+/* Slow motion effect name */
+"com.banuba.editor.effect.name.slow-motion" = "स्लो मो";
+
+/* Rapid effect name */
+"com.banuba.editor.effect.name.rapid" = "रैपिड";
+
+/* Mirror 2 effect name*/
+"com.banuba.editor.effect.name.mirror2" = "मिरर 2";
+
+/* DV Cam effect name */
+"com.banuba.editor.effect.name.dvcam" = "डीवी कैम";
+
+/* Glitch 2 effect name */
+"com.banuba.editor.effect.name.glitch2" = "ग्लिच 2";
+
+//Glitch 3 effect name/
+"com.banuba.editor.effect.name.glitch3" = "ग्लिच 3";
+
+/* Heat map effect name */
+"com.banuba.editor.effect.name.heatmap" = "हीट मैप";
+
+/* Mirror effect name */
+"com.banuba.editor.effect.name.mirror" = "मिरर";
+
+/* Lumiere */
+"com.banuba.editor.effect.name.lumiere" = "ल्यूमियर";
+
+/* Pixel dynamic effect name */
+"com.banuba.editor.effect.name.pixelationdynamic" = "पिक्सेल डायनामिक";
+
+/* Pixel static effect name */
+"com.banuba.editor.effect.name.pixelationstatic" = "पिक्सेल स्थायी";
+
+/* Blur effect name */
+"com.banuba.editor.effect.name.blur" = "ब्लर";
+
+/* Stars effect name */
+"com.banuba.editor.effect.name.stars" = "स्टार्स";
+
+/* Transition effect name */
+"com.banuba.editor.effect.name.transition" = "परिवर्तन";
+
+/* Transition 2 effect name */
+"com.banuba.editor.effect.name.transition2" = "परिवर्तन 2";
+
+/* Transition 3 effect name */
+"com.banuba.editor.effect.name.transition3" = "परिवर्तन 3";
+
+/* Transition 4 */
+"com.banuba.editor.effect.name.transition4" = "परिवर्तन 4";
+
+/* VHS 2 effect name */
+"com.banuba.editor.effect.name.vhs2" = "वीएचएस 2";
+
+/* Twitch effect name */
+"com.banuba.editor.effect.name.twitch" = "ट्विच";
+
+/* Open trimmer button name (for draft) */
+"com.banuba.editor.openTrimButtonTitle" ="क्लिप एडजस्ट करें";
+
+// MARK: - Filter names
+
+/* Glitch filter name */
+"com.banuba.filter.name.lux" = "लक्स";
+
+/* remy filter name */
+"com.banuba.filter.name.remy" = "रेमी";
+
+/* hyla filter name */
+"com.banuba.filter.name.hyla" = "हायला";
+
+/* neon filter name */
+"com.banuba.filter.name.neon" = "नियॉन";
+
+/* retro filter name */
+"com.banuba.filter.name.retro" = "रेट्रो";
+
+/* sunny filter name */
+"com.banuba.filter.name.sunny" = "सनी";
+
+/* egypt filter name */
+"com.banuba.filter.name.egypt" = "इजिप्ट";
+
+/* spark filter name */
+"com.banuba.filter.name.spark" = "स्पार्क";
+
+/* byers filter name */
+"com.banuba.filter.name.byers" = "बायर्स";
+
+/* lilac filter name */
+"com.banuba.filter.name.lilac" = "लायलैक";
+
+/* vinyl filter name */
+"com.banuba.filter.name.vinyl" = "विनाइल";
+
+/* japan filter name */
+"com.banuba.filter.name.japan" = "जापान";
+
+/* chile filter name */
+"com.banuba.filter.name.chile" = "चिली";
+
+/* glitch filter name */
+"com.banuba.filter.name.glitch" = "ग्लिच";
+
+/* grunge filter name */
+"com.banuba.filter.name.grunge" = "ग्रंज";
+
+/* canada filter name */
+"com.banuba.filter.name.canada" = "कनाडा";
+
+/* chroma filter name */
+"com.banuba.filter.name.chroma" = "क्रोमा";
+
+/* norway filter name */
+"com.banuba.filter.name.norway" = "नॉर्वे";
+
+/* korben filter name */
+"com.banuba.filter.name.korben" = "कोर्बेन";
+
+/* sunset filter name */
+"com.banuba.filter.name.sunset" = "सनसेट";
+
+/* instant filter name */
+"com.banuba.filter.name.instant" = "तुरंत";
+
+/* england filter name */
+"com.banuba.filter.name.england" = "इंग्लैंड";
+
+/* pinkvine filter name */
+"com.banuba.filter.name.pinkvine" = "पिंकवाइन";
+
+/* vivid filter name */
+"com.banuba.filter.name.vivid" = "विविड";
+
+/* bright filter name */
+"com.banuba.filter.name.bright" = "चमकीला";
+
+
+// MARK: - GALLERY SCREEN / SLIDE SHOW
+
+/* No photo in gallery */
+"No matching photos found in gallery" = "गैलरी में कोई फोटो नहीं मिला";
+
+/* No video in gallery */
+"No matching video found in gallery" = "गैलरी में कोई वीडियो नहीं मिला";
+
+/* User selected too many files in the gallery */
+"You can select only %d files" = "आप केवल %d फाइलें चुन सकते हैं";
+
+/* Failed to export a video */
+"Failed to create video" = "वीडियो निर्यात करने में विफल रहा";
+
+// MARK: - Music Editor
+
+/* Delete track button title */
+"MusicEditor.Delete" = "हटाएँ";
+
+/* Voice effect button title */
+"MusicEditor.VoiceEffect" = "प्रभाव";
+
+/* Edit track button title */
+"MusicEditor.Edit" = "संपादित करें";
+
+/* Add track button title */
+"MusicEditor.Tracks" = "ट्रैक्स";
+
+/* Add effects button title */
+"MusicEditor.Effects" = "प्रभाव";
+
+/* Add voice record button title */
+"MusicEditor.Record" = "रिकॉर्ड करें";
+
+/* Video volume title */
+"MusicEditor.VideoVolume" = "वॉल्यूम";
+
+/* Audio duration title */
+"MusicEditor.Duration" = "अवधि";
+
+/* Audio Sound title */
+"MusicEditor.OriginalSound" = "वॉल्यूम";
+
+/* Confirmation message for discarding changes */
+"com.banuba.musicEditor.mainScreen.resetAll.title" = "परिवर्तनों को खारिज करें?";
+"com.banuba.musicEditor.mainScreen.resetAll.message" = "";
+
+/* Error message when a user tries to add tracks with reached limit */
+"MusicEditor.Max available tracks - %i" = "अधिकतम उपलब्ध ट्रैक्स - %i";
+
+/* Elf filter title /
+"com.banuba.musicEditor.elf" = "एल्फ";
+/ Baritone filter title /
+"com.banuba.musicEditor.baritone" = "बैरीटोन";
+/ Echo filter title /
+"com.banuba.musicEditor.echo" = "ईको";
+/ Giant filter title */
+"com.banuba.musicEditor.giant" = "विशाल";
+/* Robot filter title */
+"com.banuba.musicEditor.robot" = "रोबोट";
+/* Squirrel filter title */
+"com.banuba.musicEditor.squirrel" = "गिलहरी";
+
+// MARK: - Overlay Editor
+
+/* Delete overlay item button title */
+"OverlayEditor.Delete" = "हटाएँ";
+
+/* Edit overlay item button title */
+"OverlayEditor.Edit" = "संपादित करें";
+
+/* Add text button title */
+"OverlayEditor.Text" = "टेक्स्ट";
+
+/* Add sticker button title */
+"OverlayEditor.Sticker" = "स्टिकर";
+
+/* Add square blur button title */
+"OverlayEditor.Square.Blur" = "वर्ग ब्लर";
+
+/* Add circle Blur button title */
+"OverlayEditor.Circle.Blur" = "गोल ब्लर";
+
+/* Cancel button title */
+"OverlayEditor.Cancel" = "रद्द करें";
+
+/* Done button title */
+"OverlayEditor.Done" = "संपन्न";
+
+/* Confirmation button title */
+"OverlayEditor.Yes" = "हाँ";
+
+/* Discarding button title */
+"OverlayEditor.No" = "नहीं";
+
+/* Confirmation message for discarding changes */
+"com.banuba.overlayEditor.mainScreen.resetAll.title" = "क्या आप बदलाव छोड़ना चाहते हैं?";
+"com.banuba.overlayEditor.mainScreen.resetAll.message" = "";
+"com.banuba.overlayEditor.mainScreen.resetAll.agree" = "छोड़ें";
+"com.banuba.overlayEditor.mainScreen.resetAll.disagree" = "रद्द करें";
+
+// MARK: - AudioBrowser
+
+/* No internet connection title in alert */
+"AudioBrowser.noInternetConnection" = "कोई इंटरनेट कनेक्शन नहीं";
+
+/* Message for user if No internet connection */
+"AudioBrowser.checkConnectionMessage" = "कृपया, अपनी कनेक्शन की जाँच करें और पुनः प्रयास करें";
+
+/* Retry button title */
+"AudioBrowser.retry" = "पुनः प्रयास करें";
+
+/* Allow access message */
+"AudioBrowser.allowAccessMessage" = "अपनी खुद की संगीत का उपयोग करने के लिए, कृपया Apple Music लाइब्रेरी तक पहुँच की अनुमति दें।";
+
+/* Allow button title */
+"AudioBrowser.allowAccess" = "अनुमति दें";
+
+/* My files button title */
+"AudioBrowser.myFiles" = "मेरी फ़ाइलें";
+
+"audioBrowser.search.by.categories" = "श्रेणियों से खोजें";
+"audioBrowser.search.by.groups" = "समूहों से खोजें";
+"audioBrowser.search.by.tracks" = "ट्रैक से खोजें";
+"audioBrowser.use" = "उपयोग करें";
+"audioBrowser.show.more" = "और दिखाएं";
+"audioBrowser.stop.using" = "उपयोग बंद करें";
+"audioBrowser.my.library" = "मेरी पुस्तकालय";
+"audioBrowser.no.matches" = "कोई मेल नहीं है";
+"audioBrowser.no.tracks" = "कोई ट्रैक नहीं है";
+/* Track format for displaying mubert track title*/
+"audioBrowser.mubertTrackFormat" = "ट्रैक %d";
+
+/* Wrong Mubert key error text */
+"audioBrowser.wrongPatError" = "मुबेर्ट कुंजी अनुपलब्ध है। इसे प्राप्त करने के लिए बानुबा विरोधी से संपर्क करें।";
+
+"feature.disabled.audiobrowser" = "आपकी पैकेज में डिफ़ॉल्ट संगीत ब्राउज़र शामिल नहीं है। आप अपना खुद का संगीत प्लगइन कर सकते हैं।";
+
+// MARK: - Hands-free
+"hands.free.video.drag.title" = "वीडियो अवधि सेट करने के लिए खींचें:";
+"hands.free.btn.title" = "काउंटडाउन शुरू करें";
+"hands.free.seconds" = "%@ सेकंड";
+
+// MARK: - Video Editor
+
+/* Gallery image tab title */
+"BanubaVideoEditor.Gallery.ImageTabTitle" = "छवि";
+
+/* Gallery video tab title */
+"BanubaVideoEditor.Gallery.VideoTabTitle" = "वीडियो";
+
+/* Gallery custom All Photos title */
+"BanubaVideoEditor.Gallery.AllPhotosTitle" = "सभी फोटो";
+
+/* Gallery previe select button name*/
+"BanubaVideoEditor.Gallery.SelectItemName" = "चुनें";
+
+/* Gallery previe deselect button name*/
+"BanubaVideoEditor.Gallery.DeselectItemName" = "अचयनित करें";
+
+/* Gallery header info title */
+"BanubaVideoEditor.Gallery.HeaderInfoTitle" = "अधिक फोटो चुनने के लिए %@ फ़ाइलें अपडेट करें";
+"BanubaVideoEditor.Gallery.HeaderInfoColoredTitle" = "सेटिंग्स";
+
+/* Gallery Recent Photos title */
+"BanubaVideoEditor.Gallery.RecentPhotosTitle" = "हाल के फोटो";
+
+/* Damaged file from gallery */
+"BanubaVideoEditor.Gallery.DamagedFile" = "फाइल नष्ट हुई है";
+
+/* Export video from gallery failed */
+"BanubaVideoEditor.Gallery.ExportVideoFailed" = "कंटेंट अपलोड करने में असफल";
+
+/* Gallery selection hint */
+"BanubaVideoEditor.Gallery.SelectItems" = "वस्तुओं का चयन करें";
+
+/* Import single video template */
+"BanubaVideoEditor.Gallery.ImportSingleVideo" = "1 वीडियो आयात करें";
+
+/* Import multiple videos template */
+"BanubaVideoEditor.Gallery.ImportMultipleVideos" = "%d वीडियो आयात करें";
+
+/* Import multiple videos template */
+"BanubaVideoEditor.Gallery.ImportMultipleVideosAndPhotos" = "%d वीडियो और फोटो आयात करें";
+
+/* Import single image template */
+"BanubaVideoEditor.Gallery.ImportSingleImage" = "1 छवि आयात करें";
+
+/* Import multiple images template */
+"BanubaVideoEditor.Gallery.ImportMultipleImages" = "%d छवियां आयात करें";
+
+/* Gallery empty selection message */
+"BanubaVideoEditor.Gallery.EmptySelectionMessage" = "कम से कम 1 फाइल का चयन करें";
+
+// MARK: - Effect additional media picker text resource
+
+/* No media files found in gallery for adding to the effect */
+"com.banuba.videoEditor.recorder.additionalEffects.NoMediaFound" = "कोई मीडिया फ़ाइल नहीं मिली";
+
+/* No media files found in gallery for adding to the effect */
+"com.banuba.videoEditor.recorder.additionalEffects.AllowAccess" = "पहुँच अनुमति दें";
+
+/* Helpers info message for changing video background */
+"com.banuba.videoEditor.recorder.additionalEffects.selectMediaToChangeBackgroundMessage" = "पृष्ठभूमि बदलने के लिए मीडिया का चयन करें:";
+
+/* Helpers info message for providing acces to a user gallery */
+"com.banuba.videoEditor.recorder.additionalEffects.allowAccesToChangeBackgroundMessage" = "पृष्ठभूमि बदलने के लिए गैलरी तक पहुँच अनुमति दें";
+
+// MARK: - Cover
+"cover.thumbnail.title" = "अपनी वीडियो से फ्रेम चुनें या गैलरी से एक छवि चुनें";
+"cover.gallery.button.title" = "गैलरी से चुनें";
+"cover.delete.button.title" = "हटाएँ";
+
+// MARK: - PIP
+
+"pip.switch.camera.title" = "स्विच";
+"pip.square.camera.title" = "वर्ग";
+"pip.round.camera.title" = "गोल";
+"pip.floating.camera.title" = "फ्लोटिंग";
+"pip.react.camera.title" = "प्रतिक्रिया";
+"pip.original.camera.title" = "मूल";
+"pip.centered.camera.title" = "केंद्रित";
+"pip.left.right.camera.title" = "पोर्ट्रेट";
+"pip.top.bottom.camera.title" = "लैंडस्केप";
+"pip.layout.settings.title" = "लेआउट सेटिंग्स";
+
+"feature.disabled.pip" = "पिक्चर इन पिक्चर आपकी पैकेज में शामिल नहीं है। इसे प्राप्त करने के लिए अकाउंट मैनेजर से संपर्क करें।";
+
+// MARK: - Drafts
+/* Drafts button title /
+"BanubaVideoEditor.Gallery.DraftsTitle" = "ड्राफ्ट";
+/ Draft actions subtitle /
+"BanubaVideoEditor.Gallery.DraftTitle" = "ड्राफ्ट";
+/ Draft edit action name /
+"BanubaVideoEditor.Gallery.DraftEditActionName" = "संपादित करें";
+/ Draft remove action name */
+"BanubaVideoEditor.Gallery.DraftRemoveActionName" = "हटाएं";
+
+/* Used in alert with Yes and No options when resetting current sequence */
+"com.banuba.BanubaVideoEditor.draft.question.title" = "क्या आप ड्राफ्ट सहेजना चाहते हैं?";
+"com.banuba.BanubaVideoEditor.draft.question.message" = "";
+"com.banuba.BanubaVideoEditor.draft.question.agree" = "सहेजें";
+"com.banuba.BanubaVideoEditor.draft.question.disagree" = "रद्द करें";
+
+/* Displayed when current sequence saved to drafts /
+"BanubaVideoEditor.Draft.DraftSavedMessage" = "ड्राफ्ट सहेजा गया";
+/ Displays message about no saved drafts /
+"BanubaVideoEditor.Draft.EmptyDraftsMessage" = "कोई ड्राफ्ट नहीं";
+/ Ask a user about completion removing a draft */
+"com.banuba.BanubaVideoEditor.draft.remove.title" = "क्या आप ड्राफ्ट हटाना चाहते हैं?";
+"com.banuba.BanubaVideoEditor.draft.remove.message" = "";
+"com.banuba.BanubaVideoEditor.draft.remove.agree" = "हटाएं";
+"com.banuba.BanubaVideoEditor.draft.remove.disagree" = "रद्द करें";
+
+/* Ask a user about completion updating a draft */
+"com.banuba.BanubaVideoEditor.draft.update.title" = "क्या आप ड्राफ्ट को अपडेट करना चाहते हैं?";
+"com.banuba.BanubaVideoEditor.draft.update.message" = "";
+"com.banuba.BanubaVideoEditor.draft.update.agree" = "अपडेट करें";
+"com.banuba.BanubaVideoEditor.draft.update.disagree" = "रद्द करें";
+"com.banuba.BanubaVideoEditor.draft.lose.message" = "नोट! आप वर्तमान संपादन सेटिंग को खो देंगे। क्या आप जारी रखना चाहते हैं?";
+"com.banuba.BanubaVideoEditor.draft.lose.agree" ="क्लिप समायोजित करें";
+
+/* Editor, back button menu. Edit draft mode */
+"com.banuba.BanubaVideoEditor.draft.discardChangesAction" = "परिवर्तन छोड़ें";
+"com.banuba.BanubaVideoEditor.draft.updateAction" = "ड्राफ्ट अपडेट करें";
+
+//MARK: - Additional buttons
+"com.banuba.recorder.link.title" = "लिंक";
+"com.banuba.recorder.color.title" = "फ़िल्टर";
+"com.banuba.recorder.sticker.title" = "जीआईएफ";
+"com.banuba.recorder.blur.title" = "धुंधलापन";
+"com.banuba.recorder.text.title" = "टेक्स्ट";
+"com.banuba.recorder.time.title" = "समय";
+"com.banuba.recorder.sound.title" = "संगीत";
+"com.banuba.recorder.effects.title" = "प्रभाव";
+"com.banuba.recorder.toggle.title" = "टॉगल";
+"com.banuba.recorder.flashlight.title" = "फ्लैशलाइट";
+"com.banuba.recorder.timer.title" = "टाइमर";
+"com.banuba.recorder.speed.title" = "गति";
+"com.banuba.recorder.beauty.title" = "सौंदर्य";
+"com.banuba.recorder.masks.title" = "मास्क";
+"com.banuba.recorder.muteSound.title" = "ध्वनि";
+"com.banuba.recorder.pip.title" = "पीआईपी";
+
+/* Gallery button title */
+"com.banuba.recorder.gallery.title" = "गैलरी";
+
+/* Recorder video duration */
+"com.banuba.recorder.secondsFormat" = "%d सेकंड";
+"com.banuba.recorder.minutesFormat" = "%d मिनट";
+
+/* Aspect title for cells*/
+"com.banuba.videoEditor.aspect.original" = "मूल";
+"com.banuba.videoEditor.aspect.16:9" = "16:9";
+"com.banuba.videoEditor.aspect.9:16" = "9:16";
+"com.banuba.videoEditor.aspect.4:3" = "4:3";
+"com.banuba.videoEditor.aspect.4:5" = "4:5";
+
+/* Transitions title for cells*/
+"com.banuba.videoEditor.transition.none" = "कोई नहीं";
+"com.banuba.videoEditor.transition.whipDown" = "नीचे की ओर घुमाना";
+"com.banuba.videoEditor.transition.whipUp" = "ऊपर की ओर घुमाना";
+"com.banuba.videoEditor.transition.whipRight" = "दाहिनी ओर घुमाना";
+"com.banuba.videoEditor.transition.whipLeft" = "बायां ओर घुमाना";
+"com.banuba.videoEditor.transition.scrollDown" = "नीचे स्क्रॉल करना";
+"com.banuba.videoEditor.transition.scrollUp" = "ऊपर स्क्रॉल करना";
+"com.banuba.videoEditor.transition.scrollRight" = "दाहिनी ओर स्क्रॉल करना";
+"com.banuba.videoEditor.transition.scrollLeft" = "बायां ओर स्क्रॉल करना";
+"com.banuba.videoEditor.transition.spinRight" = "घूमना";
+"com.banuba.videoEditor.transition.fade" = "फीका पड़ जाना";
+
+/* Transition disabled alert message */
+"com.banuba.videoEditor.transition.disabledToastMessage" = "ट्रांजिशन लागू करने के लिए क्लिप 0.5 सेकंड से अधिक लंबा होना चाहिए।";
+
+/* Text editor font names */
+"com.banuba.textEditor.fontName.regular" = "सामान्य";
+"com.banuba.textEditor.fontName.italic" = "इटैलिक";
+"com.banuba.textEditor.fontName.bold" = "बोल्ड";
+"com.banuba.textEditor.fontName.baskerville" = "बास्करविल";
+"com.banuba.textEditor.fontName.courier" = "कूरियर";
+"com.banuba.textEditor.fontName.palatino" = "पलाटिनो";
+"com.banuba.textEditor.fontName.noteworthy" = "नोटवर्थी";
+"com.banuba.textEditor.fontName.papyrus" = "पापीरस";
+"com.banuba.textEditor.fontName.sinhala" = "सिंहला";
+"com.banuba.textEditor.fontName.menlo" = "मेन्लो";
+"com.banuba.textEditor.fontName.emoji" = "इमोजी";
+
+// MARK: - Alert
+
+/* Titles for alert buttons */
+
+/* discard all alert type for record screen /
+"com.banuba.alert.discardAllRecord.additionalButtonTitle" = "फिर से शुरू करें";
+"com.banuba.alert.discardAllRecord.agreeButtonTitle" = "रीसेट";
+"com.banuba.alert.discardAllRecord.disagreeButtonTitle" = "रद्द करें";
+/ discard all alert type for editor screen /
+"com.banuba.alert.discardAllEditor.agreeButtonTitle" = "रीसेट";
+"com.banuba.alert.discardAllEditor.disagreeButtonTitle" = "रद्द करें";
+/ not finished video alert type /
+"com.banuba.alert.notFinishedVideo.agreeButtonTitle" = "जारी रखें";
+"com.banuba.alert.notFinishedVideo.disagreeButtonTitle" = "रद्द करें";
+/ discard changes alert type /
+"com.banuba.alert.discardChanges.agreeButtonTitle" = "रीसेट";
+"com.banuba.alert.discardChanges.disagreeButtonTitle" = "रद्द करें";
+/ delete segment alert type /
+"com.banuba.alert.deleteSegment.agreeButtonTitle" = "हटाएं";
+"com.banuba.alert.deleteSegment.disagreeButtonTitle" = "रद्द करें";
+/ discard effects alert type /
+"com.banuba.alert.discardEffects.agreeButtonTitle" = "खारिज करें";
+"com.banuba.alert.discardEffects.disagreeButtonTitle" = "रद्द करें";
+/ discard music alert type /
+"com.banuba.alert.discardMusic.agreeButtonTitle" = "खारिज करें";
+"com.banuba.alert.discardMusic.disagreeButtonTitle" = "रद्द करें";
+/ progress view alert type */
+"com.banuba.alert.progressView.agreeButtonTitle" = "पुनः प्रयास करें";
+"com.banuba.alert.progressView.disagreeButtonTitle" = "रद्द करें";
+"com.banuba.alert.progressView.importingMedia" = "मीडिया आयात हो रहा है";
+"com.banuba.alert.progressView.exportingVideo" = "वीडियो निर्यात हो रहा है";
+"com.banuba.alert.progressView.tooltipMessage" = "कृपया, अपनी स्क्रीन लॉक न करें और अन्य ऐप में स्विच न करें";
+"com.banuba.alert.progressView.exportVideoInterrupted" = "निर्यात रोक दिया गया";
+
+/* need to update iOS alert */
+"com.banuba.alert.needToUpdateIos.title" = "क्षमा करें, न्यूनतम समर्थित संस्करण iOS 12 है।";
+"com.banuba.alert.needToUpdateIos.message" = "आपको इस ऐप्लिकेशन का उपयोग करने के लिए iOS 12.0 पर अपडेट करना होगा।";
+
+/* remove and start over record video */
+"com.banuba.trim.startOverRecordVideoTitle" = "क्या आप नया वीडियो रिकॉर्ड करना चाहते हैं?";
+"com.banuba.trim.startOverRecordVideoMessage" = "";
+"com.banuba.trim.startOverRecordVideoAgreeButtonTitle" = "फिर से शुरू करें";
+"com.banuba.trim.startOverRecordVideoDisagreeButtonTitle" = "खारिज करें";
+
+// MARK: - Trim
+/* Edit video rotate button title */
+"com.banuba.trim.rotateEditButtonTitle" = "Rotate";
+/* Edit video split button title */
+"com.banuba.trim.splitEditButtonTitle" = "Split";
+/* Edit video crop button title */
+"com.banuba.trim.cropEditButtonTitle" = "Crop";
+/* Edit video delete button title */
+"com.banuba.trim.deleteEditButtonTitle" = "Delete";
+/* Edit video trim button title */
+"com.banuba.trim.trimEditButtonTitle" = "Trim";
+/* Reordering video tool tip label message */
+"com.banuba.trim.reorderingToolTip" = "Drag to swap";
+/* Delete single video error message */
+"com.banuba.trim.deleteLastClipErrorMessage" = "The last clip can't  be deleted";
+/* Split video part error message */
+"com.banuba.trim.splitErrorMessage" = "The selected position is invalid";
+
+// MARK: - Capture button modes
+"com.banuba.record.captureButtonVideoMode" = "वीडियो";
+"com.banuba.record.captureButtonPhotoMode" = "फोटो";
+
+/* Sharing other button */
+"sharing.other.title" = "अन्य";
+
+/* Sharing video main title */
+"sharing.video.title" = "वीडियो साझा करें";
+
+/* Error if sharing application is not installed */
+"sharing.app.not.installed" = "क्षमा करें, ऐप्लिकेशन इंस्टॉल नहीं है";
+
+// MARK: - समाप्त लाइसेंस स्क्रीन
+"com.banuba.expiredLicense.infoLabel" = "वीडियो सामग्री बनाना अस्थायी रूप से अनुपलब्ध है";
+"com.banuba.expiredLicense.cancelButtonTitle" = "बंद करें";
+
+//Staic String "No record found" replacing for multilingual
+
+"Searchkeek_NotRFound" = "हम वह नहीं ढूंढ सके जिसे आप ढूंढ रहे थे। कृपया एक अलग सर्च शब्द का प्रयास करें।";
+"OtherUser_NoPosts" = "इस समय कोई पोस्ट नहीं है। बाद में जांचें!";
+"Self_NoPosts" = "अभी तक कोई पोस्ट नहीं? कोई बात नहीं! अपनी पहली पोस्ट बनाकर शुरू करें।";
+"Follow_Requesttab_Notifications" = "आप सभी अनुरोधों को पूरा कर चुके हैं! इस समय कोई नया अनुरोध}|   नहीं है।";
+"All_coughtUp" = "सभी कुछ ठीक है! आपने सभी अधिसूचनाएं देख ली हैं। नई अधिसूचनाओं के लिए बाद में देखें।";
+"No_comments" = "अभी तक कोई टिप्पणी नहीं हुई है। बातचीत शुरू करने के लिए पहला व्यक्ति बनें!";
+"Self_No_comments" = "आपकी पोस्ट पर अभी तक कोई टिप्पणी नहीं हुई है।";
+"Self_No_Story_comments" =  "आपकी कहानी पर अब तक कोई टिप्पणी नहीं है।";
+"No_followers" = "अभी तक कोई फॉलोअर नहीं हुए हैं? मज़ेदार सामग्री बनाना और साझा करना जारी रखें, फॉलोअर खुद आएंगे।";
+"No_following" = "नई सामग्री खोजने का एक बढ़िया तरीका फॉलोअर है। अपने हितों से संबंधित खातों को फॉलो करके शुरुआत करें।";
+"No_blocked" = "आपकी ब्लॉक सूची में कोई नहीं है? यह एक अच्छी निशानी है। पॉजिटिविटी जारी रखें!";
+"No_Chat_Messages" = "अभी तक कोई बातचीत नहीं हुई है। एक चैट शुरू करें और आज किसी नए इंसान से जुड़ें!";
+"No_chat_contacts" = "आपकी चैट संपर्क सूची खाली है। अपने मित्रों को खोजें और जुड़ें, क्यों नहीं?";
+"NoSavedPosts" = "आपके पास दिखाने के लिए कोई बुकमार्क पोस्ट नहीं है। अपने पसंदीदा पोस्ट को बाद में आसानी से एक्सेस करने के लिए उन्हें बुकमार्क करना शुरू करें।";
+"No_followers_OtherUser" = "इस समय प्रदर्शित करने के लिए कोई अनुयायी नहीं है। बाद में वापस आएं!";
+"No_followingUser_OtherUser" = "इस समय प्रदर्शित करने के लिए कोई फॉलो करने वाले उपयोगकर्ता नहीं हैं। बाद में वापस आएं!";
+//post uploading
+"Your post is being uploaded..." = "आपकी पोस्ट अपलोड हो रही है...";
+"Your story is being uploaded..." = "आपकी कहानी अपलोड हो रही है...";
+
+
+//Fetching feeds/Posts
+"Fetching Feeds..." = "फीड लाया जा रहा है...";
+"GetPostError" = "पोस्ट विवरण प्राप्त करने में त्रुटि हुई";
+"noUserPermission" = "आपके पास इस क्रिया को करने के लिए पर्याप्त अनुमतियाँ नहीं हैं। कृपया समर्थन से संपर्क करें।";
+"salutation" = "लिंग";
+"enterSalutation" = "लिंग चुनें...";
+"enableComments" = "टिप्पणियाँ सक्षम करें";
+"ReferYourFriends" = "अपने मित्रों को देखें";
+"DeleteThisOffer" = "इस प्रस्ताव को हटा दें";
+"MainOffer" = "मुख्य प्रस्ताव";
+"offerImageTitle1" = "प्रस्ताव मुख्य छवि";
+"offerImageTitle2" = "मुख्य विज्ञापन छवि/उत्पाद दृश्य आदि।";
+"offerImageTitle3" = "पोर्ट्रेट व्यू लेआउट 375x812 पीएक्स न्यूनतम आयाम सुझाए गए।";
+"CreateAGroup" = "एक नया समूह बनाएँ";
+"members" = "सदस्यों";
+"internetIssue" = "वर्तमान में आपकी इंटरनेट तक पहुंच नहीं है। अपने इंटरनेट कनेक्शन की जाँच करें और पुन: प्रयास करें";
+"poorInternetConnectivity" = "हम कुछ कनेक्टिविटी समस्याओं का सामना कर रहे हैं। अपने इंटरनेट कनेक्शन की जाँच करें और पुन: प्रयास करें।";
+"noResultFound" = "आप जो खोज रहे थे वह हमें नहीं मिला।\n कृपया कोई भिन्न खोज शब्द आज़माएं।";
+"noFollowingToShare" = "आपकी संपर्क सूची में कोई नहीं है? इसे अपने पसंदीदा सोशल प्लेटफॉर्म पर साझा करें।";
+"searchContacts" = "संपर्क खोजें";
+"contacts" = "संपर्क";
+"send" = "भेजना";
+"sent" = "भेजा";
+
+"deactivateConfirmPassword" = "कृपया नीचे\nअस्थायी निष्क्रियता के लिए अपने खाते की पुष्टि करें।";
+"deleteConfirmPassword" = "कृपया नीचे\nस्थायी विलोपन के लिए अपने खाते की पुष्टि करें।";
+"confirmation" = "पुष्टीकरण";
+"deactivateConfirmation" = "क्या आप वाकई\nअपना\nकीक खाता अस्थायी रूप से निष्क्रिय करना चाहते हैं?";
+"cancelDeactivation" = "नहीं, मेरी निष्क्रियता रद्द करें";
+"accountDeletion" = "खाता हटाना";
+"deleteConfirmation" = "क्या आप वाकई\nअपना\nकीक खाता स्थायी रूप से हटाना चाहते हैं?";
+"cancelDeletion" = "नहीं, मेरा स्थायी विलोपन रद्द करें";
+"yes" = "हाँ";
+"temporarilyDeactivate" = "अस्थायी रूप से निष्क्रिय करें";
+"permanentlyDelete" = "स्थायी रूप से हटाना";
+"accountDeactivateSuccess" = "आपका खाता निष्क्रिय कर दिया गया है। यदि आप वापस लौटने का निर्णय लेते हैं, तो बस फिर से लॉग इन करके अपने खाते को पुनः सक्रिय करें।";
+"accountDeleteSuccess" = "आपका खाता सफलतापूर्वक हटा दिया गया है। कीक समुदाय का हिस्सा बनने के लिए धन्यवाद।";
+"violationTitle1" = "क्षमा करें, हम इसे पोस्ट करने में असमर्थ हैं\n!";
+"violationTitle2" = "आपकी पोस्ट ने हमारी सेवा की शर्तों का उल्लंघन किया है।";
+"violationTitle3" = "अगर आपको लगता है कि इस पोस्ट को निष्पक्ष\nफ्लैग किया गया है तो आप आगे की समीक्षा के लिए\nइस फैसले के खिलाफ अपील कर सकते हैं।";
+"appealLbl" = "आगे की समीक्षा के लिए अपील।";
+"submitForAppeal" = "अपील के लिए प्रस्तुत करें";
+"violationText1" = "दुर्भाग्‍य से आपकी हाल की पोस्‍ट को \nके लिए फ़्लैग कर दिया गया है ";
+"violationText2" = " इस पोस्ट में।";
+"appealTitle1" = "हमें आपका अपील अनुरोध\nमिल गया है।";
+"appealTitle2" = "हमारी कीक ग्राहक सेवा टीम\nइस पोस्ट पर आपकी अपील की समीक्षा करेगी और आपको 24 घंटों के भीतर\nअपडेट करेगी। ";
+"appealTitle3" = "आपको अपने\nकीक संदेशों में एक संदेश प्राप्त होगा।";
+"backHome" = "वापस घर";
+"downloadingTitle" = "कृपया प्रतीक्षा करें";
+"downloadingSubTitle" = "हम इस वीडियो को डाउनलोड करने की प्रक्रिया में हैं। यह ज्यादा समय नहीं लेगा।";
+"Retry" = "पुनः प्रयास करें";
+"downloadingFailedTitle" = "डाउनलोड विफल हो गया";
+"downloadingFailedSubTitle" = "हमें इस वीडियो को डाउनलोड करने में कुछ समस्या आ रही है।";
+"downloadCancelMsg" = "क्या आप इस प्रक्रिया को रद्द करना चाहते हैं?";
+"cancelDownload" = "डाउनलोड रद्द करें";
+"Completed" = "पूर्ण";
+
+"no_chat_conversation" = "दोस्तों से जुड़ें और एक बातचीत शुरू करें ताकि आप यहां अपने संदेश देख सकें!";
+"no_group_chat" = "दोस्तों के साथ एक समूह चैट शुरू करें और मिलकर कुछ यादगार क्षण बनाएं!";
+"user_not_available" = "यह उपयोगकर्ता वर्तमान में चैट के लिए उपलब्ध नहीं है।";
+"groups" = "समूह";
+"conversations" = "बातचीतें";
+"unable_delete_message" = "संदेश को इस समय हटाने में असमर्थ";
+"messages" = "संदेश";
+"youAdded" = "आपने जोड़ा";
+"youRemoved" = "आपने हटाया";
+"youCreatedGroup" = "आपने समूह बनाया";
+"createdGroup" = "ने समूह बनाया";
+"addedYou" = "ने आपको जोड़ा";
+"removedYou" = "ने आपको हटाया";
+"added" = "ने जोड़ा";
+"removed" = "ने हटाया";
+"chatInactive" = "आप इस समूह को संदेश नहीं भेज सकते क्योंकि आप अब एक सहभागी नहीं हैं।";
+"My Contacts" = "मेरे संपर्क";
+"Contacts" = "संपर्क";
+"Search Contacts" = "संपर्क खोजें";
+"NoContactsResult" = "हमें वह नहीं मिला जिसे आप ढूंढ़ रहे थे। कृपया एक विभिन्न खोज शब्द का प्रयास करें।";
+"Admin" = "एडमिन";
+"Online" = "ऑनलाइन";
+"Offline" = "ऑफलाइन";
+"typing" = "टाइपिंग";
+"Yesterday" = "कल";
+"Today" = "आज";
+"Unread Messages" = "अपठित संदेश";
+"Monday" = "सोमवार";
+"Tuesday" = "मंगलवार";
+"Wednesday" = "बुधवार";
+"Thursday" = "गुरुवार";
+"Friday" = "शुक्रवार";
+"Saturday" = "शनिवार";
+"Sunday" = "रविवार";
+"enterGrpName" = "समूह का नाम दर्ज करें";
+"startLiveStream" = "लाइव स्ट्रीम शुरू करें";
+"goLive" = "लाइव जाएं";
+"noLiveStream" = "लगता है कि इस समय कोई लाइव स्ट्रीम नहीं हो रही है।";
+"deleteThreadConfirmation" = "क्या आप इस बातचीत को हटाना चाहते हैं?";
+"deleteThreadError" = "ओह! कुछ गड़बड़ हो गई है। कृपया बाद में पुन: प्रयास करें।";
+

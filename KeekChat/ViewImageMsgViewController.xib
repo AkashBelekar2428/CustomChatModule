@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="miitv-font-file.ttf">
+            <string>miitv-font-file</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewImageMsgViewController" customModule="Keek" customModuleProvider="target">
+            <connections>
+                <outlet property="downloadBtn" destination="x7g-Fa-uDC" id="OE3-8z-Uqt"/>
+                <outlet property="imageViewHeightConstraint" destination="Qlr-FW-b9X" id="vKO-6D-2jc"/>
+                <outlet property="mainImgView" destination="bga-GR-jWe" id="0sE-du-Gs6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="keek_splash" translatesAutoresizingMaskIntoConstraints="NO" id="bga-GR-jWe" customClass="MyImageView" customModule="Keek" customModuleProvider="target">
+                    <rect key="frame" x="6" y="101" width="381" height="650"/>
+                    <color key="backgroundColor" red="0.77647058823529413" green="0.80784313725490198" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="650" id="Qlr-FW-b9X"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7g-Fa-uDC" customClass="MyButton" customModule="Keek" customModuleProvider="target">
+                    <rect key="frame" x="347" y="736" width="30" height="30"/>
+                    <color key="backgroundColor" red="0.91922020910000002" green="0.31112021210000002" blue="0.45097887520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="IgL-Bu-KUp"/>
+                        <constraint firstAttribute="width" constant="30" id="wkn-Md-iPA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="miitv-font-file" family="miitv-font-file" pointSize="20"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="downloadImage:" destination="-1" eventType="touchUpInside" id="pxA-GV-bRA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmb-Yd-Akm">
+                    <rect key="frame" x="16" y="59" width="30" height="34"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="miitv-font-file" family="miitv-font-file" pointSize="22"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="OSL-u7-TSJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="bga-GR-jWe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="6" id="Hdu-mW-8oU"/>
+                <constraint firstItem="bga-GR-jWe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Hfk-uI-D4N"/>
+                <constraint firstItem="bga-GR-jWe" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="SaE-op-YqO"/>
+                <constraint firstItem="qmb-Yd-Akm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="eCc-t3-OWX"/>
+                <constraint firstItem="x7g-Fa-uDC" firstAttribute="bottom" secondItem="bga-GR-jWe" secondAttribute="bottom" constant="15" id="fLT-5A-YtS"/>
+                <constraint firstItem="qmb-Yd-Akm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="iqP-aw-IIj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="x7g-Fa-uDC" secondAttribute="trailing" constant="16" id="oXS-of-1YL"/>
+                <constraint firstItem="bga-GR-jWe" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" constant="-6" id="rrK-ig-oKJ"/>
+            </constraints>
+            <point key="canvasLocation" x="-109.16030534351144" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="bga-GR-jWe">
+            <size key="intrinsicContentSize" width="375" height="812"/>
+        </designable>
+        <designable name="x7g-Fa-uDC">
+            <size key="intrinsicContentSize" width="30" height="32"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="keek_splash" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

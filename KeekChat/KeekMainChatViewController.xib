@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Black.ttf">
+            <string>Roboto-Black</string>
+        </array>
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+        <array key="miitv-font-file.ttf">
+            <string>miitv-font-file</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeekMainChatViewController" customModule="ChatModule" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCreateNewChat" destination="Ef1-dq-NxV" id="1Z5-Xa-gHo"/>
+                <outlet property="conversationBtn" destination="05G-5y-t8J" id="uy7-DS-0Te"/>
+                <outlet property="conversationSelector" destination="xVh-hZ-g9K" id="29w-Db-W6I"/>
+                <outlet property="groupsBtn" destination="com-Ts-qK2" id="uKA-0B-teQ"/>
+                <outlet property="groupsSelector" destination="ETF-6s-kCz" id="DnV-Jk-W2o"/>
+                <outlet property="lblNoRecord" destination="40T-XN-GbO" id="bkU-M3-T6r"/>
+                <outlet property="messagesTableview" destination="wUe-fu-Dyv" id="6nF-wE-qH8"/>
+                <outlet property="titleLbl" destination="ybG-cF-Eu4" id="05Q-rg-IS1"/>
+                <outlet property="view" destination="KoY-Ep-ZM4" id="s2z-HQ-qt8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="KeekMainChatViewController" id="KoY-Ep-ZM4">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybG-cF-Eu4">
+                    <rect key="frame" x="16" y="84" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="30"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xVh-hZ-g9K" customClass="MyView" customModule="ChatModule" customModuleProvider="target">
+                    <rect key="frame" x="65" y="123" width="22" height="3"/>
+                    <color key="backgroundColor" red="0.91922020910000002" green="0.31112021210000002" blue="0.45097887520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="EZh-28-c4y"/>
+                        <constraint firstAttribute="width" constant="22" id="HdB-LE-oEA"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="1.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="wUe-fu-Dyv">
+                    <rect key="frame" x="16" y="134" width="361" height="684"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ef1-dq-NxV">
+                    <rect key="frame" x="345" y="84" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="6y7-Dl-VkU"/>
+                        <constraint firstAttribute="width" constant="32" id="ihg-se-YSn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="miitv-font-file" family="miitv-font-file" pointSize="20"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="createNewChat:" destination="-1" eventType="touchUpInside" id="UIz-Vd-wKk"/>
+                    </connections>
+                </button>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40T-XN-GbO">
+                    <rect key="frame" x="16" y="426" width="361" height="0.0"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05G-5y-t8J">
+                    <rect key="frame" x="16" y="92" width="120" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="Cux-0y-yGG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
+                    <color key="tintColor" systemColor="labelColor"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="conversationsAction:" destination="-1" eventType="touchUpInside" id="Cp6-xx-6m7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="com-Ts-qK2">
+                    <rect key="frame" x="174" y="92" width="60" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="A39-Ea-P74"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.77720564599999997" green="0.80655950310000002" blue="0.87059712410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                    <connections>
+                        <action selector="groupsAction:" destination="-1" eventType="touchUpInside" id="JYz-OB-JHu"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ETF-6s-kCz" customClass="MyView" customModule="ChatModule" customModuleProvider="target">
+                    <rect key="frame" x="193" y="123" width="22" height="3"/>
+                    <color key="backgroundColor" red="0.91922020910000002" green="0.31112021210000002" blue="0.45097887520000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="3hT-uW-MtO"/>
+                        <constraint firstAttribute="width" constant="22" id="BIj-1t-zHt"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="1.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="DkE-ke-CeC"/>
+            <color key="backgroundColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="xVh-hZ-g9K" firstAttribute="bottom" secondItem="05G-5y-t8J" secondAttribute="bottom" id="2VR-jl-1C9"/>
+                <constraint firstItem="ETF-6s-kCz" firstAttribute="centerX" secondItem="com-Ts-qK2" secondAttribute="centerX" id="2uC-wr-A2t"/>
+                <constraint firstItem="40T-XN-GbO" firstAttribute="leading" secondItem="KoY-Ep-ZM4" secondAttribute="leading" constant="16" id="3gL-mw-XFX"/>
+                <constraint firstItem="05G-5y-t8J" firstAttribute="top" secondItem="ybG-cF-Eu4" secondAttribute="bottom" constant="8" id="9Kj-S3-9uB"/>
+                <constraint firstItem="ybG-cF-Eu4" firstAttribute="top" secondItem="KoY-Ep-ZM4" secondAttribute="topMargin" constant="25" id="CDM-HW-pbI"/>
+                <constraint firstItem="wUe-fu-Dyv" firstAttribute="trailing" secondItem="KoY-Ep-ZM4" secondAttribute="trailingMargin" id="JFR-Bn-5ad"/>
+                <constraint firstItem="40T-XN-GbO" firstAttribute="centerY" secondItem="KoY-Ep-ZM4" secondAttribute="centerY" id="K0D-et-8mq"/>
+                <constraint firstItem="Ef1-dq-NxV" firstAttribute="top" secondItem="ybG-cF-Eu4" secondAttribute="top" id="KCL-Zj-3vg"/>
+                <constraint firstAttribute="trailing" secondItem="40T-XN-GbO" secondAttribute="trailing" constant="16" id="OWa-yJ-npA"/>
+                <constraint firstItem="wUe-fu-Dyv" firstAttribute="bottom" secondItem="DkE-ke-CeC" secondAttribute="bottom" id="Que-Ri-8rX"/>
+                <constraint firstItem="40T-XN-GbO" firstAttribute="centerX" secondItem="KoY-Ep-ZM4" secondAttribute="centerX" id="TUb-SH-aR8"/>
+                <constraint firstItem="Ef1-dq-NxV" firstAttribute="trailing" secondItem="KoY-Ep-ZM4" secondAttribute="trailingMargin" id="Uum-ce-wsU"/>
+                <constraint firstItem="ybG-cF-Eu4" firstAttribute="leading" secondItem="KoY-Ep-ZM4" secondAttribute="leadingMargin" id="XyJ-rg-Vh0"/>
+                <constraint firstItem="com-Ts-qK2" firstAttribute="bottom" secondItem="05G-5y-t8J" secondAttribute="bottom" id="bcU-8v-5d3"/>
+                <constraint firstItem="com-Ts-qK2" firstAttribute="top" secondItem="05G-5y-t8J" secondAttribute="top" id="dvw-Cs-l5g"/>
+                <constraint firstItem="wUe-fu-Dyv" firstAttribute="top" secondItem="xVh-hZ-g9K" secondAttribute="bottom" constant="8" id="gx4-rf-trT"/>
+                <constraint firstItem="wUe-fu-Dyv" firstAttribute="leading" secondItem="KoY-Ep-ZM4" secondAttribute="leadingMargin" id="jee-YF-OHk"/>
+                <constraint firstItem="xVh-hZ-g9K" firstAttribute="centerX" secondItem="05G-5y-t8J" secondAttribute="centerX" id="oEf-bd-s6b"/>
+                <constraint firstItem="com-Ts-qK2" firstAttribute="leading" secondItem="05G-5y-t8J" secondAttribute="trailing" constant="38" id="pu8-H6-lI4"/>
+                <constraint firstItem="05G-5y-t8J" firstAttribute="leading" secondItem="KoY-Ep-ZM4" secondAttribute="leadingMargin" id="uCO-eL-ZqQ"/>
+                <constraint firstItem="ETF-6s-kCz" firstAttribute="top" secondItem="xVh-hZ-g9K" secondAttribute="top" id="yR2-cI-gYs"/>
+            </constraints>
+            <point key="canvasLocation" x="515" y="-223"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

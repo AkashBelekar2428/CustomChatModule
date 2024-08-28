@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="22G313" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GroupConversation" representedClassName="GroupConversation" syncable="YES">
+        <attribute name="adminChatId" optional="YES" attributeType="String"/>
+        <attribute name="adminExtUserId" optional="YES" attributeType="String"/>
+        <attribute name="adminUserName" optional="YES" attributeType="String"/>
+        <attribute name="groupAvatarUrl" optional="YES" attributeType="String"/>
+        <attribute name="groupID" optional="YES" attributeType="String"/>
+        <attribute name="groupName" optional="YES" attributeType="String"/>
+        <attribute name="groupThreadID" optional="YES" attributeType="String"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isBlocked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isDeletedChat" optional="YES" attributeType="Boolean" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lastMsgID" optional="YES" attributeType="String"/>
+        <attribute name="lastMsgText" optional="YES" attributeType="String"/>
+        <attribute name="lastMsgTime" optional="YES" attributeType="String"/>
+        <attribute name="lastMsgType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="recordStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sentDateTimeMilliSeconds" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="threadID" optional="YES" attributeType="String"/>
+        <attribute name="unreadMsgCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="MediaUploadLog" representedClassName="MediaUploadLog" syncable="YES">
+        <attribute name="mediaPath" optional="YES" attributeType="String"/>
+        <attribute name="messageId" optional="YES" attributeType="String"/>
+        <attribute name="uploadState" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PrivateChatMessages" representedClassName="PrivateChatMessages" syncable="YES">
+        <attribute name="externalUserId" optional="YES" attributeType="String"/>
+        <attribute name="imageHeight" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageWidth" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isDeletedMessage" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isReadByMe" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mainImageUrl" optional="YES" attributeType="String"/>
+        <attribute name="messageID" optional="YES" attributeType="String"/>
+        <attribute name="messageText" optional="YES" attributeType="String"/>
+        <attribute name="messageTime" optional="YES" attributeType="String"/>
+        <attribute name="messageType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="postId" optional="YES" attributeType="String"/>
+        <attribute name="sentDateTimeMilliSeconds" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="threadID" optional="YES" attributeType="String"/>
+        <attribute name="threadType" optional="YES" attributeType="String"/>
+        <attribute name="thumbnailImageUrl" optional="YES" attributeType="String"/>
+        <attribute name="userAvatarUrl" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PrivateConversation" representedClassName="PrivateConversation" syncable="YES">
+        <attribute name="extAppUserId" optional="YES" attributeType="String"/>
+        <attribute name="isBlocked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isDeletedChat" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastMsgID" optional="YES" attributeType="String"/>
+        <attribute name="lastMsgIsDeleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastMsgText" optional="YES" attributeType="String"/>
+        <attribute name="lastMsgTime" optional="YES" attributeType="String"/>
+        <attribute name="lastMsgType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sentDateTimeMilliSeconds" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="threadID" optional="YES" attributeType="String"/>
+        <attribute name="totalMsgCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="unreadMsgCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userAvatarUrl" optional="YES" attributeType="String"/>
+        <attribute name="userID" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="userStatus" optional="YES" attributeType="String"/>
+    </entity>
+</model>

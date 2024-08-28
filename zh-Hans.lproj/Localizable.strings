@@ -1,0 +1,2153 @@
+/* 
+  Localizable.strings
+  ChatModule
+
+  Created by Akash Belekar on 23/07/24.
+  
+*/
+
+"ok" = "好的";
+"yes" = "是";
+"no" = "否";
+"view" = "查看";
+"dismiss" = "忽略";
+"continue" = "继续";
+"hide" = "隐藏";
+"cancel" = "取消";
+"confirm" = "Confirm";
+"signing_in" = "登录中";
+"login_invalid_credentails" = "您的资料无效";
+"login_error" = "出错了，请稍后重试";
+"stream_live_count" = "直播";
+"createStream18PlusDisclaimer" = "Peeks Social不允许公共直播中播放淫秽内容。请参见Peeks Social服务条款。";
+"stream_info_share_button" = "分享";
+"share_this_stream" = "分享此流";
+"stream_info_report_button" = "报告直播";
+"report_stream_alert_title" = "报告不当";
+"report_stream_alert_message" = "您想报告此直播为不当吗？";
+"share_actionsheet_title" = "和他分享直播";
+"share_all_followers" = "所有粉丝";
+"select_followers" = "选择粉丝";
+"stat_views" = "浏览";
+"stat_viewers" = "观众";
+"stat_likes" = "点赞";
+"stat_live_views" = "直播观看";
+"stat_replays" = "重播";
+"people_title" = "人";
+"profile_title" = "我的资料";
+"profile_share" = "分享";
+"profile_share_message" = "看看这个很棒的 Keek 个人资料： ";
+"stream_share_message" = "看看这个很棒的 Keek 流： ";
+"video_share_message" = "看看这个很棒的 Keek 视频： ";
+"profile_description_placeholder" = "点击这里添加描述";
+"profile_logout_actionsheet_title" = "您确定要登出吗？";
+"bank_account_delete_actionsheet_title" = "您确定想要删除此帐户吗？";
+"profile_terms" = "服务条款";
+"profile_privacy" = "隐私政策";
+"profile_logout" = "登出";
+"feedback_title" = "反馈";
+"wallet_support_title" = "钱包支持";
+"wallet_support_photoId_validation_failed_title" = "钱包支持：照片ID验证失败";
+"mail_unavailable_error_alert_title" = "无法发邮件";
+"mail_unavailable_error_alert_message" = "请查看您的邮箱设置以发送邮件";
+"confirmation_phone_number" = "您想要通过此手机号接收短信吗";
+"invite_friends_message" = "在Peeks Social上看我直播！ ";
+"profile_loading" = "加载资料页中";
+"sign_out" = "登出";
+
+// Stream leave messages
+"stream_terminated_leave_title" = "直播已终止";
+"stream_terminated_leave_message" = "根据我们的社群指导，所直播的内容被认定为不适当。\n请审查它们，就任何问题联系我们。您将不会得到此直播的收入。";
+
+"stream_blocked_leave_title" = "直播已被阻止";
+"stream_blocked_alert_message" = "您被直播主播阻止了。";
+
+"stream_disconnected_leave_title" = "直播断开连接";
+"stream_disconnected_leave_message" = "直播结束";
+
+
+"settings_title" = "设置";
+"settings_profile" = "资料设置";
+"settings_account" = "帐户设置";
+"settings_notifications_dailyStats_text" = "收到通知，了解您广播的情况；您的点赞数、粉丝和小费的增加。";
+"settings_notifications_newFollower_text" = "每次有人关注您时都收到推送通知。";
+"settings_notifications_streamStart_text" = "当您关注的人开始直播时收到推送通知。";
+"settings_notifications_streamShare_text" = "当您关注的人分享直播时收到推送通知。";
+"tip_animation_message" = "已付小费";
+
+// Tip Enforcement
+"tip_enforce_broadcaster_title" = "付费广播";
+"tip_enforce_broadcaster_description" = "当您切换到 \“付费广播\”模式时，观众将得到通知。查看“帮助”了解详情。您的付费广播的前60秒将是免费预览。请确保在这60秒的时间段里，您遵循服务条款和社区指导。\n\n在打开“付费广播”模式后，您必须最少广播15分钟。请不要对观众做出虚假陈述或保证。如果不遵循“付费广播”规则，可能导致您的收入被扣除。\n\n查看服务条款了解进一步详情。";
+
+"tip_enforce_viewer_title" = "主播要求最少 ";
+"tip_enforce_viewer_loading" = "发送小费";
+"tip_leave_button_title" = "离开广播";
+"tip_confirm_button_title" = "确认";
+"tip_stream_live_label" = "直播上线了……";
+"tip_stream_duration_label" = "直播时长：";
+"tip_stream_balance_label" = "可用余额：";
+
+"error" = "错误";
+
+"register_error_long" = "请更正下列信息继续";
+"register_phonenumber_invalid" = "国家的电话号码无效";
+"register_email_invalid" = "无效的邮箱，请验证";
+
+"register_email_exists" = "邮箱已经存在在我们的记录中";
+"register_passwords_match_error" = "密码不匹配";
+"register_password_length_error" = "密码必须至少有6个字符，并包含至少一个字母和一个数字";
+"register_username_invalid_error" = "用户名只能包含字母和数字，且必须至少3个字符以上。";
+"register_username_exists_error" = "用户名存在。请选择另一个";
+"register_username_error" = "用户名缺少，最少4个字符，以字母开始。";
+"register_birthday_error" = "缺少生日";
+"register_birthday_invalid_error" = "生日无效";
+"register_agree_terms" = "您必须同意条款与条件才能继续注册";
+
+"register_facebook_no_email" = "您需要在脸书上授权我们获取您的资料和邮箱，请重试。";
+"register_facebook_email_exists" = "与此脸书帐户相关的邮箱已存在在Peek上。";
+
+"register_wrong_country_index" = "无法加载您的国家。请重试";
+
+"birthday_error_future_date" = "无效的生日，不然您来自未来！";
+
+"account_validation_code_sent_sms" = "将通过短信发送代码给您。";
+"account_validation_code_sent_ivr" = "将通过电话发送代码给您。";
+"account_validation_code_sent_email" = "将通过邮件发送代码给您。";
+"account_validation_not_successful" = "您的账户没有被验证";
+
+"payment_method_billing_missing_title" = "账单地址不完整";
+"payment_method_billing_missing" = "请填入所有必要框";
+"stream_creation_error" = "创建直播出问题";
+"stream_not_playable_title" = "处理视频中";
+"stream_not_playable_message" = "此直播目前正在处理中。很快它就能播放了。";
+
+"stream_user_id_missing" = "似乎没有与此直播相关联的用户";
+"stream_user_not_live" = "该用户似乎没有在直播";
+
+"stream_unfollow_alert" = "您确定要取消关注此用户吗？";
+
+"stream_purchase_price_not_set" = "您没有确认购买价";
+
+"stream_block_alert" = "您确定要阻止此用户吗？";
+
+"withdraw_account_title" = "ID 验证待定中";
+"withdraw_account_title_fail" = "ID 验证失败";
+"photo_identification_title" = "照片识别";
+"photo_identification_message" = "为了验证您的身份，并且出于安全目的，您必须提交有效的照片身份。请拍摄一张有效的身份证才能继续。";
+"withdraw_proceed_fields" = "继续前请完成所有框";
+"withdraw_account_transit_error" = "转账号码应该是5位数";
+"withdraw_account_institution_error" = "机构号码应该是3位数";
+"withdraw_account_Account_error" = "账户号应该至少5位数";
+"withdraw_account_routingnumber_error" = "路由号码应该是9位数";
+
+"withdraw_account_failed_validation" = "您的支票账户验证失败。您想要添加另一个账户或重试吗？";
+"wallet_failed_photoId_validation" = "您的ID验证有问题。请在“我的钱包”中尝试重新提交您的ID ➔ 在右边的菜单中或联系support@peeks.com获得更多信息。";
+"wallet_manage_login_validation" = "出于安全目的，您可能要重新登录才能管理您的钱包";
+"wallet_pending_photoId_validation" = "我们还在验证您的ID过程中。请明天再试。";
+"withdraw_account_validate" = "您的支票账户需要被验证。您想现在就开始验证吗？";
+"withdraw_account_add" = "您还没有添加取款选项，告知把您的收入提取到何处。您想现在开始这个流程吗？";
+"deposit_account_add" = "您想添加新的信用卡吗？";
+"withdraw_account_add_new" = "您想添加新的取款选项吗？";
+"withdraw_not_enought_earnings" = "您目前没有足够的收入来提取";
+
+"create_purchase_value_error" = "请输入您的产品价格";
+
+"camera_source_error_title" = "相机来源出错";
+"camera_source_error_message" = "您没有授权Keek Social打开您的相机。您想立即前往设置并启用吗？";
+
+"location_enabled_error_title" = "没有启用位置许可";
+"location_enabled_error_message" = "您没有授权Keek Social获取您的位置。您想立即前往设置并启用吗？";
+
+"user_stats_no_followers_error" = "没有人在关注您";
+"user_stats_search_error" = "没有搜索结果";
+
+"rating_title_warning_high" = "请自行斟酌观赏";
+"rating_title_warning_low" = "适合所有观众";
+
+"rating_message_high" = "下列广播被评为18+。它可能包含让某些个人不快的内容。如果您在18岁以下，或如果您对粗俗语言、成人主题或部分裸露感到不快，请关闭直播。谢谢您。";
+"rating_message_medium" = "此广播被评为14+。它可能包含粗俗语言和成人主题。如果您认为此广播的评级不正确，请向Peeks Social报告，只需点击 ";
+"rating_message_low" = "此广播被评为G，适合所有年龄段。如果您在此广播中看到任何不适合各年龄的内容，请向Peeks Social报告，只需点击 ";
+
+"rating_message_initial" = "这个标签中的直播被评为18+。它可能包含让某些个人不快的内容。如果您想保留18+内容，请选择继续。如果您想隐藏18+内容，请选择隐藏。";
+"rating_message_content" = "只需前往主菜单中的设置，就能随时更改内容设置";
+
+"rating_footer_high" = "如果您在18岁以下，请关闭直播。";
+"rating_footer_medium" = "如果您在17岁以下，请关闭直播。";
+"rating_footer_low" = "享受您的直播";
+"stream_end_alert_message" = "您确定要结束直播吗？";
+"stream_share_confirmation_message" = "这个直播已与您的粉丝分享";
+// Localized Missing Strings
+
+"next" = "下一个";
+"resend" = "重新发送";
+"please_wait" = "请稍等……";
+"almost_done" = "快完成了";
+"resend" = "重新发送";
+"success" = "成功！";
+"skip" = "跳过";
+
+"sign_in" = "登录";
+"register_button_title" = "创建账户";
+"forgot_password" = "忘记密码？";
+"continue_with_apple" = "使用苹果账号继续";
+"continue_with_google" = "使用Google账号继续";
+
+// Reset Password
+//"reset_password_title" = "重置密码";
+//"reset_password_description" = "在下面输入您的用户名";
+"reset_password_options" = "请选择其中一个选项：";
+"reset_password_option_sms" = "通过短信发至 ";
+"reset_password_option_email" = "通过邮件发至 ";
+"reset_password_enter_password" = "请在下面输入您的密码。";
+"reset_password_mismatch" = "您输入的密码不匹配。";
+"reset_password_updated" = "您的密码已被更新。";
+"reset_password_sending_passcode" = "发送Pass码中";
+
+// Registration
+"registration_birth_year_title" = "让我们开始吧！";
+"registration_birth_year_description" = "请在下面输入您的出生年";
+"registration_birth_year_placeholder" = "出生年 (Optional)";
+
+//"registration_account_info_title" = "帐户信息";
+//"registration_account_info_description" = "在下面输入必要的信息";
+//"registration_email_placeholder" = "邮箱";
+//"registration_username_placeholder" = "用户名";
+"registration_password_placeholder" = "密码";
+"registration_confirm_password_placeholder" = "重新输入密码";
+//"registration_agreement" = "我同意这些条款与条件";
+
+"registration_phone_title" = "最后一步！";
+"registration_phone_description" = "在下面输入您的电话号码就能完成了。";
+"registration_phone_placeholder" = "电话号码";
+
+"registration_confirmation_title" = "帐户确认";
+"registration_confirmation_description" = "请输入发给您的代码。";
+"registration_confirmation_placeholder" = "代码";
+"registration_confirmation_ivr" = "无法收到短信？通过电话获得代码！";
+
+"registration_share_title" = "成功！您的帐户被确认。";
+"registration_share_description" = "与您的好友分享您的Peeks Social资料页，这样他们就能看您直播了！";
+"registration_share" = "分享";
+
+"intro_claim_gift" = "领取礼物";
+"intro_gift_title" = "注册您的信用卡，领取免费礼物！";
+"intro_gift_description" = "注册是免费的，您的信用卡将不会因为注册被收费。";
+
+"intro_skip_gift_title" = "对不起您没有注册信用卡。";
+"intro_skip_gift_description" = "我们还在免费送您50分。";
+"intro_skip_gift_thanks" = "来自Peeks Social团队的感谢。祝您使用Peeks Social愉快！";
+
+"watch_video" = "观看视频";
+"intro_done" = "完成";
+
+"intro_page_one_title" = "您在直播了！";
+"intro_page_one_description" = "Peeks Social是直播视频；无论您那时做什么，您的观众都会看到。观众能向您发送现金小费或点赞，您也能给最爱的主播小费。";
+
+"intro_page_two_title" = "真金白银！";
+"intro_page_two_description" = "Peeks Social有完整的移动钱包，让您轻松取出小费到银行账户，您也能设置账户，给直播主播小费。";
+
+"intro_page_three_title" = "分享中";
+"intro_page_three_description" = "在Peeks Social上增加您的粉丝数！邀请您的好友和社交媒体粉丝到Peeks Social，这会帮您更快地建立在线观众群体。";
+
+// Menu Buttons
+"menu_home" = "主页";
+"menu_upload_video" = "上传视频";
+"menu_crowdfunding" = "众筹";
+"menu_profile" = "个人资料";
+"menu_invite_friends" = "邀请好友";
+"menu_following" = "关注中";
+"menu_people" = "人";
+"menu_wallet" = "钱包";
+"menu_settings" = "设置";
+"menu_help" = "快速提示";
+"menu_logout" = "登出";
+"menu_offerbox" = "优惠盒";
+"menu_impressions" = "Manage Impressions";
+
+// Broadcasts Page
+"broadcasts" = "广播";
+"popular" = "受欢迎的";
+"live" = "直播";
+"uploads" = "上传";
+"explore" = "探索";
+"plus" = "加";
+"featured" = "特色";
+"live" = "直播";
+"go_live" = "直播吧";
+"record_video" = "录制视频";
+"upload_video" = "上传视频";
+"map" = "地图";
+"broadcasts_search_placeholder" = "根据标题或用户名搜索";
+"channels" = "频道";
+"following" = "关注中";
+
+"streaming_permissions_denied_alert_title" = "访问被拒绝";
+"streaming_permissions_denied_alert_message" = "您的直播功能已被禁用。请联系客服：support@peeks.com。";
+
+//DiscoverPeopleTileViewController
+"discover_more_people" = "Discover More";
+"please_browse_people_list" = "请浏览我们的受欢迎用户列表";
+
+//RatingsViewController
+"rating_title_label" = "广播者评级";
+"watch_button_title_label" = "观看直播";
+"close_button_title_label" = "关闭";
+
+//RateStreamViewController
+"thank_you_lable" = "感谢您观看！";
+"review_content_label" = "请花时间检查此内容。这会让所有人的观影体验更愉快。";
+"how_was_it_lable" = "它怎么样？";
+"finish_button_title_label" = "已完成";
+
+// Creation stream
+"no_selection" = "没有选择";
+"crowdfund_label" = "众筹";
+"offer_label" = "优惠";
+"rating_label" = "评级";
+"title_label" = "标题";
+"private_label" = "每个人";
+"data_saver_help_text" = "将数据节省选项调至 \"高\" 会尽可能地节省移动数据用量，但会带来最低的视频质量。 如果您在使用Wi-Fi，我们推荐\"低\" 而 \"中\" 或 \"高\" 是用于手机数据的。";
+
+// Upload Video
+"required_placeholder" = "必需";
+"upload_title" = "上传";
+"upload_select_video_button" = "选择另一个视频";
+"upload_header_stream" = "直播标题";
+"upload_header_video" = "视频设置";
+"upload_video_button" = "上传";
+"upload_title_label" = "标题";
+"upload_rating_label" = "评级";
+"upload_private_label" = "隐私";
+"upload_private_all_followers" = "我的粉丝";
+"upload_private_one_follower" = "观众";
+"upload_private_many_follower" = "观众";
+"upload_success" = "您的视频被成功上传。";
+"upload_KeekBack_success" = "您的视频评论已成功上传。";
+"upload_18_error" = "在继续前，您必须选择受允许观看您的18+视频的用户";
+
+// Private Broadcast
+"private_broadcast_title" = "私人广播";
+"private_broadcast_search_followers" = "搜索粉丝";
+"private_broadcast_select_followers" = "选择粉丝";
+"private_broadcast_select_all" = "选择全部";
+"private_broadcast_deselect_all" = "取消选择全部";
+"private_broadcast_public" = "每个人";
+
+// Streaming
+"stream_share_option_title" = "分享直播";
+"stream_share_option_message" = "您想如何分享此直播？";
+"stream_share_internal" = "与我的Peeks Social粉丝分享";
+"stream_share_external" = "在外部分享";
+
+// Profile
+"profile_title" = "个人资料";
+"profile_bar_button_back" = "返回";
+"profile_bar_button_done" = "完成";
+"user_options_title" = "用户选项";
+"user_options_unfollow" = "取消关注";
+"user_options_follow" = "关注";
+"user_options_block" = "阻止";
+"user_options_unblock" = "取消阻止";
+"user_options_report" = "报告";
+"user_options_share" = "分享";
+
+// Following
+"follower_users" = "粉丝";
+"following_users" = "关注中";
+"blocked_users" = "已阻止";
+"private_broadcast" = "私人广播";
+
+// People
+"search_placeholder" = "搜索";
+
+// Reporting
+"reporting_details" = "请添加更多详情……";
+"reporting_user" = "报告用户";
+"reporting_user_thank" = "谢谢您";
+"reporting_confirmation" = "报告成功确认码：";
+"reporting_reason" = "请写出报告的原因";
+"reporting_sorry" = "对不起";
+
+// Wallet
+"wallet_title" = "我的钱包";
+"wallet_deposit" = "存款";
+"wallet_withdrawal" = "取款";
+"wallet_available_balance" = "余额";
+"wallet_transaction_type" = "交易类型";
+"wallet_amount" = "金额";
+"wallet_no_payment_method" = "没有添加付款方式";
+
+"wallet_transaction_deposit_credit" = "存款（信用卡）";
+"wallet_transaction_deposit_chequing" = "存款（支票）";
+"wallet_transaction_deposit_iap" = "钱币存款";
+"wallet_transaction_withdrawal" = "取款";
+"wallet_transaction_tip_sent" = "已送出的小费";
+"wallet_transaction_tip_received" = "已收到的小费";
+"wallet_transaction_refund" = "小费退款";
+"wallet_transaction_refund_fee" = "平台赠送";
+"wallet_transaction_reversal" = "撤销";
+"wallet_transaction_correction" = "修改";
+"wallet_transaction_transfer" = "转账";
+"wallet_transaction_purchase" = "购买";
+"wallet_transaction_platform_fee" = "平台费用";
+"wallet_transaction_bonus" = "奖金";
+"wallet_transaction_none" = "本月您没有交易记录\n";
+
+"wallet_options_support" = "支持";
+"wallet_options_withdraw" = "取款选项";
+"wallet_options_deposit" = "存款选项";
+"wallet_options_add" = "添加";
+"wallet_options_delete" = "删除";
+"wallet_options_default" = "默认";
+"wallet_options_tip_amount" = "小费金额";
+
+"wallet_options_title" = "标题";
+"wallet_options_submit_photo" = "重新提交照片ID";
+"wallet_options_switch_account" = "切换账户";
+"wallet_options_none" = "无";
+"wallet_options_tip_note" = "* 小费设置是每次送出的‘小费’交易的基本金额。不是向您的信用卡收取的总金额";
+
+"wallet_withdrawal_title" = "要取款吗？";
+"wallet_withdrawal_description" = "我们需要您的转出地址才能继续取款步骤。\n\n此流程最多要5个工作日。";
+"wallet_withdrawal_available" = "可取款";
+"wallet_withdrawal_select_country" = "选择您的国家";
+"wallet_withdrawal_proceed" = "继续";
+
+"wallet_withdrawal_address_title" = "让我们开始吧！";
+"wallet_withdrawal_address_subtitle" = "请在下面输入必要信息：";
+"wallet_withdrawal_first_name_placeholder" = "名";
+"wallet_withdrawal_last_name_placeholder" = "姓";
+"wallet_withdrawal_email_placeholder" = "邮箱";
+"wallet_withdrawal_phone_placeholder" = "电话号码";
+"wallet_withdrawal_address_placeholder" = "地址";
+"wallet_withdrawal_address_two_placeholder" = "地址 2 (可选)";
+"wallet_withdrawal_city_placeholder" = "城市";
+"wallet_withdrawal_state_placeholder" = "州 / 省";
+"wallet_withdrawal_postal_code_placeholder" = "邮编 / 邮政编码";
+"wallet_withdrawal_country_placeholder" = "国家";
+
+"wallet_withdrawal_id_take_photo" = "拍照";
+"wallet_withdrawal_id_license" = "驾照";
+"wallet_withdrawal_id_passport" = "护照";
+"wallet_withdrawal_id_citizenship" = "国籍";
+"wallet_withdrawal_id_identity" = "身份";
+"wallet_withdrawal_id_other" = "其他";
+
+"wallet_withdrawal_method_title" = "选择取款方式";
+"wallet_withdrawal_method_wire" = "银行电汇";
+"wallet_withdrawal_method_cheque" = "邮寄支票";
+"wallet_withdrawal_method_wire_description" = "在下面输入您的银行电汇详情：";
+"wallet_withdrawal_method_cheque_description" = "向我下面的地址邮寄支票：";
+"wallet_withdrawal_method_edit_address" = "编辑地址？";
+"wallet_withdrawal_method_wire" = "银行电汇";
+
+"wallet_withdrawal_validation_deposit_placeholder" = "如 0.36";
+
+"wallet_deposit_title" = "存款";
+"wallet_deposit_amount" = "多少？";
+"wallet_deposit_amount_minimum" = "最少";
+"wallet_deposit_amount_maximum" = "最多";
+"wallet_deposit_from" = "从这里存入金额：";
+
+"wallet_deposit_processing_title" = "处理付款中";
+"wallet_deposit_processing_subtitle" = "您的存款正在被处理。您的金额将存入您的钱包。";
+"wallet_deposit_processing_subtitle_two" = "存款流程最多要5个工作日。";
+
+"wallet_manage_label" = "请访问peeks.com管理您的钱包。";
+
+// Settings
+"settings_account" = "帐户";
+"settings_app_settings" = "应用设置";
+"settings_notifications" = "通知";
+"settings_about" = "关于";
+"settings_privacy_policy" = "隐私政策";
+"settings_account_salutation" = "致敬";
+"settings_account_salutation_placeholder" = "设置致敬";
+"settings_account_username" = "用户名";
+"settings_account_full_name" = "全名";
+"settings_account_full_name_edit" = "编辑您的全名";
+"settings_account_city" = "城市";
+"settings_account_city_add" = "添加城市";
+"settings_account_email" = "邮箱";
+"settings_account_email_add" = "添加邮箱";
+"settings_account_description" = "描述";
+"settings_account_description_placeholder" = "编辑描述";
+"settings_account_phone" = "电话号码";
+"settings_account_phone_add" = "添加电话号码";
+"settings_account_birth_year" = "出生年";
+"settings_account_birth_date" = "出生日期";
+"settings_account_birth_date_add" = "添加生日";
+"settings_app_show_18+_content_title" = "显示18+内容";
+"settings_app_show_18+_content_description" = "关闭它将从您的推送中去除被评为18+的所有直播。";
+"settings_notifications_daily_stats_title" = "每日统计";
+"settings_notifications_new_follower_title" = "新粉丝";
+"settings_notifications_stream_start_title" = "直播开始";
+"settings_notifications_stream_share_title" = "直播分享";
+"settings_about_terms" = "服务条款";
+"settings_about_privacy" = "隐私政策";
+"settings_about_title" = "关于";
+"settings_notifications_stream_email_title" = "邮件沟通";
+"settings_notifications_stream_text_title" = "短信沟通";
+"settings_notifications_stream_phone_title" = "电话沟通";
+"settings_notifications_chat_title" = "聊天";
+"settings_notifications_email_text" = "通过邮件收到沟通。";
+"settings_notifications_text_text" = "通过短信收到沟通。";
+"settings_notifications_phone_text" = "通过电话收到沟通。";
+"settings_notifications_chat_text" = "每次有人给您发送聊天消息时都收到推送通知。";
+
+// In App Purchases
+"iap_buy" = "购买";
+"iap_purchase_coins" = "购买钱币";
+"iap_manage_my_wallet" = "管理我的钱包";
+
+//Crowdfunding
+"crowdfunding" = "众筹";
+"crowdfunding_stream_title" = "小费";
+"crowdfunding_stream_message" = "输入您想要付小费的金额";
+"crowdfunding_stream_invalid" = "无效的金额";
+"crowdfunding_stream_correct_amount" = "请提供$0.05 到 $300.00之间的有效金额";
+"crowdfunding_stream_confirm" = "确认";
+"crowdfunding_stream_confirm_tip" = "确认小费";
+"crowdfunding_stream_confirm_tip_msg" = "您将给 $%1$@的小费。继续吗？";
+"crowdfunding_stream_credit_card" = "没有注册信用卡";
+"crowdfunding_stream_credit_card_register" = "请前往peeks.com注册信用卡。";
+
+//Coins
+"coins_stream_insufficient_message" = "您没有足够的钱币来给小费。立即添加钱币吗？";
+"coins_stream_insufficient_title" = "余额不足";
+"coins_stream_tip_continue" = "您即将给小费。继续吗？";
+"coins_stream_tip_message" = "您将给 %1$@ 个钱币的小费。继续吗？";
+"coins_current_balance" = "当前余额";
+"coins_coins_label" = "钱币";
+
+//Sort
+"sort_most_recent" = "根据最近时间排序";
+"sort_most_likes" = "根据最多点赞数排序";
+"sort_most_rated" = "根据最高评分排序";
+
+//Tabbar
+"tabbar_home" = "主页";
+"tabbar_profile" = "个人资料";
+"tabbar_wallet" = "钱包";
+"tabbar_more" = "更多";
+"tabbar_more_option" = "更多选项";
+
+//Unused right now
+
+"table_no_data" = "没有找到任何结果。";
+"login_with_twitter_button" = "用推特登录";
+"login_twitter_error" = "无法授权您的推特帐户。";
+"recent_streams" = "最近 / 过去活动";
+"live_streams" = "直播";
+"stream_name_placeholder" = "在发生什么？";
+"go_live_button" = "直播吧！";
+"connecting_stream_label" = "连接中……";
+"global_title" = "全球";
+"followed_title" = "已关注";
+"cant_join_stream_alert_title" = "无法加入直播";
+"cant_join_stream_alert_message" = "看上去您现在无法加入直播。请稍后再试";
+"create_stream_post_message" = "观看 %1$@ 直播： %2$@";
+"select_followers_title" = "分享直播";
+"search_followers_placeholder" = "搜索粉丝";
+"stream_close_alert_title" = "直播结束";
+"stream_close_alert_message" = "直播结束了。按“关闭”按钮关闭观看并回到主屏幕。";
+"w_share_notification" = "%1$@ 想让您看 %2$@";
+"w_live_notification" = "%1$@ 直播了！";
+"user_card_followers" = "粉丝";
+"user_card_following" = "关注中";
+"user_card_recent" = "最近";
+"user_card_follow" = "关注";
+"user_card_unfollow" = "取消关注";
+"user_card_block" = "阻止";
+"user_card_unblock" = "取消阻止";
+
+"people_top" = "顶端";
+"people_featured" = "特色";
+
+"profile_userpic_actionsheet_title" = "更改用户图片";
+"profile_userpic_camera" = "相机";
+"profile_userpic_gallery" = "图片库";
+"profile_following" = "关注中";
+"profile_followers" = "粉丝";
+"profile_blocked" = "已阻止";
+"profile_streams" = "直播";
+"profile_feedback" = "反馈";
+
+"stream_rating_no_agree_leave_title" = "离开了直播";
+"stream_rating_no_agree_leave_message" = "您没有同意直播的评级条款";
+"settings_tips" = "小费设置";
+"set_tip_warning" = "设置小费偏好";
+"set_tip_warning_message" = "您必须设置小费偏好才能在直播里给小费。您想要现在还是稍后设置？";
+
+"register_name_missing_error" = "需要全名才能注册";
+"register_name_error" = "全名不能有任何数字或特殊字符";
+"register_error_short" = "请修正错误";
+"register_error_email_warning" = "邮箱不正确。您想要输入有效的邮箱还是继续？";
+"register_error_email_missing" = "缺少邮箱。您想现在输入还是稍后再做？";
+"register_email_missing" = "缺少邮箱";
+"register_prefix_error" = "缺少前缀";
+"register_phone_error" = "缺少电话号码";
+"register_phone_invalid" = "电话号码无效";
+"register_phone_exist" = "电话号码已经存在于我们的记录中";
+"register_country_error" = "缺少国家";
+"register_password_error" = "缺少密码。最少6个字符。";
+"register_confirm_error" = "缺少密码确认";
+
+"confirmation_code_error" = "确认码无效。";
+"tip_settings_success" = "小费设置已被保存！";
+"stream_ban_alert" = "您确定要禁止此用户进入您的直播吗？";
+"stream_close_error" = "关闭直播时出了问题";
+"stream_follow_success" = "您现在在关注此用户";
+"stream_unfollow_success" = "您已取消关注此用户";
+"report_success" = "已收到报告，我们会审查它";
+"block_success" = "已成功阻止用户";
+"unblock_success" = "已成功取消阻止用户";
+
+"withdraw_account_pending_validation" = "您有一个支票账户正在验证中";
+"user_stats_no_following_error" = "您没有关注任何人";
+
+"user_stats_no_blocked_error" = "您没有阻止任何人";
+"default_tip_pref_error" = "目前无法设置默认的小费设置";
+
+"stream_share_alert_message" = "您想要与您的粉丝分享这个直播吗？";
+"failed_to_load_category" = "无法获取类别，请重试";
+
+"wallet_holds" = "持有";
+"wallet_current_balance" = "总现金余额";
+"wallet_options_tip_description" = "这是每个送出的‘小费’交易的基础金额。它不是向您的信用卡收取的总金额。";
+"settings_account_username_placeholder" = "设置用户名";
+"settings_account_salutation_mr" = "先生";
+"settings_account_salutation_mrs" = "夫人";
+"settings_account_salutation_miss" = "小姐";
+"settings_account_salutation_ms" = "女士";
+
+// New
+"loading" = "加载中...";
+"my_crowdfunding_goals" = "我的众筹目标";
+"goal_status_enabled" = "enabled";
+"goal_status_funded" = "funded";
+"goal_status_approved" = "approved";
+"goal_status_pending" = "pending";
+"goal_status_completed" = "completed";
+"goal_status_disabled" = "disabled";
+"goal_status_rejected" = "rejected";
+"goal_create_button" = "创建新的众筹目标";
+"streaming_going_live" = "Going Live!";
+"streaming_going_live_comment" = "You're about to begin broadcasting live... let's get started";
+"streaming_title_placeholder" = "Enter Broadcast Title";
+"streaming_start_broadcast" = "开始直播";
+"clear" = "清除";
+"data_saver_label" = "Data Saver";
+"data_saver_low" = "Low";
+"data_saver_medium" = "Medium";
+"data_saver_high" = "High";
+"private_broadcast_label" = "Private Broadcast";
+"create_stream_myfollowers" = "My Followers";
+"stat_viewer" = "观众";
+"tipped_you" = "Tipped you";
+"on_air" = "直播中";
+"go_paid" = "打开支付";
+"mini_tip_text" = "Minimum tip:";
+"total_text" = "Total";
+"uploadvideo_select_rating" = "A rating has to be selected for the video.";
+"select" = "选择";
+"tip_amount_title" = "小费数量";
+"report_stream_content" = "Inappropriate Content";
+"report_stream_crime" = "Crime in progress";
+"report_stream_troll" = "Troll";
+"report_stream_other" = "Other";
+"report_stream_delete" = "Delete stream";
+"report_stream_move" = "Move to 18";
+"report_stream_update_paid" = "Set Stream to Paid";
+"report_stream_delete_disable" = "Delete and disable stream/upload";
+"goal_raised_why" = "Why?";
+"goal_raised_for" = "What I’m raising funds for…";
+"goal_label" = "众筹目标";
+"goal_raised_label" = "已筹";
+"goal_donate_button_title" = "支付";
+"tipped_the_streamer" = "Tipped the streamer";
+"my_messages" = "My Messages";
+"change_username" = "Change your username (You will only be able to change your username once every 6 months)";
+"change_email" = "Change your email";
+"name" = "Name";
+"change_name" = "Change your name";
+"change_phone_number" = "Change your Phone Number";
+"change_city" = "Change your City";
+"choose_picture" = "从下面选择选项";
+"uploading_photo" = "Uploading Photo";
+"create_goal_text" = "Create Goal";
+"add_description" = "Add description...";
+"goal_title_description" = "Goal Title & Description";
+"goal_amount_text" = "Goal Amount";
+"goal_amount_description" = "The goal amount can range from $50 to $10,000.";
+"target_date_text" = "Target Date";
+"target_date_description" = "Please select the target date to reach your crowdfunding goal. Please note that your goal will expire on this date.";
+
+"Make Featured" = "Make Featured";
+"Do you wish to make this video featured?" = "Do you wish to make this video featured?";
+"Unfeature" = "Unfeature";
+"Do you wish to make this video unfeatured?" = "Do you wish to make this video unfeatured?";
+"Featured video" = "Featured video";
+
+// New Offer Box
+"SelectOfferType" = "Select Offer Type";
+"DigitalContentOffer" = "Digital Content Offer";
+"Cancel" = "Cancel";
+"SelectCategory" = "Select Category";
+"SaveAndProceed" = "Save & Proceed";
+
+// Impressions
+"confirm_impression_purchase_alert_title" = "Confirm Purchase";
+"confirm_impression_purchase_alert_message" = "You are about to purchase %d impressions.";
+"confirm_subscribe_impression_purchase_alert_message" = "You are about to purchase subscription of %d impressions.";
+"impression_purchase_success_message" = "Your purchase was successful.";
+
+// Ad Share Network
+"AdShareNetworkScreenTitle" = "Get Sponsored!";
+"AdShareNetworkBalanceTitle" = "Advertising Balances";
+"AdShareNetworkCoinsBalanceTitle" = "COINS EARNED*";
+"AdShareNetworkBalanceDescription" = "*earned by promoting ads";
+"AdShareNetworkImpressionsBalanceTitle" = "IMPRESSIONS BALANCE*";
+"AdShareNetworkImpressionsBalanceDescription" = "*remaining ads balance";
+"AdShareNetworkGetDiscoveredTitle" = "GET DISCOVERED!";
+"AdShareNetworkGetDiscoveredDescription" = "Use your impressions balance to expand your reach and promote your broadcasts or your business.";
+"AdShareNetworkPurchaseImpressionsButtonTitle" = "BUY IMPRESSIONS";
+"AdShareNetworkPurchaseCoinsButtonTitle" = "BUY COINS";
+"Get Popular!" = "Get Popular!";
+"AdShareNetworkCreateOfferCellLabel" = "Create an Offer";
+"ON" = "ON";
+"OFF" = "OFF";
+"Set your videos to display at the top of the list. Get popular!" = "Set your videos to display at the top of the list. Get popular!";
+"Manage Impressions";
+"sales" = "Sales";
+"impressions" = "Impressions";
+"coins" = "Coins";
+
+//Video Upload Tip Enforcement
+"tip_enforce_video_title" = "Paid Video Upload";
+"tip_enforce_video_description" = "Your upload will be a \”Paid Video Upload\”. See Help for details. The first 60 seconds of your Paid Video Upload will be a free preview. Please ensure that you follow the terms of service and community guidelines with your upload. Please do not make false claims or promises to viewers. Failure to follow rules may result in your payment being withheld.\n\nSee terms of service for further details.";
+"tip_enforce_no_crowdfund" = "Cannot attach a Crowdfund campaign to a Paid Video";
+
+"upload_18_rating_crowdfund_error" = "Cannot attach a Crowdfund campaign to a video with 18+ rating";
+"retake" = "Retake";
+
+// IAP new
+"you_are_not_authorized" = "You are not authorized to purchase coins at this time. Please contact support@peeks.com for more information.";
+"deposit_coin_time_out" = "There was an error connecting with the server. Please try closing and reopening your Peeks Social App!";
+"Not enough space" = "Not enough space";
+"There is not enough space in the phone." = "There is not enough space in the phone.";
+"stream_share_message" = "Check out this awesome Peeks Social stream: ";
+
+// Report Stream New
+"report_stream_replace_thumbnail" = "Replace thumbnail";
+
+//miiTV new strings
+"sign_in_title" = "登入";
+"sign_in_subtitle" = "登录到您的帐户";
+"sign_in_no_account" = "没有帐户？";
+"reset_password_title" = "找回密码";
+"reset_password_description" = "请在下面输入您的信息，您将收到包含说明的恢复链接";
+"reset_password_header" = "账户与安全";
+"reset_password_next" = "开始恢复";
+"registration_account_info_title" = "报名";
+"registration_account_info_description" = "创建\n您的帐户";
+"registration_email_placeholder" = "电子邮件地址";
+"registration_username_placeholder" = "输入用户名";
+"registration_agreement" = "注册即表示您已阅读并同意服务条款";
+"registration_already_have_an_account" = "已经有一个帐户？";
+"registration_enter_email_placeholder" = "输入电子邮件";
+"profile_create_my_account" = "创建我的账户";
+"recovery_method_title" = "恢复\n方法";
+"recovery_method_subtitle" = "选择以下选项之一。";
+"recovery_method_button" = "发送恢复代码";
+"send_code_success_header" = "您的恢复代码\n已发送！";
+"send_code_success_btn" = "输入代码";
+"enter_code_title" = "帐户\n确认";
+"enter_code_subtitle" = "请在下面输入您在电子邮件中收到的代码。";
+"enter_code_placeholder" = "输入代码";
+"enter_code_submit" = "提交";
+"enter_code_resend" = "重新发送验证码";
+"new_password_title" = "几乎\n完成";
+"new_password_subtitle" = "请在下方输入您的密码";
+"new_password_placeholder" = "密码";
+"confirm_password_placeholder" = "确认密码";
+"new_password_submit" = "提交";
+"reset_password_success_header" = "成功";
+"reset_password_success_subtitle" = "您的密码已更新。";
+"reset_password_success_done" = "完毕";
+"registration_success_header" = "惊人的！";
+"registration_success_subtitle" = "您的帐号已经建立。";
+
+//offer vp
+"Offers" = "优惠";
+"SavedOffers" = "已保存的优惠";
+"MyAds" = "我的广告";
+"OfferDescription" = "优惠描述";
+"ClickHereToRedeem" = "点击这里领取";
+"PleaseReviewYourURLOffer" = "正在审查您的URL优惠。请上传广告或照片以完成。";
+"Delete" = "删除";
+"Save" = "保存";
+"ImageMissingError" = "请为优惠提供图片";
+"ImageMissing" = "缺少图片";
+"Ok" = "好的";
+"DeleteOffer" = "删除优惠";
+"AreYouSureYouWantToDeleteThisOffer?" = "您确定要删除此优惠码？";
+"No" = "否";
+"Yes" = "是";
+"Error" = "错误";
+"OfferDeleted" = "优惠已删除";
+"TheOfferHasBeenDeleted" = "优惠已被删除";
+"TheOfferHasBeenCreated" = "优惠已被创建";
+"ThankYou!" = "谢谢您！";
+"ThereWasAProblemDeletingTheOffer" = "删除优惠时出现问题";
+"ThereWasAProblemCreatingTheOffer" = "创建优惠时出现问题";
+"CreateOffer" = "创建优惠";
+"OfferTitle" = "优惠标题";
+"CreateURLHeader" = "请在下面填入信息，设置您的URL优惠。";
+"Description" = "描述";
+"URLOffer" = "URL 优惠";
+"InvalidInformation" = "无效的信息";
+"ReviewFields" = "下列栏位需要审查：\n";
+"SelectOfferImage" = "Please select main offer image.";
+"SelectThumbnailImage" = "Please select offer thumbnail image.";
+
+// New Offer Box
+"SelectOfferType" = "选择优惠类型";
+"DigitalContentOffer" = "数字内容优惠";
+"Cancel" = "取消";
+"SelectCategory" = "选择类别";
+"SaveAndProceed" = "保存并继续";
+"NoCategorySelected." = "未选择类别";
+"LearnMoreAboutThisOffer" = "VIEW THIS OFFER NOW";
+
+//MiiTv Offer Box
+"YourOffers" = "您的报价";
+"AdsReceived" = "收到的广告";
+"AdsCreated" = "创建的广告";
+"AdsReceivedNote" = "收到的广告会自动存储在您的“报价箱”中，您可以随时查看和/或删除它们。";
+"NoAdsTitle" = "您目前没有广告。";
+"NoAdsSubtitle" = "您想制作广告吗？";
+"CreateAnOffer" = "创建报价";
+"MainOfferHeadline" = "主要优惠标题";
+"HeadlinePlaceholder" = "在此处输入报价标题...";
+"OfferDescription" = "优惠说明";
+"DescriptionPlaceholder" = "在此处输入报价说明...";
+"WebsiteURL" = "网址";
+"URLPlaceholder" = "输入报价 URL 以获取更多详细信息...";
+"SelectImage" = "选择图片";
+"OfferPreview" = "优惠预览";
+"VisitWebsite" = "访问网站";
+"Complete" = "完全的";
+"PreviewMyOffer" = "预览我的报价";
+"PublishOffer" = "发布报价";
+"Preview My Offer" = "预览我的报价";
+"MainOffer" = "主要报价";
+"OfferThumbnail" = "报价缩略图";
+
+//MiiTv Side Menu
+"ManageAccount" = "管理帐户";
+"EditBioAvatar" = "编辑我的简历和头像";
+"PrivacySettings" = "隐私设置";
+"LoginSecurity" = "登录和安全";
+"MyWallet" = "我的钱包";
+"ContentAccess" = "内容访问及更多";
+"CreatePost" = "创建帖子";
+"createKeekBackPost" = "发布我的视频评论";
+"ImpBalance" = "展示平衡";
+"OfferBox" = "报价箱";
+"Subscription" = "订阅";
+"MyFollowers" = "我的追随者";
+"Support" = "支持";
+"ContactCustSupport" = "联系客户支持";
+"ViewFAQ" = "查看常见问题解答";
+"SignOut" = "登出帐户";
+"DeletePostActionSheetTitle" = "您确定要删除帖子吗？";
+"video_share_message" = "看看这个很棒的 Keek 视频： ";
+"ManageGroups" = "我的群组";
+"NotificationSettings" = "通知设置";
+
+//MiiTv Groups
+"group_name" = "团队名字";
+"my_group_name" = "我的群名";
+"add_members" = "添加成员";
+"members" = "成员";
+"finish_n_save" = "完成并保存";
+"myGroups" = "我的群组";
+"newLineMyGroups" = "我的\n群组";
+"createUnlimitedGroup" = "创建无限组";
+"groupSubtitle2" = "使用 Keek 群组，您可以创建任意数量的群组。";
+"groupSubtitle3" = "专门创建并发布到这些组。";
+"createGroup" = "创建组";
+"pleaseEnterGroupName" = "请输入群组名称";
+"addGroupMembers" = "请将成员添加到组";
+"alert" = "警报！";
+"creatingGroup" = "正在创建组...";
+"updatingGroup" = "更新组...";
+"groupIsBeingDeleted" = "正在删除您的群组...";
+"editGroup" = "编辑群组";
+"groupList" = "组列表";
+"memberList" = "会员名单";
+
+
+
+//Ad Credits
+"adCredits" = "广告学分";
+"fireCreator" = "造火者";
+"creatorPro" = "创作者临";
+"basic" = "基本的";
+"fireCreatorPackage" = "Keek Fire 创作者包";
+"creatorProPackage" = "Keek Creator Pro 套餐";
+"basicPackage" = "Keek 基本套餐";
+"disclaimerText" = "*印象是一种指标，用于量化一段内容（通常是广告、数字帖子或网页）的数字视图或参与度。";
+"disclaimerPaymanetText" = "付款将在购买确认后从iTunes账户中扣除。除非在当前期间结束前至少提前24小时关闭自动续订，否则订阅将每月自动续订。账户将在当前期间结束前的24小时内扣款并确认续订的费用。用户可以通过购买后前往用户的账户设置来管理订阅，并且可以关闭自动续订。在活动订阅期间不允许取消当前订阅。";
+"%discount" = "每月支付可节省高达%@";
+"40%discount" = "每月支付可节省高达50%";
+"25%discount" = "每月支付可节省高达25%";
+"10%discount" = "每月支付可节省高达10%";
+"subscribefor$" = "订阅 $";
+"payAsYouGo" = "即付即用 $";
+"purchased" = "已购买";
+"alreadySubscribed" = "您已经订阅了这个套餐";
+"subscribed" = "已订阅";
+"subscribeFor" = "订阅";
+"payAsYouGo" = "边走边付 ";
+"error" = "错误";
+"impressionNotAvailable" = "目前无法获得购买印象。";
+"transactionProcessingText" = "我们正在处理您的交易... \n 请不要点击返回按钮或关闭此窗口。";
+"oops" = "哎呀！";
+"lowCoinsMsg" = "您没有足够的硬币来购买这个包裹。买硬币？";
+"buyCoins" = "买硬币";
+
+//Refer to Earn
+"referYour" = "参考你的";
+"friends" = "朋友们";
+"earnFreeImpressions" = "赚取免费印象";
+"useReferralCode" = "将您的推荐代码用于您的社交媒体帖子。当您的推荐人注册 Keek 时，您每次注册都会获得 1000 印象";
+"successfulReferral" = "推荐成功";
+"impressionEarned" = "获得的展示次数";
+"personaReferralLink" = "您的 Personas Keek 推荐链接";
+"shareLinkReferral" = "分享此链接以在您的社交媒体上发布以进行推荐。";
+
+//Miitv Search
+"searchKeek" = "搜客";
+"searchUsers" = "用户";
+"posts" = "帖子";
+"searchResults" = "搜索结果";
+"searchUserOrTitle" = "搜索用户或标题";
+
+//Miitv Notification Settings
+"notificationSettings" = "通知设置";
+"newPosts" = "新帖";
+"newPostsText" = "您关注的用户的新帖子";
+"newPrivatePosts" = "新的私人帖子";
+"newPrivatePostsText" = "来自用户的新私人帖子";
+"newFollower" = "新追随者";
+"newFollowerText" = "当您收到新的关注者时";
+"newLike" = "新喜欢";
+"newLikeText" = "当用户喜欢你的帖子时";
+"newComment" = "新评论";
+"newCommentText" = "当用户对您的帖子发表评论时";
+"messaging" = "讯息";
+"messagingText" = "当您收到新消息时";
+"followRequest" = "新关注请求";
+"followRequestText" = "当您收到新的关注请求时";
+//Edit Bio & Avatar
+"EditBioAvatar" = "编辑简历和头像";
+"updateProfile" = "更新个人信息";
+//"salutation" = "称呼";
+//"enterSalutation" = "输入称呼...";
+"username" = "用户名";
+"enterUsername" = "输入用户名...";
+"name" = "姓名";
+"enterName" = "输入名字...";
+"city" = "城市";
+"enterCity" = "进入城市...";
+"email" = "电子邮件";
+"enterEmail" = "输入电子邮件...";
+"description" = "描述";
+"enterDescription" = "输入描述...";
+"phone" = "电话";
+"enterPhone" = "输入电话...";
+"YOB" = "出生年份";
+"enterYOB" = "输入出生年份...";
+"Profileupdatedsuccessfully" = "个人资料已成功更新";
+//Privacy Settings
+"privacySettings" = "隐私设置";
+"privateAccount" = "私人账户";
+
+//Upload Video
+"selectWhoCanView" = "选择谁可以查看帖子...";
+"selectWhoCanViewStream" = "选择谁可以查看流";
+"selectWhoCanViewStory" = "选择谁可以查看故事...";
+"selectStoryDuration" = "选择故事持续时间...";
+"uploadVideo" = "上传视频";
+"uploadStory" = "发布\n你的故事";
+"enterTitle" = "输入标题";
+"VideoDescription" = "视频描述";
+"EnterDescription" = "输入描述";
+"enterTitlePlaceholder" = "在这里输入你的标题...";
+"enterDescription" = "输入说明";
+"enterDescriptionPlaceholder" = "在此输入您的描述...";
+"whoCanView" = "谁可以查看此内容？";
+"selectTagMsg" = "选择要标记的用户...";
+"makeItFire" = "让它着火!";
+"howItWorks" = "怎么运行的";
+"impressionRemaining" = "剩余展示次数";
+"presentOffer" = "提出要约？";
+"selectOffer" = "选择报价";
+"createPost" = "创建帖子";
+"postStory" = "发布故事";
+"noVideoSelected" = "没有选择要发布的视频！";
+"enterTitleAlert" =  "请输入视频标题！";
+"selectViewerAlert" = "请选择帖子的查看者！";
+"selectViewerAlert_Stream" = "请为流选择观众!";
+"selectViewerAlertStory" = "请为故事选择观众！";
+"selectStoryDurationAlert" = "请选则故事时长！";
+"Public" = "民众";
+"Followers" = "追随者";
+"createPostError" = "创建帖子时出错。";
+"low" = "低的";
+"EditYourPost" = "编辑\n你的帖子";
+"EditYourStory" = "编辑\n你的故事";
+"EditYourStream" = "编辑\n您的流";
+//Low Impressions
+"lowImpressionTitle1" = "低广告信用";
+"lowImpressionTitle2" = "您目前\n的展示次数余额似乎不足。";
+"lowImpressionTitle3" = "添加更多积分\n到您的帐户。";
+"buyAdCredits" = "购买广告\n信用";
+"getFreeCredits" = "获得免费\n广告积分";
+"Close" = "关闭";
+
+//How It Works
+"howItWorks1" = "做你的";
+"howItWorks2" = "帖子火";
+"howItWorks3" = "想要获得更多浏览量？更多追随者？";
+"howItWorks4" = "您需要将您的内容放在列表的顶部。";
+"howItWorks5" = "我们的算法将把您的内容放在更多的用户面前，并独特地针对对您的内容更感兴趣的用户。";
+"More Likes" = "更多赞";
+"More Views" = "更多观看次数";
+"More Followers" = "更多关注者";
+"Buy Ad Impressions" = "购买广告印象";
+"Earn Free Impressions" = "赚取免费印象";
+"or" = "或者";
+
+//Comments Sheet
+"loadingComments" = "加载评论...";
+"1comment" = "1条评论";
+"nocomments" = "暂无评论";
+
+//Report Sheet
+"selectComplaint" = "选择您的投诉：";
+"inappropriate" = "不适当的内容";
+"crime" = "犯罪";
+"troll" = "巨魔";
+"other" = "其他";
+"moreDetailsText" = "请随时添加更多详细信息：";
+
+//Post More Menu Sheet
+"sharePost" = "分享这个帖子";
+"shareStory" =  "分享此故事";
+"audienceSettings" = "观众设置";
+"EditPost" = "编辑帖子";
+"UpdatePost" = "更新帖子";
+"UpdateStream" = "更新流";
+"EditStory" = "编辑故事";
+"UpdateStory" = "更新故事";
+"deletePost" = "删除帖子";
+"deleteStream" = "删除流";
+"deleteStory" = "删除故事";
+"reportPost" = "报告";
+"deleteConfirmationText" = "您确定要删除此帖子吗？";
+"deleteConfirmationTitle" = "删除确认";
+"deleteConfirmationTextStory" =  "您确定要删除这个故事吗？";
+"deleteConfirmationTextStream" = "您确定要删除此流吗？";
+"yesDeleteStory" = "是的，删除这个故事";
+"yesDelete" = "是的 删除此贴";
+"yesDeleteStream" = "是的，删除此流";
+"closeStreamWarrning" = "关闭此窗口将结束流。是否继续？";
+
+//Audience Setting Sheet
+"audienceSettingsTitle" = "查看或修改此帖子的受众设置。";
+"audienceSettingsQuestion" = "谁可以查看此内容？";
+"enableComments" = "启用评论";
+
+//Group Menu Sheet
+"editGroup" = "编辑本组";
+"deleteGroup" = "删除组";
+
+//Choose Audience Sheet
+"chooseAudienceTitle" = "选择你的听众";
+"chooseAudienceSubtitle" = "请选择谁可以查看此内容。";
+"viewAllGroups" = "查看所有组";
+"createAGroup" = "创建一个组";
+
+//Add to favorite sheet
+"addToFavorite" = "添加到收藏夹";
+"Add" = "添加";
+"addInstruction" = " 到您的收藏夹，这样您就可以在提要顶部查看他们的内容，这样您就不会错过收藏夹中的任何内容。";
+
+//Remove from favorite sheet
+"removeFromFavorite" = "从收藏夹中删除";
+"removeInstruction1" = "你想删除";
+"removeInstruction2" = " 来自您的收藏夹列表？\n\n请在下方确认。";
+
+//Profile Menu Sheet
+"Remove" = "消除";
+
+//Remove User Sheet
+"removeUserTitle" = "已被删除";
+"removeUserDescription" = "该用户将不再在他们的 Feed 中看到您的帖子。";
+
+//Block User Sheet
+"blockUserTitle" = "已被封锁";
+"blockUserDescription" = "要查看您的已阻止用户列表或取消阻止此用户，请点击下方。";
+
+//Viewers List Sheet
+"latestViewers" = "最新观众";
+"latestViewersTitle" = "这是这篇文章的最新 100 位查看者的列表。";
+"latestViewersTitleStory" = "这是这个故事的最新100个观众列表。";
+
+// Tagged Users sheet
+"tagged" = "已标记";
+"usersTaggedInPost" = "这些用户在这篇帖子中被标记了。";
+
+//Notification Menu Sheet
+"deleteAll" = "删除所有";
+
+//Delete Animation Controller
+"deleteAnimationTitle" = "您的帖子正在被删除...";
+"deleteAnimationTitleStream" = "您的流正在被删除...";
+
+//Keek Video Post Type selection
+"TagSomeone" = "标记某人";
+"Story" = "故事";
+"Post" = "发布";
+"VoucherRedeemedSuccess"= "您的优惠券已成功兑换。";
+"keekPostType" = "选择您的帖子类型";
+"storyDuration" = "故事时长";
+"KeekSelectionSuggestion" = "在下面选择您的帖子类型。故事、Keek 帖子并向所有 Keekers 直播！";
+"selectCoverPhoto" = "添加封面照片";
+"DurationSelectionSuggestion" = "在下面选择你的故事时长，你的故事将在选择的时间消失。";
+"KeekStory" = "Keek故事";
+"OneDay" = "1天";
+"FiveDays" =  "5天";
+"ThreeDays" = "3天";
+"1-3-5Days" = "1-3-5天";
+"StandardKeek" = "标准Keek";
+"Nolimit" = "无限制";
+
+
+//Notification Center
+"Notifications" = "通知";
+"Latest" = "最新的";
+"followRequests" = "关注请求";
+"requestTitle" = "以下用户请求关注您的帐户。";
+"declineAll" = "全部拒绝";
+"acceptAll" = "接受所有请求";
+"requestDeclined" = "请求被拒绝。";
+"isFollowingYou" = "在跟随你。";
+"yourPost" = "你的帖子 ";
+"yourStory" = " 你的故事";
+"TaggedYouInPost" = "在帖子中标记了你";
+"TaggedYouInStory" = "在故事中标记了你";
+"hasBeenUploaded" = "已上传。";
+"liked" = "喜欢";
+"yourpost" = " 你的帖子";
+"ago" = "前";
+"started" = "开始";
+"followingYou" = " 跟着你";
+"commented" = "评论了";
+"onYourPost" =  " 在你的帖子上";
+"onYourStory" =  " 在你的故事上";
+"replied" = "回复了";
+"toYourComment" = " 你对帖子的评论 ";
+"toYourCommentStory" = " 对你在故事上的评论 ";
+"user" = "用户";
+"users" = "用户";
+"Likes" = "喜欢";
+"noLikes" = "没有喜欢";
+"likesTitle" = "这是这篇文章的最新 100 个赞的列表。";
+"latestViewers" = "最新观众";
+"noViews" = "没有意见";
+"viewsTitle" = "这是此帖子的最新 100 位查看者的列表。";
+"likesTitleStory" = "这是这个故事上最新的100个喜欢列表。";
+"viewsTitleStory" = "这是这个故事的最新100个观看者列表。";
+
+//misc
+"CouldNotFound" = "哎呀！我们找不到您要找的用户。";
+"NoRecordsFound" = "未找到记录";
+"NoNewNotification" = "您没有新通知";
+"viewedNotifications" = "已查看的通知";
+"adCredits" = "广告积分";
+"getAdCredits" = "获取广告积分";
+"Message" = "消息";
+"loadingFollowing" = "正在加载关注列表...";
+"loadingFollowers" = "正在加载粉丝列表...";
+"loading" = "正在加载...";
+"noUserFound" = "未找到用户";
+"searchFollower" = "搜索粉丝";
+"searchFollowing" = "搜索关注";
+"searchBlocked" = "搜索已屏蔽";
+"folowingLoader" = "关注中...";
+"cancelRequestLoader" = "取消请求...";
+"blockingLoader" = "屏蔽中...";
+"unblockingLoader" = "解除屏蔽中...";
+"blockedLoader" = "正在加载已屏蔽...";
+"ChooseAction" = "请选择操作";
+"CancelRequest" = "取消请求";
+"Follower" = "追随者";
+"editBio" = "编辑简介";
+"videoUploadRetryMsg" = "您的视频上传似乎没有成功。你介意再试一次吗？";
+"cancelVideoUploadConfirmation" = "请注意，如果您取消视频上传，视频将会丢失。你确定要取消？";
+"BackFromVideoUpload_Confirmation" = "请注意，如果您关闭此屏幕，视频将丢失。您确定要关闭吗？";
+"uploadingInProcessALert" = "您之前的视频上传尚未完成。请稍等片刻，然后再尝试再次上传。";
+
+
+/// Banuba
+/*
+1) Copy and paste this file in the host application
+2) Remove unused
+3) Override values
+*/
+
+// MARK: - Camera Screen
+
+/* Music selection screen title */
+"Music" = "音乐";
+
+/* Audio track delete action */
+"Delete" = "删除";
+
+/* Title on the screen of the voice recorder */
+"Voice" = "录音";
+
+/* Used when the question is answered yes */
+"Yes" = "是";
+
+/* Used when answering a negative question */
+"No" = "否";
+
+/* Title of the message if an error occurs */
+"Error" = "错误";
+
+/* Move to next screen */
+"Next" = "下一步";
+
+/* Return to the previous screen */
+"Back" = "返回";
+
+/* Ability to cancel */
+"Cancel" = "取消";
+
+/* Ability to close */
+"Close" = "关闭";
+
+/* Ability to close */
+"CLOSE" = "关闭";
+
+"alert.reset.all.title" = "重置所有？";
+"alert.reset.all.message" = "";
+
+/* Alert action button title */
+"BanubaVideoEditor.Settings.Later" = "稍后";
+
+/* Alert action button title */
+"BanubaVideoEditor.Settings.Discard" = "丢弃";
+
+/* Used in alert with Yes and No options when resetting filters. */
+"alert.stop.capturing.video.title" = "要停止捕捉和编辑视频吗？";
+"alert.stop.capturing.video.message" = "";
+
+/* Used in alert with Yes and No options when resetting filters. */
+"record.screen.reset.all.title" = "想要重置所有更改吗？";
+"editor.screen.reset.all.title" = "重置所有？";
+"record.screen.reset.all.message" = "";
+"editor.screen.reset.all.message" = "";
+
+/* Used in alert with Yes and No options */
+"alert.delete.last.clip.title" = "删除最后一个视频？";
+"alert.delete.last.clip.message" = "";
+
+/* Used for alert message to continure editing video*/
+"alert.camera.continue.editing.video.question.title" = "您有一个未完成的视频。您想继续吗？";
+"alert.camera.continue.editing.video.question.message" = "";
+
+/* Error message that appears when clicking the Next button in the camera when the first part of split mode is not recorded */
+"First part not recorded" = "未录制第一部分";
+
+/* Error message received when trying to load a mask */
+"Mask not loaded" = "无法加载蒙版";
+
+/* An error message that appears when you click the Next button in the camera, when the second part of the video in split mode is not equal in length to the first part */
+"Second part is too short" = "第二部分太短";
+
+/* In-camera beautification (facial correction) enabled */
+"Beautifier on" = "开启美化";
+"Beautifier off" = "关闭美化";
+
+/* The light (flashlight) in the camera is on */
+"Flash" = "闪光灯";
+
+/* An error message that appears in the camera when the length of the recorded video is less than the minimum allowed duration */
+"Too short. Please capture at least %d seconds" = "太短了。请至少拍摄 %d 秒";
+
+/* An error message that appears in the trimmer when user tryed to use too long video */
+"com.banuba.TooLongVideoMessageFormat" = "视频长度应在 %d 秒到 %d 秒之间";
+
+/* An error message that appears in the camera if the recorded video is longer than the maximum allowed length */
+"Maximum %d seconds." = "最长 %d 秒";
+
+/* Turning off the cameras auto timer */
+"Timer is off" = "定时器已关闭";
+
+/*Seconds for maximum */
+"Max length %d sec" = "最长 %d 秒";
+
+/* Seconds for short */
+"%d sec" = "%d 秒";
+
+/* Name of the button in multi-select mode, which confirms the selection of user files and continues the process further */
+"Choose" = "选择";
+
+/* Built-in track volume description */
+"Sound" = "声音";
+
+/* Add extra audio track action */
+"Add" = "添加";
+
+/* Enabling the countdown timer to automatically start shooting in the camera */
+"%i seconds timer is on" = "%i 秒定时器已开启";
+
+/* Step one of two to edit your avatar: take a photo */
+"Make cover photo" = "制作封面照片";
+
+/* Step two of two when taking a profile photo using the camera */
+"Step 2 / 2" = "第二步 / 共二步";
+
+/* Description of the zone selection screen for the user avatar when taking pictures on the profile screen */
+"Crop your profile photo for feed and comments" = "裁剪个人资料照片，用于展示和评论";
+
+/* Hint on how to apply visual filters or time filter to video */
+"Press and hold" = "按住并长按";
+
+/* Screen title with video from phone gallery */
+"Gallery" = "相册";
+
+/* Activity signature */
+"LOADING" = "载入中";
+
+/* Text under the trobber when exporting a video */
+"EXPORTING" = "导出中";
+
+/* Message about downloading videos from iCloud in the window for selecting videos saved on the mobile device */
+"Video is uploading from iCloud" = "正在从iCloud上传视频";
+
+/* Speed screen name */
+"Speed" = "速度";
+
+/* Speed screen info */
+"Recording speed %@" = "录制速度 %@";
+
+/* Network Unavailable info */
+"Network Unavailable" = "无法连接网络";
+
+/* Screen name which will be visible if enable in configuration */
+"Single Trim Video Screen Name" = "裁剪视频";
+
+/* Screen name which will be visible if enable in configuration */
+"Multi Trim Video Screen Name" = "多重裁剪器";
+
+/* Recorder mask effect screen name */
+"Mask Effect Screen Name" = "面具效果";
+
+/* Recorder color effect screen name */
+"Color Effect Screen Name" = "色彩效果";
+
+/* Screen name which will be visible if enable in configuration */
+"Text editor color" = "文字编辑颜色";
+
+/* Screen name which will be visible if enable in configuration */
+"Choose Cover Screen Name" = "选择封面";
+
+/* Screen name which will be visible if enable in configuration at color filters screen */
+"Screen colors" = "屏幕颜色";
+
+"Reach maximum video duration" = "达到最大视频时长";
+
+/* Disable timer option titiel */
+"Off" = "关闭";
+
+// MARK: - Gifphy Screen
+
+/* Hint, which is shown in the GIF objects search input field, if it is empty */
+"com.banuba.searchGif.placeholder" = "搜索GIPHY";
+
+/* Ability to cancel the search for GIF objects */
+"Cancel" = "取消";
+
+/* Pictures not found by custom keyword */
+"No stickers found" = "未找到贴纸";
+
+/* Stickers search can not be performed due to missing API key */
+"Giphy API key missing" = "您需要设置Giphy密钥才能查看贴纸";
+
+/* A heading showing that there are problems with the Internet connection */
+"Problems with internet" = "网络连接问题";
+
+/* Advice to the user on further actions to solve this problem */
+"Check your connection and try again" = "检查您的连接并重试";
+
+/* Ability to load GIF objects again */
+"Again" = "再试一次";
+
+// MARK: - ERROR MESSAGES
+/* Message when request failed with statusCode code */
+"HTTP Error %d" = "HTTP错误 %d";
+
+/* Message displayed when there is no internet connection */
+"You don't seem to be connected to the internet. \nPlease try again" = "您似乎没有连接到互联网。\n请重试";
+
+/* Message displayed when media file cannot be downloaded */
+"Cannot download media file from your iCloud" = "无法从iCloud下载媒体文件";
+
+/* Error if the format of the response from the server does not match the expected */
+"Unknown data format" = "未知的数据格式";
+
+/* Used in alert re-asking permissions to Photos with Cancel and Settings options. */
+"banuba.camera.alert.missed.gallery.persmission.title" = "请在设置中允许访问您的照片和视频以制作剪辑。";
+"banuba.camera.alert.missed.gallery.persmission.message" = "";
+
+/* Used in alert re-asking Camera & Microphone permissions with Settings option. */
+"Banuba.Camera.MissedCameraAndMicrophonePersmissions" = "请允许您的相机和麦克风以录制视频。";
+
+/* Used in a message to the user when access to the camera is denied through special options in the phone settings (such as 'Parental Control') */
+"banuba.alert.camera.access.restricted.title" = "未授予相机权限";
+"banuba.alert.camera.access.restricted.message" = "";
+
+/* Used in alert with options Cancel and In settings */
+"alert.microphone.unavailable.title" = "麦克风不可用。请在设备设置中允许访问";
+"alert.microphone.unavailable.message" = "";
+
+// MARK: - Settings
+
+/* The name of the button, by clicking on which you can go to the Settings application. */
+"Settings" = "设置";
+
+/* The name of the button, by clicking on which you can refuse missed permission alert message */
+"Settings.Close" = "关闭";
+
+/* Used in an alert with Yes and No when resetting effects. */
+"alert.reset.effects.title" = "是否放弃更改？";
+"alert.reset.effects.message" = "";
+
+/* Undo filters applied to video in the add filters screen */
+"Undo" = "撤消";
+
+/* Finish button title */
+"Done" = "完成";
+
+/* OK button title in alert */
+"OK" = "确定";
+
+/* Show the user when the disk space has run out during video recording and when he clicks the Record video button */
+"Not enough storage" = "存储空间不足";
+
+// MARK: - Effects names
+
+/* Soul effect name */
+"com.banuba.editor.effect.name.soul" = "灵魂";
+
+/* TV Foam effect name */
+"com.banuba.editor.effect.name.tv-foam" = "电视泡沫";
+
+/* VHS video effect name */
+"com.banuba.editor.effect.name.vhs" = "VHS";
+
+/* Flash video effect name */
+"com.banuba.editor.effect.name.flash" = "闪光";
+
+/* Rave effect name */
+"com.banuba.editor.effect.name.rave" = "狂欢";
+
+/* Glitch effect name */
+"com.banuba.editor.effect.name.glitch" = "故障";
+
+/* Acid whip effect name */
+"com.banuba.editor.effect.name.acid-whip" = "酸鞭";
+
+/* Zoom effect name */
+"com.banuba.editor.effect.name.zoom" = "缩放";
+
+/* Zoom 2 effect name */
+"com.banuba.editor.effect.name.zoom2" = "缩放2";
+
+/* Cathode effect name */
+"com.banuba.editor.effect.name.cathode" = "阴极";
+
+/* Polaroid effect name */
+"com.banuba.editor.effect.name.polaroid" = "拍立得";
+
+/* Slow motion effect name */
+"com.banuba.editor.effect.name.slow-motion" = "慢动作";
+
+/* Rapid effect name */
+"com.banuba.editor.effect.name.rapid" = "快速";
+
+/* Mirror 2 effect name*/
+"com.banuba.editor.effect.name.mirror2" = "镜像2";
+
+/* DV Cam effect name */
+"com.banuba.editor.effect.name.dvcam" = "DV Cam";
+
+/* Glitch 2 effect name */
+"com.banuba.editor.effect.name.glitch2" = "故障2";
+
+//Glitch 3 effect name/
+"com.banuba.editor.effect.name.glitch3" = "故障3";
+
+/* Heat map effect name */
+"com.banuba.editor.effect.name.heatmap" = "热力图";
+
+/* Mirror effect name */
+"com.banuba.editor.effect.name.mirror" = "镜像";
+
+/* Lumiere */
+"com.banuba.editor.effect.name.lumiere" = "灯光";
+
+/* Pixel dynamic effect name */
+"com.banuba.editor.effect.name.pixelationdynamic" = "像素动态";
+
+/* Pixel static effect name */
+"com.banuba.editor.effect.name.pixelationstatic" = "像素静态";
+
+/* Blur effect name */
+"com.banuba.editor.effect.name.blur" = "模糊";
+
+/* Stars effect name */
+"com.banuba.editor.effect.name.stars" = "星星";
+
+/* Transition effect name */
+"com.banuba.editor.effect.name.transition" = "过渡";
+
+/* Transition 2 effect name */
+"com.banuba.editor.effect.name.transition2" = "过渡2";
+
+/* Transition 3 effect name */
+"com.banuba.editor.effect.name.transition3" = "过渡3";
+
+/* Transition 4 */
+"com.banuba.editor.effect.name.transition4" = "过渡4";
+
+/* VHS 2 effect name */
+"com.banuba.editor.effect.name.vhs2" = "VHS 2";
+
+/* Twitch effect name */
+"com.banuba.editor.effect.name.twitch" = "抽搐";
+
+/* Open trimmer button name (for dradt) */
+"com.banuba.editor.openTrimButtonTitle" ="调整剪辑";
+
+// MARK: - Filter names
+
+/* glitch filter name */
+"com.banuba.filter.name.lux" = "Lux";
+
+/* remy filter name */
+"com.banuba.filter.name.remy" = "雷米";
+
+/* hyla filter name */
+"com.banuba.filter.name.hyla" = "海拉";
+
+/* neon filter name */
+"com.banuba.filter.name.neon" = "霓虹";
+
+/* retro filter name */
+"com.banuba.filter.name.retro" = "复古";
+
+/* sunny filter name */
+"com.banuba.filter.name.sunny" = "阳光";
+
+/* egypt filter name */
+"com.banuba.filter.name.egypt" = "埃及";
+
+/* spark filter name */
+"com.banuba.filter.name.spark" = "火花";
+
+/* byers filter name */
+"com.banuba.filter.name.byers" = "拜尔斯";
+
+/* lilac filter name */
+"com.banuba.filter.name.lilac" = "丁香";
+
+/* vinyl filter name */
+"com.banuba.filter.name.vinyl" = "黑胶唱片";
+
+/* japan filter name */
+"com.banuba.filter.name.japan" = "日本";
+
+/* chile filter name */
+"com.banuba.filter.name.chile" = "智利";
+
+/* glitch filter name */
+"com.banuba.filter.name.glitch" = "故障";
+
+/* grunge filter name */
+"com.banuba.filter.name.grunge" = "垃圾摇滚";
+
+/* canada filter name */
+"com.banuba.filter.name.canada" = "加拿大";
+
+/* chroma filter name */
+"com.banuba.filter.name.chroma" = "色度";
+
+/* norway filter name */
+"com.banuba.filter.name.norway" = "挪威";
+
+/* korben filter name */
+"com.banuba.filter.name.korben" = "科本";
+
+/* sunset filter name */
+"com.banuba.filter.name.sunset" = "日落";
+
+/* instant filter name */
+"com.banuba.filter.name.instant" = "即时";
+
+/* england filter name */
+"com.banuba.filter.name.england" = "英国";
+
+/* pinkvine filter name */
+"com.banuba.filter.name.pinkvine" = "粉藤";
+
+/* vivid filter name */
+"com.banuba.filter.name.vivid" = "生动";
+
+/* bright filter name */
+"com.banuba.filter.name.bright" = "明亮";
+
+
+// MARK: - GALLERY SCREEN / SLIDE SHOW
+
+/* No photo in gallery */
+"No matching photos found in gallery" = "相册中没有匹配的照片";
+
+/* No video in gallery */
+"No matching video found in gallery" = "相册中没有匹配的视频";
+
+/* User selected too many files in the gallery */
+"You can select only %d files" = "您只能选择%d个文件";
+
+/* Failed to export a video */
+"Failed to create video" = "无法创建视频";
+
+// MARK: - Music Editor
+
+/* Delete track button title */
+"MusicEditor.Delete" = "删除";
+
+/* Voice effect button title */
+"MusicEditor.VoiceEffect" = "音效";
+
+/* Edit track button title */
+"MusicEditor.Edit" = "编辑";
+
+/* Add track button title */
+"MusicEditor.Tracks" = "音轨";
+
+/* Add effects button title */
+"MusicEditor.Effects" = "特效";
+
+/* Add voice record button title */
+"MusicEditor.Record" = "录音";
+
+/* Video volume title */
+"MusicEditor.VideoVolume" = "音量";
+
+/* Audio duration title */
+"MusicEditor.Duration" = "时长";
+
+/* Audio Sound title */
+"MusicEditor.OriginalSound" = "音量";
+
+/* Confirmation message for discarding changes */
+"com.banuba.musicEditor.mainScreen.resetAll.title" = "放弃更改？";
+"com.banuba.musicEditor.mainScreen.resetAll.message" = "";
+
+/* Error message when a user tries to add tracks with reached limit */
+"MusicEditor.Max available tracks - %i" = "最大可用音轨数 - %i";
+
+/* Elf filter title /
+"com.banuba.musicEditor.elf" = "精灵";
+/ Baritone filter title /
+"com.banuba.musicEditor.baritone" = "男中音";
+/ Echo filter title /
+"com.banuba.musicEditor.echo" = "回声";
+/ Giant filter title /
+"com.banuba.musicEditor.giant" = "巨人";
+/ Robot filter title /
+"com.banuba.musicEditor.robot" = "机器人";
+/ Squirrel filter title */
+"com.banuba.musicEditor.squirrel" = "松鼠";
+
+// MARK: - Overlay Editor
+
+/* Delete overlay item button title */
+"OverlayEditor.Delete" = "删除";
+
+/* Edit overlay item button title */
+"OverlayEditor.Edit" = "编辑";
+
+/* Add text button title */
+"OverlayEditor.Text" = "文本";
+
+/* Add sticker button title */
+"OverlayEditor.Sticker" = "贴图";
+
+/* Add square blur button title */
+"OverlayEditor.Square.Blur" = "方形模糊";
+
+/* Add circle Blur button title */
+"OverlayEditor.Circle.Blur" = "圆形模糊";
+
+/* Cancel button title */
+"OverlayEditor.Cancel" = "取消";
+
+/* Done button title */
+"OverlayEditor.Done" = "完成";
+
+/* Confirmation button title */
+"OverlayEditor.Yes" = "是";
+
+/* Discarding button title */
+"OverlayEditor.No" = "否";
+
+/* Confirmation message for discarding changes */
+"com.banuba.overlayEditor.mainScreen.resetAll.title" = "放弃更改？";
+"com.banuba.overlayEditor.mainScreen.resetAll.message" = "";
+"com.banuba.overlayEditor.mainScreen.resetAll.agree" = "放弃";
+"com.banuba.overlayEditor.mainScreen.resetAll.disagree" = "取消";
+
+// MARK: - AudioBrowser
+
+/* No internet connection title in alert */
+"AudioBrowser.noInternetConnection" = "无网络连接";
+
+/* Message for user if No internet connection */
+"AudioBrowser.checkConnectionMessage" = "请检查您的网络连接并重试";
+
+/* Retry button title */
+"AudioBrowser.retry" = "重试";
+
+/* Allow access message */
+"AudioBrowser.allowAccessMessage" = "请允许访问 Apple Music 库以使用您自己的音乐";
+
+/* Allow button title */
+"AudioBrowser.allowAccess" = "允许访问";
+
+/* My files button title */
+"AudioBrowser.myFiles" = "我的文件";
+
+"audioBrowser.search.by.categories" = "按类别搜索";
+"audioBrowser.search.by.groups" = "按组搜索";
+"audioBrowser.search.by.tracks" = "按曲目搜索";
+"audioBrowser.use" = "使用";
+"audioBrowser.show.more" = "显示更多";
+"audioBrowser.stop.using" = "停止使用";
+"audioBrowser.my.library" = "我的音乐库";
+"audioBrowser.no.matches" = "无匹配结果";
+"audioBrowser.no.tracks" = "无曲目";
+/* Track format for displaying mubert track title*/
+"audioBrowser.mubertTrackFormat" = "曲目 %d";
+
+/* Wrong Mubert key error text */
+"audioBrowser.wrongPatError" = "Mubert密钥丢失。请联系Banuba代表以获取它。";
+
+"feature.disabled.audiobrowser" = "您的套餐中未包含默认音乐浏览器。您可以插入自己的音乐。";
+
+// MARK: - Hands-free
+"hands.free.video.drag.title" = "拖动设置视频持续时间：";
+"hands.free.btn.title" = "开始倒计时";
+"hands.free.seconds" = "%@ 秒";
+
+// MARK: - Video Editor
+
+/* Gallery image tab title */
+"BanubaVideoEditor.Gallery.ImageTabTitle" = "图像";
+
+/* Gallery video tab title */
+"BanubaVideoEditor.Gallery.VideoTabTitle" = "视频";
+
+/* Gallery custom All Photos title */
+"BanubaVideoEditor.Gallery.AllPhotosTitle" = "所有照片";
+
+/* Gallery previe select button name*/
+"BanubaVideoEditor.Gallery.SelectItemName" = "选择";
+
+/* Gallery previe deselect button name*/
+"BanubaVideoEditor.Gallery.DeselectItemName" = "取消选择";
+
+/* Gallery header info title */
+"BanubaVideoEditor.Gallery.HeaderInfoTitle" = "更新文件 %@ 以选择更多照片";
+"BanubaVideoEditor.Gallery.HeaderInfoColoredTitle" = "设置";
+
+/* Gallery Recent Photos title */
+"BanubaVideoEditor.Gallery.RecentPhotosTitle" = "最近";
+
+/* Damaged file from gallery */
+"BanubaVideoEditor.Gallery.DamagedFile" = "损坏的文件";
+
+/* Export video from gallery failed */
+"BanubaVideoEditor.Gallery.ExportVideoFailed" = "内容上传失败";
+
+/* Gallery selection hint */
+"BanubaVideoEditor.Gallery.SelectItems" = "选择项目";
+
+/* Import single video template */
+"BanubaVideoEditor.Gallery.ImportSingleVideo" = "导入1个视频";
+
+/* Import multiple videos template */
+"BanubaVideoEditor.Gallery.ImportMultipleVideos" = "导入%d个视频";
+
+/* Import multiple videos template */
+"BanubaVideoEditor.Gallery.ImportMultipleVideosAndPhotos" = "导入%d个视频和照片";
+
+/* Import single image template */
+"BanubaVideoEditor.Gallery.ImportSingleImage" = "导入1张图像";
+
+/* Import multiple images template */
+"BanubaVideoEditor.Gallery.ImportMultipleImages" = "导入%d张图像";
+
+/* Gallery empty selection message */
+"BanubaVideoEditor.Gallery.EmptySelectionMessage" = "至少选择1个文件";
+
+// MARK: - Effect additional media picker text resource
+
+/* No media files found in gallery for adding to the effect */
+"com.banuba.videoEditor.recorder.additionalEffects.NoMediaFound" = "未找到媒体";
+
+/* No media files found in gallery for adding to the effect */
+"com.banuba.videoEditor.recorder.additionalEffects.AllowAccess" = "允许访问";
+
+/* Helpers info message for changing video background */
+"com.banuba.videoEditor.recorder.additionalEffects.selectMediaToChangeBackgroundMessage" = "选择媒体更改背景：";
+
+/* Helpers info message for providing acces to a user gallery */
+"com.banuba.videoEditor.recorder.additionalEffects.allowAccesToChangeBackgroundMessage" = "允许访问相册更改背景";
+
+// MARK: - Cover
+"cover.thumbnail.title" = "从视频中选择帧或从相册中选择图像";
+"cover.gallery.button.title" = "从相册选择";
+"cover.delete.button.title" = "删除";
+
+// MARK: - PIP
+
+"pip.switch.camera.title" = "切换";
+"pip.square.camera.title" = "方形";
+"pip.round.camera.title" = "圆形";
+"pip.floating.camera.title" = "浮动";
+"pip.react.camera.title" = "反应";
+"pip.original.camera.title" = "原始";
+"pip.centered.camera.title" = "居中";
+"pip.left.right.camera.title" = "纵向";
+"pip.top.bottom.camera.title" = "横向";
+"pip.layout.settings.title" = "布局设置";
+
+"feature.disabled.pip" = "画中画不包含在您的套餐中。请联系账户经理进行添加。";
+
+// MARK: - Drafts
+// Drafts button title /
+"BanubaVideoEditor.Gallery.DraftsTitle" = "草稿";
+// Draft actions subtitle /
+"BanubaVideoEditor.Gallery.DraftTitle" = "草稿";
+// Draft edit action name /
+"BanubaVideoEditor.Gallery.DraftEditActionName" = "编辑";
+// Draft remove action name /
+"BanubaVideoEditor.Gallery.DraftRemoveActionName" = "删除";
+
+// Used in alert with Yes and No options when resetting current sequence /
+"com.banuba.BanubaVideoEditor.draft.question.title" = "是否保存草稿？";
+"com.banuba.BanubaVideoEditor.draft.question.message" = "";
+"com.banuba.BanubaVideoEditor.draft.question.agree" = "保存";
+"com.banuba.BanubaVideoEditor.draft.question.disagree" = "取消";
+
+// Displayed when current sequence saved to drafts /
+"BanubaVideoEditor.Draft.DraftSavedMessage" = "草稿已保存";
+// Displays message about no saved drafts /
+"BanubaVideoEditor.Draft.EmptyDraftsMessage" = "没有草稿";
+// Ask a user about completion removing a draft /
+"com.banuba.BanubaVideoEditor.draft.remove.title" = "是否删除草稿？";
+"com.banuba.BanubaVideoEditor.draft.remove.message" = "";
+"com.banuba.BanubaVideoEditor.draft.remove.agree" = "删除";
+"com.banuba.BanubaVideoEditor.draft.remove.disagree" = "取消";
+
+// Ask a user about completion updating a draft */
+"com.banuba.BanubaVideoEditor.draft.update.title" = "是否更新草稿？";
+"com.banuba.BanubaVideoEditor.draft.update.message" = "";
+"com.banuba.BanubaVideoEditor.draft.update.agree" = "更新";
+"com.banuba.BanubaVideoEditor.draft.update.disagree" = "取消";
+"com.banuba.BanubaVideoEditor.draft.lose.message" = "注意！您将失去当前编辑设置。是否继续？";
+"com.banuba.BanubaVideoEditor.draft.lose.agree" ="调整剪辑";
+
+/* Editor, back button menu. Edit draft mode */
+"com.banuba.BanubaVideoEditor.draft.discardChangesAction" = "放弃更改";
+"com.banuba.BanubaVideoEditor.draft.updateAction" = "更新草稿";
+
+//MARK: - Additional buttons
+"com.banuba.recorder.link.title" = "链接";
+"com.banuba.recorder.color.title" = "滤镜";
+"com.banuba.recorder.sticker.title" = "GIF";
+"com.banuba.recorder.blur.title" = "模糊";
+"com.banuba.recorder.text.title" = "文本";
+"com.banuba.recorder.time.title" = "时间";
+"com.banuba.recorder.sound.title" = "音乐";
+"com.banuba.recorder.effects.title" = "特效";
+"com.banuba.recorder.toggle.title" = "开关";
+"com.banuba.recorder.flashlight.title" = "闪光灯";
+"com.banuba.recorder.timer.title" = "定时器";
+"com.banuba.recorder.speed.title" = "速度";
+"com.banuba.recorder.beauty.title" = "美颜";
+"com.banuba.recorder.masks.title" = "面具";
+"com.banuba.recorder.muteSound.title" = "声音";
+"com.banuba.recorder.pip.title" = "画中画";
+
+/* Gallery button title */
+"com.banuba.recorder.gallery.title" = "相册";
+
+/* Recorder video duration */
+"com.banuba.recorder.secondsFormat" = "%d 秒";
+"com.banuba.recorder.minutesFormat" = "%d 分钟";
+
+/* Aspect title for cells*/
+"com.banuba.videoEditor.aspect.original" = "原始";
+"com.banuba.videoEditor.aspect.16:9" = "16:9";
+"com.banuba.videoEditor.aspect.9:16" = "9:16";
+"com.banuba.videoEditor.aspect.4:3" = "4:3";
+"com.banuba.videoEditor.aspect.4:5" = "4:5";
+
+/* Transitions title for cells*/
+"com.banuba.videoEditor.transition.none" = "无";
+"com.banuba.videoEditor.transition.whipDown" = "向下鞭打";
+"com.banuba.videoEditor.transition.whipUp" = "向上鞭打";
+"com.banuba.videoEditor.transition.whipRight" = "向右鞭打";
+"com.banuba.videoEditor.transition.whipLeft" = "向左鞭打";
+"com.banuba.videoEditor.transition.scrollDown" = "向下滚动";
+"com.banuba.videoEditor.transition.scrollUp" = "向上滚动";
+"com.banuba.videoEditor.transition.scrollRight" = "向右滚动";
+"com.banuba.videoEditor.transition.scrollLeft" = "向左滚动";
+"com.banuba.videoEditor.transition.spinRight" = "旋转";
+"com.banuba.videoEditor.transition.fade" = "淡入淡出";
+
+/* Transition disabled alert message */
+"com.banuba.videoEditor.transition.disabledToastMessage" = "剪辑必须长于0.5秒才能应用转场效果。";
+
+/* 文本编辑器字体名称 */
+"com.banuba.textEditor.fontName.regular" = "常规";
+"com.banuba.textEditor.fontName.italic" = "斜体";
+"com.banuba.textEditor.fontName.bold" = "加粗";
+"com.banuba.textEditor.fontName.baskerville" = "巴斯克维尔";
+"com.banuba.textEditor.fontName.courier" = "Courier";
+"com.banuba.textEditor.fontName.palatino" = "帕拉蒂诺";
+"com.banuba.textEditor.fontName.noteworthy" = "Noteworthy";
+"com.banuba.textEditor.fontName.papyrus" = "帕普里斯";
+"com.banuba.textEditor.fontName.sinhala" = "僧伽罗文";
+"com.banuba.textEditor.fontName.menlo" = "Menlo";
+"com.banuba.textEditor.fontName.emoji" = "表情符号";
+
+// MARK: - Alert
+
+/* Alert 按钮标题 */
+
+/* discard all alert type for record screen /
+"com.banuba.alert.discardAllRecord.additionalButtonTitle" = "重新开始";
+"com.banuba.alert.discardAllRecord.agreeButtonTitle" = "重置";
+"com.banuba.alert.discardAllRecord.disagreeButtonTitle" = "取消";
+// discard all alert type for editor screen /
+"com.banuba.alert.discardAllEditor.agreeButtonTitle" = "重置";
+"com.banuba.alert.discardAllEditor.disagreeButtonTitle" = "取消";
+/ not finished video alert type /
+"com.banuba.alert.notFinishedVideo.agreeButtonTitle" = "继续";
+"com.banuba.alert.notFinishedVideo.disagreeButtonTitle" = "取消";
+/ discard changes alert type /
+"com.banuba.alert.discardChanges.agreeButtonTitle" = "重置";
+"com.banuba.alert.discardChanges.disagreeButtonTitle" = "取消";
+/ delete segment alert type /
+"com.banuba.alert.deleteSegment.agreeButtonTitle" = "删除";
+"com.banuba.alert.deleteSegment.disagreeButtonTitle" = "取消";
+/ discard effects alert type /
+"com.banuba.alert.discardEffects.agreeButtonTitle" = "丢弃";
+"com.banuba.alert.discardEffects.disagreeButtonTitle" = "取消";
+/ discard music alert type /
+"com.banuba.alert.discardMusic.agreeButtonTitle" = "丢弃";
+"com.banuba.alert.discardMusic.disagreeButtonTitle" = "取消";
+/ progress view alert type */
+"com.banuba.alert.progressView.agreeButtonTitle" = "重试";
+"com.banuba.alert.progressView.disagreeButtonTitle" = "取消";
+"com.banuba.alert.progressView.importingMedia" = "正在导入媒体";
+"com.banuba.alert.progressView.exportingVideo" = "正在导出视频";
+"com.banuba.alert.progressView.tooltipMessage" = "请不要锁定屏幕或切换到其他应用程序";
+"com.banuba.alert.progressView.exportVideoInterrupted" = "导出中断";
+
+/* need to update iOS alert */
+"com.banuba.alert.needToUpdateIos.title" = "抱歉，最低支持的版本是 iOS 12。";
+"com.banuba.alert.needToUpdateIos.message" = "您必须更新到 iOS 12.0 才能使用此应用程序。";
+
+/* remove and start over record video */
+"com.banuba.trim.startOverRecordVideoTitle" = "要重新录制新视频吗？";
+"com.banuba.trim.startOverRecordVideoMessage" = "";
+"com.banuba.trim.startOverRecordVideoAgreeButtonTitle" = "重新开始";
+"com.banuba.trim.startOverRecordVideoDisagreeButtonTitle" = "丢弃";
+
+// MARK: - Trim
+/* Edit video rotate button title */
+"com.banuba.trim.rotateEditButtonTitle" = "Rotate";
+/* Edit video split button title */
+"com.banuba.trim.splitEditButtonTitle" = "Split";
+/* Edit video crop button title */
+"com.banuba.trim.cropEditButtonTitle" = "Crop";
+/* Edit video delete button title */
+"com.banuba.trim.deleteEditButtonTitle" = "Delete";
+/* Edit video trim button title */
+"com.banuba.trim.trimEditButtonTitle" = "Trim";
+/* Reordering video tool tip label message */
+"com.banuba.trim.reorderingToolTip" = "Drag to swap";
+/* Delete single video error message */
+"com.banuba.trim.deleteLastClipErrorMessage" = "The last clip can't  be deleted";
+/* Split video part error message */
+"com.banuba.trim.splitErrorMessage" = "The selected position is invalid";
+
+// MARK: - Capture button modes
+"com.banuba.record.captureButtonVideoMode" = "视频";
+"com.banuba.record.captureButtonPhotoMode" = "照片";
+
+/* Sharing other button */
+"sharing.other.title" = "其他";
+
+/* Sharing video main title */
+"sharing.video.title" = "分享视频";
+
+/* Error if sharing application is not installed */
+"sharing.app.not.installed" = "抱歉，应用程序未安装";
+
+// MARK: - Expired license screen
+"com.banuba.expiredLicense.infoLabel" = "视频内容创建暂时不可用";
+"com.banuba.expiredLicense.cancelButtonTitle" = "关闭";
+
+//Staic String "No record found" replacing for multilingual
+
+"Searchkeek_NotRFound" = "我们无法找到您要查找的内容。请尝试其他搜索词。";
+"OtherUser_NoPosts" = "暂时没有帖子可显示。请稍后再来查看！";
+"Self_NoPosts" = "还没有发布任何帖子？没问题！立即创建您的第一篇帖子。";
+"Follow_Requesttab_Notifications" = "您已经全部更新完毕！当前没有新的请求。";
+"All_coughtUp" = "您已经全部更新完毕！已经查看了所有通知。请稍后再来查看是否有新通知。";
+"No_comments" = "暂无评论。成为第一个开始讨论的人！";
+"Self_No_comments" = "您的帖子暂无评论。";
+"Self_No_Story_comments" = "您的故事还没有评论。";
+"No_followers" = "还没有粉丝？继续创建并分享优质内容，粉丝自然会来。";
+"No_following" = "关注是发现新内容的好方法。从关注与您兴趣相符的帐户开始。";
+"No_blocked" = "您的屏蔽列表中没有任何人？这是一个好迹象。继续保持积极向上的心态！";
+"No_Chat_Messages" = "暂无对话记录。开始聊天，今天就与新朋友联系！";
+"No_chat_contacts" = "您的聊天联系人列表为空。为什么不搜索并添加一些朋友来交流呢？";
+"NoSavedPosts" = "您没有要显示的已添加书签的帖子。开始为您最喜欢的帖子添加书签，以便以后轻松访问它们。";
+"No_followers_OtherUser" = "目前没有要显示的关注者。请稍后再来！";
+"No_followingUser_OtherUser" = "目前没有要显示的关注用户。请稍后再来！";
+//post uploading
+"Your post is being uploaded..." = "您的帖子正在上传中...";
+"Your story is being uploaded..." =  "您的故事正在上传中...";
+
+
+//Fetching feeds/Post
+"Fetching Feeds..." = "正在获取订阅...";
+"GetPostError" =  "获取帖子详情时发生错误";
+"noUserPermission" = "您没有足够的权限执行此操作。请联系支持。";
+"salutation" = "性别";
+"enterSalutation" = "选择性别...";
+"enableComments" = "启用评论";
+"ReferYourFriends" = "推荐你的朋友";
+"DeleteThisOffer" = "删除此优惠";
+"MainOffer" = "主要报价";
+"offerImageTitle1" = "优惠主图";
+"offerImageTitle2" = "主要广告图片/产品视图等";
+"offerImageTitle3" = "纵向视图布局建议的最小尺寸为 375x812 像素。";
+"CreateAGroup" = "创建一个新组";
+"members" = "成员";
+"internetIssue" = "您目前无法访问互联网。请检查您的互联网连接并重试";
+"poorInternetConnectivity" = "我们遇到了一些连接问题。请检查您的互联网连接并重试。";
+"noResultFound" = "我们找不到您要查找的内容。\n 请尝试其他搜索词。";
+"noFollowingToShare" = "你的联系人列表上没有人吗？在您最喜欢的社交平台上分享它。";
+"searchContacts" = "搜索联系人";
+"contacts" = "联系人";
+"send" = "发送";
+"sent" = "发送";
+
+"deactivateConfirmPassword" = "请确认您的帐户以\n在下面暂时停用。";
+"deleteConfirmPassword" = "请在下方确认您的帐户以\n永久删除。";
+"confirmation" = "确认";
+"deactivateConfirmation" = "您确定要\n暂时停用您的\nKeek 帐户吗？";
+"cancelDeactivation" = "不，取消我的停用";
+"accountDeletion" = "帐户删除";
+"deleteConfirmation" = "您确定要\n永久删除您的 Keek 帐户吗？";
+"cancelDeletion" = "不，取消我的永久删除";
+"yes" = "是的";
+"temporarilyDeactivate" = "暂时停用";
+"permanentlyDelete" = "永久删除";
+"accountDeactivateSuccess" = "您的帐户已被停用。如果您决定返回，只需重新登录即可重新激活您的帐户。";
+"accountDeleteSuccess" = "您的帐户已成功删除。感谢您加入 Keek 社区。";
+"violationTitle1" = "抱歉，我们无法\n发布此信息！";
+"violationTitle2" = "您的帖子违反了我们的服务条款。";
+"violationTitle3" = "如果您认为此帖子的标记不公平，\n您可以对该决定提出申诉\n以供进一步审核。";
+"appealLbl" = "请求进一步审查。";
+"submitForAppeal" = "提交上诉";
+"violationText1" = "很遗憾，您最近的帖子已被标记为\n ";
+"violationText2" = " 在这篇文章中。";
+"appealTitle1" = "我们已收到\n您的上诉请求。";
+"appealTitle2" = "我们的 Keek 客户服务团队将\n审核您对此帖子的申诉并在 24 小时内\n更新您的信息。 ";
+"appealTitle3" = "您将在您的\nKeek 消息中收到一条消息。";
+"backHome" = "回家";
+"downloadingTitle" = "请稍候";
+"downloadingSubTitle" = "我们正在下载该视频。不会花费很长时间。";
+"Retry" = "重试";
+"downloadingFailedTitle" = "下载失败";
+"downloadingFailedSubTitle" = "我们在下载该视频时遇到了一些问题。";
+"downloadCancelMsg" = "您确定要取消此过程吗？";
+"cancelDownload" = "取消下载";
+"Completed" = "已完成";
+
+"no_chat_conversation" = "与朋友取得联系，开始对话以查看您的消息！";
+"no_group_chat" = "与朋友开始群聊，一起创建一些难忘的时刻！";
+"user_not_available" = "此用户目前不可用于聊天。";
+"groups" = "群组";
+"conversations" = "对话";
+"unable_delete_message" = "目前无法删除消息。";
+"messages" = "消息";
+"youAdded" = "您添加了";
+"youRemoved" = "您移除了";
+"youCreatedGroup" = "您创建了群组";
+"createdGroup" = "创建了群组";
+"addedYou" = "添加了您";
+"removedYou" = "移除了您";
+"added" = "添加了";
+"removed" = "移除了";
+"chatInactive" = "您不能向此群组发送消息，因为您不再是参与者。";
+"My Contacts" = "我的联系人";
+"Contacts" = "联系人";
+"Search Contacts" = "搜索联系人";
+"NoContactsResult" = "我们找不到您要查找的内容。请尝试其他搜索词。";
+"Admin" = "管理员";
+"Online" = "在线";
+"Offline" = "离线";
+"typing" = "输入中";
+"Yesterday" = "昨天";
+"Today" = "今天";
+"Unread Messages" = "未读消息";
+"Monday" = "星期一";
+"Tuesday" = "星期二";
+"Wednesday" = "星期三";
+"Thursday" = "星期四";
+"Friday" = "星期五";
+"Saturday" = "星期六";
+"Sunday" = "星期日";
+"enterGrpName" = "输入群组名称";
+"startLiveStream" = "开始直播";
+"goLive" = "开始直播";
+"noLiveStream" = "看起来目前没有正在进行的直播流。";
+"deleteThreadConfirmation" = "您确定要删除此对话吗？";
+"deleteThreadError" = "糟糕！出现了一些问题。请稍后再试。";

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+        <array key="miitv-font-file.ttf">
+            <string>miitv-font-file</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="311" id="KGk-i7-Jjw" customClass="ImageMsgTableViewCell" customModule="ChatModule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="311"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="311"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggg-gs-npm">
+                        <rect key="frame" x="129" y="20" width="160" height="250"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal">
+                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="goToImage:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Qaq-4C-8L6"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chroma_preview" translatesAutoresizingMaskIntoConstraints="NO" id="NAT-Z4-WEd" customClass="MyImageView" customModule="ChatModule" customModuleProvider="target">
+                        <rect key="frame" x="297.66666666666669" y="0.0" width="40.333333333333314" height="40.666666666666664"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40.5" id="4QJ-cP-wJh"/>
+                            <constraint firstAttribute="height" constant="40.5" id="KTJ-gx-vE3"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20.25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:33 am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxU-1B-FPr">
+                        <rect key="frame" x="219" y="278" width="50" height="25"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                        <color key="textColor" red="0.1386029124" green="0.1662277281" blue="0.2627559304" alpha="0.28721608547185429" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzO-Uj-ETJ">
+                        <rect key="frame" x="277" y="278" width="12" height="12"/>
+                        <fontDescription key="fontDescription" name="miitv-font-file" family="miitv-font-file" pointSize="12"/>
+                        <color key="textColor" red="0.13725490200000001" green="0.1647058824" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScR-a2-XRw">
+                        <rect key="frame" x="153.66666666666666" y="5" width="47" height="14"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                        <color key="textColor" red="0.45882352939999999" green="0.45882352939999999" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="2D7-iX-3yl" customClass="MyImageView" customModule="ChatModule" customModuleProvider="target">
+                        <rect key="frame" x="129" y="20" width="160" height="250"/>
+                        <color key="backgroundColor" red="0.77647058823529413" green="0.80784313725490198" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="250" id="FxD-D3-8Vj"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <view hidden="YES" alpha="0.10000000149011612" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nR6-QB-rhz">
+                        <rect key="frame" x="-16" y="0.0" width="386" height="311"/>
+                        <color key="backgroundColor" red="0.97901684050000004" green="0.23957511779999999" blue="0.44343814250000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="kby-tR-nWq">
+                        <rect key="frame" x="129" y="20" width="160" height="250"/>
+                        <color key="color" red="0.97901684050000004" green="0.23957511779999999" blue="0.44343814250000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </activityIndicatorView>
+                    <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sw3-1d-oDw" customClass="GradientShadowView" customModule="ChatModule" customModuleProvider="target">
+                        <rect key="frame" x="129" y="20" width="160" height="250"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dFO-25-Ag2">
+                                <rect key="frame" x="70" y="115" width="20" height="20"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.27058823529999998" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="Zmy-Ja-3Il"/>
+                                    <constraint firstAttribute="height" constant="20" id="qyu-Rg-loq"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8O-Gl-rN3" customClass="MyLabel" customModule="ChatModule" customModuleProvider="target">
+                                <rect key="frame" x="60" y="105" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="IRC-Kg-tKV"/>
+                                    <constraint firstAttribute="height" constant="40" id="yhB-lT-09Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="miitv-font-file" family="miitv-font-file" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.24827242213369205" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="y8O-Gl-rN3" firstAttribute="centerY" secondItem="sw3-1d-oDw" secondAttribute="centerY" id="JPW-7c-oEq"/>
+                            <constraint firstItem="dFO-25-Ag2" firstAttribute="centerX" secondItem="sw3-1d-oDw" secondAttribute="centerX" id="URs-zQ-VUd"/>
+                            <constraint firstItem="dFO-25-Ag2" firstAttribute="centerY" secondItem="sw3-1d-oDw" secondAttribute="centerY" id="YbC-Sx-lUH"/>
+                            <constraint firstItem="y8O-Gl-rN3" firstAttribute="centerX" secondItem="sw3-1d-oDw" secondAttribute="centerX" id="h3r-Sm-cop"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="nR6-QB-rhz" secondAttribute="bottom" id="1lF-nK-oEp"/>
+                    <constraint firstItem="kby-tR-nWq" firstAttribute="bottom" secondItem="2D7-iX-3yl" secondAttribute="bottom" id="7S1-dn-FS1"/>
+                    <constraint firstItem="vzO-Uj-ETJ" firstAttribute="top" secondItem="yxU-1B-FPr" secondAttribute="top" id="BzO-Tz-Vfa"/>
+                    <constraint firstItem="sw3-1d-oDw" firstAttribute="top" secondItem="2D7-iX-3yl" secondAttribute="top" id="D2t-YA-2DO"/>
+                    <constraint firstItem="2D7-iX-3yl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="109" id="Dgo-GV-qyE"/>
+                    <constraint firstItem="ggg-gs-npm" firstAttribute="bottom" secondItem="2D7-iX-3yl" secondAttribute="bottom" id="GFN-bQ-5j5"/>
+                    <constraint firstAttribute="trailing" secondItem="NAT-Z4-WEd" secondAttribute="trailing" constant="16" id="HJb-gU-mE1"/>
+                    <constraint firstItem="sw3-1d-oDw" firstAttribute="leading" secondItem="2D7-iX-3yl" secondAttribute="leading" id="Laa-Lu-225"/>
+                    <constraint firstItem="kby-tR-nWq" firstAttribute="leading" secondItem="2D7-iX-3yl" secondAttribute="leading" id="MMH-ye-xsq"/>
+                    <constraint firstAttribute="trailing" secondItem="nR6-QB-rhz" secondAttribute="trailing" constant="-16" id="Neu-2W-pbB"/>
+                    <constraint firstItem="sw3-1d-oDw" firstAttribute="bottom" secondItem="2D7-iX-3yl" secondAttribute="bottom" id="PKH-aX-6wW"/>
+                    <constraint firstItem="NAT-Z4-WEd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="PlG-mH-2Au"/>
+                    <constraint firstItem="ggg-gs-npm" firstAttribute="top" secondItem="2D7-iX-3yl" secondAttribute="top" id="QE5-HH-TRU"/>
+                    <constraint firstItem="sw3-1d-oDw" firstAttribute="trailing" secondItem="2D7-iX-3yl" secondAttribute="trailing" id="TDz-Nq-79Z"/>
+                    <constraint firstItem="vzO-Uj-ETJ" firstAttribute="trailing" secondItem="2D7-iX-3yl" secondAttribute="trailing" id="VM1-B0-GWC"/>
+                    <constraint firstItem="nR6-QB-rhz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="WO4-nU-evF"/>
+                    <constraint firstItem="kby-tR-nWq" firstAttribute="top" secondItem="2D7-iX-3yl" secondAttribute="top" id="ZbI-ot-QBw"/>
+                    <constraint firstItem="ggg-gs-npm" firstAttribute="leading" secondItem="2D7-iX-3yl" secondAttribute="leading" id="bzH-LQ-huR"/>
+                    <constraint firstAttribute="bottom" secondItem="yxU-1B-FPr" secondAttribute="bottom" constant="8" id="fpp-e3-r0r"/>
+                    <constraint firstItem="yxU-1B-FPr" firstAttribute="top" secondItem="2D7-iX-3yl" secondAttribute="bottom" constant="8" id="gWX-pV-SGv"/>
+                    <constraint firstAttribute="trailing" secondItem="2D7-iX-3yl" secondAttribute="trailing" constant="65" id="jRS-ID-14q"/>
+                    <constraint firstItem="nR6-QB-rhz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="-16" id="jb2-Ny-zBA"/>
+                    <constraint firstItem="ggg-gs-npm" firstAttribute="trailing" secondItem="2D7-iX-3yl" secondAttribute="trailing" id="mkm-NJ-zGs"/>
+                    <constraint firstItem="ScR-a2-XRw" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="qSA-dK-XVa"/>
+                    <constraint firstItem="2D7-iX-3yl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="qoX-Qf-1zd"/>
+                    <constraint firstItem="vzO-Uj-ETJ" firstAttribute="leading" secondItem="yxU-1B-FPr" secondAttribute="trailing" constant="8" id="rkn-Ni-MGp"/>
+                    <constraint firstItem="kby-tR-nWq" firstAttribute="trailing" secondItem="2D7-iX-3yl" secondAttribute="trailing" id="wbJ-pg-zXj"/>
+                    <constraint firstItem="ScR-a2-XRw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="xX5-RF-kE5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="activityIndicator" destination="kby-tR-nWq" id="7fE-XN-Lwu"/>
+                <outlet property="imageMsgView" destination="2D7-iX-3yl" id="UpG-SN-lmk"/>
+                <outlet property="msgViewTopConstraint" destination="qoX-Qf-1zd" id="yHo-eX-kZh"/>
+                <outlet property="newDayLbl" destination="ScR-a2-XRw" id="rDR-fJ-qXD"/>
+                <outlet property="playView" destination="sw3-1d-oDw" id="UGv-Vp-ueF"/>
+                <outlet property="profileImgTopConstraint" destination="PlG-mH-2Au" id="TMJ-Ey-EFP"/>
+                <outlet property="profileImgview" destination="NAT-Z4-WEd" id="pm3-0w-ojk"/>
+                <outlet property="readStatusLbl" destination="vzO-Uj-ETJ" id="0wL-bA-5m2"/>
+                <outlet property="selectionBlurView" destination="nR6-QB-rhz" id="ILX-Nc-hjX"/>
+                <outlet property="selectionViewTopConstraint" destination="WO4-nU-evF" id="s5n-NS-Hz3"/>
+                <outlet property="timeLbl" destination="yxU-1B-FPr" id="xUK-Lh-w1U"/>
+            </connections>
+            <point key="canvasLocation" x="-82.44274809160305" y="82.74647887323944"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="2D7-iX-3yl">
+            <size key="intrinsicContentSize" width="218" height="277"/>
+        </designable>
+        <designable name="NAT-Z4-WEd">
+            <size key="intrinsicContentSize" width="64" height="64"/>
+        </designable>
+        <designable name="y8O-Gl-rN3">
+            <size key="intrinsicContentSize" width="40" height="40"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="chroma_preview" width="64" height="64"/>
+        <image name="img_placeholder" width="218" height="277"/>
+    </resources>
+</document>

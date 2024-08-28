@@ -1,0 +1,2150 @@
+/* 
+  Localizable.strings
+  ChatModule
+
+  Created by Akash Belekar on 23/07/24.
+  
+*/
+
+"ok" = "Ok";
+"yes" = "Oui";
+"no" = "Non";
+"view" = "Vue";
+"dismiss" = "Rejeter";
+"continue" = "Continuer";
+"hide" = "Cacher";
+"cancel" = "Annuler";
+"confirm" = "Confirm";
+"signing_in" = "S'inscrire";
+"login_invalid_credentails" = "Vos identifiants sont invalides";
+"login_error" = "Une erreur est survenue, sveuillez réessayer plus tard";
+"stream_live_count" = "EN DIRECT";
+"createStream18PlusDisclaimer" = "Peeks Social ne permet pas d'afficher du contenu pornographique dans ses diffusions publiques. Veuillez consulter les conditions d'utilisation de Peeks Social.";
+"stream_info_share_button" = "Partager";
+"share_this_stream" = "Partager Ce Flux";
+"stream_info_report_button" = "Signaler la vidéo";
+"report_stream_alert_title" = "Rapport inapproprié";
+"report_stream_alert_message" = "Voulez-vous signaler cette vidéo comme inappropriée ?";
+"share_actionsheet_title" = "Partager la vidéo avec";
+"share_all_followers" = "Tous les Abonnés";
+"select_followers" = "Sélectionnez les Abonnés";
+"stat_views" = "VUES";
+"stat_viewers" = "SPECTATEURS";
+"stat_likes" = "J'AIME";
+"stat_live_views" = "VUES EN DIRECT";
+"stat_replays" = "REDIFFUSIONS";
+"people_title" = "Gens";
+"profile_title" = "Mon profil";
+"profile_share" = "Partager";
+"profile_share_message" = "Découvrez ce profil génial de keek : ";
+"stream_share_message" = "Découvrez ce flux keek génial: ";
+"video_share_message" = "Regardez cette superbe vidéo de Keek : ";
+"profile_description_placeholder" = "Appuyez ici pour ajouter une description";
+"profile_logout_actionsheet_title" = "Voulez-vous vraiment vous déconnecter ?";
+"bank_account_delete_actionsheet_title" = "Êtes-vous sûr de vouloir supprimer ce compte ?";
+"profile_terms" = "Conditions générales d'utilisation";
+"profile_privacy" = "Politique de confidentialité";
+"profile_logout" = "Se déconnecter";
+"feedback_title" = "Commentaire";
+"wallet_support_title" = "Soutien au portefeuille";
+"wallet_support_photoId_validation_failed_title" = "Soutien au portefeuille : la validation de l'identification par photo a échoué";
+"mail_unavailable_error_alert_title" = "Impossible d'envoyer des e-mails";
+"mail_unavailable_error_alert_message" = "Veuillez vérifier vos paramètres de messagerie pour envoyer des e-mails";
+"confirmation_phone_number" = "Voulez-vous recevoir le SMS sur le numéro de téléphone";
+"invite_friends_message" = "Regardez-moi en direct sur Peeks Social ! ";
+"profile_loading" = "Chargement du profil";
+"sign_out" = "Déconnexion";
+
+// Stream leave messages
+"stream_terminated_leave_title" = "Vidéo terminée";
+"stream_terminated_leave_message" = "Le contenu de la vidéo a été identifié comme inapproprié selon nos directives communautaires. \nVeuillez les consulter et nous contacter pour toute question. VOUS NE SEREZ PAS PAYÉ POUR CETTE VIDÉO.";
+
+"stream_blocked_leave_title" = "Diffusion bloquée";
+"stream_blocked_alert_message" = "Vous avez été bloqué par l'auteur de la vidéo.";
+
+"stream_disconnected_leave_title" = "Déconnexion de la vidéo";
+"stream_disconnected_leave_message" = "Diffusion en direct terminée";
+
+
+"settings_title" = "Paramètres";
+"settings_profile" = "Paramètres de profil";
+"settings_account" = "Paramètres du compte";
+"settings_notifications_dailyStats_text" = "Soyez avisé quant à l'état de vos diffusions ; l'augmentation du nombre des j'aime, des abonnés et des pourboires.";
+"settings_notifications_newFollower_text" = "Recevez une notification push chaque fois que quelqu'un vous suit.";
+"settings_notifications_streamStart_text" = "Recevez une notification push lorsque quelqu'un que vous suivez commence une diffusion en direct.";
+"settings_notifications_streamShare_text" = "Recevez une notification push lorsque quelqu'un que vous suivez partage une vidéo.";
+"tip_animation_message" = "POURBOIRE REÇU";
+
+// Tip Enforcement
+"tip_enforce_broadcaster_title" = "Diffusion payée";
+"tip_enforce_broadcaster_description" = "Les téléspectateurs seront informés que vous allez passer en mode « Diffusion payante ». Voir l'aide pour plus de détails. Les 60 premières secondes de votre diffusion payante seront un aperçu gratuit. Assurez-vous de bien respecter les termes du service et les directives communautaires dans ce délai de 60 secondes. \n\nVous devez diffuser pendant au moins 15 minutes après avoir activé le mode de diffusion payante. Ne faites pas de fausses déclarations ou promesses aux téléspectateurs. Si vous ne respectez pas les règles de diffusion payante, votre paiement est retenu.\n\nVoir les conditions de service pour plus de détails.";
+
+"tip_enforce_viewer_title" = "Le diffuseur a demandé un minimum de ";
+"tip_enforce_viewer_loading" = "Envoyer un pourboire";
+"tip_leave_button_title" = "Quitter la diffusion";
+"tip_confirm_button_title" = "Confirmer";
+"tip_stream_live_label" = "Diffusion en direct...";
+"tip_stream_duration_label" = "Durée de la diffusion :";
+"tip_stream_balance_label" = "Solde disponible :";
+
+"error" = "Erreur";
+
+"register_error_long" = "Veuillez corriger ce qui suit pour continuer";
+"register_phonenumber_invalid" = "Numéro de téléphone invalide pour le pays";
+"register_email_invalid" = "E-mail invalide, veuillez le vérifier";
+
+"register_email_exists" = "L'e-mail existe déjà sur nos enregistrements";
+"register_passwords_match_error" = "Les mots de passe ne correspondent pas";
+"register_password_length_error" = "Le mot de passe doit comporter au moins 6 caractères et contenir au moins une lettre et un numéro";
+"register_username_invalid_error" = "Les noms d'utilisateur ne peuvent contenir que des lettres et des chiffres et doivent comporter au moins 3 caractères.";
+"register_username_exists_error" = "Le nom d'utilisateur existe déjà. Veuillez choisir un autre";
+"register_username_error" = "Nom d'utilisateur manquant, minimum 4 caractères commençant par une lettre.";
+"register_birthday_error" = "La date de naissance manque";
+"register_birthday_invalid_error" = "La date de naissance est invalide";
+"register_agree_terms" = "Vous devez accepter les conditions générales pour continuer l'inscription";
+
+"register_facebook_no_email" = "Vous devez accorder l'accès au profil et au courrier électronique sur Facebook, essayez à nouveau.";
+"register_facebook_email_exists" = "L'e-mail associé à ce compte Facebook existe déjà sur un compte sur Peeks Social.";
+
+"register_wrong_country_index" = "Impossible de charger votre pays. Veuillez essayer à nouveau";
+
+"birthday_error_future_date" = "Anniversaire invalide, ou vous êtes venu du futur !";
+
+"account_validation_code_sent_sms" = "Un code vous sera envoyé par SMS.";
+"account_validation_code_sent_ivr" = "Un code vous sera envoyé par téléphone.";
+"account_validation_code_sent_email" = "Un code vous sera envoyé par e-mail.";
+"account_validation_not_successful" = "Votre compte n'a pas été validé";
+
+"payment_method_billing_missing_title" = "Adresse de facturation incomplète";
+"payment_method_billing_missing" = "Veuillez remplir tous les champs nécessaires";
+"stream_creation_error" = "Problème de création de flux";
+"stream_not_playable_title" = "Traitement vidéo";
+"stream_not_playable_message" = "Cette diffusion en continu est en cours de traitement. Elle sera bientôt disponible.";
+
+"stream_user_id_missing" = "Il ne semble pas y avoir d'utilisateur associé à ce flux";
+"stream_user_not_live" = "L'utilisateur ne semble pas diffuser en direct";
+
+"stream_unfollow_alert" = "Êtes-vous sûr de vouloir ne pas suivre cet utilisateur ?";
+
+"stream_purchase_price_not_set" = "Vous n'avez pas confirmé le prix d'achat";
+
+"stream_block_alert" = "Êtes vous sûr de vouloir bloquer cet utilisateur ?";
+
+"withdraw_account_title" = "Vérification d'ID en attente";
+"withdraw_account_title_fail" = "La vérification d'ID a échoué";
+"photo_identification_title" = "Identification de la photo";
+"photo_identification_message" = "Pour valider votre identité et pour des raisons de sécurité, vous devez soumettre une pièce d'identité avec photo valide. Veuillez prendre une photo d'une pièce d'identité valide pour procéder.";
+"withdraw_proceed_fields" = "Veuillez compléter tous les champs avant de continuer";
+"withdraw_account_transit_error" = "Le numéro de transit doit être de 5 chiffres";
+"withdraw_account_institution_error" = "Le numéro de l'établissement doit être de 3 chiffres";
+"withdraw_account_Account_error" = "Le numéro de compte doit comporter au moins 5 chiffres";
+"withdraw_account_routingnumber_error" = "Le numéro de routage devrait être de 9 chiffres";
+
+"withdraw_account_failed_validation" = "La validation de votre compte de chèque a échoué. Souhaitez-vous ajouter un autre compte ou réessayer ?";
+"wallet_failed_photoId_validation" = "Il y avait un problème avec la validation de votre identification. Veuillez réessayer d'envoyer votre identifiant dans mon portefeuille ➔ dans le menu sur le côté droit ou contactez support@peeks.com pour plus d'informations.";
+"wallet_manage_login_validation" = "Pour des raisons de sécurité, vous devrez peut-être vous reconnecter pour gérer votre portefeuille";
+"wallet_pending_photoId_validation" = "Nous sommes toujours en train de vérifier votre identifiant. Veuillez revenir demain.";
+"withdraw_account_validate" = "Votre compte de chèque doit être validé. Voulez-vous le faire maintenant ?";
+"withdraw_account_add" = "Vous n'avez pas ajouté une option de retrait pour retirer vos gains. Voulez-vous commencer le processus maintenant ?";
+"deposit_account_add" = "Souhaitez-vous ajouter une nouvelle carte de crédit ? ";
+"withdraw_account_add_new" = "Souhaitez-vous ajouter une nouvelle option de retrait ?";
+"withdraw_not_enought_earnings" = "Vous n'avez pas assez de revenus pour abandonner en ce moment";
+
+"create_purchase_value_error" = "Veuillez saisir un prix pour votre produit";
+
+"camera_source_error_title" = "Erreur de la source de la caméra";
+"camera_source_error_message" = "Vous n'avez pas autorisé Keek Social à accéder à votre appareil photo. Voulez-vous aller à Paramètres et autoriser l'accès ?";
+
+"location_enabled_error_title" = "La permission de localisation n'est pas activée";
+"location_enabled_error_message" = "Vous n'avez pas autorisé Keek Social à accéder à votre emplacement. Voulez-vous aller à Paramètres maintenant et autoriser l'accès ?";
+
+"user_stats_no_followers_error" = "Personne ne vous suit";
+"user_stats_search_error" = "Aucun résultat trouvé";
+
+"rating_title_warning_high" = "Discrétion des téléspectateurs recommandée";
+"rating_title_warning_low" = "Convient à tous les auditoires";
+
+"rating_message_high" = "La vidéo suivante a été évaluée en tant que contenu adulte +18. Elle peut contenir des contenus offensants pour certaines personnes. Si vous avez moins de 18 ans ou si vous êtes offensé par un langage grossier, des thèmes matures ou une nudité partielle, veuillez arrêter la vidéo. Merci.";
+"rating_message_medium" = "Cette vidéo a été évaluée en tant que contenu +14. Elle peut contenir un langage grossier et des thèmes matures. Si vous pensez que cette vidéo a été incorrectement classée, veuillez nous contacter sur Peeks Social en appuyant sur ";
+"rating_message_low" = "Cette vidéo a été classée G et est acceptable pour tous les âges. Si vous voyez un contenu dans cette vidéo qui n'est pas acceptable pour tous les âges, veuillez le signaler à Peeks Social en appuyant sur ";
+
+"rating_message_initial" = "Les vidéos dans cet onglet ont été évalués en tant que contenu adulte +18. Il peut contenir des éléments offensants pour certaines personnes. Si vous souhaitez toujours accéder à ce contenu adulte +18, sélectionnez continuer. Si vous souhaitez masquer le contenu adulte +18, sélectionnez cacher.";
+"rating_message_content" = "Les paramètres de contenu peuvent être modifiés à tout moment en allant dans les paramètres du menu principal";
+
+"rating_footer_high" = "Veuillez arrêter la vidéo si vous êtes moins de 18 ans.";
+"rating_footer_medium" = "Veuillez arrêter la vidéo si vous êtes moins de 17ans.";
+"rating_footer_low" = "Profitez de votre diffusion en directe";
+"stream_end_alert_message" = "Êtes-vous sûr de vouloir mettre fin à la vidéo ?";
+"stream_share_confirmation_message" = "Cette diffusion a été partagée avec vos abonnés";
+// Localized Missing Strings
+
+"next" = "Suivant";
+"resend" = "Renvoyer";
+"please_wait" = "Veuillez patienter ...";
+"almost_done" = "Presque Terminé";
+"resend" = "Renvoyer";
+"success" = "Succès !";
+"skip" = "Passer";
+
+"sign_in" = "Se connecter";
+"register_button_title" = "Créer un compte";
+"forgot_password" = "Mot de passe oublié ?";
+"continue_with_apple" = "Continuer avec Apple";
+"continue_with_google" = "Continuer avec Google";
+// Reset Password
+//"reset_password_title" = "Réinitialiser le mot de passe";
+//"reset_password_description" = "Veuillez saisir votre nom d'utilisateur ci-dessous";
+"reset_password_options" = "Veuillez sélectionner l'une des options suivantes :";
+"reset_password_option_sms" = "Envoyer par SMS à ";
+"reset_password_option_email" = "Envoyer par e-mail à ";
+"reset_password_enter_password" = "Veuillez saisir votre mot de passe ci-dessous.";
+"reset_password_mismatch" = "Les mots de passe que vous avez saisis ne correspondent pas.";
+"reset_password_updated" = "Votre mot de passe a été mis à jour.";
+"reset_password_sending_passcode" = "Envoi du code d'accès";
+
+// Registration
+"registration_birth_year_title" = "Commençons !";
+"registration_birth_year_description" = "Veuillez saisir votre année de naissance ci-dessous";
+"registration_birth_year_placeholder" = "Année de naissance (Optional)";
+
+//"registration_account_info_title" = "Données du compte";
+//"registration_account_info_description" = "Veuillez entrer les informations requises ci-dessous";
+//"registration_email_placeholder" = "E-mail";
+//"registration_username_placeholder" = "Nom d'utilisateur";
+"registration_password_placeholder" = "Mot de passe";
+"registration_confirm_password_placeholder" = "Entrez à nouveau le mot de passe";
+//"registration_agreement" = "J'accepte ces termes et conditions";
+
+"registration_phone_title" = "Dernière étape !";
+"registration_phone_description" = "Entrez votre numéro de téléphone ci-dessous pour le compléter.";
+"registration_phone_placeholder" = "Numéro de téléphone";
+
+"registration_confirmation_title" = "Confirmation du compte";
+"registration_confirmation_description" = "Veuillez entrer le code qui vous a été envoyé.";
+"registration_confirmation_placeholder" = "Code";
+"registration_confirmation_ivr" = "Vous ne pouvez pas recevoir de SMS ? Obtenez un code par appel téléphonique";
+
+"registration_share_title" = "Succès ! Votre compte est confirmé.";
+"registration_share_description" = "Partagez votre profil Peeks Social avec vos amis afin qu'ils puissent vous regarder en direct !";
+"registration_share" = "Partager";
+
+"intro_claim_gift" = "Réclamez votre cadeau";
+"intro_gift_title" = "Enregistrez votre carte de crédit pour réclamer votre cadeau gratuit !";
+"intro_gift_description" = "L'inscription est gratuite et votre carte de crédit ne sera facturée pour s'inscrire.";
+
+"intro_skip_gift_title" = "Désolé, vous n'avez pas enregistré votre carte de crédit.";
+"intro_skip_gift_description" = "Nous vous donnons encore 50 cents gratuitement.";
+"intro_skip_gift_thanks" = "L'équipe Peeks Social vous remercie. Profitez d'utiliser Peeks Social !";
+
+"watch_video" = "Regarder la vidéo";
+"intro_done" = "Effectué";
+
+"intro_page_one_title" = "Vous êtes en direct !";
+"intro_page_one_description" = "Peeks Social est une vidéo en direct; Quoi que vous fassiez à ce moment-là, il sera vu par vos spectateurs. Les téléspectateurs peuvent vous envoyer des pourboires en espèces ou vous envoyer des j'aime et vous pouvez également offrir des pourboires à vos radiodiffuseurs préférés.";
+
+"intro_page_two_title" = "L'argent réel !";
+"intro_page_two_description" = "Peeks Social dispose d'un portefeuille mobile complet qui vous permet de retirer facilement votre argent reçu des pourboires dans votre compte bancaire, et vous pouvez configurer votre compte pour informer les radiodiffuseurs en direct.";
+
+"intro_page_three_title" = "Partage";
+"intro_page_three_description" = "Augmentez le nombre de vos fans sur Peeks Social ! Invitez vos amis et les adeptes des réseaux sociaux à Peeks Social, cela vous aidera à créer un public en direct rapidement.";
+
+// Menu Buttons
+"menu_home" = "Accueil";
+"menu_upload_video" = "Télécharger une vidéo";
+"menu_crowdfunding" = "Financement communautaire";
+"menu_profile" = "Profil";
+"menu_invite_friends" = "Inviter des amis";
+"menu_following" = "Suivant";
+"menu_people" = "Gens";
+"menu_wallet" = "Portefeuille";
+"menu_settings" = "Paramètres";
+"menu_help" = "Support";
+"menu_logout" = "Se déconnecter";
+"menu_offerbox" = "Boîte d'offre";
+"menu_impressions" = "Manage Impressions";
+
+// Broadcasts Page
+"broadcasts" = "Diffusions";
+"popular" = "Populaire";
+"live" = "En direct";
+"uploads" = "Téléchargements";
+"explore" = "Explorer";
+"plus" = "Plus";
+"featured" = "Présenté";
+"live" = "En direct";
+"go_live" = "Allez en direct";
+"record_video" = "Enregistrement de la vidéo";
+"upload_video" = "Télécharger une vidéo";
+"map" = "Carte";
+"broadcasts_search_placeholder" = "Rechercher par titre ou nom d'utilisateur";
+"channels" = "Chaînes";
+"following" = "Abonnements";
+
+"streaming_permissions_denied_alert_title" = "Accès refusé";
+"streaming_permissions_denied_alert_message" = "Vos fonctions de diffusion ont été désactivées. Veuillez contacter le service à la clientèle à support@peeks.com.";
+
+//DiscoverPeopleTileViewController
+"discover_more_people" = "Discover More";
+"please_browse_people_list" = "Parcourez notre liste d'utilisateurs populaires";
+
+//RatingsViewController
+"rating_title_label" = "Classement du diffuseur";
+"watch_button_title_label" = "VOIR LA DIFFUSION";
+"close_button_title_label" = "FERMER";
+
+//RateStreamViewController
+"thank_you_lable" = "Merci de regarder ! ";
+"review_content_label" = "Veuillez prendre le temps de lire ce contenu. Cela rendra l'expérience de visualisation beaucoup plus agréable pour tout le monde.";
+"how_was_it_lable" = "Comment était ?";
+"finish_button_title_label" = "FINI";
+
+// Creation stream
+"no_selection" = "Pas de sélection";
+"crowdfund_label" = "Financement communautaire";
+"offer_label" = "Offre";
+"rating_label" = "Classement";
+"title_label" = "Titre";
+"private_label" = "Tout le monde";
+"data_saver_help_text" = "La configuration de l'option économiseur de données sur \"High\" permettra d'économiser la quantité maximale de données mobiles mais aura la qualité vidéo la plus basse. \"Low\" est recommandé si vous utilisez Wi-Fi, et \"Medium\" ou \"High\" pour les données cellulaires.";
+
+// Upload Video
+"required_placeholder" = "Requis";
+"upload_title" = "Télécharger";
+"upload_select_video_button" = "Sélectionnez une autre vidéo";
+"upload_header_stream" = "TITRE DE LA DIFFUSION";
+"upload_header_video" = "PARAMÈTRES VIDÉO";
+"upload_video_button" = "Télécharger";
+"upload_title_label" = "Titre";
+"upload_rating_label" = "Classement";
+"upload_private_label" = "Confidentialité";
+"upload_private_all_followers" = "Mes Followers";
+"upload_private_one_follower" = "téléspectateur";
+"upload_private_many_follower" = "téléspectateurs";
+"upload_success" = "Votre vidéo a été téléchargée avec succès.";
+"upload_KeekBack_success" =  "Votre commentaire vidéo a été téléchargé avec succès.";
+"upload_18_error" = "Vous devez sélectionner les utilisateurs autorisés à accéder à vos vidéos adultes +18 avant de continuer";
+
+// Private Broadcast
+"private_broadcast_title" = "Diffusion privée";
+"private_broadcast_search_followers" = "Rechercher les Followers";
+"private_broadcast_select_followers" = "Sélectionnez les Followers";
+"private_broadcast_select_all" = "Sélectionner tout";
+"private_broadcast_deselect_all" = "Désélectionner tout";
+"private_broadcast_public" = "Tout le monde";
+
+// Streaming
+"stream_share_option_title" = "Partager la diffusion";
+"stream_share_option_message" = "Comment souhaitez-vous partager cette diffusion ?";
+"stream_share_internal" = "Partagez avec mes abonnés de Peeks Social";
+"stream_share_external" = "Partager de l'extérieur";
+
+// Profile
+"profile_title" = "Profil";
+"profile_bar_button_back" = "Retour";
+"profile_bar_button_done" = "Effectué";
+"user_options_title" = "Options d'utilisateur";
+"user_options_unfollow" = "Ne plus suivre";
+"user_options_follow" = "Suivre";
+"user_options_block" = "Bloquer";
+"user_options_unblock" = "Débloquer";
+"user_options_report" = "Rapport";
+"user_options_share" = "Partager";
+
+// Following
+"follower_users" = "Suiveurs";
+"following_users" = "Suivant";
+"blocked_users" = "Bloqué";
+"private_broadcast" = "Diffusion privée";
+
+// People
+"search_placeholder" = "Rechercher";
+
+// Reporting
+"reporting_details" = "Veuillez ajouter plus de détails ...";
+"reporting_user" = "Signaler un utilisateur";
+"reporting_user_thank" = "Merci";
+"reporting_confirmation" = "Signaler le succès du code de confirmation :";
+"reporting_reason" = "Veuillez écrire la raison de votre rapport";
+"reporting_sorry" = "Désolé";
+
+// Wallet
+"wallet_title" = "Mon portefeuille";
+"wallet_deposit" = "Dépôt";
+"wallet_withdrawal" = "Retrait";
+"wallet_available_balance" = "Solde disponible";
+"wallet_transaction_type" = "Type de transaction";
+"wallet_amount" = "Montant";
+"wallet_no_payment_method" = "Aucune méthode de paiement ajoutée";
+
+"wallet_transaction_deposit_credit" = "Dépôt (crédit)";
+"wallet_transaction_deposit_chequing" = "Dépôt (chèques)";
+"wallet_transaction_deposit_iap" = "Dépôt de pièces";
+"wallet_transaction_withdrawal" = "Retrait";
+"wallet_transaction_tip_sent" = "Conseil(s) envoyé (s)";
+"wallet_transaction_tip_received" = "Conseil(s) reçue (s)";
+"wallet_transaction_refund" = "Remboursement du pourboire";
+"wallet_transaction_refund_fee" = "Crédit de plate-forme";
+"wallet_transaction_reversal" = "Renversement";
+"wallet_transaction_correction" = "Correction";
+"wallet_transaction_transfer" = "Virement";
+"wallet_transaction_purchase" = "Acheter";
+"wallet_transaction_platform_fee" = "Frais de plate-forme";
+"wallet_transaction_bonus" = "Bonus";
+"wallet_transaction_none" = "Vous n'avez aucun compte de transaction\npour ce mois";
+
+"wallet_options_support" = "Assistance";
+"wallet_options_withdraw" = "Options de retrait";
+"wallet_options_deposit" = "Options de dépôt";
+"wallet_options_add" = "Ajouter";
+"wallet_options_delete" = "Supprimer";
+"wallet_options_default" = "Par défaut";
+"wallet_options_tip_amount" = "Montant de pourboire";
+
+"wallet_options_title" = "Titre";
+"wallet_options_submit_photo" = "Soumettre la photo de l'ID à nouveau";
+"wallet_options_switch_account" = "Changer de compte";
+"wallet_options_none" = "Aucun";
+"wallet_options_tip_note" = "* Le réglage du pourboire est le montant de base pour chaque transaction « Pourboire » envoyée. Pas le montant total facturé à votre carte de crédit";
+
+"wallet_withdrawal_title" = "Faire un retrait ?";
+"wallet_withdrawal_description" = "Pour procéder, nous avons besoin d'un endroit pour envoyer votre argent. Mettons maintenant en place notre relation bancaire.\n\n Ce processus prendra jusqu'à 5 jours ouvrables.";
+"wallet_withdrawal_available" = "Disponible pour retrait";
+"wallet_withdrawal_select_country" = "Sélectionnez votre pays";
+"wallet_withdrawal_proceed" = "Procéder";
+
+"wallet_withdrawal_address_title" = "Commençons !";
+"wallet_withdrawal_address_subtitle" = "Entrez les informations requises ci-dessous :";
+"wallet_withdrawal_first_name_placeholder" = "Prénom";
+"wallet_withdrawal_last_name_placeholder" = "Nom";
+"wallet_withdrawal_email_placeholder" = "E-mail";
+"wallet_withdrawal_phone_placeholder" = "Numéro de téléphone";
+"wallet_withdrawal_address_placeholder" = "Adresse";
+"wallet_withdrawal_address_two_placeholder" = "Adresse 2 (optionnel)";
+"wallet_withdrawal_city_placeholder" = "Ville";
+"wallet_withdrawal_state_placeholder" = "Etat / Province";
+"wallet_withdrawal_postal_code_placeholder" = "Zip / Code postal";
+"wallet_withdrawal_country_placeholder" = "Pays";
+
+"wallet_withdrawal_id_take_photo" = "Prendre une photo";
+"wallet_withdrawal_id_license" = "Permis de coduire";
+"wallet_withdrawal_id_passport" = "Passeport";
+"wallet_withdrawal_id_citizenship" = "Nationalité";
+"wallet_withdrawal_id_identity" = "Identité";
+"wallet_withdrawal_id_other" = "Autre";
+
+"wallet_withdrawal_method_title" = "Choisir un mode de retrait";
+"wallet_withdrawal_method_wire" = "Virement bancaire";
+"wallet_withdrawal_method_cheque" = "Vérifiez par courrier postal";
+"wallet_withdrawal_method_wire_description" = "Entrez vos informations bancaires ci-dessous :";
+"wallet_withdrawal_method_cheque_description" = "Envoyez-moi un chèque à l'adresse ci-dessous :";
+"wallet_withdrawal_method_edit_address" = "Modifier l'adresse ?";
+"wallet_withdrawal_method_wire" = "Virement bancaire";
+
+"wallet_withdrawal_validation_deposit_placeholder" = "par exemple. 0,36";
+
+"wallet_deposit_title" = "Fonds de dépôt";
+"wallet_deposit_amount" = "Combien ?";
+"wallet_deposit_amount_minimum" = "Min";
+"wallet_deposit_amount_maximum" = "Max";
+"wallet_deposit_from" = "Fonds de dépôt à partir de :";
+
+"wallet_deposit_processing_title" = "Traitement du paiement";
+"wallet_deposit_processing_subtitle" = "Votre dépôt est en cours de traitement. Vos fonds seront déposés dans votre portefeuille.";
+"wallet_deposit_processing_subtitle_two" = "Veuillez allouer jusqu'à 5 jours ouvrables pour votre dépôt.";
+
+"wallet_manage_label" = "Veuillez visiter peeks.com pour gérer votre portefeuille.";
+
+// Settings
+"settings_account" = "Compte";
+"settings_app_settings" = "Paramètres de l'application";
+"settings_notifications" = "Notifications";
+"settings_about" = "À propos de";
+"settings_privacy_policy" = "Politique de confidentialité";
+"settings_account_salutation" = "Salutation";
+"settings_account_salutation_placeholder" = "Définir la salutation";
+"settings_account_username" = "Nom d'utilisateur";
+"settings_account_full_name" = "Nom complet";
+"settings_account_full_name_edit" = "Modifier votre nom complet";
+"settings_account_city" = "Ville";
+"settings_account_city_add" = "Ajouter une ville";
+"settings_account_email" = "E-mail";
+"settings_account_email_add" = "Ajouter un e-mail";
+"settings_account_description" = "Description";
+"settings_account_description_placeholder" = "Modifier la description";
+"settings_account_phone" = "Numéro de téléphone";
+"settings_account_phone_add" = "Ajouter un numéro de téléphone";
+"settings_account_birth_year" = "Année de naissance";
+"settings_account_birth_date" = "Anniversaire";
+"settings_account_birth_date_add" = "Ajouter un anniversaire";
+"settings_app_show_18+_content_title" = "Afficher le contenu +18";
+"settings_app_show_18+_content_description" = "Si vous arrêtez, vous éliminerez toutes les diffusions évaluées à plus de 18 de votre fil.";
+"settings_notifications_daily_stats_title" = "Statistiques quotidiennes";
+"settings_notifications_new_follower_title" = "Nouveaux Abonnés";
+"settings_notifications_stream_start_title" = "Démarrage de la vidéo";
+"settings_notifications_stream_share_title" = "Partager la vidéo";
+"settings_about_terms" = "Conditions générales d'utilisation";
+"settings_about_privacy" = "Politique de confidentialité";
+"settings_about_title" = "À propos de";
+"settings_notifications_stream_email_title" = "Communication par e-mail";
+"settings_notifications_stream_text_title" = "Communication par texte";
+"settings_notifications_stream_phone_title" = "Communication par téléphone";
+"settings_notifications_chat_title" = "Discussion";
+"settings_notifications_email_text" = "Recevoir les communications par e-mail.";
+"settings_notifications_text_text" = "Recevoir les communications par texte.";
+"settings_notifications_phone_text" = "Recevoir les communications par téléphone.";
+"settings_notifications_chat_text" = "Recevoir une notification push à chaque fois que quelqu'un vous envoie un message de chat.";
+
+// In App Purchases
+"iap_buy" = "Acheter";
+"iap_purchase_coins" = "Acheter des pièces";
+"iap_manage_my_wallet" = "Gérer mon porte-monnaie";
+
+//Crowdfunding
+"crowdfunding" = "Financement communautaire";
+"crowdfunding_stream_title" = "Pourboires";
+"crowdfunding_stream_message" = "Entrez le montant que vous souhaitez donner";
+"crowdfunding_stream_invalid" = "Montant invalide";
+"crowdfunding_stream_correct_amount" = "Veuillez fournir un montant valide entre 0,05 $ et 300,00 $";
+"crowdfunding_stream_confirm" = "Confirmer";
+"crowdfunding_stream_confirm_tip" = "Confirmer le pourboire";
+"crowdfunding_stream_confirm_tip_msg" = "Vous êtes sur le point de donner $%1$@ de pourboire. Continuer ?";
+"crowdfunding_stream_credit_card" = "Aucune carte de crédit n'est enregistrée";
+"crowdfunding_stream_credit_card_register" = "Passez à peeks.com pour enregistrer une carte de crédit.";
+
+//Coins
+"coins_stream_insufficient_message" = "Vous ne disposez pas de suffisamment de pièces pour pouvoir vous déplacer. Ajouter des pièces maintenant ?";
+"coins_stream_insufficient_title" = "Solde insuffisant";
+"coins_stream_tip_continue" = "Vous êtes en train de donner un pourboire. Continuer ?";
+"coins_stream_tip_message" = "Vous êtes en train de donner un pourboire de %1$@ pièces. Continuer ?";
+"coins_current_balance" = "Solde actuel";
+"coins_coins_label" = "Pièces";
+
+//Sort
+"sort_most_recent" = "Trier par le plus récent";
+"sort_most_likes" = "Trier par les plus aimés";
+"sort_most_rated" = "Trier par les plus récent";
+
+//Tabbar
+"tabbar_home" = "Accueil";
+"tabbar_profile" = "Profil";
+"tabbar_wallet" = "Portefeuille";
+"tabbar_more" = "Plus";
+"tabbar_more_option" = "Plus d'options";
+
+//Unused right now
+
+"table_no_data" = "Rien n'a été trouvé.";
+"login_with_twitter_button" = "Se connecter avec Twitter";
+"login_twitter_error" = "Impossible d'autoriser votre compte Twitter";
+"recent_streams" = "ÉVÉNEMENTS RÉCENTS";
+"live_streams" = "EN DIRECT";
+"stream_name_placeholder" = "Qu'est-ce qui se passe ?";
+"go_live_button" = "ALLEZ EN DIRECT !";
+"connecting_stream_label" = "Connexion...";
+"global_title" = "Mondial";
+"followed_title" = "Suivi";
+"cant_join_stream_alert_title" = "Impossible d'accéder à la vidéo";
+"cant_join_stream_alert_message" = "On dirait que vous ne pouvez pas accéder à la vidéo maintenant. Veuillez réessayer plus tard";
+"create_stream_post_message" = "Regarder%1$@ en direct : %2$@";
+"select_followers_title" = "Partager la vidéo";
+"search_followers_placeholder" = "Rechercher un abonné";
+"stream_close_alert_title" = "Vidéo terminée";
+"stream_close_alert_message" = "Diffusion terminée. Pour fermer la vue et revenir à l'écran principal, appuyez sur le bouton Fermer";
+"w_share_notification" = "%1$@ Veut que vous voyiez %2$@";
+"w_live_notification" = "%1$@ est en direct !";
+"user_card_followers" = "ABONNÉS";
+"user_card_following" = "ABONNEMENTS";
+"user_card_recent" = "RÉCENT";
+"user_card_follow" = "Suivre";
+"user_card_unfollow" = "Ne plus suivre";
+"user_card_block" = "Bloquer";
+"user_card_unblock" = "Débloquer";
+
+"people_top" = "MEILLEUR";
+"people_featured" = "PRÉSENTÉ";
+
+"profile_userpic_actionsheet_title" = "Modifier la photo de l'utilisateur";
+"profile_userpic_camera" = "Appareil photo";
+"profile_userpic_gallery" = "Galerie";
+"profile_following" = "Abonnements";
+"profile_followers" = "Abonnés";
+"profile_blocked" = "Bloqué";
+"profile_streams" = "Diffusions";
+"profile_feedback" = "Commentaire";
+
+"stream_rating_no_agree_leave_title" = "Quitter la vidéo";
+"stream_rating_no_agree_leave_message" = "Vous n'êtes pas d'accord avec les termes d'évaluation de la diffusion";
+"settings_tips" = "Paramètres du pourboire";
+"set_tip_warning" = "Préférence de configuration";
+"set_tip_warning_message" = "Pour donner un pourboire lors d'une diffusion, vous devez configurer vos préférences. Voulez-vous configurer maintenant ou plus tard ?";
+
+"register_name_missing_error" = "Vous avez besoin d'un nom complet pour s'inscrire";
+"register_name_error" = "Le nom complet ne peut pas contenir de caractères numériques ou spéciaux";
+"register_error_short" = "Veuillez corriger votre erreur";
+"register_error_email_warning" = "L'e-mail est incorrect. Voulez-vous saisir un e-mail valide ou continuer ?";
+"register_error_email_missing" = "L'e-mail est obligatoire. Voulez-vous le saisir maintenant ou le faire plus tard ?";
+"register_email_missing" = "E-mail manquant";
+"register_prefix_error" = "Préfixe manquant";
+"register_phone_error" = "Numéro de téléphone manquant";
+"register_phone_invalid" = "Le numéro de téléphone est invalide";
+"register_phone_exist" = "Le numéro de téléphone existe déjà sur nos enregistrements";
+"register_country_error" = "Pays manquant";
+"register_password_error" = "Mot de passe manquant. Minimum de 6 caractères.";
+"register_confirm_error" = "La confirmation du mot de passe est manquante";
+
+"confirmation_code_error" = "Le code de confirmation est invalide.";
+"tip_settings_success" = "Les réglages de pourboire ont été sauvegardés !";
+"stream_ban_alert" = "Êtes-vous sûr de vouloir interdire cet utilisateur d'accéder à votre diffusion ?";
+"stream_close_error" = "Problème de fermeture de la vidéo";
+"stream_follow_success" = "Vous suivez maintenant cet utilisateur";
+"stream_unfollow_success" = "Vous ne suivez plus cet utilisateur";
+"report_success" = "Rapport reçu, nous l'examinerons";
+"block_success" = "Utilisateur bloqué avec succès";
+"unblock_success" = "Utilisateur débloqué avec succès";
+
+"withdraw_account_pending_validation" = "Vous disposez d'un compte de chèques en cours de validation";
+"user_stats_no_following_error" = "Vous ne suivez personne";
+
+"user_stats_no_blocked_error" = "Vous n'avez bloqué personne";
+"default_tip_pref_error" = "Impossible de définir un réglage de pointe par défaut à ce moment";
+
+"stream_share_alert_message" = "Voulez-vous partager cette vidéo avec vos abonnés ?";
+"failed_to_load_category" = "Impossible de récupérer les catégories, veuillez essayer à nouveau";
+
+"wallet_holds" = "Holds";
+"wallet_current_balance" = "Total du solde de trésorerie";
+"wallet_options_tip_description" = "Il s'agit du montant de base pour chaque transaction « Tip » envoyée. Ce n'est pas le montant total facturé à votre carte de crédit.";
+"settings_account_username_placeholder" = "Définir le nom d'utilisateur";
+"settings_account_salutation_mr" = "M.";
+"settings_account_salutation_mrs" = "Mme.";
+"settings_account_salutation_miss" = "Mlle";
+"settings_account_salutation_ms" = "M.";
+
+// New
+"loading" = "Loading...";
+"my_crowdfunding_goals" = "My Crowdfunding Goals";
+"goal_status_enabled" = "enabled";
+"goal_status_funded" = "funded";
+"goal_status_approved" = "approved";
+"goal_status_pending" = "pending";
+"goal_status_completed" = "completed";
+"goal_status_disabled" = "disabled";
+"goal_status_rejected" = "rejected";
+"goal_create_button" = "Create A New Goal";
+"streaming_going_live" = "Going Live!";
+"streaming_going_live_comment" = "You're about to begin broadcasting live... let's get started";
+"streaming_title_placeholder" = "Enter Broadcast Title";
+"streaming_start_broadcast" = "Start Broadcasting";
+"clear" = "Clear";
+"data_saver_label" = "Data Saver";
+"data_saver_low" = "Low";
+"data_saver_medium" = "Medium";
+"data_saver_high" = "High";
+"private_broadcast_label" = "Private Broadcast";
+"create_stream_myfollowers" = "My Followers";
+"stat_viewer" = "VIEWER";
+"tipped_you" = "Tipped you";
+"on_air" = "ON AIR";
+"go_paid" = "Go Paid";
+"mini_tip_text" = "Minimum tip:";
+"total_text" = "Total";
+"uploadvideo_select_rating" = "A rating has to be selected for the video.";
+"select" = "Select";
+"report_stream_content" = "Inappropriate Content";
+"report_stream_crime" = "Crime in progress";
+"report_stream_troll" = "Troll";
+"report_stream_other" = "Other";
+"report_stream_delete" = "Delete stream";
+"report_stream_move" = "Move to 18";
+"report_stream_update_paid" = "Set Stream to Paid";
+"report_stream_delete_disable" = "Delete and disable stream/upload";
+"goal_raised_why" = "Why?";
+"goal_raised_for" = "What I’m raising funds for…";
+"goal_label" = "GOAL";
+"goal_raised_label" = "RAISED";
+"goal_donate_button_title" = "Fund";
+"tipped_the_streamer" = "Tipped the streamer";
+"my_messages" = "My Messages";
+"change_username" = "Change your username (You will only be able to change your username once every 6 months)";
+"change_email" = "Change your email";
+"name" = "Name";
+"change_name" = "Change your name";
+"change_phone_number" = "Change your Phone Number";
+"change_city" = "Change your City";
+"choose_picture" = "Choisissez des options ci-dessous";
+"uploading_photo" = "Uploading Photo";
+"create_goal_text" = "Create Goal";
+"add_description" = "Add description...";
+"goal_title_description" = "Goal Title & Description";
+"goal_amount_text" = "Goal Amount";
+"goal_amount_description" = "The goal amount can range from $50 to $10,000.";
+"target_date_text" = "Target Date";
+"target_date_description" = "Please select the target date to reach your crowdfunding goal. Please note that your goal will expire on this date.";
+
+"Make Featured" = "Make Featured";
+"Do you wish to make this video featured?" = "Do you wish to make this video featured?";
+"Unfeature" = "Unfeature";
+"Do you wish to make this video unfeatured?" = "Do you wish to make this video unfeatured?";
+"Featured video" = "Featured video";
+
+// New Offer Box
+"SelectOfferType" = "Select Offer Type";
+"DigitalContentOffer" = "Digital Content Offer";
+"Cancel" = "Cancel";
+"SelectCategory" = "Select Category";
+"SaveAndProceed" = "Save & Proceed";
+
+// Impressions
+"confirm_impression_purchase_alert_title" = "Confirm Purchase";
+"confirm_impression_purchase_alert_message" = "You are about to purchase %d impressions.";
+"confirm_subscribe_impression_purchase_alert_message" = "You are about to purchase subscription of %d impressions.";
+"impression_purchase_success_message" = "Your purchase was successful.";
+
+// Ad Share Network
+"AdShareNetworkScreenTitle" = "Get Sponsored!";
+"AdShareNetworkBalanceTitle" = "Advertising Balances";
+"AdShareNetworkCoinsBalanceTitle" = "COINS EARNED*";
+"AdShareNetworkBalanceDescription" = "*earned by promoting ads";
+"AdShareNetworkImpressionsBalanceTitle" = "IMPRESSIONS BALANCE*";
+"AdShareNetworkImpressionsBalanceDescription" = "*remaining ads balance";
+"AdShareNetworkGetDiscoveredTitle" = "GET DISCOVERED!";
+"AdShareNetworkGetDiscoveredDescription" = "Use your impressions balance to expand your reach and promote your broadcasts or your business.";
+"AdShareNetworkPurchaseImpressionsButtonTitle" = "BUY IMPRESSIONS";
+"AdShareNetworkPurchaseCoinsButtonTitle" = "BUY COINS";
+"Get Popular!" = "Get Popular!";
+"AdShareNetworkCreateOfferCellLabel" = "Create an Offer";
+"ON" = "ON";
+"OFF" = "OFF";
+"Set your videos to display at the top of the list. Get popular!" = "Set your videos to display at the top of the list. Get popular!";
+"Manage Impressions";
+"sales" = "Sales";
+"impressions" = "Impressions";
+"coins" = "Coins";
+
+//Video Upload Tip Enforcement
+"tip_enforce_video_title" = "Paid Video Upload";
+"tip_enforce_video_description" = "Your upload will be a \”Paid Video Upload\”. See Help for details. The first 60 seconds of your Paid Video Upload will be a free preview. Please ensure that you follow the terms of service and community guidelines with your upload. Please do not make false claims or promises to viewers. Failure to follow rules may result in your payment being withheld.\n\nSee terms of service for further details.";
+"tip_enforce_no_crowdfund" = "Cannot attach a Crowdfund campaign to a Paid Video";
+
+"upload_18_rating_crowdfund_error" = "Cannot attach a Crowdfund campaign to a video with 18+ rating";
+
+"retake" = "Retake";
+
+// IAP new
+"you_are_not_authorized" = "You are not authorized to purchase coins at this time. Please contact support@peeks.com for more information.";
+"deposit_coin_time_out" = "There was an error connecting with the server. Please try closing and reopening your Peeks Social App!";
+"Not enough space" = "Not enough space";
+"There is not enough space in the phone." = "There is not enough space in the phone.";
+
+// Report Stream New
+"report_stream_replace_thumbnail" = "Replace thumbnail";
+
+//miiTV new strings
+"sign_in_title" = "S'identifier";
+"sign_in_subtitle" = "Connectez-vous à votre compte";
+"sign_in_no_account" = "Vous n'avez pas de compte ?";
+"reset_password_title" = "Récupération de mot de passe";
+"reset_password_description" = "Veuillez entrer vos informations ci-dessous et vous recevrez un lien de récupération avec des instructions.";
+"reset_password_header" = "Comptes et sécurité";
+"reset_password_next" = "Démarrer la récupération";
+"registration_account_info_title" = "S'inscrire";
+"registration_account_info_description" = "Créez\nvotre compte";
+"registration_email_placeholder" = "Adresse e-mail";
+"registration_username_placeholder" = "Saisissez votre nom d'utilisateur";
+"registration_agreement" = "En vous inscrivant, vous indiquez que vous avez lu et accepté les Conditions d'utilisation";
+"registration_already_have_an_account" = "Vous avez déjà un compte?";
+"registration_enter_email_placeholder" = "Entrez l'e-mail";
+"profile_create_my_account" = "Créer mon compte";
+"recovery_method_title" = "Méthode\nde récupération";
+"recovery_method_subtitle" = "Sélectionnez l'une des options ci-dessous.";
+"recovery_method_button" = "Envoyer le code de récupération";
+"send_code_success_header" = "Votre code de récupération\na été envoyé !";
+"send_code_success_btn" = "Entrez le code";
+"enter_code_title" = "Compte\nConfirmation";
+"enter_code_subtitle" = "Veuillez entrer le code que vous avez reçu dans votre e-mail ci-dessous.";
+"enter_code_placeholder" = "Entrez le code";
+"enter_code_submit" = "Soumettre";
+"enter_code_resend" = "Renvoyer le code";
+"new_password_title" = "Presque\nTerminé";
+"new_password_subtitle" = "Veuillez entrer votre mot de passe ci-dessous";
+"new_password_placeholder" = "Mot de passe";
+"confirm_password_placeholder" = "Confirmez le mot de passe";
+"new_password_submit" = "Soumettre";
+"reset_password_success_header" = "Succès!";
+"reset_password_success_subtitle" = "Votre mot de passe a été mis à jour.";
+"reset_password_success_done" = "Fait";
+"registration_success_header" = "Impressionnant!";
+"registration_success_subtitle" = "Votre compte a été créé.";
+
+//offerbox
+"Offers" = "Offres";
+"SavedOffers" = "Offres sauvegardées";
+"MyAds" = "Mes annonces";
+"OfferDescription" = "Description de l'offre";
+"ClickHereToRedeem" = "Cliquez ici pour racheter";
+"PleaseReviewYourURLOffer" = "Examiner votre offre d'URL. Veuillez télécharger votre annonce ou votre photo pour compléter.";
+"Delete" = "Supprimer";
+"Save" = "Sauvegarder";
+"ImageMissingError" = "Veuillez fournir une image pour l'offre";
+"ImageMissing" = "Image manquante";
+"Ok" = "Ok";
+"DeleteOffer" = "Supprimer l'offre";
+"AreYouSureYouWantToDeleteThisOffer?" = "Êtes-vous sûr de vouloir supprimer cette offre ?";
+"No" = "Non";
+"Yes" = "Oui";
+"Error" = "Erreur";
+"OfferDeleted" = "Offre supprimée";
+"TheOfferHasBeenDeleted" = "L'offre a été supprimée";
+"TheOfferHasBeenCreated" = "L'offre a été créée";
+"ThankYou!" = "Merci !";
+"ThereWasAProblemDeletingTheOffer" = "Un problème est survenu lors de la suppression de l'offre";
+"ThereWasAProblemCreatingTheOffer" = "Un problème est survenu lors de la création de l'offre";
+"CreateOffer" = "Créer une offre";
+"OfferTitle" = "Titre de l'offre";
+"CreateURLHeader" = "Veuillez remplir les informations ci-dessous pour configurer votre offre d'URL.";
+"Description" = "Description";
+"URLOffer" = "Offre d'URL";
+"InvalidInformation" = "Informations non valides";
+"ReviewFields" = "Les champs suivants doivent être revus :\n";
+"SelectOfferImage" = "Please select main offer image.";
+"SelectThumbnailImage" = "Please select offer thumbnail image.";
+
+// New Offer Box
+"SelectOfferType" = "Sélectionnez un type d'offre";
+"DigitalContentOffer" = "Offre de contenu numérique";
+"Cancel" = "Annuler";
+"SelectCategory" = "Sélectionnez une catégorie";
+"SaveAndProceed" = "Sauvegardez et continuez";
+"NoCategorySelected." = "Aucune catégorie sélectionnée.";
+"LearnMoreAboutThisOffer" = "VIEW THIS OFFER NOW";
+
+//MiiTv Offer Box
+"YourOffers" = "Vos offres";
+"AdsReceived" = "Annonces reçues";
+"AdsCreated" = "Annonces créées";
+"AdsReceivedNote" = "Les annonces reçues sont automatiquement stockées dans votre 'Offer Box', vous pouvez les consulter et/ou les supprimer à tout moment.";
+"NoAdsTitle" = "Vous n'avez actuellement aucune annonce.";
+"NoAdsSubtitle" = "Vous souhaitez créer une annonce ?";
+"CreateAnOffer" = "Créer une offre";
+"MainOfferHeadline" = "Titre de l'offre principale";
+"HeadlinePlaceholder" = "Tapez le titre de l'offre ici...";
+"OfferDescription" = "Description de l'offre";
+"DescriptionPlaceholder" = "Entrez la description de l'offre ici...";
+"WebsiteURL" = "URL de site web";
+"URLPlaceholder" = "Entrez l'URL de l'offre pour plus de détails...";
+"SelectImage" = "Sélectionner une image";
+"OfferPreview" = "Aperçu de l'offre";
+"VisitWebsite" = "Visitez le site Web";
+"Complete" = "Complet";
+"PreviewMyOffer" = "Prévisualiser mon offre";
+"PublishOffer" = "Publier l'offre";
+"Preview My Offer" = "Prévisualiser mon offre";
+"MainOffer" = "Offre principale";
+"OfferThumbnail" = "Vignette de l'offre";
+
+//MiiTv Side Menu
+"ManageAccount" = "Gérer son compte";
+"EditBioAvatar" = "Modifier ma biographie et mon avatar" ;
+"PrivacySettings" = "Paramètres de confidentialité";
+"LoginSecurity" = "Connexion et sécurité";
+"MyWallet" = "Mon portefeuille";
+"ContentAccess" = "Accès au contenu et plus";
+"CreatePost" = "Créer une publication";
+"createKeekBackPost" = "Publier mon commentaire vidéo";
+"ImpBalance" = "Solde des impressions";
+"OfferBox" = "Boîte d'offre";
+"Subscription" = "Abonnements";
+"MyFollowers" = "Mes abonnés";
+"Support" = "Soutien";
+"ContactCustSupport" = "Contactez l'assistance clientèle";
+"ViewFAQ" = "Voir la FAQ";
+"SignOut" = "Se déconnecter du compte";
+"DeletePostActionSheetTitle" = "Êtes-vous sûr de vouloir supprimer la publication ?";
+"video_share_message" = "Regardez cette vidéo impressionnante de Keek : ";
+"ManageGroups" = "Mes groupes";
+"NotificationSettings" = "Paramètres de notification";
+
+"group_name" = "Nom du groupe";
+"my_group_name" = "Mon nom de groupe";
+"add_members" = "Ajouter des membres";
+"members" = "Membres";
+"finish_n_save" = "Terminer et enregistrer";
+"myGroups" = "Mes groupes";
+"newLineMyGroups" = "Mes\ngroupes";
+"createUnlimitedGroup" = "Créer des groupes illimités";
+"groupSubtitle2" = "Avec les groupes Keek, vous pouvez créer autant de groupes que vous le souhaitez.";
+"groupSubtitle3" = "Créez et publiez spécifiquement dans ces groupes.";
+"createGroup" = "Créer un groupe";
+"pleaseEnterGroupName" = "Veuillez entrer le nom du groupe";
+"addGroupMembers" = "Veuillez ajouter des membres au groupe";
+"alert" = "Alerte !";
+"creatingGroup" = "Création de groupe...";
+"updatingGroup" = "Mise à jour du groupe...";
+"groupIsBeingDeleted" = "Votre groupe est en cours de suppression...";
+"editGroup" = "Modifier le groupe";
+"groupList" = "Liste des groupes";
+"memberList" = "Liste des membres";
+
+// Crédits publicitaires
+"adCredits" = "Crédits publicitaires";
+"fireCreator" = "Créateur Fire";
+"creatorPro" = "Créateur Pro";
+"basic" = "Basique";
+"fireCreatorPackage" = "Forfait Keek Créateur Fire";
+"creatorProPackage" = "Forfait Keek Créateur Pro";
+"basicPackage" = "Forfait Keek Basique";
+"disclaimerText" = "* Une impression est une mesure utilisée pour quantifier le nombre de vues ou d'engagements numériques d'un contenu, généralement une publicité, une publication numérique ou une page Web.";
+"disclaimerPaymanetText" = "Le paiement sera prélevé sur le compte iTunes lors de la confirmation de l'achat. L'abonnement se renouvelle automatiquement chaque mois, sauf si le renouvellement automatique est désactivé au moins 24 heures avant la fin de la période en cours. Le compte sera débité pour le renouvellement dans les 24 heures précédant la fin de la période en cours, et indiquera le coût du renouvellement. Les abonnements peuvent être gérés par l'utilisateur et le renouvellement automatique peut être désactivé en accédant aux paramètres du compte utilisateur après l'achat. Aucune annulation de l'abonnement en cours n'est autorisée pendant la période d'abonnement active.";
+"%discount" = "Économisez jusqu'à %@ en payant mensuellement.";
+"40%discount" = "Économisez jusqu'à 40% en payant mensuellement.";
+"25%discount" = "Économisez jusqu'à 25% en payant mensuellement.";
+"10%discount" = "Économisez jusqu'à 10% en payant mensuellement.";
+"subscribefor$" = "Abonnez-vous pour ";
+"payAsYouGo" = "Payez au fur et à mesure pour ";
+"purchased" = "Acheter";
+"alreadySubscribed" = "Vous êtes déjà abonné à ce forfait";
+"subscribed" = "Abonné";
+"subscribeFor" = "Abonnez-vous pour";
+"payAsYouGo" = "Payez au fur et à mesure pour ";
+"error" = "Erreur";
+"impressionNotAvailable" = "L'achat d'impressions n'est pas disponible actuellement.";
+"transactionProcessingText" = "Nous traitons votre transaction... \n Veuillez ne pas cliquer sur le bouton de retour ou fermer cette fenêtre.";
+"oops" = "Oups !";
+"lowCoinsMsg" = "Vous n'avez pas assez de coins pour acheter ce forfait. Acheter des coins ?";
+"buyCoins" = "Acheter des coins";
+
+//Refer to Earn
+"referYour" = "Référez vos";
+"friends" = "Amis";
+"earnFreeImpressions" = "Pour gagner des impressions gratuites";
+"useReferralCode" = "Utilisez votre code de parrainage pour vos publications sur les réseaux sociaux. Lorsque vos filleuls s'inscrivent sur Keek, vous recevrez 1000 impressions pour chaque inscription";
+"successfulReferral" = "Parrainage réussi";
+"impressionEarned" = "Impressions gagnées";
+"personaReferralLink" = "Votre lien de parrainage Keek de personnage";
+"shareLinkReferral" = "Partagez ce lien pour publier sur vos réseaux sociaux pour les parrainages.";
+
+//Miitv Search
+"searchKeek" = "Rechercher Keek";
+"searchUsers" = "Utilisateurs";
+"posts" = "Publications";
+"searchResults" = "Résultats de recherche";
+"searchUserOrTitle" = "Rechercher un utilisateur ou un titre";
+
+//Miitv Notification Settings
+"notificationSettings" = "Paramètres de notification";
+"newPosts" = "Nouvelles publications";
+"newPostsText" = "Nouvelles publications des utilisateurs que vous suivez";
+"newPrivatePosts" = "Nouvelles publications privées";
+"newPrivatePostsText" = "Nouvelles publications privées d'utilisateurs";
+"newFollower" = "Nouvel abonné";
+"newFollowerText" = "Lorsque vous recevez un nouvel abonné";
+"newLike" = "Nouveau J'aime";
+"newLikeText" = "Lorsque l'utilisateur aime votre publication";
+"newComment" = "Nouveau commentaire";
+"newCommentText" = "Lorsque l'utilisateur commente votre publication";
+"messaging" = "Messagerie";
+"messagingText" = "Lorsque vous recevez un nouveau message";
+"followRequest" = "Nouvelle demande de suivi";
+"followRequestText" = "Lorsque vous recevez une nouvelle demande de suivi";
+//Edit Bio & Avatar
+"EditBioAvatar" = "Modifier la bio et l'avatar";
+"updateProfile" = "Mettre à jour";
+//"salutation" = "Salutation";
+//"enterSalutation" = "Entrez une salutation...";
+"username" = "Nom d'utilisateur";
+"enterUsername" = "Entrez un nom d'utilisateur...";
+"name" = "Nom";
+"enterName" = "Entrez un nom...";
+"city" = "Ville";
+"enterCity" = "Entrez une ville...";
+"email" = "E-mail";
+"enterEmail" = "Entrez un e-mail...";
+"description" = "Description";
+"enterDescription" = "Entrez une description...";
+"phone" = "Téléphone";
+"enterPhone" = "Entrez un numéro de téléphone...";
+"YOB" = "Année de naissance";
+"enterYOB" = "Entrez une année de naissance...";
+"Profileupdatedsuccessfully" = "Profil mis à jour avec succès";
+
+//Paramètres de confidentialité
+"privacySettings" = "Paramètres de confidentialité";
+"privateAccount" = "Compte privé";
+
+//Upload Video
+"selectWhoCanView" = "Sélectionnez qui peut voir la publication...";
+"selectWhoCanViewStream" = "Sélectionnez qui peut voir le flux";
+"selectWhoCanViewStory" = "Sélectionnez qui peut voir l'histoire...";
+"selectStoryDuration" = "Sélectionnez la durée de l'histoire...";
+"uploadVideo" = "Télécharger une vidéo";
+"uploadStory" = "Publier\nVotre Histoire";
+"enterTitle" = "Entrez le titre";
+"VideoDescription" = "Description de la vidéo";
+"EnterDescription" = "Entrez la description";
+"enterTitlePlaceholder" = "Saisissez votre titre ici...";
+"enterDescription" = "Entrez la description";
+"enterDescriptionPlaceholder" = "Saisissez votre description ici...";
+"whoCanView" = "Qui peut voir ce contenu ?";
+"selectTagMsg" = "Sélectionnez des utilisateurs à taguer...";
+"makeItFire" = "Rendez-le populaire!";
+"howItWorks" = "Comment ça fonctionne";
+"impressionRemaining" = "Impressions restantes";
+"presentOffer" = "Présenter une offre ?";
+"selectOffer" = "Sélectionner une offre";
+"createPost" = "Créer la publication";
+"postStory" =  "Publier l'histoire";
+"noVideoSelected" = "Aucune vidéo sélectionnée pour la publication !";
+"enterTitleAlert" = "Veuillez entrer le titre de la vidéo !";
+"selectViewerAlert" = "Veuillez sélectionner les destinataires pour la publication !";
+"selectViewerAlert_Stream" = "Veuillez sélectionner des spectateurs pour le flux !";
+"selectViewerAlertStory" = "Veuillez sélectionner des spectateurs pour l'histoire !";
+"selectStoryDurationAlert" = "Veuillez sélectionner la durée de l'histoire !";
+"Public" = "Public";
+"Followers" = "Abonnés";
+"createPostError" = "Une erreur est survenue lors de la création de la publication.";
+"low" = "bas";
+"EditYourPost" = "Modifier\nVotre Publication";
+"EditYourStory" = "Modifier\nVotre Histoire";
+"EditYourStream" = "Modifier\nVotre Flux";
+//Low Impressions
+"lowImpressionTitle1" = "Crédits publicitaires insuffisants";
+"lowImpressionTitle2" = "Il semble que vous avez actuellement\nun solde d'impressions faible.";
+"lowImpressionTitle3" = "Ajoutez plus de crédits\nà votre compte.";
+"buyAdCredits" = "Acheter des crédits\nde publicité";
+"getFreeCredits" = "Obtenir des crédits\nde publicité gratuits";
+"Close" = "Fermer";
+
+
+//How It Works
+"howItWorks1" = "Rendez vos";
+"howItWorks2" = "publications virales";
+"howItWorks3" = "Vous voulez obtenir plus de vues? Plus de followers?";
+"howItWorks4" = "Vous devez avoir votre contenu en haut de la liste.";
+"howItWorks5" = "Notre algorithme placera votre contenu devant plus d'utilisateurs et de manière unique ciblé sur des utilisateurs qui sont plus intéressés par votre contenu.";
+"More Likes" = "Plus de likes";
+"More Views" = "Plus de vues";
+"More Followers" = "Plus de followers";
+"Buy Ad Impressions" = "Acheter des impressions publicitaires";
+"Earn Free Impressions" = "Gagnez des impressions gratuites";
+"or" = "ou";
+
+//Comments Sheet
+"loadingComments" = "chargement des commentaires...";
+"1comment" = "1 commentaire";
+"nocomments" = "Aucun commentaire";
+
+//Report Sheet
+"selectComplaint" = "Sélectionnez votre plainte :";
+"inappropriate" = "Contenu inapproprié";
+"crime" = "Crime";
+"troll" = "Troll";
+"other" = "Autre";
+"moreDetailsText" = "N'hésitez pas à ajouter plus de détails :";
+//Feuille de menu plus de publication
+"sharePost" = "Partager cette publication";
+"shareStory" =  "Partager cette histoire";
+"audienceSettings" = "Paramètres de l'audience";
+"EditPost" = "Modifier la publication";
+"UpdatePost" = "Mettre à jour la publication";
+"UpdateStream" = "Mettre à jour le Flux";
+"EditStory" = "Modifier l'histoire";
+"UpdateStory" = "Mettre à jour l'histoire";
+"deletePost" = "Supprimer la publication";
+"deleteStream" = "Supprimer le Flux";
+"deleteStory" = "Supprimer l'histoire";
+"reportPost" = "Rapport";
+"deleteConfirmationText" = "Êtes-vous sûr de vouloir supprimer cette publication ?";
+"deleteConfirmationTitle" = "Confirmation de suppression";
+"deleteConfirmationTextStory" =  "Êtes-vous sûr de vouloir supprimer cette histoire ?";
+"deleteConfirmationTextStream" = "Êtes-vous sûr de vouloir supprimer ce flux ?";
+"yesDeleteStory" = "Oui, supprimer cette histoire";
+"yesDelete" = "Oui, supprimer cette publication";
+"yesDeleteStream" = "Oui, supprimer ce flux";
+"closeStreamWarrning" = "La fermeture de cette fenêtre mettra fin au flux. Continuer ?";
+
+//Feuille de paramètres de l'audience
+"audienceSettingsTitle" = "Afficher ou modifier les paramètres d'audience pour cette publication.";
+"audienceSettingsQuestion" = "Qui peut voir ce contenu?";
+"enableComments" = "Activer les commentaires";
+
+//Feuille de menu de groupe
+"editGroup" = "Modifier ce groupe";
+"deleteGroup" = "Supprimer le groupe";
+
+//Feuille de choix d'audience
+"chooseAudienceTitle" = "Choisissez votre audience";
+"chooseAudienceSubtitle" = "Veuillez sélectionner qui peut voir ce contenu.";
+"viewAllGroups" = "Afficher tous les groupes";
+"createAGroup" = "Créer un groupe";
+
+//Ajouter à la feuille de favoris
+"addToFavorite" = "Ajouter aux favoris";
+"Add" = "Ajouter";
+"addInstruction" = " à vos favoris pour voir leur contenu en haut de votre flux pour ne rien manquer de vos favoris.";
+
+//Retirer de la feuille de favoris
+"removeFromFavorite" = "Retirer des favoris";
+"removeInstruction1" = "Voulez-vous retirer";
+"removeInstruction2" = " de votre liste de favoris?\n\nVeuillez confirmer ci-dessous.";
+
+//Feuille de menu de profil
+"Remove" = "Supprimer";
+
+//Feuille de suppression de l'utilisateur
+"removeUserTitle" = "A été supprimé";
+"removeUserDescription" = "Cet utilisateur ne verra plus vos publications dans son flux.";
+
+//Feuille de blocage de l'utilisateur
+"blockUserTitle" = "A été bloqué";
+"blockUserDescription" = "Pour voir votre liste d'utilisateurs bloqués ou pour débloquer cet utilisateur, appuyez ci-dessous.";
+
+//Feuille de liste de spectateurs
+"latestViewers" = "Derniers spectateurs";
+"latestViewersTitle" = "Ceci est une liste des 100 derniers spectateurs de cette publication.";
+"latestViewersTitleStory" = "Il s'agit d'une liste des 100 derniers spectateurs de cette histoire.";
+
+// Tagged Users sheet
+"tagged" = "Tagué";
+"usersTaggedInPost" = "Ces utilisateurs ont été tagués dans cette publication.";
+
+//Feuille de menu de notification
+"deleteAll" = "Tout supprimer";
+
+//Contrôleur d'animation de suppression
+"deleteAnimationTitle" = "Votre publication est en train d'être supprimée...";
+"deleteAnimationTitleStream" = "Votre flux est en train d'être supprimé...";
+
+//Keek Video Post Type selection
+"TagSomeone" = "Taguer Quelqu'un";
+"Story" = "Histoire";
+"Post" =  "Publier";
+"VoucherRedeemedSuccess"= "Votre bon a été utilisé avec succès.";
+"keekPostType" = "Sélectionnez votre type de publication";
+"storyDuration" = "Durée de l'histoire";
+"KeekSelectionSuggestion" = "Sélectionnez votre type de message ci-dessous. Histoires, publications Keek et mise en direct pour tous vos Keekers !";
+"selectCoverPhoto" = "Ajouter une photo de couverture";
+"DurationSelectionSuggestion" = "Choisissez la durée de votre histoire ci-dessous, votre histoire disparaîtra à l'heure choisie.";
+"KeekStory" = "Histoire Keek";
+"OneDay" = "1 Jour";
+"FiveDays" =  "5 Jours";
+"ThreeDays" = "3 Jours";
+"1-3-5Days" = "1-3-5 Jours";
+"StandardKeek" = "Keek Standard";
+"Nolimit" = "Aucune limite";
+
+//Notification Center
+"Notifications" = "Notifications";
+"Latest" = "Dernier";
+"followRequests" = "Demandes de suivi";
+"requestTitle" = "Les utilisateurs ci-dessous demandent à suivre votre compte.";
+"declineAll" = "Refuser tout";
+"acceptAll" = "Accepter toutes les demandes";
+"requestDeclined" = "demande refusée.";
+"isFollowingYou" = "vous suit désormais.";
+"yourPost" = "Votre publication ";
+"yourStory" = " votre histoire";
+"TaggedYouInPost" = "vous avez été tagué dans une publication";
+"TaggedYouInStory" = "vous avez été tagué dans une histoire";
+"hasBeenUploaded" = "a été publiée.";
+"liked" = "aimé";
+"yourpost" = " votre publication";
+"ago" = "il y a";
+"started" = "commencé";
+"followingYou" = " vous suit";
+"commented" = "commenté";
+"onYourPost" = " sur votre publication";
+"onYourStory" =  " sur votre histoire";
+"replied" = "a répondu";
+"toYourComment" = "à votre commentaire sur la publication ";
+"toYourCommentStory" = " à votre commentaire sur l'histoire ";
+"user" = "utilisateur";
+"users" = "utilisateurs";
+"Likes" = "J'aime";
+"noLikes" = "Aucun J'aime";
+"likesTitle" = "Voici la liste des 100 derniers J'aime sur cette publication.";
+"latestViewers" = "Derniers spectateurs";
+"noViews" = "Aucune vue";
+"viewsTitle" = "Voici la liste des 100 derniers spectateurs de cette publication.";
+"likesTitleStory" = "Voici la liste des 100 derniers j'aime sur cette histoire.";
+"viewsTitleStory" =  "Voici la liste des 100 derniers spectateurs de cette histoire.";
+
+//misc
+"CouldNotFound" = "Oups ! Nous n'avons pas pu trouver l'utilisateur que vous recherchez.";
+"NoRecordsFound" = "Aucun enregistrement trouvé";
+"NoNewNotification" = "Vous n'avez aucune nouvelle notification";
+"viewedNotifications" = "Notifications visualisées";
+"adCredits" = "Crédits publicitaires";
+"getAdCredits" = "Obtenir des crédits publicitaires";
+"Message" = "Message";
+"loadingFollowing" = "Chargement des abonnements...";
+"loadingFollowers" = "Chargement des abonnés...";
+"loading" = "Chargement...";
+"noUserFound" = "Aucun utilisateur trouvé";
+"searchFollower" = "Rechercher des abonnés";
+"searchFollowing" = "Rechercher des abonnements";
+"searchBlocked" = "Rechercher des bloqués";
+"folowingLoader" = "Abonnements...";
+"cancelRequestLoader" = "Annulation de la demande...";
+"blockingLoader" = "Blocage...";
+"unblockingLoader" = "Déblocage...";
+"blockedLoader" = "Chargement des bloqués...";
+"ChooseAction" = "Veuillez choisir une action";
+"CancelRequest" = "Annuler la demande";
+"Follower" = "disciple";
+"editBio" = "Modifier la biographie";
+"videoUploadRetryMsg" = "Il semble que votre téléchargement de vidéo n'ait pas tout à fait réussi. Cela vous dérangerait-il de réessayer ?";
+"cancelVideoUploadConfirmation" = "Veuillez noter que si vous annulez le téléchargement de la vidéo, la vidéo sera perdue. Es-tu sûre de vouloir annuler?";
+"BackFromVideoUpload_Confirmation" = "Veuillez noter que si vous fermez cet écran, la vidéo sera perdue. Êtes-vous sûr de vouloir fermer ?";
+"uploadingInProcessALert" = "Votre téléchargement de vidéo précédent n'est pas encore terminé. Veuillez patienter un peu plus longtemps avant de tenter un autre téléchargement.";
+
+
+/// Banuba
+/*
+1) Copy and paste this file in the host application
+2) Remove unused
+3) Override values
+*/
+
+// MARK: - Camera Screen
+
+/* Music selection screen title */
+"Music" = "Musique";
+
+/* Audio track delete action */
+"Delete" = "Supprimer";
+
+/* Title on the screen of the voice recorder */
+"Voice" = "Voix";
+
+/* Used when the question is answered yes */
+"Yes" = "Oui";
+
+/* Used when answering a negative question */
+"No" = "Non";
+
+/* Title of the message if an error occurs */
+"Error" = "Erreur";
+
+/* Move to next screen */
+"Next" = "Suivant";
+
+/* Return to the previous screen */
+"Back" = "Retour";
+
+/* Ability to cancel */
+"Cancel" = "Annuler";
+
+/* Ability to close */
+"Close" = "Fermer";
+
+/* Ability to close */
+"CLOSE" = "FERMER";
+
+"alert.reset.all.title" = "Réinitialiser tout ?";
+"alert.reset.all.message" = "";
+
+/* Alert action button title */
+"BanubaVideoEditor.Settings.Later" = "Plus tard";
+
+/* Alert action button title */
+"BanubaVideoEditor.Settings.Discard" = "Abandonner";
+
+/* Used in alert with Yes and No options when resetting filters. */
+"alert.stop.capturing.video.title" = "Voulez-vous arrêter la capture et l'édition de la vidéo ?";
+"alert.stop.capturing.video.message" = "";
+
+/* Used in alert with Yes and No options when resetting filters. */
+"record.screen.reset.all.title" = "Voulez-vous réinitialiser les modifications ?";
+"editor.screen.reset.all.title" = "Réinitialiser tout ?";
+"record.screen.reset.all.message" = "";
+"editor.screen.reset.all.message" = "";
+
+/* Used in alert with Yes and No options */
+"alert.delete.last.clip.title" = "Supprimer la dernière vidéo ?";
+"alert.delete.last.clip.message" = "";
+
+/* Used for alert message to continure editing video*/
+"alert.camera.continue.editing.video.question.title" = "Vous avez une vidéo non finie. Voulez-vous continuer ?";
+"alert.camera.continue.editing.video.question.message" = "";
+
+/* Error message that appears when clicking the Next button in the camera when the first part of split mode is not recorded */
+"First part not recorded" = "Première partie non enregistrée";
+
+/* Error message received when trying to load a mask */
+"Mask not loaded" = "Masque non chargé";
+
+/* An error message that appears when you click the Next button in the camera, when the second part of the video in split mode is not equal in length to the first part */
+"Second part is too short" = "Deuxième partie trop courte";
+
+/* In-camera beautification (facial correction) enabled */
+"Beautifier on" = "Embellezisseur activé";
+"Beautifier off" = "Embellezisseur désactivé";
+
+/* The light (flashlight) in the camera is on */
+"Flash" = "Lumière";
+
+/* An error message that appears in the camera when the length of the recorded video is less than the minimum allowed duration */
+"Too short. Please capture at least %d seconds" = "Trop court. Veuillez capturer au moins %d secondes";
+
+/* An error message that appears in the trimmer when user tryed to use too long video */
+"com.banuba.TooLongVideoMessageFormat" = "La durée de la vidéo doit être comprise entre %d et %d secondes";
+
+/* An error message that appears in the camera if the recorded video is longer than the maximum allowed length */
+"Maximum %d seconds." = "Maximum %d secondes.";
+
+/* Turning off the camera's auto timer */
+"Timer is off" = "Le minuteur est désactivé";
+
+/*'Seconds' for maximum */
+"Max length %d sec" = "Durée maximale %d sec";
+
+/* 'Seconds' for short */
+"%d sec" = "%d sec";
+
+/* Name of the button in multi-select mode, which confirms the selection of user files and continues the process further */
+"Choose" = "Choisir";
+
+/* Built-in track volume description */
+"Sound" = "Son";
+
+/* Add extra audio track action */
+"Add" = "Ajouter";
+
+/* Enabling the countdown timer to automatically start shooting in the camera */
+"%i seconds timer is on" = "Minuteur de %i secondes activé";
+
+/* Step one of two to edit your avatar: take a photo */
+"Make cover photo" = "Faire une photo de couverture";
+
+/* Step two of two when taking a profile photo using the camera */
+"Step 2 / 2" = "Étape 2 / 2";
+
+/* Description of the zone selection screen for the user avatar when taking pictures on the profile screen */
+"Crop your profile photo for feed and comments" = "Recadrer votre photo de profil pour les publications et les commentaires";
+
+/* Hint on how to apply visual filters or time filter to video */
+"Press and hold" = "Appuyez longuement";
+
+/* Screen title with video from phone gallery */
+"Gallery" = "Galerie";
+
+/* Activity signature */
+"LOADING" = "CHARGEMENT";
+
+/* Text under the trobber when exporting a video */
+"EXPORTING" = "EXPORTATION";
+
+/* Message about downloading videos from iCloud in the window for selecting videos saved on the mobile device */
+"Video is uploading from iCloud" = "La vidéo est en cours de téléchargement depuis iCloud";
+
+/* Speed screen name */
+"Speed" = "Vitesse";
+
+/* Speed screen info */
+"Recording speed %@" = "Vitesse d'enregistrement %@";
+
+/* Network Unavailable info */
+"Network Unavailable" = "Réseau indisponible";
+
+/* Screen name which will be visible if enable in configuration */
+"Single Trim Video Screen Name" = "Rogner la vidéo";
+
+/* Screen name which will be visible if enable in configuration */
+"Multi Trim Video Screen Name" = "Multicropper";
+
+/* Recorder mask effect screen name */
+"Mask Effect Screen Name" = "Masque";
+
+/* Recorder color effect screen name */
+"Color Effect Screen Name" = "Effet de couleur";
+
+/* Recorder color effect screen name */
+"Color Effect Screen Name" = "Effet de couleur";
+
+/* Screen name which will be visible if enable in configuration */
+"Text editor color" = "Couleur";
+
+/* Screen name which will be visible if enable in configuration */
+"Choose Cover Screen Name" = "Choisir la couverture";
+
+/* Screen name which will be visible if enable in configuration at color filters screen */
+"Screen colors" = "Couleurs de l'écran";
+
+"Reach maximum video duration" = "Atteindre la durée maximale de la vidéo";
+
+/* Disable timer option titiel */
+"Off" = "Désactivé";
+
+// MARK: - Gifphy Screen
+
+/* Hint, which is shown in the GIF objects search input field, if it is empty */
+"com.banuba.searchGif.placeholder" = "Rechercher GIPHY";
+
+/* Ability to cancel the search for GIF objects */
+"Cancel" = "Annuler";
+
+/* Pictures not found by custom keyword */
+"No stickers found" = "Aucun autocollant trouvé";
+
+/* A heading showing that there are problems with the Internet connection */
+"Problems with internet" = "Problèmes de connexion internet";
+
+/* Advice to the user on further actions to solve this problem */
+"Check your connection and try again" = "Vérifiez votre connexion et réessayez";
+
+/* Ability to load GIF objects again */
+"Again" = "Encore";
+
+// MARK: - ERROR MESSAGES
+/* Message when request failed with `statusCode` code */
+"HTTP Error %d" = "Erreur HTTP %d";
+
+/* Message displayed when there is no internet connection */
+"You don't seem to be connected to the internet. \nPlease try again" = "Il semble que vous ne soyez pas connecté à Internet. \nVeuillez réessayer";
+
+/* Message displayed when media file cannot be downloaded */
+"Cannot download media file from your iCloud" = "Impossible de télécharger le fichier multimédia de votre iCloud";
+
+/* Error if the format of the response from the server does not match the expected */
+"Unknown data format" = "Format de données inconnu";
+
+/* Used in alert re-asking permissions to Photos with Cancel and Settings options. */
+"banuba.camera.alert.missed.gallery.persmission.title" = "Veuillez autoriser vos Photos et Vidéos dans les paramètres pour créer un clip.";
+"banuba.camera.alert.missed.gallery.persmission.message" = "";
+
+/* Used in alert re-asking Camera & Microphone permissions with Settings option. */
+"Banuba.Camera.MissedCameraAndMicrophonePersmissions" = "Veuillez autoriser votre caméra et votre micro pour faire un enregistrement.";
+
+/* Used in a message to the user when access to the camera is denied through special options in the phone settings (such as 'Parental Control') */
+"banuba.alert.camera.access.restricted.title" = "Autorisations de la caméra non accordées";
+"banuba.alert.camera.access.restricted.message" = "";
+
+/* Used in alert with options Cancel and In settings */
+"alert.microphone.unavailable.title" = "Microphone indisponible. Veuillez autoriser l'accès dans les paramètres de l'appareil";
+"alert.microphone.unavailable.message" = "";
+
+// MARK: - Settings
+
+/* The name of the button, by clicking on which you can go to the Settings application. */
+"Settings" = "Paramètres";
+
+/* The name of the button, by clicking on which you can refuse missed permission alert message */
+"Settings.Close" = "Fermer";
+
+/* Used in an alert with Yes and No when resetting effects. */
+"alert.reset.effects.title" = "Annuler les changements ?";
+"alert.reset.effects.message" = "";
+
+/* Undo filters applied to video in the add filters screen */
+"Undo" = "Annuler";
+
+/* Finish button title */
+"Done" = "Terminé";
+
+/* OK button title in alert */
+"OK" = "OK";
+
+/* Show the user when the disk space has run out during video recording and when he clicks the Record video button */
+"Not enough storage" = "Espace de stockage insuffisant";
+
+// MARK: - Effects names
+
+/* Soul effect name */
+"com.banuba.editor.effect.name.soul" = "Âme";
+
+/* TV Foam effect name */
+"com.banuba.editor.effect.name.tv-foam" = "Mousse TV";
+
+/* VHS video effect name */
+"com.banuba.editor.effect.name.vhs" = "VHS";
+
+/* Flash video effect name */
+"com.banuba.editor.effect.name.flash" = "Flash";
+
+/* Rave effect name */
+"com.banuba.editor.effect.name.rave" = "Rave";
+
+/* Glitch effect name */
+"com.banuba.editor.effect.name.glitch" = "Glitch";
+
+/* Acid whip effect name */
+"com.banuba.editor.effect.name.acid-whip" = "Fouet acide";
+
+/* Zoom effect name */
+"com.banuba.editor.effect.name.zoom" = "Zoom";
+
+/* Zoom 2 effect name */
+"com.banuba.editor.effect.name.zoom2" = "Zoom 2";
+
+/* Cathode effect name */
+"com.banuba.editor.effect.name.cathode" = "Cathode";
+
+/* Polaroid effect name */
+"com.banuba.editor.effect.name.polaroid" = "Polaroid";
+
+/* Slow motion effect name */
+"com.banuba.editor.effect.name.slow-motion" = "Ralenti";
+
+/* Rapid effect name */
+"com.banuba.editor.effect.name.rapid" = "Rapide";
+
+/* Mirror 2 effect name*/
+"com.banuba.editor.effect.name.mirror2" = "Miroir 2";
+
+/* DV Cam effect name */
+"com.banuba.editor.effect.name.dvcam" = "DV Cam";
+
+/* Glitch 2 effect name */
+"com.banuba.editor.effect.name.glitch2" = "Glitch 2";
+
+/*Glitch 3 effect name*/
+"com.banuba.editor.effect.name.glitch3" = "Glitch 3";
+
+/* Heat map effect name */
+"com.banuba.editor.effect.name.heatmap" = "Carte thermique";
+
+/* Mirror effect name */
+"com.banuba.editor.effect.name.mirror" = "Miroir";
+
+/* Lumiere */
+"com.banuba.editor.effect.name.lumiere" = "Lumière";
+
+/* Pixel dynamic effect name */
+"com.banuba.editor.effect.name.pixelationdynamic" = "Pixel dynamique";
+
+/* Pixel static effect name */
+"com.banuba.editor.effect.name.pixelationstatic" = "Pixel statique";
+
+/* Pixelate effect name */
+"com.banuba.editor.effect.name.pixelate" = "Pixélisation";
+
+/* Stars effect name */
+"com.banuba.editor.effect.name.stars" = "Étoiles";
+
+/* Transition effect name */
+"com.banuba.editor.effect.name.transition" = "Transition";
+
+/* Transition 2 effect name */
+"com.banuba.editor.effect.name.transition2" = "Transition 2";
+
+/* Transition 3 effect name */
+"com.banuba.editor.effect.name.transition3" = "Transition 3";
+
+/* Transition 4 */
+"com.banuba.editor.effect.name.transition4" = "Transition 4";
+
+/* VHS 2 effect name */
+"com.banuba.editor.effect.name.vhs2" = "VHS 2";
+
+/* Twitch effect name */
+"com.banuba.editor.effect.name.twitch" = "Twitch";
+
+/* Open trimmer button name (for dradt) */
+"com.banuba.editor.openTrimButtonTitle" ="Ajuster les clips";
+
+// MARK: - Filter names
+
+/* glitch filter name */
+"com.banuba.filter.name.lux" = "Lux";
+
+/* remy filter name */
+"com.banuba.filter.name.remy" = "Remy";
+
+/* hyla filter name */
+"com.banuba.filter.name.hyla" = "Hyla";
+
+/* neon filter name */
+"com.banuba.filter.name.neon" = "Neon";
+
+/* retro filter name */
+"com.banuba.filter.name.retro" = "Retro";
+
+/* sunny filter name */
+"com.banuba.filter.name.sunny" = "Sunny";
+
+/* egypt filter name */
+"com.banuba.filter.name.egypt" = "Egypt";
+
+/* spark filter name */
+"com.banuba.filter.name.spark" = "Spark";
+
+/* byers filter name */
+"com.banuba.filter.name.byers" = "Byers";
+
+/* lilac filter name */
+"com.banuba.filter.name.lilac" = "Lilac";
+
+/* vinyl filter name */
+"com.banuba.filter.name.vinyl" = "Vinyl";
+
+/* japan filter name */
+"com.banuba.filter.name.japan" = "Japan";
+
+/* chile filter name */
+"com.banuba.filter.name.chile" = "Chile";
+
+/* glitch filter name */
+"com.banuba.filter.name.glitch" = "Glitch";
+
+/* grunge filter name */
+"com.banuba.filter.name.grunge" = "Grunge";
+
+/* canada filter name */
+"com.banuba.filter.name.canada" = "Canada";
+
+/* chroma filter name */
+"com.banuba.filter.name.chroma" = "Chroma";
+
+/* norway filter name */
+"com.banuba.filter.name.norway" = "Norway";
+
+/* korben filter name */
+"com.banuba.filter.name.korben" = "Korben";
+
+/* sunset filter name */
+"com.banuba.filter.name.sunset" = "Sunset";
+
+/* instant filter name */
+"com.banuba.filter.name.instant" = "Instant";
+
+/* england filter name */
+"com.banuba.filter.name.england" = "England";
+
+/* pinkvine filter name */
+"com.banuba.filter.name.pinkvine" = "Pinkvine";
+
+/* vivid filter name */
+"com.banuba.filter.name.vivid" = "Vivid";
+
+/* bright filter name */
+"com.banuba.filter.name.bright" = "Bright";
+
+
+// MARK: - GALLERY SCREEN / SLIDE SHOW
+
+/* No photo in gallery */
+"No matching photos found in gallery" = "Aucune photo trouvée dans la galerie";
+
+/* No video in gallery */
+"No matching video found in gallery" = "Aucune vidéo trouvée dans la galerie";
+
+/* User selected too many files in the gallery */
+"You can select only %d files" = "Vous ne pouvez sélectionner que %d fichiers";
+
+/* Failed to export a video */
+"Failed to create video" = "Échec de la création de la vidéo";
+
+// MARK: - Music Editor
+
+/* Delete track button title */
+"MusicEditor.Delete" = "Supprimer";
+
+/* Voice effect button title */
+"MusicEditor.VoiceEffect" = "Effet";
+
+/* Edit track button title */
+"MusicEditor.Edit" = "Modifier";
+
+/* Add track button title */
+"MusicEditor.Tracks" = "Pistes";
+
+/* Add effects button title */
+"MusicEditor.Effects" = "Effets";
+
+/* Add voice record button title */
+"MusicEditor.Record" = "Enregistrer";
+
+/* Video volume title */
+"MusicEditor.VideoVolume" = "Volume";
+
+/* Audio duration title */
+"MusicEditor.Duration" = "Durée";
+
+/* Audio Sound title */
+"MusicEditor.OriginalSound" = "Volume";
+
+/* Confirmation message for discarding changes */
+"com.banuba.musicEditor.mainScreen.resetAll.title" = "Annuler les changements ?";
+"com.banuba.musicEditor.mainScreen.resetAll.message" = "";
+
+/* Error message when a user tries to add tracks with reached limit */
+"MusicEditor.Max available tracks - %i" = "Nombre maximal de pistes atteint - %i";
+
+/* Elf filter title */
+"com.banuba.musicEditor.elf" = "Elf";
+/* Baritone filter title */
+"com.banuba.musicEditor.baritone" = "Baritone";
+/* Echo filter title */
+"com.banuba.musicEditor.echo" = "Echo";
+/* Giant filter title */
+"com.banuba.musicEditor.giant" = "Giant";
+/* Robot filter title */
+"com.banuba.musicEditor.robot" = "Robot";
+/* Squirrel filter title */
+"com.banuba.musicEditor.squirrel" = "Squirrel";
+
+// MARK: - Overlay Editor
+
+/* Delete overlay item button title */
+"OverlayEditor.Delete" = "Supprimer";
+
+/* Edit overlay item button title */
+"OverlayEditor.Edit" = "Modifier";
+
+/* Add text button title */
+"OverlayEditor.Text" = "Texte";
+
+/* Add sticker button title */
+"OverlayEditor.Sticker" = "Sticker";
+
+/* Add square blur button title */
+"OverlayEditor.Square.Pixelate" = "Carré";
+
+/* Add circle Pixelate button title */
+"OverlayEditor.Circle.Pixelate" = "Cercle";
+
+/* Cancel button title */
+"OverlayEditor.Cancel" = "Annuler";
+
+/* Done button title */
+"OverlayEditor.Done" = "Terminé";
+
+/* Confirmation button title */
+"OverlayEditor.Yes" = "Oui";
+
+/* Discarding button title */
+"OverlayEditor.No" = "Non";
+
+/* Confirmation message for discarding changes */
+"com.banuba.overlayEditor.mainScreen.resetAll.title" = "Annuler les modifications ?";
+"com.banuba.overlayEditor.mainScreen.resetAll.message" = "";
+"com.banuba.overlayEditor.mainScreen.resetAll.agree" = "Annuler";
+"com.banuba.overlayEditor.mainScreen.resetAll.disagree" = "Annuler";
+
+// MARK: - AudioBrowser
+
+/* No internet connection title in alert */
+"AudioBrowser.noInternetConnection" = "Pas de connexion internet";
+
+/* Message for user if No internet connection */
+"AudioBrowser.checkConnectionMessage" = "Veuillez vérifier votre connexion et réessayer";
+
+/* Retry button title */
+"AudioBrowser.retry" = "Réessayer";
+
+/* Allow access message */
+"AudioBrowser.allowAccessMessage" = "Pour utiliser votre propre musique, veuillez autoriser l'accès à la bibliothèque Apple Music.";
+
+/* Allow button title */
+"AudioBrowser.allowAccess" = "Autoriser l'accès";
+
+/* My files button title */
+"AudioBrowser.myFiles" = "Mes fichiers";
+
+"audioBrowser.search.by.categories" = "Recherche par catégories";
+"audioBrowser.search.by.groups" = "Recherche par groupes";
+"audioBrowser.search.by.tracks" = "Recherche par pistes";
+"audioBrowser.use" = "Utiliser";
+"audioBrowser.show.more" = "Afficher plus";
+"audioBrowser.stop.using" = "Arrêter l'utilisation";
+"audioBrowser.my.library" = "Ma bibliothèque";
+"audioBrowser.no.matches" = "Aucune correspondance";
+"audioBrowser.no.tracks" = "Aucune piste";
+/* Track format for displaying mubert track title*/
+"audioBrowser.mubertTrackFormat" = "Piste %d";
+
+/* Wrong Mubert key error text */
+"audioBrowser.wrongPatError" = "La clé Mubert est manquante. Pour l'obtenir, contactez un représentant de Banuba.";
+
+"feature.disabled.audiobrowser" = "Le navigateur de musique par défaut n'est pas inclus dans votre forfait. Vous pouvez utiliser votre propre musique.";
+
+// MARK: - Hands-free
+"hands.free.video.drag.title" = "Faites glisser pour définir la durée de la vidéo :";
+"hands.free.btn.title" = "Démarrer le compte à rebours";
+"hands.free.seconds" = "%@ s";
+
+// MARK: - Video Editor
+
+/* Gallery image tab title */
+"BanubaVideoEditor.Gallery.ImageTabTitle" = "Image";
+
+/* Gallery video tab title */
+"BanubaVideoEditor.Gallery.VideoTabTitle" = "Vidéo";
+
+/* Gallery custom All Photos title */
+"BanubaVideoEditor.Gallery.AllPhotosTitle" = "Toutes les photos";
+
+/* Gallery previe select button name*/
+"BanubaVideoEditor.Gallery.SelectItemName" = "Sélectionner";
+
+/* Gallery previe deselect button name*/
+"BanubaVideoEditor.Gallery.DeselectItemName" = "Désélectionner";
+
+/* Gallery header info title */
+"BanubaVideoEditor.Gallery.HeaderInfoTitle" = "Mettre à jour les fichiers %@ pour choisir plus de photos";
+"BanubaVideoEditor.Gallery.HeaderInfoColoredTitle" = "paramètres";
+
+/* Gallery Recent Photos title */
+"BanubaVideoEditor.Gallery.RecentPhotosTitle" = "Récentes";
+
+/* Damaged file from gallery */
+"BanubaVideoEditor.Gallery.DamagedFile" = "Fichier endommagé";
+
+/* Export video from gallery failed */
+"BanubaVideoEditor.Gallery.ExportVideoFailed" = "Échec du téléchargement du contenu";
+
+/* Gallery selection hint */
+"BanubaVideoEditor.Gallery.SelectItems" = "Sélectionner des éléments";
+
+/* Import single video template */
+"BanubaVideoEditor.Gallery.ImportSingleVideo" = "Importer 1 vidéo";
+
+/* Import multiple videos template */
+"BanubaVideoEditor.Gallery.ImportMultipleVideos" = "Importer %d vidéos";
+
+/* Import multiple videos template */
+"BanubaVideoEditor.Gallery.ImportMultipleVideosAndPhotos" = "Importer %d vidéos et photos";
+
+/* Import single image template */
+"BanubaVideoEditor.Gallery.ImportSingleImage" = "Importer 1 image";
+
+/* Import multiple images template */
+"BanubaVideoEditor.Gallery.ImportMultipleImages" = "Importer %d images";
+
+/* Gallery empty selection message */
+"BanubaVideoEditor.Gallery.EmptySelectionMessage" = "Sélectionnez au moins 1 fichier";
+
+// MARK: - Effect additional media picker text resource
+
+/* No media files found in gallery for adding to the effect */
+"com.banuba.videoEditor.recorder.additionalEffects.NoMediaFound" = "Aucun fichier trouvé";
+
+/* No media files found in gallery for adding to the effect */
+"com.banuba.videoEditor.recorder.additionalEffects.AllowAccess" = "Autoriser l'accès";
+
+/* Helpers info message for changing video background */
+"com.banuba.videoEditor.recorder.additionalEffects.selectMediaToChangeBackgroundMessage" = "Sélectionnez le média pour changer l'arrière-plan :";
+
+/* Helpers info message for providing acces to a user gallery */
+"com.banuba.videoEditor.recorder.additionalEffects.allowAccesToChangeBackgroundMessage" = "Autoriser l'accès à la galerie pour changer l'arrière-plan";
+
+// MARK: - Cover
+"cover.thumbnail.title" = "Choisissez une image de votre vidéo ou une image de la galerie";
+"cover.gallery.button.title" = "Choisir dans la galerie";
+"cover.delete.button.title" = "Supprimer";
+
+// MARK: - PIP
+
+"pip.switch.camera.title" = "Changer";
+"pip.square.camera.title" = "Carré";
+"pip.round.camera.title" = "Rond";
+"pip.floating.camera.title" = "Flottant";
+"pip.react.camera.title" = "Réagir";
+"pip.original.camera.title" = "Original";
+"pip.centered.camera.title" = "Centré";
+"pip.left.right.camera.title" = "Portrait";
+"pip.top.bottom.camera.title" = "Paysage";
+"pip.layout.settings.title" = "Paramètres de la mise en page";
+
+"feature.disabled.pip" = "L'image dans l'image n'est pas incluse dans votre package. Contactez votre responsable de compte pour l'obtenir.";
+
+// MARK: - Drafts
+/* Drafts button title */
+"BanubaVideoEditor.Gallery.DraftsTitle" = "Brouillons";
+/* Draft actions subtitle */
+"BanubaVideoEditor.Gallery.DraftTitle" = "Brouillon";
+/* Draft edit action name */
+"BanubaVideoEditor.Gallery.DraftEditActionName" = "Modifier";
+/* Draft remove action name */
+"BanubaVideoEditor.Gallery.DraftRemoveActionName" = "Supprimer";
+
+/* Used in alert with Yes and No options when resetting current sequence */
+"com.banuba.BanubaVideoEditor.draft.question.title" = "Voulez-vous enregistrer le brouillon ?";
+"com.banuba.BanubaVideoEditor.draft.question.message" = "";
+"com.banuba.BanubaVideoEditor.draft.question.agree" = "Enregistrer";
+"com.banuba.BanubaVideoEditor.draft.question.disagree" = "Annuler";
+
+/* Displayed when current sequence saved to drafts */
+"BanubaVideoEditor.Draft.DraftSavedMessage" = "Brouillon enregistré";
+/* Displays message about no saved drafts */
+"BanubaVideoEditor.Draft.EmptyDraftsMessage" = "Aucun brouillon";
+/* Ask a user about completion removing a draft */
+"com.banuba.BanubaVideoEditor.draft.remove.title" = "Voulez-vous supprimer le brouillon?";
+"com.banuba.BanubaVideoEditor.draft.remove.message" = "";
+"com.banuba.BanubaVideoEditor.draft.remove.agree" = "Supprimer";
+"com.banuba.BanubaVideoEditor.draft.remove.disagree" = "Annuler";
+
+/* Ask a user about completion updating a draft */
+"com.banuba.BanubaVideoEditor.draft.update.title" = "Voulez-vous mettre à jour le brouillon?";
+"com.banuba.BanubaVideoEditor.draft.update.message" = "";
+"com.banuba.BanubaVideoEditor.draft.update.agree" = "Mettre à jour";
+"com.banuba.BanubaVideoEditor.draft.update.disagree" = "Annuler";
+"com.banuba.BanubaVideoEditor.draft.lose.message" = "Notez! Vous perdrez les paramètres d'édition actuels. Continuer?";
+"com.banuba.BanubaVideoEditor.draft.lose.agree" ="Ajuster les clips";
+
+/* Editor, back button menu. Edit draft mode */
+"com.banuba.BanubaVideoEditor.draft.discardChangesAction" = "Abandonner les modifications";
+"com.banuba.BanubaVideoEditor.draft.updateAction" = "Mettre à jour le brouillon";
+
+//MARK: - Additional buttons
+"com.banuba.recorder.link.title" = "Lien";
+"com.banuba.recorder.color.title" = "Filtre";
+"com.banuba.recorder.sticker.title" = "GIF";
+"com.banuba.recorder.pixalate.title" = "Pixeliser";
+"com.banuba.recorder.text.title" = "Texte";
+"com.banuba.recorder.time.title" = "Temps";
+"com.banuba.recorder.sound.title" = "Musique";
+"com.banuba.recorder.effects.title" = "Effets";
+"com.banuba.recorder.toggle.title" = "Basculer";
+"com.banuba.recorder.flashlight.title" = "Lampe de poche";
+"com.banuba.recorder.timer.title" = "Minuterie";
+"com.banuba.recorder.speed.title" = "Vitesse";
+"com.banuba.recorder.beauty.title" = "Beauté";
+"com.banuba.recorder.masks.title" = "Masques";
+"com.banuba.recorder.muteSound.title" = "Son";
+"com.banuba.recorder.pip.title" = "PIP";
+
+/* Gallery button title */
+"com.banuba.recorder.gallery.title" = "Galerie";
+
+/* Recorder video duration */
+"com.banuba.recorder.secondsFormat" = "%d sec";
+"com.banuba.recorder.minutesFormat" = "%d min";
+
+/* Aspect title for cells*/
+"com.banuba.videoEditor.aspect.original" = "Original";
+"com.banuba.videoEditor.aspect.16:9" = "16:9";
+"com.banuba.videoEditor.aspect.9:16" = "9:16";
+"com.banuba.videoEditor.aspect.4:3" = "4:3";
+"com.banuba.videoEditor.aspect.4:5" = "4:5";
+
+/* Transitions title for cells*/
+"com.banuba.videoEditor.transition.none" = "Aucune";
+"com.banuba.videoEditor.transition.whipDown" = "Basculer vers le bas";
+"com.banuba.videoEditor.transition.whipUp" = "Basculer vers le haut";
+"com.banuba.videoEditor.transition.whipRight" = "Basculer vers la droite";
+"com.banuba.videoEditor.transition.whipLeft" = "Basculer vers la gauche";
+"com.banuba.videoEditor.transition.scrollDown" = "Faire défiler vers le bas";
+"com.banuba.videoEditor.transition.scrollUp" = "Faire défiler vers le haut";
+"com.banuba.videoEditor.transition.scrollRight" = "Faire défiler vers la droite";
+"com.banuba.videoEditor.transition.scrollLeft" = "Faire défiler vers la gauche";
+"com.banuba.videoEditor.transition.spinRight" = "Tourner";
+"com.banuba.videoEditor.transition.fade" = "Fondu";
+
+/* Transition disabled alert message */
+"com.banuba.videoEditor.transition.disabledToastMessage" = "Le clip doit durer plus de 0,5 seconde pour appliquer une transition.";
+
+/* Text editor font names */
+"com.banuba.textEditor.fontName.regular" = "Régulier";
+"com.banuba.textEditor.fontName.italic" = "Italique";
+"com.banuba.textEditor.fontName.bold" = "Gras";
+"com.banuba.textEditor.fontName.baskerville" = "Baskerville";
+"com.banuba.textEditor.fontName.courier" = "Courier";
+"com.banuba.textEditor.fontName.palatino" = "Palatino";
+"com.banuba.textEditor.fontName.noteworthy" = "Remarquable";
+"com.banuba.textEditor.fontName.papyrus" = "Papyrus";
+"com.banuba.textEditor.fontName.sinhala" = "Sinhala";
+"com.banuba.textEditor.fontName.menlo" = "Menlo";
+"com.banuba.textEditor.fontName.emoji" = "Emoji";
+
+// MARK: - Alert
+
+/* Titles for alert buttons */
+
+/* discard all alert type for record screen */
+"com.banuba.alert.discardAllRecord.additionalButtonTitle" = "Recommencer";
+"com.banuba.alert.discardAllRecord.agreeButtonTitle" = "Réinitialiser";
+"com.banuba.alert.discardAllRecord.disagreeButtonTitle" = "Annuler";
+/* discard all alert type for editor screen */
+"com.banuba.alert.discardAllEditor.agreeButtonTitle" = "Réinitialiser";
+"com.banuba.alert.discardAllEditor.disagreeButtonTitle" = "Annuler";
+/* not finished video alert type */
+"com.banuba.alert.notFinishedVideo.agreeButtonTitle" = "Continuer";
+"com.banuba.alert.notFinishedVideo.disagreeButtonTitle" = "Annuler";
+/* discard changes alert type */
+"com.banuba.alert.discardChanges.agreeButtonTitle" = "Réinitialiser";
+"com.banuba.alert.discardChanges.disagreeButtonTitle" = "Annuler";
+/* delete segment alert type */
+"com.banuba.alert.deleteSegment.agreeButtonTitle" = "Supprimer";
+"com.banuba.alert.deleteSegment.disagreeButtonTitle" = "Annuler";
+/* discard effects alert type */
+"com.banuba.alert.discardEffects.agreeButtonTitle" = "Supprimer";
+"com.banuba.alert.discardEffects.disagreeButtonTitle" = "Annuler";
+/* discard music alert type */
+"com.banuba.alert.discardMusic.agreeButtonTitle" = "Supprimer";
+"com.banuba.alert.discardMusic.disagreeButtonTitle" = "Annuler";
+/* progress view alert type */
+"com.banuba.alert.progressView.agreeButtonTitle" = "Réessayer";
+"com.banuba.alert.progressView.disagreeButtonTitle" = "Annuler";
+"com.banuba.alert.progressView.importingMedia" = "Importation des médias";
+"com.banuba.alert.progressView.exportingVideo" = "Exportation de la vidéo";
+"com.banuba.alert.progressView.tooltipMessage" = "Veuillez ne pas verrouiller votre écran ou passer à d'autres applications";
+"com.banuba.alert.progressView.exportVideoInterrupted" = "Exportation interrompue";
+
+/* need to update iOS alert */
+"com.banuba.alert.needToUpdateIos.title" = "Désolé, la version minimale prise en charge est iOS 12.";
+"com.banuba.alert.needToUpdateIos.message" = "Vous devez mettre à jour vers ios 12.0 pour pouvoir utiliser cette application.";
+
+/* remove and start over record video */
+"com.banuba.trim.startOverRecordVideoTitle" = "Voulez-vous enregistrer une nouvelle vidéo ?";
+"com.banuba.trim.startOverRecordVideoMessage" = "";
+"com.banuba.trim.startOverRecordVideoAgreeButtonTitle" = "Recommencer";
+"com.banuba.trim.startOverRecordVideoDisagreeButtonTitle" = "Annuler";
+
+// MARK: - Trim
+/* Edit video rotate button title */
+"com.banuba.trim.rotateEditButtonTitle" = "Rotation";
+/* Edit video split button title */
+"com.banuba.trim.splitEditButtonTitle" = "Diviser";
+/* Edit video crop button title */
+"com.banuba.trim.cropEditButtonTitle" = "Recadrer";
+/* Edit video delete button title */
+"com.banuba.trim.deleteEditButtonTitle" = "Supprimer";
+/* Edit video trim button title */
+"com.banuba.trim.trimEditButtonTitle" = "Couper";
+/* Reordering video tool tip label message */
+"com.banuba.trim.reorderingToolTip" = "Faites glisser pour échanger";
+/* Delete single video error message */
+"com.banuba.trim.deleteLastClipErrorMessage" = "Le dernier clip ne peut pas être supprimé";
+/* Split video part error message */
+"com.banuba.trim.splitErrorMessage" = "La position sélectionnée est invalide";
+
+// MARK: - Capture button modes
+"com.banuba.record.captureButtonVideoMode" = "VIDÉO";
+"com.banuba.record.captureButtonPhotoMode" = "PHOTO";
+
+/* Sharing other button */
+"sharing.other.title" = "Autre";
+
+/* Sharing video main title */
+"sharing.video.title" = "Partager la vidéo";
+
+/* Error if sharing application is not installed */
+"sharing.app.not.installed" = "Désolé, l'application n'est pas installée";
+
+// MARK: - Écran de licence expirée
+"com.banuba.expiredLicense.infoLabel" = "La création de contenu vidéo est temporairement indisponible";
+"com.banuba.expiredLicense.cancelButtonTitle" = "Fermer";
+
+//Staic String "No record found" replacing for multilingual
+
+"Searchkeek_NotRFound" = "Nous n'avons pas trouvé ce que vous cherchiez. Veuillez essayer un terme de recherche différent.";
+"OtherUser_NoPosts" = "Aucune publication à afficher pour le moment. Revenez plus tard !";
+"Self_NoPosts" = "Aucune publication pour le moment ? Aucun problème ! Commencez par créer votre première publication.";
+"Follow_Requesttab_Notifications" = "Vous êtes à jour ! Il n'y a pas de nouvelles demandes pour le moment.";
+"All_coughtUp" = "Tout est à jour ! Vous avez vérifié toutes les notifications. Revenez plus tard pour de nouvelles.";
+"No_comments" = "Aucun commentaire pour le moment. Soyez le premier à lancer la conversation !";
+"Self_No_comments" = "Aucun commentaire pour le moment sur votre publication.";
+"Self_No_Story_comments" = "Aucun commentaire sur votre histoire pour le moment.";
+"No_followers" = "Pas encore de followers ? Continuez à créer et à partager un contenu formidable et les followers viendront.";
+"No_following" = "Suivre est un excellent moyen de découvrir de nouveaux contenus. Commencez par suivre des comptes qui correspondent à vos intérêts.";
+"No_blocked" = "Personne sur votre liste de blocage ? C'est bon signe. Continuez sur cette voie positive !";
+"No_Chat_Messages" = "Aucune conversation pour le moment. Démarrez une discussion et connectez-vous avec quelqu'un de nouveau aujourd'hui !";
+"No_chat_contacts" = "Votre liste de contacts de chat est vide. Pourquoi ne pas rechercher et ajouter des amis pour vous connecter ?";
+"NoSavedPosts" = "Vous n'avez aucun message favori à afficher. Commencez à marquer vos publications préférées pour y accéder facilement plus tard.";
+"No_followers_OtherUser" = "Aucun abonné à afficher pour le moment. Revenez plus tard !";
+"No_followingUser_OtherUser" = "Aucun utilisateur suivi à afficher pour le moment. Revenez plus tard !";
+//post uploading
+"Your post is being uploaded..." = "Votre publication est en cours de téléchargement...";
+"Your story is being uploaded..." = "Votre histoire est en cours de téléchargement...";
+
+
+//Fetching feeds/posts
+"Fetching Feeds..." = "Récupération des flux...";
+"GetPostError" = "Une erreur s'est produite lors de la récupération des détails de la publication";
+"noUserPermission" = "Vous ne disposez pas des autorisations suffisantes pour effectuer cette action. Veuillez contacter l'assistance.";
+"salutation" = "Genre";
+"enterSalutation" = "Sélectionnez le sexe...";
+"enableComments" = "Activer les commentaires";
+"ReferYourFriends" = "Parrainez vos amis";
+"DeleteThisOffer" = "Supprimer cette offre";
+"MainOffer" = "Offre principale";
+"offerImageTitle1" = "Image principale de l'offre";
+"offerImageTitle2" = "Image principale de l'annonce/vue du produit, etc.";
+"offerImageTitle3" = "Disposition en vue portrait 375x812 px dimensions minimales suggérées.";
+"CreateAGroup" = "Créer un nouveau groupe";
+"members" = "Membres";
+"internetIssue" = "Vous n'avez actuellement aucun accès à Internet. S'il vous plaît, vérifiez votre connexion à internet et réessayez";
+"poorInternetConnectivity" = "Nous rencontrons des problèmes de connectivité. S'il vous plaît, vérifiez votre connexion à internet et réessayez.";
+"noResultFound" = "Nous n'avons pas trouvé ce que vous cherchiez.\n Veuillez essayer un autre terme de recherche.";
+"noFollowingToShare" = "Personne dans votre liste de contacts ? Partagez-le sur vos plateformes sociales préférées.";
+"searchContacts" = "Rechercher des contacts";
+"contacts" = "Contacts";
+"send" = "Envoyer";
+"sent" = "Envoyé";
+
+"deactivateConfirmPassword" = "Veuillez confirmer votre compte pour \ndésactivation temporaire ci-dessous.";
+"deleteConfirmPassword" = "Veuillez confirmer votre compte pour\nla suppression définitive ci-dessous.";
+"confirmation" = "Confirmation";
+"deactivateConfirmation" = "Êtes-vous sûr de vouloir \ndésactiver temporairement votre\ncompte Keek ?";
+"cancelDeactivation" = "Non, annuler ma désactivation";
+"accountDeletion" = "Suppression de compte";
+"deleteConfirmation" = "Êtes-vous sûr de vouloir\nsupprimer définitivement votre\ncompte Keek ?";
+"cancelDeletion" = "Non, annuler ma suppression définitive";
+"yes" = "Oui";
+"temporarilyDeactivate" = "Désactiver temporairement";
+"permanentlyDelete" = "Effacé définitivement";
+"accountDeactivateSuccess" = "Votre compte a été désactivé. Si vous décidez de revenir, il vous suffit de réactiver votre compte en vous reconnectant.";
+"accountDeleteSuccess" = "Votre compte a été supprimé avec succès. Merci de faire partie de la communauté Keek.";
+"violationTitle1" = "Désolé, nous ne sommes pas en mesure\nde publier ceci !";
+"violationTitle2" = "Votre message a violé nos conditions d'utilisation.";
+"violationTitle3" = "Si vous estimez que ce message a été injustement\nsignalé, vous pouvez faire appel de cette décision\npour un examen plus approfondi.";
+"appealLbl" = "Appel pour un examen plus approfondi.";
+"submitForAppeal" = "Soumettre pour appel";
+"violationText1" = "Malheureusement, votre message récent a été signalé\npour ";
+"violationText2" = " dans ce poste.";
+"appealTitle1" = "Nous avons reçu\nvotre demande d'appel.";
+"appealTitle2" = "Notre équipe du service client de Keek examinera votre appel sur ce message et vous mettra à jour dans les 24 heures. ";
+"appealTitle3" = "Vous recevrez un message dans vos\nmessages Keek.";
+"backHome" = "Retour à la maison";
+"downloadingTitle" = "Veuillez patienter";
+"downloadingSubTitle" = "Nous sommes en train de télécharger cette vidéo. Ça ne prendra pas longtemps.";
+"Retry" = "Réessayer";
+"downloadingFailedTitle" = "Téléchargement échoué";
+"downloadingFailedSubTitle" = "Nous rencontrons un problème avec le téléchargement de cette vidéo.";
+"downloadCancelMsg" = "Êtes-vous sûr de vouloir annuler ce processus ?";
+"cancelDownload" = "Annuler le téléchargement";
+"Completed" = "Terminé";
+
+"no_chat_conversation" = "Connectez-vous avec des amis et commencez une conversation pour voir vos messages ici !";
+"no_group_chat" = "Démarrez une discussion de groupe avec vos amis et créez des moments mémorables ensemble !";
+"user_not_available" = "Cet utilisateur n'est actuellement pas disponible pour discuter.";
+"groups" = "Groupes";
+"conversations" = "Conversations";
+"unable_delete_message" = "Impossible de supprimer le message pour le moment.";
+"messages" = "Messages";
+"youAdded" = "Vous avez ajouté";
+"youRemoved" = "Vous avez supprimé";
+"youCreatedGroup" = "Vous avez créé un groupe";
+"createdGroup" = "a créé un groupe";
+"addedYou" = "vous a ajouté";
+"removedYou" = "vous a supprimé";
+"added" = "a ajouté";
+"removed" = "a supprimé";
+"chatInactive" = "Vous ne pouvez pas envoyer de messages à ce groupe car vous n'êtes plus un participant.";
+"My Contacts" = "Mes Contacts";
+"Contacts" = "Contacts";
+"Search Contacts" = "Rechercher des Contacts";
+"NoContactsResult" = "Nous n'avons pas pu trouver ce que vous cherchiez. Veuillez essayer un terme de recherche différent.";
+"Admin" = "Administrateur";
+"Online" = "En ligne";
+"Offline" = "Hors ligne";
+"typing" = "en train d'écrire";
+"Yesterday" = "Hier";
+"Today" = "Aujourd'hui";
+"Unread Messages" = "Messages non lus";
+"Monday" = "Lundi";
+"Tuesday" = "Mardi";
+"Wednesday" = "Mercredi";
+"Thursday" = "Jeudi";
+"Friday" = "Vendredi";
+"Saturday" = "Samedi";
+"Sunday" = "Dimanche";
+"enterGrpName" = "Entrez le nom du groupe";
+"deleteThreadConfirmation" = "Êtes-vous sûr de vouloir supprimer cette conversation ?";
+"deleteThreadError" = "Oops ! Quelque chose s'est mal passé. Veuillez réessayer plus tard.";
+
+"startLiveStream" = "Commencer la diffusion en direct";
+"goLive" = "Aller en direct";
+"noLiveStream" = "Il semble qu'il n'y ait pas de diffusions en direct en ce moment.";
+

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+        <array key="miitv-font-file.ttf">
+            <string>miitv-font-file</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="296" id="KGk-i7-Jjw" customClass="ImageReceivedTableViewCell" customModule="ChatModule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="296"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="296"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="02Z-CJ-G58" customClass="MyImageView" customModule="ChatModule" customModuleProvider="target">
+                        <rect key="frame" x="65" y="34" width="130" height="250"/>
+                        <color key="backgroundColor" red="0.77647058823529413" green="0.80784313725490198" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="250" id="yT9-1m-yja"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bf8-hb-2gb">
+                        <rect key="frame" x="65" y="34" width="130" height="250"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal">
+                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="goToImage:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="O2U-Vh-o00"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chile_preview" translatesAutoresizingMaskIntoConstraints="NO" id="9O6-yg-0wR" customClass="MyImageView" customModule="ChatModule" customModuleProvider="target">
+                        <rect key="frame" x="15.999999999999996" y="0.0" width="40.666666666666657" height="40.666666666666664"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40.5" id="3TV-qK-DOs"/>
+                            <constraint firstAttribute="height" constant="40.5" id="dZg-WL-1W1"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20.25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:33 am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P05-fL-8g7">
+                        <rect key="frame" x="145" y="292" width="50" height="14.333333333333314"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                        <color key="textColor" red="0.1386029124" green="0.1662277281" blue="0.2627559304" alpha="0.2872160855" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="WVU-n7-EEQ">
+                        <rect key="frame" x="136.66666666666666" y="0.0" width="47" height="30.666666666666668"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PmK-BD-Kps" customClass="MyLabel" customModule="ChatModule" customModuleProvider="target">
+                                <rect key="frame" x="9" y="0.0" width="29" height="14.333333333333334"/>
+                                <color key="backgroundColor" red="0.9450981021" green="0.9450981021" blue="0.9450981021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" red="0.45882352939999999" green="0.45882352939999999" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomInset">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfL-H0-jks" customClass="MyLabel" customModule="ChatModule" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="16.333333333333332" width="47" height="14.333333333333332"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" red="0.45882352939999999" green="0.45882352939999999" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomInset">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="441-1R-Pc3">
+                        <rect key="frame" x="65" y="10" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6O4-uz-eeK" customClass="GradientShadowView" customModule="ChatModule" customModuleProvider="target">
+                        <rect key="frame" x="65" y="34" width="130" height="250"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ygj-Kr-qEE">
+                                <rect key="frame" x="55" y="115" width="20" height="20"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.27058823529999998" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="GYq-8k-sAj"/>
+                                    <constraint firstAttribute="width" constant="20" id="lNc-DE-wCs"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4T-dh-7oa" customClass="MyLabel" customModule="ChatModule" customModuleProvider="target">
+                                <rect key="frame" x="45" y="105" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="R70-Bt-Ccf"/>
+                                    <constraint firstAttribute="height" constant="40" id="sxU-ps-5F4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="miitv-font-file" family="miitv-font-file" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.2482724221" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ygj-Kr-qEE" firstAttribute="centerY" secondItem="6O4-uz-eeK" secondAttribute="centerY" id="4bO-Ra-AiA"/>
+                            <constraint firstItem="N4T-dh-7oa" firstAttribute="centerY" secondItem="6O4-uz-eeK" secondAttribute="centerY" id="9nE-Xk-VPd"/>
+                            <constraint firstItem="N4T-dh-7oa" firstAttribute="centerX" secondItem="6O4-uz-eeK" secondAttribute="centerX" id="YxU-Ww-vIq"/>
+                            <constraint firstItem="Ygj-Kr-qEE" firstAttribute="centerX" secondItem="6O4-uz-eeK" secondAttribute="centerX" id="mbx-tZ-92v"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6O4-uz-eeK" firstAttribute="bottom" secondItem="02Z-CJ-G58" secondAttribute="bottom" id="90j-Fk-M9x"/>
+                    <constraint firstItem="bf8-hb-2gb" firstAttribute="top" secondItem="02Z-CJ-G58" secondAttribute="top" id="KoA-si-nNb"/>
+                    <constraint firstItem="9O6-yg-0wR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="N6X-st-FHs"/>
+                    <constraint firstItem="6O4-uz-eeK" firstAttribute="trailing" secondItem="02Z-CJ-G58" secondAttribute="trailing" id="S2e-Jn-63v"/>
+                    <constraint firstItem="9O6-yg-0wR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Tt8-bs-PJO"/>
+                    <constraint firstAttribute="bottom" secondItem="P05-fL-8g7" secondAttribute="bottom" constant="8" id="Tvo-Xw-7HO"/>
+                    <constraint firstItem="6O4-uz-eeK" firstAttribute="leading" secondItem="02Z-CJ-G58" secondAttribute="leading" id="UQ7-RS-14o"/>
+                    <constraint firstItem="P05-fL-8g7" firstAttribute="top" secondItem="02Z-CJ-G58" secondAttribute="bottom" constant="8" id="WQc-IL-DUn"/>
+                    <constraint firstItem="6O4-uz-eeK" firstAttribute="top" secondItem="02Z-CJ-G58" secondAttribute="top" id="YIm-g8-wZX"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="02Z-CJ-G58" secondAttribute="trailing" constant="109" id="a99-hU-J0r"/>
+                    <constraint firstItem="bf8-hb-2gb" firstAttribute="leading" secondItem="02Z-CJ-G58" secondAttribute="leading" id="eNe-wO-LMf"/>
+                    <constraint firstItem="bf8-hb-2gb" firstAttribute="bottom" secondItem="02Z-CJ-G58" secondAttribute="bottom" id="hLv-Li-zIb"/>
+                    <constraint firstItem="02Z-CJ-G58" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="65" id="jH1-yJ-7FA"/>
+                    <constraint firstItem="bf8-hb-2gb" firstAttribute="trailing" secondItem="02Z-CJ-G58" secondAttribute="trailing" id="keo-KY-6hk"/>
+                    <constraint firstItem="441-1R-Pc3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="lPa-mE-cmH"/>
+                    <constraint firstItem="441-1R-Pc3" firstAttribute="leading" secondItem="bf8-hb-2gb" secondAttribute="leading" id="tI9-uh-FU0"/>
+                    <constraint firstItem="02Z-CJ-G58" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="34" id="uHF-fs-yVL"/>
+                    <constraint firstItem="WVU-n7-EEQ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="vkp-gb-kYv"/>
+                    <constraint firstItem="WVU-n7-EEQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="wYm-8f-rhy"/>
+                    <constraint firstItem="P05-fL-8g7" firstAttribute="trailing" secondItem="02Z-CJ-G58" secondAttribute="trailing" id="z6Z-iS-GyE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageMsgView" destination="02Z-CJ-G58" id="Vu1-nN-h4a"/>
+                <outlet property="msgViewTopConstraint" destination="uHF-fs-yVL" id="Ad1-8h-RGC"/>
+                <outlet property="newDayLbl" destination="nfL-H0-jks" id="hQu-8o-DQX"/>
+                <outlet property="playView" destination="6O4-uz-eeK" id="bQM-D9-GB9"/>
+                <outlet property="profileImgview" destination="9O6-yg-0wR" id="evO-pw-nxo"/>
+                <outlet property="profilePictureTopConstraint" destination="N6X-st-FHs" id="HAB-ES-Kob"/>
+                <outlet property="timeLbl" destination="P05-fL-8g7" id="U6L-kn-iV6"/>
+                <outlet property="unreadLbl" destination="PmK-BD-Kps" id="oBw-H2-IxE"/>
+                <outlet property="usernameLbl" destination="441-1R-Pc3" id="EcV-ZG-zeV"/>
+                <outlet property="usernameLblTopConstraint" destination="lPa-mE-cmH" id="xaH-eq-RdL"/>
+            </connections>
+            <point key="canvasLocation" x="88.549618320610676" y="77.464788732394368"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="02Z-CJ-G58">
+            <size key="intrinsicContentSize" width="218" height="277"/>
+        </designable>
+        <designable name="9O6-yg-0wR">
+            <size key="intrinsicContentSize" width="64" height="64"/>
+        </designable>
+        <designable name="N4T-dh-7oa">
+            <size key="intrinsicContentSize" width="40" height="40"/>
+        </designable>
+        <designable name="PmK-BD-Kps">
+            <size key="intrinsicContentSize" width="29" height="14.333333333333334"/>
+        </designable>
+        <designable name="nfL-H0-jks">
+            <size key="intrinsicContentSize" width="47" height="14.333333333333334"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="chile_preview" width="64" height="64"/>
+        <image name="img_placeholder" width="218" height="277"/>
+    </resources>
+</document>
